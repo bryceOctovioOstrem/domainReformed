@@ -1,0 +1,15 @@
+{
+    "music":{
+        "music_DR_theme":[
+			{
+                "source":"sounds/music",
+				"volume":0.3,
+				"files":[
+					"Auferstanden_Aus_Ruinen_Instrumental.ogg",
+				],
+				"randomStart":false, 
+			},
+		],
+    }
+
+}

@@ -1,0 +1,53 @@
+{
+  "variantId": "Conte_di_Cavour_Domain",
+  "hullId": "Conte_di_Cavour",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+
+        "WS0002": "mjolnir"
+      }
+    },
+   {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "devastator"
+      }
+    },
+   {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "mjolnir"
+      }
+    },
+   {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "devastator"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

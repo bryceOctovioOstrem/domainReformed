@@ -1,0 +1,95 @@
+{
+  "hullName": "independence",
+  "hullId": "independence",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/DR/ships/independence.png",
+  "style": "LOW_TECH",
+  "height": 287,
+  "width": 70,
+  "center": [32.5, 101.5],
+  "collisionRadius": 186,
+  "shieldCenter": [0, 1],
+  "shieldRadius": 192,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "recovery_shuttles",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 239,
+      "angle": 0,
+      "locations": [110.5, -2.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 268,
+      "angle": 180,
+      "locations": [9.5, -2.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [88, -2.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-15.5, -19.5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-79.5, -20.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-102, -21],
+      "length": 60,
+      "width": 33,
+      "angle": 180,
+      "contrailSize": 33,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-102, 12],
+      "length": 60,
+      "width": 33,
+      "angle": 180,
+      "contrailSize": 33,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    178.5, -2,
+    83, 10,
+    48, 31.5,
+    -89.5, 31,
+    -99.5, 25,
+    -99.5, -29.5,
+    -88.5, -36.5,
+    48.5, -36,
+    81, -17
+  ]
+}

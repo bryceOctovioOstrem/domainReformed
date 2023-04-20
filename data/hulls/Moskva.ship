@@ -1,0 +1,229 @@
+{
+  "hullName": "Moskva",
+  "hullId": "Moskva",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/DR/ships/moskva.png",
+  "style": "LOW_TECH",
+  "height": 575,
+  "width": 70,
+  "center": [34, 277.5],
+  "collisionRadius": 301,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 308,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "eccm",
+    "ecm",
+    "missleracks",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 0,
+      "locations": [164, 22]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 248,
+      "angle": 0,
+      "locations": [189, 1]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 137,
+      "angle": 90,
+      "locations": [0.5, 23]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -90,
+      "locations": [2, -23]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-110, 23]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 179,
+      "angle": -91,
+      "locations": [-109.5, -22.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 0,
+      "locations": [130.5, 21.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 0,
+      "locations": [96.5, 22.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 0,
+      "locations": [96, -21.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 0,
+      "locations": [130.5, -21]
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 0,
+      "locations": [163.5, -20.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-98, -8.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-121.5, -10.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-133, -9]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-132.5, 10]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-120, 8.5]
+    },
+    {
+      "id": "WS0021",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-97.5, 10]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-109.5, 10]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-109.5, -10]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-46, 9.5],
+      "length": 38.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46, -12.5],
+      "length": 38.5,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-277, 1],
+      "length": 212.139999,
+      "width": 116.419998,
+      "angle": -180,
+      "contrailSize": 116.419998,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    270, 1,
+    167, 28,
+    -193.5, 26.5,
+    -255, 21.5,
+    -255, -21,
+    -188, -27,
+    167.5, -25.5
+  ]
+}

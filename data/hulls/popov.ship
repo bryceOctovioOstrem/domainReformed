@@ -1,0 +1,120 @@
+{
+  "hullName": "popov",
+  "hullId": "popov",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/DR/ships/popov.png",
+  "style": "LOW_TECH",
+  "height": 211,
+  "width": 192,
+  "center": [96, 105.5],
+  "collisionRadius": 109.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 116,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [51, -82]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [51, 83.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [9.5, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-73, -62.5],
+      "length": 39,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-80.5, -40.5],
+      "length": 39,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-86.5, -19.5],
+      "length": 39,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-86.5, 16.5],
+      "length": 39,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-80, 40.5],
+      "length": 39,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-73, 61.5],
+      "length": 39,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [26, 44.5],
+      "length": 39,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [26, -43],
+      "length": 39,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    8.5, -93,
+    99.5, 0.5,
+    99.5, -0.5,
+    8.5, 93,
+    -83, -0.5
+  ]
+}

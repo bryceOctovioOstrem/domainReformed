@@ -1,0 +1,242 @@
+{
+	id:"DR",
+	"color":[252,213,134,255],
+	"displayName":"Domain",
+	"displayNameWithArticle":"the Domain Reformed",
+	"logo":"graphics/DR/factions/domain.png",
+	"crest":"graphics/DR/factions/domain_crest.png",
+	"entityNamePrefix":"Domain",
+	"shipNamePrefix":"DN",
+	"shipNameSources":{
+		"BRITISH_NAVY":1,
+		"ROMAN":2,
+		"GREEK":1,
+	},
+	"names":{
+		"old english":1,
+		"world":1,
+		"myth":1,
+		"fringe":1,
+		"luddic": 1,
+		"pirate":1,
+	},
+	
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+		"R_mothership_domain":10,
+		"Conte_di_Cavour_Domain":10,
+		"bismark_domain":10,
+		"StLouis_domain":10,
+		"popov_domain":10,
+		"Trireme_domain":10,
+		"Wichita_domain":10,
+		"petya_domain":10,
+		"Furious_domain":10,
+		"independence_domain":10,
+		"indianopolis_domain":10,
+		"Queen_Elizabeth_domain":10,
+		"Virginia_domain":10,
+		"yorktown_domain":10,
+		"Moskva_domain":10,
+		"hosho_domain":10,
+	},
+	
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+			"heg_aux_bp":2,
+			"XIV_bp":0.25,
+		},
+		"hulls":{
+			"buffalo2":0, # just say no
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "heg_aux_bp", "lowtech_bp"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["base_bp", "heg_aux_bp", "lowtech_bp","DR"],
+		"hulls":[
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["DR"],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hegemony"],
+		"fighters":[
+			"thunder_wing",
+			"hoplon_wing",
+			"piranha_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":["hegemony"],
+		"fighters":[
+		"hoplon_wing",
+		"broadsword_wing"
+		],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "missile_bp", "hegemony"],
+		"weapons":[
+			"railgun",
+			"dualflak",
+			"heavymauler",
+			"hveldriver",
+			"gauss",
+			"mjolnir",
+			"breachpod",
+			"sabotpod",
+			"phasecl",
+			"cyclone",
+			"hurricane",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		"mjolnir",
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "hegemony"],
+		"hullMods":[
+			"advancedshieldemitter",
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"heavyarmor",
+			"insulatedengine",
+			"targetingunit",
+			"nav_relay",
+			"operations_center",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+			"efficiency_overhaul",
+			"converted_fighterbay",
+			"ballistic_rangefinder",
+			"shield_shunt",
+		],
+	},
+	"factionDoctrine":{
+		"warships":3,
+		"carriers":4,
+		"phaseShips":0,
+		
+		"officerQuality":1,
+		"shipQuality":3,
+		"numShips":5,
+		
+		"shipSize":5,
+		
+		"aggression":1,
+		
+		"combatFreighterProbability":0.1,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.1,
+		
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"support_doctrine",
+		],
+	},
+	"illegalCommodities":[
+		"ai_cores",
+		"drugs",
+		"organs",	
+	],
+	"music":{
+		"theme":"music_DR_theme",
+		"market_neutral":"music_DR_theme",
+		"market_hostile":"music_DR_theme",
+		"market_friendly":"music_DR_theme",
+		"encounter_neutral":"music_DR_theme",
+		"encounter_hostile":"music_DR_theme",
+		"encounter_friendly":"music_DR_theme",
+	},	
+	#"internalComms":"hegemony_internal",
+	#"tariffFraction":0.4,
+	#"tollFraction":0.1,
+	#"fineFraction":0.25,
+	"portraits":{
+		"standard_male":[
+			"graphics/DR/portraits/domain_male#1.png",
+			"graphics/DR/portraits/domain_male#2.png",
+			"graphics/DR/portraits/domain_male#3.png",
+			"graphics/DR/portraits/domain_male#4.png",
+			"graphics/DR/portraits/domain_male#4.png",
+		],
+		"standard_female":[
+			"graphics/DR/portraits/DR_female#1.png",
+			"graphics/DR/portraits/domain_female#2.png",
+			"graphics/DR/portraits/domain_female#3.png",
+			"graphics/DR/portraits/domain_female#4.png",
+			"graphics/DR/portraits/domain_female#5.png",
+			"graphics/DR/portraits/domain_admiral_female#1.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Director"},
+			"spaceCommander":{"name":"High Admiral"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Director"},
+			"patrolCommander":{"name":"Colonel"},
+			"fleetCommander":{"name":"Fleet Admiral"},
+			"baseCommander":{"name":"Base Commander"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"faithful":5,		
+			"spacer":5,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"official":5,
+		},
+		"HIGH":{
+			"soldier":5,
+			"official":10,
+			"aristo":3,
+		},
+	},
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":4,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":false,
+		"caresAboutAtrocities": false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":true,
+			"vsFreePort":true,
+			"canBombard":true,
+			"territorial":true,
+		},
+	},	
+	
+	
+},

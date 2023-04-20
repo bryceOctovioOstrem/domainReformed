@@ -1,0 +1,55 @@
+{
+  "variantId": "Queen_Elizabeth_domain",
+  "hullId": "Queen_Elizabeth",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "rugged",
+    "targetingunit",
+    "ballistic_rangefinder",
+    "ecm",
+    "expanded_deck_crew",
+    "operations_center",
+    "armoredweapons",
+    "recovery_shuttles"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "shredder"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "shredder"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "xyphos_wing",
+    "claw_wing",
+    "longbow_wing",
+    "longbow_wing",
+    "longbow_wing",
+    "dagger_wing",
+    "dagger_wing",
+    "dagger_wing"
+  ]
+}

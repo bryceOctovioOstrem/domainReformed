@@ -1,0 +1,80 @@
+{
+  "variantId": "Moskva_domain",
+  "hullId": "Moskva",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "cyclone",
+        "WS0002": "cyclone",
+        "WS0003": "cyclone",
+        "WS0006": "cyclone",
+        "WS0012": "cyclone",
+        "WS0013": "cyclone"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "flak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "sabot_fighter",
+        "WS0011": "sabot_fighter",
+        "WS0014": "sabot_fighter",
+        "WS0016": "sabot_fighter",
+        "WS0017": "sabot_fighter",
+        "WS0018": "sabot_fighter",
+        "WS0019": "sabot_fighter",
+        "WS0021": "sabot_fighter"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+	"cobra_wing"
+]
+}

@@ -1,0 +1,127 @@
+{
+  "variantId": "yorktown_domain",
+  "hullId": "yorktown",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "recovery_shuttles"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "vulcan",
+        "WS0004": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightmg",
+        "WS0006": "lightmg",
+        "WS0007": "lightmg",
+        "WS0008": "lightmg",
+        "WS0009": "lightmg",
+        "WS0010": "lightmg",
+        "WS0011": "lightmg",
+        "WS0012": "lightmg",
+        "WS0013": "lightmg",
+        "WS0014": "lightmg",
+        "WS0015": "lightmg",
+        "WS0016": "lightmg",
+        "WS0017": "lightmg",
+        "WS0018": "lightmg",
+        "WS0019": "lightmg",
+        "WS0020": "lightmg",
+        "WS0021": "lightmg",
+        "WS0022": "lightmg",
+        "WS0023": "lightmg",
+        "WS0024": "lightmg",
+        "WS0025": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0026": "vulcan",
+        "WS0027": "vulcan",
+        "WS0053": "lightmg",
+        "WS0054": "lightmg",
+        "WS0055": "lightmg",
+        "WS0056": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0028": "lightmg",
+        "WS0029": "lightmg",
+        "WS0030": "lightmg",
+        "WS0031": "lightmg",
+        "WS0032": "lightmg",
+        "WS0033": "lightmg",
+        "WS0034": "lightmg",
+        "WS0035": "lightmg",
+        "WS0036": "vulcan",
+        "WS0037": "vulcan",
+        "WS0038": "vulcan",
+        "WS0039": "lightmg",
+        "WS0040": "lightmg",
+        "WS0041": "lightmg",
+        "WS0042": "lightmg",
+        "WS0043": "vulcan",
+        "WS0044": "vulcan",
+        "WS0045": "lightmg",
+        "WS0046": "lightmg",
+        "WS0047": "lightmg",
+        "WS0048": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0049": "flak",
+        "WS0050": "flak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0051": "flak",
+        "WS0052": "flak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0057": "flak",
+        "WS0058": "flak",
+        "WS0059": "flak",
+        "WS0060": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing",
+    "broadsword_wing",
+    "hoplon_wing",
+    "hoplon_wing",
+    "hoplon_wing",
+    "hoplon_wing"
+  ]
+}

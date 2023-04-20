@@ -1,0 +1,121 @@
+{
+  "hullName": "Queen_Elizabeth",
+  "hullId": "Queen_Elizabeth",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/DR/ships/Queen_Elizabeth.PNG",
+  "style": "HIGH_TECH",
+  "height": 617,
+  "width": 189,
+  "center": [94.5, 308.5],
+  "collisionRadius": 310,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 316.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 218,
+      "angle": -69.5,
+      "locations": [128, -83.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 275,
+      "angle": 49.5,
+      "locations": [147, 61.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [-257.5, 82.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        23.5, -57.5,
+        -144, -54.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-308, 23.5],
+      "length": 59.790001,
+      "width": 18.77,
+      "angle": 179.5,
+      "contrailSize": 18.77,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-299.5, 43],
+      "length": 53.54596,
+      "width": 10.065842,
+      "angle": 179.5,
+      "contrailSize": 10.065842,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-283, 63.5],
+      "length": 38.029999,
+      "width": 7.34,
+      "angle": 179.5,
+      "contrailSize": 128,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-307, -23.5],
+      "length": 62.597973,
+      "width": 21.908306,
+      "angle": 179.5,
+      "contrailSize": 21.908306,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-299, -43.5],
+      "length": 45.550625,
+      "width": 11.205428,
+      "angle": 179.5,
+      "contrailSize": 11.205428,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-282, -63],
+      "length": 29.530001,
+      "width": 6.48,
+      "angle": 179.5,
+      "contrailSize": 128,
+      "style": "OMEGA"
+    }
+  ],
+  "bounds": [
+    297.5, -30.5,
+    297.5, 3.5,
+    305, 4.5,
+    305.5, 28.5,
+    153, 35,
+    146, 64.5,
+    113.5, 83,
+    107.5, 66.5,
+    -256.5, 76.5,
+    -287.5, 39.5,
+    -290, -32,
+    -265.5, -71.5,
+    135.5, -70.5,
+    162, -39
+  ]
+}

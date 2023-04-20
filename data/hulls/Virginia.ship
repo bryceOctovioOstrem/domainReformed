@@ -1,0 +1,130 @@
+{
+  "hullName": "Virginia",
+  "hullId": "Virginia",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/DR/ships/Virginia.png",
+  "style": "LOW_TECH",
+  "height": 169,
+  "width": 30,
+  "center": [15, 84.5],
+  "collisionRadius": 86.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 98,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "targetingunit"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -90,
+      "locations": [38, -8.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 90,
+      "locations": [43.5, 7.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 90,
+      "locations": [7.5, 7.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -90,
+      "locations": [7.5, -8]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-8, -8]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-15, 7.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-26, 7.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-20, -8]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-40.5, -6.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-40.5, 5.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [24.5, -0],
+      "length": 13,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    80, -0,
+    57, 10.5,
+    -39.5, 12,
+    -54.5, 6.5,
+    -79.5, -1,
+    -55, -7,
+    -42.5, -11.5,
+    52.5, -12.5
+  ]
+}

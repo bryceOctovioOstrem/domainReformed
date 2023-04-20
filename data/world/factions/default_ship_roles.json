@@ -1,0 +1,101 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"Virginia_domain":2,
+		"petya_domain":2,
+		"fallback":{"combatSmall":1},
+	},
+	"combatSmall":{
+		"Virginia_domain":2,
+		"popov_domain":1,
+		"fallback":{"combatMedium":0.5},
+	},
+	"combatMedium":{
+		"popov_domain":1,
+		"StLouis_domain":1,
+		"indianopolis_domain":1,
+		"fallback":{"combatSmall":1},
+	},
+	"combatLarge":{
+		"indianopolis_domain":2,
+		"StLouis_domain":1,
+		"Wichita_domain":2,
+		"Moskva_domain":1,
+		"fallback":{"combatMedium":1},
+	},
+	"combatCapital":{
+		"Conte_di_Cavour_Domain":1,
+		"bismark_domain":2,
+		"fallback":{"combatLarge":1},
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+		"fallback":{"freighterSmall":1},
+	},
+	"combatFreighterMedium":{
+		"fallback":{"combatFreighterSmall":1},
+	},
+	"combatFreighterLarge":{
+		"fallback":{"combatFreighterMedium":1},
+	},
+	
+	"civilianRandom":{
+		
+	},
+
+	# carriers
+	"carrierSmall":{
+		"independence_domain":2,
+		"fallback":{"carrierMedium":0.5},
+		"fallback2":{"carrierLarge":0.25},
+	},
+	"carrierMedium":{
+		"hosho_domain":2,
+		"Furious_domain":1,
+		"fallback":{"carrierSmall":1},
+		"fallback2":{"carrierLarge":0.5},
+	},
+	"carrierLarge":{
+		"yorktown_domain":2,
+		"Queen_Elizabeth_domain":1.5,
+		"fallback":{"carrierMedium":1},
+		"fallback2":{"carrierSmall":1},
+	},
+
+	# freighters and such
+	"freighterSmall":{
+		"Trireme_domain":2,
+		"fallback":{"freighterMedium":0.5},
+		"fallback2":{"freighterLarge":0.25},
+	},
+	"freighterMedium":{
+		"fallback":{"freighterSmall":1},
+		"fallback2":{"freighterLarge":0.5},
+	},
+	"freighterLarge":{
+		"R_mothership_domain":1,
+		"fallback":{"freighterMedium":1},
+		"fallback2":{"freighterSmall":1},
+	},
+	
+	"tankerSmall":{
+		"hosho_domain":2,
+		"fallback":{"tankerMedium":0.5},
+		"fallback2":{"tankerLarge":0.25},
+	},
+	"tankerMedium":{
+		"Furious_domain":2,
+		"fallback":{"tankerSmall":0.5},
+	},
+	"tankerLarge":{
+		"yorktown_domain":2,
+		"Queen_Elizabeth_domain":1.5,
+		"fallback":{"tankerMedium":1},
+		"fallback2":{"tankerSmall":1},
+	},
+	
+	
+}

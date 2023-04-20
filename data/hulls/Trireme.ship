@@ -1,0 +1,47 @@
+{
+  "hullName": "Trireme",
+  "hullId": "Trireme",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/DR/ships/Tireme.PNG",
+  "style": "LOW_TECH",
+  "height": 197,
+  "width": 191,
+  "center": [95.5, 98.5],
+  "collisionRadius": 98.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 101,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 308,
+      "angle": 1.5,
+      "locations": [-58.5, -0.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    95.5, 3.5,
+    77.5, 4.5,
+    58.5, 14,
+    45.5, 15,
+    45.5, 21,
+    -45.5, 21,
+    -45.5, 14,
+    -91, -1,
+    -46.5, -16,
+    -46.5, -22.5,
+    47.5, -21.5,
+    47.5, -14.5,
+    61.5, -13.5,
+    77.5, -4.5,
+    95.5, -4
+  ]
+}

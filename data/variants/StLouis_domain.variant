@@ -1,0 +1,66 @@
+{
+  "variantId": "StLouis_domain",
+  "hullId": "StLouis",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+
+        "WS0005": "heavymortar",
+        "WS0008": "heavymortar",
+      }
+    },
+	    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+
+        "WS0015": "hveldriver",
+        "WS0016": "hveldriver"
+      }
+    },
+	    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "flak",
+        "WS0002": "flak",
+        "WS0003": "flak",
+        "WS0004": "flak",
+      }
+    },
+	    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "heavymortar",
+        "WS0007": "heavymortar",
+      }
+    },
+
+	    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "flak",
+        "WS0010": "flak",
+        "WS0011": "flak",
+        "WS0012": "flak",
+        "WS0013": "flak",
+        "WS0014": "flak",
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

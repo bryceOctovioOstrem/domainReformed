@@ -1,0 +1,78 @@
+{
+  "hullName": "R_mothership",
+  "hullId": "R_mothership",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/DR/ships/mothership_recommissioned.png",
+  "style": "LOW_TECH",
+  "height": 512,
+  "width": 512,
+  "center": [256, 256],
+  "collisionRadius": 295,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 314,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [148, 102.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-252, 80],
+      "length": 106.5,
+      "width": 44,
+      "angle": 180,
+      "contrailSize": 44,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-253.5, 117],
+      "length": 92.5,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-255, -82],
+      "length": 161,
+      "width": 50,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-252.5, -149],
+      "length": 61.5,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    223.5, -112.5,
+    223.5, 112.5,
+    120.5, 153.5,
+    78.5, 181.5,
+    47.5, 157,
+    -47, 154.5,
+    -60.5, 139,
+    -111.5, 139.5,
+    -121.5, 151,
+    -228, 153,
+    -226, -162,
+    24.5, -137.5,
+    51, -140.5,
+    63, -162,
+    83, -141.5,
+    96, -174.5,
+    112.5, -140.5
+  ]
+}

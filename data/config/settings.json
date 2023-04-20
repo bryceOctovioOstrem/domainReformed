@@ -1,0 +1,7 @@
+{
+  "graphics":{
+    "blueprint_packages":{
+      "DR_package":"graphics/DR/icon/cargo/domain_package.png",
+    },
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "hullName": "Conte_di_Cavour",
+  "hullId": "Conte_di_Cavour",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/DR/ships/Conte_di_Cavour.PNG",
+  "style": "LOW_TECH",
+  "height": 600,
+  "width": 100,
+  "center": [50, 300],
+  "collisionRadius": 308,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 329.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 285,
+      "angle": 0,
+      "locations": [151.5, 1]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 248,
+      "angle": 0,
+      "locations": [99.5, -0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 331,
+      "angle": 0,
+      "locations": [-20.5, 1]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 331,
+      "angle": 179,
+      "locations": [-137, 0.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 331,
+      "angle": 179,
+      "locations": [-182, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-300, -0.5],
+      "length": 398.5,
+      "width": 109,
+      "angle": 180,
+      "contrailSize": 109,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    286.5, -0,
+    219.5, 17,
+    -36.5, 41,
+    -293.5, -1,
+    -39, -43,
+    220, -20
+  ]
+}

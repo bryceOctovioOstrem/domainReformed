@@ -1,0 +1,101 @@
+{
+  "hullName": "petya",
+  "hullId": "petya",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/DR/ships/petya.PNG",
+  "style": "LOW_TECH",
+  "height": 437,
+  "width": 55,
+  "center": [31, 203.5],
+  "collisionRadius": 207,
+  "shieldCenter": [0.5, -0],
+  "shieldRadius": 212,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "rugged",
+    "ecm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 306,
+      "angle": 0,
+      "locations": [147, -1]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [95, 12.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [95, -12.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [-38, 0.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-68.5, 0.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-126.5, 12]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-126.5, -12]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-204, 0],
+      "length": 96.5,
+      "width": 41,
+      "angle": 180,
+      "contrailSize": 41,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    199.5, -0,
+    123, 18.5,
+    -201, 17.5,
+    -201, -18,
+    122.5, -19
+  ]
+}

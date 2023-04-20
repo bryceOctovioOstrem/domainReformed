@@ -1,0 +1,10 @@
+{
+    "id": "domainReformed",
+    "name": "Domain reformed",
+    "author": "LordKhorne",
+    "version": "0.1 beta",
+    "description": " this is a faction mod about ",
+    "gameVersion": "0.95.1a-RC6",
+    "dependencies": [],
+    "modPlugin":"data.scripts.DR_ModPlugin"
+}
