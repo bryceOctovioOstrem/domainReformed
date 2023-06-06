@@ -74,7 +74,6 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addCondition(Conditions.POPULATION_2);
         market.addCondition(Conditions.RUINS_VAST);
         //market.addCondition(Conditions.PATHER_CELLS);
-        market.addCondition(Conditions.MILD_CLIMATE);
         // BREAK
         market.addCondition(Conditions.ORGANICS_PLENTIFUL);
         market.addCondition(Conditions.FARMLAND_BOUNTIFUL);

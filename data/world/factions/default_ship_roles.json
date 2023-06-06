@@ -9,7 +9,7 @@
 	"combatSmall":{
 		"Virginia_domain":2,
 		"popov_domain":1,
-		"tashkent_domain":1,
+		"tashkent_domain":3,
 		"fallback":{"combatMedium":0.5},
 	},
 	"combatMedium":{
@@ -26,8 +26,8 @@
 		"fallback":{"combatMedium":1},
 	},
 	"combatCapital":{
-		"Conte_di_Cavour_Domain":1,
-		"bismark_domain":2,
+		"Conte_di_Cavour_Domain":2,
+		"bismark_domain":1,
 		"fallback":{"combatLarge":1},
 	},
 	

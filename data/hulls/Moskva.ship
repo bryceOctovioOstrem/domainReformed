@@ -194,27 +194,27 @@
   "engineSlots": [
     {
       "location": [-46, 9.5],
-      "length": 38.5,
-      "width": 18,
+      "length": 19.5,
+      "width": 13,
       "angle": 180,
-      "contrailSize": 18,
-      "style": "LOW_TECH"
+      "contrailSize": 13,
+      "style": "COBRA_BOMBER"
     },
     {
       "location": [-46, -12.5],
-      "length": 38.5,
-      "width": 18,
+      "length": 21,
+      "width": 12,
       "angle": -180,
-      "contrailSize": 18,
-      "style": "LOW_TECH"
+      "contrailSize": 12,
+      "style": "COBRA_BOMBER"
     },
     {
       "location": [-277, 1],
-      "length": 212.139999,
-      "width": 116.419998,
+      "length": 146,
+      "width": 28,
       "angle": -180,
-      "contrailSize": 116.419998,
-      "style": "LOW_TECH_FIGHTER"
+      "contrailSize": 28,
+      "style": "COBRA_BOMBER"
     }
   ],
   "bounds": [
