@@ -2,7 +2,7 @@ name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating
 StLouis,StLouis,Cruiser,Lowtech,maneuveringjets,14,9700,4000,11000,12000,600,143,,41,30,20,10,20,1200,NONE,,0,0.4,0.8,,,150,250,150,100,2,33,8,100000,3,12,480,0.25,25,25,,,,,,,,"DR,pirate_bp",,0.5,2,3,,
 Virginia,Virginia,Frigate,Lowtech,damper,5,1500,3000,4000,1500,120,78,,11,120,100,10,120,150,NONE,,0,0.5,0.8,,,15,30,30,20,1,20,10,20000,8,10,360,0.25,6,6,,,,,,,,"DR,pirate_bp",,0.5,2,2,,
 Moskva,Moskva,Missile Cruiser,Lowtech,forgevats,14,9380,4000,5000,4000,200,208,1,32,60,40,10,20,1200,NONE,,0,0.5,0.8,,,150,250,120,80,2,27,8,110000,3,12,480,0.25,20,25,,,,,,,,"DR,pirate_bp",,0.5,2,3,,
-Conte di Cavour,Conte_di_Cavour,Battleship,Low Tech,damper,28,23000,9800,20000,15000,600,165,,32,10,10,10,4,3500,NONE,,0,0.4,1,,,750,1500,300,400,8,27,7,350000,3,12,720,0.25,40,22,,,,,,,,"DR,pirate_bp",,0.4,2,4,,
+Conte di Cavour,Conte_di_Cavour,Battleship,Low Tech,ammofeed,28,23000,9800,20000,15000,600,165,,32,10,10,10,4,3500,NONE,,0,0.4,1,,,750,1500,300,400,8,27,7,350000,3,12,720,0.25,38,22,,,,,,,,"DR,pirate_bp",,0.4,2,4,,
 yorktown,yorktown,Carrier,Low Tech,cryoflux,27,25500,4000,12000,15000,600,475,6,29,15,10,10,4,3000,NONE,,0,0.7,0.6,,,450,1000,250,2800,8,20,7,350000,3,15,600,0.25,40,40,,,,,,,CARRIER,"DR,pirate_bp",,0.5,2,3,,
 independence,independence,Carrier,High Tech,burndrive,4,1200,1500,1500,1250,100,51,1,44,120,70,2,180,200,NONE,,0,0.5,1.2,,,15,30,100,280,1,40,9,8000,8,20,240,0.25,3,3,33,,,,,,CARRIER,"DR,pirate_bp",,0.5,2,2,,
 popov,popov,Destroyer,Low Tech,damper,7,3600,8000,4000,3125,300,40,,8,180,120,60,120,250,NONE,,0,0.4,0.8,,,15,30,40,20,1,20,9,10000,8,10,300,0.25,10,10,,,,,,,,"DR,pirate_bp",,0.4,2,2,,

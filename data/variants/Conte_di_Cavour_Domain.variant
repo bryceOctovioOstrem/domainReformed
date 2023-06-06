@@ -4,11 +4,12 @@
   "displayName": "New Variant",
   "goalVariant": false,
   "fluxCapacitors": 5,
-  "fluxVents": 37,
+  "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "armoredweapons"
+    "armoredweapons",
+    "autorepair"
   ],
   "weaponGroups": [
     {
@@ -22,7 +23,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "mjolnir"
+        "WS0002": "hephag"
       }
     },
     {
@@ -36,7 +37,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "mjolnir"
+        "WS0004": "hephag"
       }
     },
     {

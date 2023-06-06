@@ -15,49 +15,57 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-
         "WS0005": "heavymortar",
         "WS0008": "heavymortar",
+        "WS0012": "railgun",
+        "WS0013": "railgun"
       }
     },
-	    {
+    {
       "autofire": true,
       "mode": "ALTERNATING",
-      "weapons": {
-
-        "WS0015": "hveldriver",
-        "WS0016": "hveldriver"
-      }
+      "weapons": {}
     },
-	    {
+    {
       "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
         "WS0001": "flak",
         "WS0002": "flak",
         "WS0003": "flak",
-        "WS0004": "flak",
+        "WS0004": "flak"
       }
     },
-	    {
+    {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0006": "heavymortar",
-        "WS0007": "heavymortar",
+        "WS0007": "heavymortar"
       }
     },
-
-	    {
+    {
       "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
         "WS0009": "flak",
         "WS0010": "flak",
         "WS0011": "flak",
-        "WS0012": "flak",
-        "WS0013": "flak",
-        "WS0014": "flak",
+        "WS0014": "flak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "hveldriver"
       }
     }
   ],

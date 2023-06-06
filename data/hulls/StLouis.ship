@@ -4,8 +4,8 @@
   "hullSize": "CRUISER",
   "spriteName": "graphics/DR/ships/St_Louis.PNG",
   "style": "LOW_TECH",
-  "height": 464,
-  "width": 86,
+  "height": 446,
+  "width": 96,
   "center": [47, 233],
   "collisionRadius": 234.5,
   "shieldCenter": [0, 0.5],
@@ -147,7 +147,7 @@
       "id": "WS0012",
       "size": "SMALL",
       "type": "BALLISTIC",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 245,
       "angle": 0,
       "locations": [125, -1]
@@ -156,7 +156,7 @@
       "id": "WS0013",
       "size": "SMALL",
       "type": "BALLISTIC",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 253,
       "angle": 180,
       "locations": [-152, -1]
@@ -164,7 +164,7 @@
   ],
   "engineSlots": [
     {
-      "location": [-13, 46.5],
+      "location": [-13, 47.5],
       "length": 40.5,
       "width": 30,
       "angle": 90,
@@ -172,7 +172,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [10, 45],
+      "location": [10.5, 46.5],
       "length": 25.5,
       "width": 17,
       "angle": 90,
@@ -188,11 +188,11 @@
       "style": "MIDLINE"
     },
     {
-      "location": [8, -47],
-      "length": 29,
-      "width": 18,
+      "location": [9, -48.5],
+      "length": 27,
+      "width": 16,
       "angle": -90,
-      "contrailSize": 18,
+      "contrailSize": 16,
       "style": "MIDLINE"
     },
     {
@@ -204,7 +204,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-34, 39.5],
+      "location": [-34, 41.5],
       "length": 21,
       "width": 11,
       "angle": 90,
