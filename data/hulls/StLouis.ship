@@ -168,7 +168,7 @@
       "length": 40.5,
       "width": 30,
       "angle": 90,
-      "contrailSize": 30,
+      "contrailSize": 128,
       "style": "MIDLINE"
     },
     {
@@ -184,7 +184,7 @@
       "length": 38.5,
       "width": 27,
       "angle": -90,
-      "contrailSize": 27,
+      "contrailSize": 128,
       "style": "MIDLINE"
     },
     {
@@ -192,7 +192,7 @@
       "length": 27,
       "width": 16,
       "angle": -90,
-      "contrailSize": 16,
+      "contrailSize": 128,
       "style": "MIDLINE"
     },
     {
@@ -200,7 +200,7 @@
       "length": 18.5,
       "width": 10,
       "angle": -90,
-      "contrailSize": 10,
+      "contrailSize": 128,
       "style": "MIDLINE"
     },
     {
@@ -208,7 +208,7 @@
       "length": 21,
       "width": 11,
       "angle": 90,
-      "contrailSize": 11,
+      "contrailSize": 128,
       "style": "MIDLINE"
     },
     {
@@ -216,7 +216,7 @@
       "length": 25.5,
       "width": 17,
       "angle": 179,
-      "contrailSize": 128,
+      "contrailSize": 17,
       "style": "COBRA_BOMBER"
     },
     {
@@ -224,7 +224,7 @@
       "length": 25.5,
       "width": 17,
       "angle": 179,
-      "contrailSize": 128,
+      "contrailSize": 17,
       "style": "HIGH_TECH"
     },
     {
@@ -232,7 +232,7 @@
       "length": 25.5,
       "width": 17,
       "angle": 179,
-      "contrailSize": 128,
+      "contrailSize": 17,
       "style": "COBRA_BOMBER"
     },
     {
@@ -240,7 +240,7 @@
       "length": 25.5,
       "width": 17,
       "angle": 179,
-      "contrailSize": 128,
+      "contrailSize": 17,
       "style": "HIGH_TECH"
     },
     {
