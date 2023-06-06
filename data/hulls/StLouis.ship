@@ -6,9 +6,9 @@
   "style": "LOW_TECH",
   "height": 464,
   "width": 86,
-  "center": [37.5, 232.5],
-  "collisionRadius": 238,
-  "shieldCenter": [0, 0],
+  "center": [47, 233],
+  "collisionRadius": 234.5,
+  "shieldCenter": [0, 0.5],
   "shieldRadius": 253.5,
   "viewOffset": 0,
   "builtInMods": [
@@ -24,7 +24,7 @@
       "mount": "HIDDEN",
       "arc": 175,
       "angle": 80,
-      "locations": [164.5, 17.5]
+      "locations": [162, 17.5]
     },
     {
       "id": "WS0002",
@@ -33,7 +33,7 @@
       "mount": "HIDDEN",
       "arc": 182,
       "angle": -81,
-      "locations": [165, -25.5]
+      "locations": [164.5, -20.5]
     },
     {
       "id": "WS0003",
@@ -42,7 +42,7 @@
       "mount": "HIDDEN",
       "arc": 180,
       "angle": -80,
-      "locations": [133.5, -30]
+      "locations": [134.5, -25]
     },
     {
       "id": "WS0004",
@@ -51,7 +51,7 @@
       "mount": "HIDDEN",
       "arc": 170,
       "angle": 83,
-      "locations": [131.5, 22]
+      "locations": [131, 23]
     },
     {
       "id": "WS0005",
@@ -60,7 +60,7 @@
       "mount": "HIDDEN",
       "arc": 184,
       "angle": -90,
-      "locations": [50, -41.5]
+      "locations": [38, -36]
     },
     {
       "id": "WS0006",
@@ -69,7 +69,7 @@
       "mount": "HIDDEN",
       "arc": 183,
       "angle": 89,
-      "locations": [50.5, 35.5]
+      "locations": [39, 35]
     },
     {
       "id": "WS0007",
@@ -78,7 +78,7 @@
       "mount": "HIDDEN",
       "arc": 184,
       "angle": 91,
-      "locations": [-55, 31]
+      "locations": [-64, 34]
     },
     {
       "id": "WS0008",
@@ -87,7 +87,7 @@
       "mount": "HIDDEN",
       "arc": 184,
       "angle": -90.5,
-      "locations": [-55, -41.5]
+      "locations": [-64, -36]
     },
     {
       "id": "WS0009",
@@ -96,7 +96,7 @@
       "mount": "HIDDEN",
       "arc": 186,
       "angle": 97,
-      "locations": [-115.5, 25]
+      "locations": [-117, 27]
     },
     {
       "id": "WS0010",
@@ -105,34 +105,7 @@
       "mount": "HIDDEN",
       "arc": 183,
       "angle": 99,
-      "locations": [-159.5, 18.5]
-    },
-    {
-      "id": "WS0011",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
-      "mount": "HIDDEN",
-      "arc": 185,
-      "angle": 104.5,
-      "locations": [-197.5, 9.5]
-    },
-    {
-      "id": "WS0012",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
-      "mount": "HIDDEN",
-      "arc": 185,
-      "angle": -108,
-      "locations": [-196.5, -23.5]
-    },
-    {
-      "id": "WS0013",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
-      "mount": "HIDDEN",
-      "arc": 181,
-      "angle": -98.5,
-      "locations": [-162, -29.5]
+      "locations": [-159.5, 24.5]
     },
     {
       "id": "WS0014",
@@ -141,7 +114,7 @@
       "mount": "HIDDEN",
       "arc": 178,
       "angle": -95,
-      "locations": [-115.5, -34]
+      "locations": [-116.5, -29.5]
     },
     {
       "id": "WS0015",
@@ -150,7 +123,7 @@
       "mount": "HIDDEN",
       "arc": 119,
       "angle": 55.5,
-      "locations": [110, 23.5]
+      "locations": [104, 27]
     },
     {
       "id": "WS0016",
@@ -159,60 +132,47 @@
       "mount": "HIDDEN",
       "arc": 119,
       "angle": -54.5,
-      "locations": [113.5, -31.5]
+      "locations": [107, -30]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 181,
+      "angle": -98.5,
+      "locations": [-160.5, -26]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 245,
+      "angle": 0,
+      "locations": [125, -1]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 253,
+      "angle": 180,
+      "locations": [-152, -1]
     }
   ],
   "engineSlots": [
     {
-      "location": [79.5, -6.5],
-      "length": 18,
-      "width": 13,
-      "angle": 180,
-      "contrailSize": 13,
-      "style": "MIDLINE"
-    },
-    {
-      "location": [-228.5, -5],
-      "length": 147,
-      "width": 58,
-      "angle": 180,
-      "contrailSize": 58,
-      "style": "MIDLINE"
-    },
-    {
-      "location": [38, -6.5],
-      "length": 18,
-      "width": 13,
-      "angle": 180,
-      "contrailSize": 13,
-      "style": "MIDLINE"
-    },
-    {
-      "location": [-2, -6],
-      "length": 18,
-      "width": 13,
-      "angle": 180,
-      "contrailSize": 13,
-      "style": "MIDLINE"
-    },
-    {
-      "location": [-42.5, -7],
-      "length": 18,
-      "width": 13,
-      "angle": 180,
-      "contrailSize": 13,
-      "style": "MIDLINE"
-    },
-    {
-      "location": [-23.5, 36],
-      "length": 18,
-      "width": 13,
+      "location": [-13, 46.5],
+      "length": 40.5,
+      "width": 30,
       "angle": 90,
-      "contrailSize": 128,
-      "style": "LOW_TECH"
+      "contrailSize": 30,
+      "style": "MIDLINE"
     },
     {
-      "location": [0, 37.5],
+      "location": [10, 45],
       "length": 25.5,
       "width": 17,
       "angle": 90,
@@ -220,46 +180,94 @@
       "style": "MIDLINE"
     },
     {
-      "location": [20.5, 31.5],
-      "length": 12,
-      "width": 8,
+      "location": [-14.5, -49.5],
+      "length": 38.5,
+      "width": 27,
+      "angle": -90,
+      "contrailSize": 27,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [8, -47],
+      "length": 29,
+      "width": 18,
+      "angle": -90,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-35, -43.5],
+      "length": 18.5,
+      "width": 10,
+      "angle": -90,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-34, 39.5],
+      "length": 21,
+      "width": 11,
       "angle": 90,
-      "contrailSize": 128,
-      "style": "LOW_TECH"
-    },
-    {
-      "location": [19.5, -42.5],
-      "length": 18,
-      "width": 9,
-      "angle": -90,
-      "contrailSize": 128,
+      "contrailSize": 11,
       "style": "MIDLINE"
     },
     {
-      "location": [-1, -48.5],
-      "length": 26.5,
+      "location": [63.5, -1],
+      "length": 25.5,
       "width": 17,
-      "angle": -90,
+      "angle": 179,
       "contrailSize": 128,
-      "style": "MIDLINE"
+      "style": "COBRA_BOMBER"
     },
     {
-      "location": [-24.5, -47.5],
-      "length": 18,
-      "width": 14,
-      "angle": -90,
+      "location": [26.5, -1.5],
+      "length": 25.5,
+      "width": 17,
+      "angle": 179,
       "contrailSize": 128,
-      "style": "MIDLINE"
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-11, -2],
+      "length": 25.5,
+      "width": 17,
+      "angle": 179,
+      "contrailSize": 128,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-46.5, -0.5],
+      "length": 25.5,
+      "width": 17,
+      "angle": 179,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-207, -28.5],
+      "length": 45.254932,
+      "width": 28.424715,
+      "angle": -179.5,
+      "contrailSize": 28.424715,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-207, 23.5],
+      "length": 45.254932,
+      "width": 28.424715,
+      "angle": -179.5,
+      "contrailSize": 28.424715,
+      "style": "HIGH_TECH"
     }
   ],
   "bounds": [
-    224, 0.5,
-    103, 26,
-    -106, 26,
-    -191.5, 14.5,
-    -222.5, -0,
-    -192.5, -17,
-    -106.5, -26.5,
-    105.5, -28
+    208, -1.5,
+    101.5, 23.5,
+    -108.5, 25,
+    -191.5, 19,
+    -225.5, -1,
+    -194, -19.5,
+    -106, -26.5,
+    107.5, -25.5
   ]
 }

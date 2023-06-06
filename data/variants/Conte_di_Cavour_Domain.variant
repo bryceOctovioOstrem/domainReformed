@@ -3,8 +3,8 @@
   "hullId": "Conte_di_Cavour",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 5,
+  "fluxVents": 37,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -22,25 +22,24 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-
         "WS0002": "mjolnir"
       }
     },
-   {
+    {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0003": "devastator"
       }
     },
-   {
+    {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0004": "mjolnir"
       }
     },
-   {
+    {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {

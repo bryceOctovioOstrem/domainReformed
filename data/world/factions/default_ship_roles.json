@@ -9,6 +9,7 @@
 	"combatSmall":{
 		"Virginia_domain":2,
 		"popov_domain":1,
+		"tashkent_domain":1,
 		"fallback":{"combatMedium":0.5},
 	},
 	"combatMedium":{

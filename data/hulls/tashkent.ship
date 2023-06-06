@@ -1,0 +1,234 @@
+{
+  "hullName": "Tashkent",
+  "hullId": "tashkent",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/DR/ships/Tashkent.PNG",
+  "style": "LOW_TECH",
+  "height": 420,
+  "width": 60,
+  "center": [30, 210],
+  "collisionRadius": 211.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 217.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 275,
+      "angle": 0,
+      "locations": [137.5, 0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 275,
+      "angle": 0,
+      "locations": [119.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 84,
+      "locations": [66, 13]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -86,
+      "locations": [65, -14]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 90,
+      "locations": [18, -1.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-64, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-100, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-9, 10]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [-2, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-9, -10]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-40, 10]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-46, -0]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-40, -12]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 173,
+      "angle": 105,
+      "locations": [-115, 10.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -108.5,
+      "locations": [-115, -9]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 286,
+      "angle": 179,
+      "locations": [-139, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-170.5, 26],
+      "length": 41.587063,
+      "width": 11.834888,
+      "angle": 107,
+      "contrailSize": 11.834888,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-170, -28],
+      "length": 29.729547,
+      "width": 13.660761,
+      "angle": -102,
+      "contrailSize": 13.660761,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-187.5, -16],
+      "length": 28.782104,
+      "width": 8.146287,
+      "angle": -102,
+      "contrailSize": 8.146287,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-187.5, 15.5],
+      "length": 29.672848,
+      "width": 7.686883,
+      "angle": 107,
+      "contrailSize": 7.686883,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-209.5, 0.5],
+      "length": 39.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-27, -0],
+      "length": 28.051292,
+      "width": 11.510857,
+      "angle": 179.5,
+      "contrailSize": 11.510857,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [44.5, -0.5],
+      "length": 20.547214,
+      "width": 10.641793,
+      "angle": 179.5,
+      "contrailSize": 10.641793,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    206, 0.5,
+    152, 13.5,
+    -20.5, 18.5,
+    -120, 16,
+    -182, 9.5,
+    -207, 1,
+    -182, -9,
+    -119.5, -15.5,
+    -20, -18.5,
+    152.5, -14
+  ]
+}
