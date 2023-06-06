@@ -3,8 +3,8 @@
   "hullId": "StLouis",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 27,
+  "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

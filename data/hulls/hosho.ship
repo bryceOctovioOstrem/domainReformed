@@ -13,7 +13,9 @@
   "viewOffset": 0,
   "builtInMods": [
     "rugged",
-    "hiressensors"
+    "hiressensors",
+    "autorepair",
+    "fluxbreakers"
   ],
   "weaponSlots": [
     {
@@ -72,8 +74,8 @@
     },
     {
       "id": "WS0007",
-      "size": "MEDIUM",
-      "type": "HYBRID",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
       "mount": "HIDDEN",
       "arc": 90,
       "angle": 45,
@@ -81,8 +83,8 @@
     },
     {
       "id": "WS0008",
-      "size": "MEDIUM",
-      "type": "HYBRID",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
       "mount": "HIDDEN",
       "arc": 90,
       "angle": -45,

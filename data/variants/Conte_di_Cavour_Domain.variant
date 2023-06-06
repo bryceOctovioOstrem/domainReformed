@@ -3,13 +3,12 @@
   "hullId": "Conte_di_Cavour",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 5,
-  "fluxVents": 30,
+  "fluxCapacitors": 0,
+  "fluxVents": 42,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "armoredweapons",
-    "autorepair"
+    "armoredweapons"
   ],
   "weaponGroups": [
     {
@@ -23,7 +22,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "hephag"
+        "WS0002": "mjolnir"
       }
     },
     {
@@ -37,7 +36,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "hephag"
+        "WS0004": "mjolnir"
       }
     },
     {
