@@ -26,8 +26,9 @@
 		"fallback":{"combatMedium":1},
 	},
 	"combatCapital":{
-		"Conte_di_Cavour_Domain":2,
-		"bismark_domain":1,
+		"Conte_di_Cavour_Domain":3,
+		"yamato_domain":1,
+		"bismark_domain":2,
 		"fallback":{"combatLarge":1},
 	},
 	

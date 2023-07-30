@@ -17,7 +17,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "flak"
+        "WS0001": "taclaser",
+        "WS0003": "harpoon"
       }
     },
     {
@@ -30,9 +31,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0003": "harpoonpod"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

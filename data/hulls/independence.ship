@@ -19,12 +19,12 @@
   "weaponSlots": [
     {
       "id": "WS0001",
-      "size": "MEDIUM",
-      "type": "UNIVERSAL",
+      "size": "SMALL",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 239,
       "angle": 0,
-      "locations": [110.5, -2.5]
+      "locations": [112, -2.5]
     },
     {
       "id": "WS0002",
@@ -37,12 +37,13 @@
     },
     {
       "id": "WS0003",
-      "size": "LARGE",
+      "size": "SMALL",
       "type": "MISSILE",
       "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [88, -2.5]
+      "locations": [88, -2.5],
+      "renderOrderMod": 100
     },
     {
       "id": "LB 1",

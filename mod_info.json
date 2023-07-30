@@ -4,7 +4,7 @@
     "author": "LordKhorne",
     "version": "0.1 beta",
     "description": " this is a faction mod about ",
-    "gameVersion": "0.96.1a-RC10",
+    "gameVersion": "0.96a-RC10",
     "dependencies": [],
     "modPlugin":"data.scripts.DR_ModPlugin"
 }

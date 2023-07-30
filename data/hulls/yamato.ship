@@ -1,0 +1,332 @@
+{
+  "hullName": "yamato",
+  "hullId": "yamato",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/DR/ships/yamato.png",
+  "style": "LOW_TECH",
+  "height": 881,
+  "width": 170,
+  "center": [85, 440.5],
+  "collisionRadius": 438,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 470,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "rugged",
+    "fluxbreakers"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 305,
+      "angle": 0,
+      "locations": [171, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 275,
+      "angle": 0,
+      "locations": [98, 0.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": 0,
+      "locations": [46, 0.5],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 272,
+      "angle": 180,
+      "locations": [-212, -1]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 196,
+      "angle": 180,
+      "locations": [-162.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 164,
+      "angle": 115,
+      "locations": [-96, 50.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 185,
+      "angle": 88,
+      "locations": [-63.5, 48]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 164,
+      "angle": 87,
+      "locations": [-19.5, 40.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 167,
+      "angle": -83.5,
+      "locations": [-18.5, -41.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 184,
+      "angle": -90,
+      "locations": [-64.5, -48]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 172,
+      "angle": -119.5,
+      "locations": [-96.5, -51]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 177,
+      "angle": -90,
+      "locations": [-41, -33.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -92,
+      "locations": [-79.5, -31]
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -94.5,
+      "locations": [-105, -31]
+    },
+    {
+      "id": "WS0015",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 90,
+      "locations": [-105, 30]
+    },
+    {
+      "id": "WS0016",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 90,
+      "locations": [-78.5, 30]
+    },
+    {
+      "id": "WS0017",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 87,
+      "locations": [-40.5, 32]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 95,
+      "angle": 77.5,
+      "locations": [-2, 25]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 95,
+      "angle": 47.5,
+      "locations": [9.5, 17]
+    },
+    {
+      "id": "WS0020",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 95,
+      "angle": -41.5,
+      "locations": [9, -18.5]
+    },
+    {
+      "id": "WS0021",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 95,
+      "angle": -71,
+      "locations": [-2.5, -26]
+    },
+    {
+      "id": "WS0022",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 117,
+      "angle": -113,
+      "locations": [-115.5, -14]
+    },
+    {
+      "id": "WS0023",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 102.5,
+      "locations": [-115.5, 13]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -346, 29.5,
+        -220.5, 29.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -343, -31,
+        -220.5, -31.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-422.5, 62],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-422.5, -62],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-422.5, 55.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-422.5, -55.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-422.5, 47],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-422.5, -47],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-80.5, -0.5],
+      "length": 26,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    426.5, 0.5,
+    387.5, 15.5,
+    282, 31,
+    124.5, 53.5,
+    -249, 61,
+    -257.5, 55,
+    -316, 57,
+    -325, 48.5,
+    -392.5, 23.5,
+    -420, 3,
+    -394, -25.5,
+    -321.5, -50.5,
+    -316.5, -59,
+    -254, -57,
+    -243, -60.5,
+    128.5, -54,
+    285.5, -31.5,
+    387.5, -15.5
+  ]
+}

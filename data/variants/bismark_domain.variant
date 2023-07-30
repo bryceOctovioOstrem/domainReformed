@@ -1,25 +1,45 @@
 {
-  "variantId": "bismark_domain",
-  "hullId": "bismark",
   "displayName": "New Variant",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
   "goalVariant": false,
-  "fluxCapacitors": 48,
-  "fluxVents": 50,
-  "quality": 1,
-  "permaMods": [],
+  "hullId": "bismark",
   "hullMods": [
     "armoredweapons"
   ],
+  "permaMods": [],
+  "quality": 1,
+  "variantId": "bismark_domain",
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
         "WS0001": "mark9",
-        "WS0002": "hephag",
-        "WS0016": "hephag",
+        "WS0002": "mjolnir",
+        "WS0014": "vulcan",
+        "WS0015": "vulcan",
+        "WS0016": "mjolnir",
+        "WS0017": "dualflak",
+        "WS0018": "dualflak",
+        "WS0019": "vulcan",
+        "WS0020": "vulcan",
+        "WS0021": "vulcan",
+        "WS0022": "vulcan",
+        "WS0023": "vulcan",
+        "WS0024": "vulcan",
+        "WS0025": "dualflak",
+        "WS0026": "dualflak",
         "WS0027": "vulcan",
-        "WS0028": "vulcan"
+        "WS0028": "vulcan",
+        "WS0029": "vulcan",
+        "WS0030": "vulcan",
+        "WS0031": "dualflak",
+        "WS0032": "dualflak",
+        "WS0033": "vulcan",
+        "WS0034": "vulcan",
+        "WS0035": "vulcan",
+        "WS0036": "vulcan"
       }
     },
     {
@@ -56,35 +76,8 @@
         "WS0005": "vulcan",
         "WS0006": "vulcan"
       }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0014": "lightmg",
-        "WS0015": "lightmg",
-        "WS0017": "dualflak",
-        "WS0018": "dualflak",
-        "WS0019": "vulcan",
-        "WS0020": "vulcan",
-        "WS0021": "lightmg",
-        "WS0022": "lightmg",
-        "WS0023": "vulcan",
-        "WS0024": "vulcan",
-        "WS0025": "dualflak",
-        "WS0026": "dualflak",
-        "WS0029": "lightmg",
-        "WS0030": "lightmg",
-        "WS0031": "dualflak",
-        "WS0032": "dualflak",
-        "WS0033": "vulcan",
-        "WS0034": "lightmg",
-        "WS0035": "lightmg",
-        "WS0036": "vulcan"
-      }
     }
   ],
-  "modules": [],
   "wings": [
     "talon_wing"
   ]

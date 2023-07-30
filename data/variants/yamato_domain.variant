@@ -1,0 +1,68 @@
+{
+  "displayName": "New",
+  "fluxCapacitors": 13,
+  "fluxVents": 50,
+  "goalVariant": true,
+  "hullId": "yamato",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "yamato_domain",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "type_94"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "type_94",
+        "WS0002": "type_94"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "heavyac",
+        "WS0010": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "devastator",
+        "WS0005": "devastator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0011": "vulcan",
+        "WS0012": "flak",
+        "WS0013": "flak",
+        "WS0014": "flak",
+        "WS0015": "flak",
+        "WS0016": "flak",
+        "WS0017": "flak",
+        "WS0018": "vulcan",
+        "WS0019": "vulcan",
+        "WS0020": "vulcan",
+        "WS0021": "vulcan",
+        "WS0022": "vulcan",
+        "WS0023": "vulcan"
+      }
+    }
+  ],
+  "wings": ["warthog_wing",
+"talon_wing"]
+}
