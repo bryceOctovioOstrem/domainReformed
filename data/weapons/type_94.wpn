@@ -1,27 +1,53 @@
 {
-	"id":"type_94",  # this id must match what's in the spreadsheet
-	"specClass":"projectile",
-	"type":"BALLISTIC",
-	"size":"LARGE",
-	"turretSprite":"graphics/weapons/DR_type94_large_turret.png",
-	"turretGunSprite":"graphics/weapons/DR_type94_large_turret.png",
-	"hardpointSprite":"graphics/weapons/DR_type94_large_hardpoint.png",
-	"hardpointGunSprite":"graphics/weapons/DR_type94_large_hardpoint.png",	
-	"visualRecoil":0,  # the gun sprites are only used if this is non-0 
-	#"renderHints":[RENDER_BARREL_above],
-	"turretOffsets":[90, -10,90, 0,90, 10],
-	"turretAngleOffsets":[0, 0],
-	"hardpointOffsets":[40, -9,40, 0,40, 9],
-	"hardpointAngleOffsets":[0, 0],
-	"barrelMode":"LINKED", # LINKED or ALTERNATING.  whether barrels fire at the same time or alternate.
-	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
-	"muzzleFlashSpec":{"length":100.0,   # only used if animationType = MUZZLE_FLASH
-					   "spread":45.0,
-					   "particleSizeMin":10.0,
-					   "particleSizeRange":70.0,
-					   "particleDuration":1,
-					   "particleCount":100,
-					   "particleColor":[255,120,50,245]},
-	"projectileSpecId":"91_shot",  # projectile that will be fired
-	"fireSoundTwo":"hellbore_fire",	
+  "id": "type_94",
+  "specClass": "projectile",
+  "projectileSpecId": "91_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/DR_type94_large_turret.png",
+  "turretGunSprite": "graphics/weapons/DR_type94_large_turret.png",
+  "hardpointSprite": "graphics/weapons/DR_type94_large_hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/DR_type94_large_hardpoint.png",
+  "turretOffsets": [
+    82,
+    -12.5,
+    82,
+    -1,
+    82,
+    10.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    40,
+    -9,
+    40,
+    0,
+    40,
+    9
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 100,
+    "spread": 45,
+    "particleSizeMin": 10,
+    "particleSizeRange": 70,
+    "particleDuration": 1,
+    "particleCount": 100,
+    "particleColor": [
+      255,
+      120,
+      50,
+      245
+    ]
+  },
+  "fireSoundTwo": "hellbore_fire"
 }

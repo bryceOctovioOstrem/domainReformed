@@ -36,7 +36,10 @@ Lion,SHIP,"An improvement on the legion battle carrier design with a smaller fro
 Before the collapse, on the world now known as New Terra a pair of college students in the Viotov College of Engineering came into possession of an alpha-level ai core. While looking for a buyer they forced the ai core to retrofit ancient Terran water-based warship designs to function as void-craft for their amusement. The lion class is the first of these redesigns. It was before further restrictions and instructions were placed on the ai to stay closer to the original aesthetic. The lion class is more inspired by rather than a retrofit. The quality of the design is a testament to the intelligence that designed its brilliance.",,,
 Tashkent,SHIP,"The Tashkent class is a super destroyer with , by DR standards, great speed. The ship has found its primary use in the sector as a decent combat freighter because of that great speed and large cargo bay. Smugglers have found a particular liking for the ship.",,,
 yamato,SHIP,One of the largest ships in the sector the Yamato class is the DR’s answer to the paragon. The yamato-class has near impervious armour and impressive fire power at the cost of speed and you would have to be blind to miss something this large.,,,
-,,,,,
+Ford,SHIP,"More a massive floating city than a ship the ford class are the perfect ships to act as the heart for an invasion fleet. The ford class can sustain  a huge amount of fighter craft ,and is quite durable due to the size is armour effect. The construction of a single one of these requires the combined effort of multiple planets. 
+
+Many admirals in the Domain Reformed dislike these ships due to the advanced technology used in some parts and the reputation the ship has for malfunctions.
+",,,
 ,,,,,
 ,,,,,
 ,,,,,
@@ -45,4 +48,5 @@ yamato,SHIP,One of the largest ships in the sector the Yamato class is the DR’s 
 ,,,,,
 ,,,,,
 #weapons,,,,,
-Type_94,WEAPON,"“The type 94 is a massive weapon consisting of  three combustible light gas guns housed in a heavily armored turret. These guns work by igniting  a fuel mixture of hydrogen, liquid oxygen, and helium to propel an armor penetrating round with an antimatter charge. HEGINT assets report test firing , using the example “acquired freely” from the self proclaimed Domain of Man, displays impressive velocity and range but due to a flaw in the gas injection systems the glasses are mixed improperly causing inaccuracy and slow reloading times. Recommend no sabotage or adoption."" - Classified report to the High Hegemon",,,
+type_94,WEAPON,"“The type 94 is a massive weapon consisting of  three combustible light gas guns housed in a heavily armored turret in a dedicated anti-capital ship role. These guns work by igniting  a fuel mixture of hydrogen, liquid oxygen, and helium to propel an armor penetrating round with an antimatter charge.  HEGINT assets report test firing , using the example “acquired freely” from the self proclaimed Domain of Man, displays impressive velocity and range due to a flaw in the gas ignition system resulting in inaccuracy and slow reloading times. Recommend no sabotage or adoption."" - Classified report to the High Hegemon
+",,,

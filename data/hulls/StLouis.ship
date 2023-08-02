@@ -12,16 +12,14 @@
   "shieldRadius": 253.5,
   "viewOffset": 0,
   "builtInMods": [
-    "targetingunit",
     "rugged",
-    "ground_support",
-    "autorepair"
+    "ground_support"
   ],
   "weaponSlots": [
     {
       "id": "WS0001",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "size": "SMALL",
+      "type": "HYBRID",
       "mount": "HIDDEN",
       "arc": 175,
       "angle": 80,
@@ -29,8 +27,8 @@
     },
     {
       "id": "WS0002",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "size": "SMALL",
+      "type": "HYBRID",
       "mount": "HIDDEN",
       "arc": 182,
       "angle": -81,
@@ -38,8 +36,8 @@
     },
     {
       "id": "WS0003",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "size": "SMALL",
+      "type": "HYBRID",
       "mount": "HIDDEN",
       "arc": 180,
       "angle": -80,
@@ -47,8 +45,8 @@
     },
     {
       "id": "WS0004",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "size": "SMALL",
+      "type": "HYBRID",
       "mount": "HIDDEN",
       "arc": 170,
       "angle": 83,
@@ -92,8 +90,8 @@
     },
     {
       "id": "WS0009",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "size": "SMALL",
+      "type": "HYBRID",
       "mount": "HIDDEN",
       "arc": 186,
       "angle": 97,
@@ -101,8 +99,8 @@
     },
     {
       "id": "WS0010",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "size": "SMALL",
+      "type": "HYBRID",
       "mount": "HIDDEN",
       "arc": 183,
       "angle": 99,
@@ -110,8 +108,8 @@
     },
     {
       "id": "WS0014",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "size": "SMALL",
+      "type": "HYBRID",
       "mount": "HIDDEN",
       "arc": 178,
       "angle": -95,
@@ -119,8 +117,8 @@
     },
     {
       "id": "WS0015",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "size": "SMALL",
+      "type": "HYBRID",
       "mount": "HIDDEN",
       "arc": 119,
       "angle": 55.5,
@@ -128,8 +126,8 @@
     },
     {
       "id": "WS0016",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "size": "SMALL",
+      "type": "HYBRID",
       "mount": "HIDDEN",
       "arc": 119,
       "angle": -54.5,
@@ -137,8 +135,8 @@
     },
     {
       "id": "WS0011",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "size": "SMALL",
+      "type": "HYBRID",
       "mount": "HIDDEN",
       "arc": 181,
       "angle": -98.5,

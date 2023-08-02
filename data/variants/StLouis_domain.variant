@@ -8,32 +8,38 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "armoredweapons"
+    "armoredweapons",
+    "autorepair",
+    "targetingunit"
   ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "heavymortar",
-        "WS0008": "heavymortar",
-        "WS0012": "railgun",
-        "WS0013": "railgun"
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser",
+        "WS0003": "irpulse",
+        "WS0004": "irpulse",
+        "WS0015": "irpulse",
+        "WS0016": "irpulse"
       }
     },
     {
       "autofire": true,
       "mode": "ALTERNATING",
-      "weapons": {}
+      "weapons": {
+        "WS0009": "taclaser",
+        "WS0010": "taclaser",
+        "WS0011": "taclaser",
+        "WS0014": "taclaser"
+      }
     },
     {
       "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0001": "flak",
-        "WS0002": "flak",
-        "WS0003": "flak",
-        "WS0004": "flak"
+        "WS0005": "heavymortar"
       }
     },
     {
@@ -48,24 +54,21 @@
       "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0009": "flak",
-        "WS0010": "flak",
-        "WS0011": "flak",
-        "WS0014": "flak"
+        "WS0008": "heavymortar"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0015": "hveldriver"
+        "WS0012": "railgun"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0016": "hveldriver"
+        "WS0013": "railgun"
       }
     }
   ],

@@ -13,8 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "targetingunit",
-    "rugged",
-    "autorepair"
+    "rugged"
   ],
   "weaponSlots": [
     {

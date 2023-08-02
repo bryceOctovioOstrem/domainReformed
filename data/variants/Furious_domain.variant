@@ -17,9 +17,12 @@
       "weapons": {
         "WS0001": "vulcan",
         "WS0003": "lightdualmg",
-        "WS0011": "lightmg",
-        "WS0012": "lightmg",
-        "WS0013": "lightmg",
+        "WS0008": "Oerlikon",
+        "WS0009": "Oerlikon",
+        "WS0010": "Oerlikon",
+        "WS0011": "Oerlikon",
+        "WS0012": "Oerlikon",
+        "WS0013": "Oerlikon",
         "WS0015": "flak",
         "WS0017": "flak"
       }
@@ -33,9 +36,6 @@
         "WS0005": "vulcan",
         "WS0006": "vulcan",
         "WS0007": "vulcan",
-        "WS0008": "lightmg",
-        "WS0009": "lightmg",
-        "WS0010": "lightmg",
         "WS0016": "flak",
         "WS0018": "flak"
       }

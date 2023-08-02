@@ -9,7 +9,9 @@
   "permaMods": [],
   "hullMods": [
     "armoredweapons",
-    "defensive_targeting_array"
+    "defensive_targeting_array",
+    "autorepair",
+    "repair_gantry"
   ],
   "weaponGroups": [
     {
