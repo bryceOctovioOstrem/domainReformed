@@ -2,7 +2,7 @@
 	id:"DR",
 	"color":[252,213,134,255],
 	"displayName":"Domain",
-	"displayNameWithArticle":"the Domain Reformed",
+	"displayNameWithArticle":"the Domain",
 	"logo":"graphics/DR/factions/domain.png",
 	"crest":"graphics/DR/factions/domain_crest.png",
 	"entityNamePrefix":"Domain",
@@ -38,13 +38,15 @@
 		"yorktown_domain":999,
 		"Moskva_domain":999,
 		"hosho_domain":999,
-	},
+		"Geobukseon_domain":999,
+		"town_domain":999,
+		"yamato_domain":999,
+		"Ford_domain":999,
+},	
 	
 	# multiplier for how often hulls show up in the faction's fleets
 	"hullFrequency":{
 		"tags":{
-			"heg_aux_bp":2,
-			"XIV_bp":0.25,
 		},
 		"hulls":{
 			"buffalo2":0, # just say no
@@ -68,7 +70,7 @@
 		],
 	},
 	"knownFighters":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "hegemony"],
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hegemony","DR"],
 		"fighters":[
 			"thunder_wing",
 			"hoplon_wing",
@@ -83,7 +85,7 @@
 		],
 	},
 	"knownWeapons":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "missile_bp", "hegemony"],
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "missile_bp", "hegemony","DR"],
 		"weapons":[
 			"railgun",
 			"dualflak",
@@ -99,13 +101,13 @@
 		],
 	},
 	"priorityWeapons":{
-		"tags":[],
+		"tags":[DR],
 		"weapons":[
 		"mjolnir",
 		],
 	},
 	"knownHullMods":{
-		"tags":["base_bp", "hegemony"],
+		"tags":["base_bp", "hegemony","DR"],
 		"hullMods":[
 			"advancedshieldemitter",
 			"turretgyros",
@@ -137,7 +139,7 @@
 		"phaseShips":0,
 		
 		"officerQuality":1,
-		"shipQuality":3,
+		"shipQuality":2,
 		"numShips":5,
 		
 		"shipSize":5,

@@ -19,11 +19,17 @@
       "mode": "LINKED",
       "weapons": {
         "WS0003": "vulcan",
-        "WS0006": "lightmg",
+        "WS0006": "Oerlikon",
+        "WS0007": "Oerlikon",
         "WS0008": "vulcan",
-        "WS0010": "lightmg",
-        "WS0012": "lightmg",
-        "WS0014": "lightmg"
+        "WS0010": "Oerlikon",
+        "WS0011": "Oerlikon",
+        "WS0012": "Oerlikon",
+        "WS0013": "Oerlikon",
+        "WS0014": "Oerlikon",
+        "WS0015": "Oerlikon",
+        "WS0018": "Oerlikon",
+        "WS0019": "Oerlikon"
       }
     },
     {
@@ -31,13 +37,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0004": "vulcan",
-        "WS0007": "lightmg",
-        "WS0009": "vulcan",
-        "WS0011": "lightmg",
-        "WS0013": "lightmg",
-        "WS0015": "lightmg",
-        "WS0018": "lightmg",
-        "WS0019": "lightmg"
+        "WS0009": "vulcan"
       }
     },
     {

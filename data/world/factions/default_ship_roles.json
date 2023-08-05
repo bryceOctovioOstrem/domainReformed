@@ -8,14 +8,18 @@
 	},
 	"combatSmall":{
 		"Virginia_domain":2,
-		"popov_domain":1,
+		#"popov_domain":1,
+		"Geobukseon_domain":1,
 		"tashkent_domain":3,
+		"town_domain":1,
 		"fallback":{"combatMedium":0.5},
 	},
 	"combatMedium":{
-		"popov_domain":1,
+		#"popov_domain":1,
+		#"Geobukseon _domain":1,
+		"town_domain":3,
 		"StLouis_domain":1,
-		"indianopolis_domain":1,
+		"indianopolis_domain":2,
 		"fallback":{"combatSmall":1},
 	},
 	"combatLarge":{
@@ -63,6 +67,7 @@
 	"carrierLarge":{
 		"yorktown_domain":2,
 		"Queen_Elizabeth_domain":1.5,
+		"Ford_domain":1,
 		"fallback":{"carrierMedium":1},
 		"fallback2":{"carrierSmall":1},
 	},
@@ -95,6 +100,7 @@
 	"tankerLarge":{
 		"yorktown_domain":2,
 		"Queen_Elizabeth_domain":1.5,
+		"Ford_domain":1,
 		"fallback":{"tankerMedium":1},
 		"fallback2":{"tankerSmall":1},
 	},

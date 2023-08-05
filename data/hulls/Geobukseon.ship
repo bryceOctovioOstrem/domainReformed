@@ -1,0 +1,149 @@
+{
+  "hullName": "Geobukseon",
+  "hullId": "Geobukseon",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/DR/ships/Geobukseon.PNG",
+  "style": "LOW_TECH",
+  "height": 227,
+  "width": 70,
+  "center": [35, 113.5],
+  "collisionRadius": 116.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 120.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 90,
+      "locations": [69, 19]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -90,
+      "locations": [69, -19]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 90,
+      "locations": [49, 19]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -90,
+      "locations": [49, -19]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 90,
+      "locations": [28, 18.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -90,
+      "locations": [28, -18.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-12, 18.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-12, -18.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-32, 19]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-32, -19]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-52, 19]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-52, -19]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 180,
+      "locations": [-57.5, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    100.5, -20,
+    100, 19.5,
+    56.5, 29,
+    28, 31,
+    -3.5, 30,
+    -77, 21,
+    -77, -20.5,
+    -3.5, -32,
+    30, -32,
+    56.5, -30.5
+  ]
+}
