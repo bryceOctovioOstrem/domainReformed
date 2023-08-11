@@ -1,0 +1,177 @@
+{
+  "hullName": "New Hull",
+  "hullId": "new_hull",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/DR/ships/benson.png",
+  "style": "LOW_TECH",
+  "height": 369,
+  "width": 43,
+  "center": [21.5, 184.5],
+  "collisionRadius": 186.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 189,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 62,
+      "locations": [82.5, 9.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -46.5,
+      "locations": [82.5, -9.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 90,
+      "locations": [8.5, -1]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 168,
+      "angle": 90,
+      "locations": [-19.5, 13.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [-14.5, -11.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-66.5, 0.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 274,
+      "angle": 180,
+      "locations": [-105.5, 0.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 294,
+      "angle": 180,
+      "locations": [-137.5, 0.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [101.5, 1]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [129.5, -0.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-43.5, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-185, 9.5],
+      "length": 23,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "COBRA_BOMBER",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-185.5, -9.5],
+      "length": 23,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-185.5, -0.5],
+      "length": 32.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [30.5, -0],
+      "length": 8,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-18.5, -0],
+      "length": 8,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    182.5, -0.5,
+    167, 7,
+    122.5, 13,
+    72, 16,
+    -80.5, 17.5,
+    -130.5, 15.5,
+    -159, 13.5,
+    -165.5, 18.5,
+    -182.5, 11.5,
+    -183.5, -12,
+    -165.5, -19,
+    -157.5, -14,
+    -130.5, -15.5,
+    -80.5, -16,
+    72.5, -15,
+    123.5, -12,
+    168.5, -6
+  ]
+}

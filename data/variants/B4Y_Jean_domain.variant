@@ -1,0 +1,23 @@
+{
+  "variantId": "B4Y_Jean_domain",
+  "hullId": "B4Y_Jean",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "waterTorp"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

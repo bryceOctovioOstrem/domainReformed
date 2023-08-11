@@ -1,0 +1,63 @@
+{
+  "hullName": "A4N",
+  "hullId": "A4N",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/A4N.PNG",
+  "style": "LOW_TECH",
+  "height": 37,
+  "width": 58,
+  "center": [29, 18.5],
+  "collisionRadius": 32,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 33,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13.5, 8.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [13.5, -8.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    17.5, 3,
+    13.5, 3,
+    13.5, 27,
+    9.5, 29,
+    5.5, 24,
+    2.5, 23,
+    2.5, 2,
+    -9.5, 2,
+    -9.5, 1,
+    -10.5, 1,
+    -14.5, 10,
+    -18.5, 1.5,
+    -14.5, -0,
+    -18, -3,
+    -15.5, -9.5,
+    -10.5, -2,
+    -10.5, -1,
+    -9.5, -1,
+    -9.5, -2,
+    2.5, -2,
+    2.5, -21,
+    5.5, -24,
+    8.5, -29,
+    13.5, -27,
+    13.5, -3,
+    17.5, -3
+  ]
+}

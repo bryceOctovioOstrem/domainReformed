@@ -85,7 +85,8 @@
 		],
 	},
 	"knownWeapons":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "missile_bp", "hegemony","DR"],
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "missile_bp", "hegemony","DR","ind", "independent",*,"merc","rare_bp","restricted","hist1t","omega"],
+		#"tags":[*],
 		"weapons":[
 			"railgun",
 			"dualflak",
@@ -134,7 +135,7 @@
 		],
 	},
 	"factionDoctrine":{
-		"warships":3,
+		"warships":4,
 		"carriers":4,
 		"phaseShips":0,
 		
@@ -167,10 +168,10 @@
 	"music":{
 		"theme":"music_DR_theme",
 		"market_neutral":"music_DR_theme",
-		"market_hostile":"music_DR_theme",
+		"market_hostile":"music_DR_theme_hostile",
 		"market_friendly":"music_DR_theme",
 		"encounter_neutral":"music_DR_theme",
-		"encounter_hostile":"music_DR_theme",
+		"encounter_hostile":"music_DR_theme_hostile",
 		"encounter_friendly":"music_DR_theme",
 	},	
 	#"internalComms":"hegemony_internal",

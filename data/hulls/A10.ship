@@ -1,0 +1,69 @@
+{
+  "hullName": "A10",
+  "hullId": "A10",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/A10.PNG",
+  "style": "LOW_TECH",
+  "height": 70,
+  "width": 76,
+  "center": [38, 35],
+  "collisionRadius": 38.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 39.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [35, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23, 6],
+      "length": 20,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-23, -6],
+      "length": 20,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    34, -0,
+    30, 3,
+    5, 3,
+    2, 37,
+    -6, 37,
+    -6, 9,
+    -19.5, 8.5,
+    -22, 2,
+    -26, 2,
+    -26, 12.5,
+    -34, 12,
+    -34, -11.5,
+    -26, -13,
+    -26, -2,
+    -22, -2,
+    -20, -9,
+    -8.5, -9,
+    -8.5, -9,
+    -8.5, -9,
+    -8.5, -9,
+    -6, -37.5,
+    3, -37,
+    5, -3,
+    30, -3
+  ]
+}

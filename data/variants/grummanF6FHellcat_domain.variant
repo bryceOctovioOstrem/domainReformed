@@ -1,0 +1,25 @@
+{
+  "variantId": "grummanF6FHellcat_domain",
+  "hullId": "grummanF6FHellcat",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "annihilator_fighter",
+        "WS0004": "annihilator"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

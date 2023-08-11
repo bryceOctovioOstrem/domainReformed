@@ -3,9 +3,20 @@
         "music_DR_theme":[
 			{
                 "source":"sounds/music",
-				"volume":0.3,
+				"volume":0.2,
 				"files":[
 					"Auferstanden_Aus_Ruinen_Instrumental.ogg",
+				],
+				"randomStart":false, 
+			},
+		],
+
+	"music_DR_theme_hostile":[
+			{
+               	 "source":"sounds/music",
+				"volume":0.8,
+				"files":[
+					"Verdi Requiem - Tuba Mirum.ogg",
 				],
 				"randomStart":false, 
 			},

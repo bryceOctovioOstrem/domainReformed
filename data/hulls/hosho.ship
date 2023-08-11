@@ -7,9 +7,9 @@
   "height": 376,
   "width": 93,
   "center": [46.5, 188],
-  "collisionRadius": 0,
+  "collisionRadius": 195,
   "shieldCenter": [0, 0],
-  "shieldRadius": 0,
+  "shieldRadius": 203,
   "viewOffset": 0,
   "builtInMods": [
     "rugged",

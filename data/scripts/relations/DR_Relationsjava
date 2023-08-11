@@ -1,9 +1,0 @@
-    
-    
-    
-public class CMCWorldGen implements SectorGeneratorPlugin {    
-    @Override
-    public void generate(SectorAPI sector) {
-        
-    }
-}

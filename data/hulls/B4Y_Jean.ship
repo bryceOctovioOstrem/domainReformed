@@ -1,0 +1,62 @@
+{
+  "hullName": "B4Y_Jean",
+  "hullId": "B4Y_Jean",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/B4Y_Jean.PNG",
+  "style": "LOW_TECH",
+  "height": 45,
+  "width": 63,
+  "center": [31.5, 22.5],
+  "collisionRadius": 33.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 34.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 196,
+      "angle": 180,
+      "locations": [-4.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [23, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    11.5, -2.5,
+    20.5, -2.5,
+    20.5, 2.5,
+    11.5, 2.5,
+    11.5, 29.5,
+    7.5, 31.5,
+    1.5, 27.5,
+    1.5, 7.5,
+    4, 2.5,
+    -14.5, 1,
+    -14.5, 6.5,
+    -17.5, 9.5,
+    -20.5, 7,
+    -20.5, 1.5,
+    -20, -0,
+    -20.5, -1.5,
+    -20.5, -7.5,
+    -17.5, -9.5,
+    -14.5, -7.5,
+    -14.5, -1.5,
+    3.5, -2.5,
+    2, -7.5,
+    1.5, -27.5,
+    7, -31.5,
+    11.5, -29
+  ]
+}

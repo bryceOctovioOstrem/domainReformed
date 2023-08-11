@@ -1,0 +1,28 @@
+{
+  "variantId": "F-35_domain",
+  "hullId": "F-35",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightneedler",
+        "WS0002": "lightneedler",
+        "WS0003": "harpoon_hidden",
+        "WS0004": "harpoon_hidden"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

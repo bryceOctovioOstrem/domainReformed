@@ -1,0 +1,93 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    "startingFaction": false,
+    "rebelFleetSuffix":"Traitors",
+    
+    "marketSpawnWeight":2,
+    "difficultyString":"hard",
+
+    #"startRelationships":{ "tritachyon": -0.3, "persean":-0.6 },
+    "maxRelationships":{ "remnant":-0.51,"luddic_path":-0.7,"luddic_church": -0.35},
+    "diplomacyPositiveChance":{ "tritachyon":0.8 },
+    "diplomacyNegativeChance":{ "tritachyon":1.2 },
+    "dispositions":{
+        "persean": -10,
+        "sindrian_diktat": -10,
+    },
+    
+    "alignments":{
+        "technocratic":-0.5,
+        "hierarchical":1,
+        "militarist":1,
+        "diplomatic":-0.5,
+        "ideological":-0.5,
+    },
+    "diplomacyTraits":["selfrighteous", "irredentist", "foreverwar","paranoid"],
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":1.2,	# baseline expansion behaviour
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    
+    "groundBattleSettings":{
+        "moraleDamageTakenMult":1.3,
+    },
+    
+    "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+    #"specialForcesFlagshipVariants":{ "paragon_Elite":1, "astral_Strike":0.5 },
+    
+    "startShipsSolo":[
+	  ["swp_alastor_xiv_eli"],
+	  ["lasher_Starting"]
+	],
+    "startShipsCombatSmall":[
+      ["swp_caliber_sta", "swp_brawler_hegemony_ass", "swp_lasher_xiv_eli"],
+      ["enforcer_Balanced", "lasher_CS", "wolf_hegemony_CS"]
+    ],
+    "startShipsTradeSmall":[["mule_Starting", "hound_hegemony_Standard", "kite_hegemony_Interceptor"]],
+    "startShipsCombatLarge":[
+      ["swp_punisher_sta", "swp_caliber_cs", "wolf_hegemony_CS"],
+      ["dominator_Assault", "enforcer_Escort", "kite_hegemony_Interceptor"]
+    ],
+    "startShipsTradeLarge":[["colossus_Standard", "mule_Standard", "kite_Starting"]],
+    "startShipsExplorerLarge":[["venture_Balanced", "buffalo_hegemony_Standard", "shepherd_Frontier"]],
+    "startShipsCarrierSmall":[["condor_Attack", "lasher_Standard", "hound_hegemony_Standard"]],
+    "startShipsCarrierLarge":[["mora_Assault", "enforcer_Escort", "lasher_Strike"]],
+    #"startShipsGrandFleet":[["onslaught_xiv_Elite"]],
+    
+    "startSpecialItems":[
+        [["DR_package", ""]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+        {"ids":["orbitalstation_low", "battlestation_low", "starfortress_low"], "weight":0.8},
+    ],
+    
+    #"industrySeeds":[
+        #{"id":""heavyindustry"", "mult":0.9},
+        #{"id":"fuelprod", "mult":0.1},
+        #{"id":"heavyindustry", "mult":0.1},
+    #],
+    
+    "bonusSeeds":[
+        #{"id":"population_upsize", "count":1},
+        {"id":"nanoforge_corrupted", "count":1},
+        #{"id":"synchrotron", "count":1},
+    ],
+    "invasionStrengthBonusDefend":3,
+    "maxColonyDistance": 30,
+    "invasionPointMult":1.125,
+    "invasionFleetSizeMod":1.5,
+    "responseFleetSizeMod": 1.25,
+    "morality":"amoral",
+
+    # Number of entries must equal number of vengeance tiers (0-3)
+    "vengeanceLevelNames":["correction", "retribution", "extermination"],
+    "vengeanceFleetNames":["Correction", "Retribution", "Extermination"],
+    "vengeanceFleetNamesSingle":["a Correction fleet", "a Retribution Fleet", "an Extermination Armada"],
+    "vengeanceFleetSizeMult":2.5,
+	
+	"specialForcesSizeMult":1.5,
+	"specialForcesPointMult": 1,
+
+}
