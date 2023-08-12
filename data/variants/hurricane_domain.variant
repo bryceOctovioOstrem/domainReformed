@@ -13,8 +13,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "hammer_single",
-        "WS0002": "hammer_single",
+        "WS0001": "waterTorp",
+        "WS0002": "waterTorp",
         "WS0003": "vulcan",
         "WS0004": "vulcan"
       }
