@@ -1,0 +1,29 @@
+{
+  "variantId": "euroFighter_domain",
+  "hullId": "euroFighter",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sabot_fighter",
+        "WS0002": "sabot_fighter",
+        "WS0003": "atropos_single",
+        "WS0004": "atropos_single",
+        "WS0005": "breach",
+        "WS0006": "breach",
+        "WS0007": "harpoon_single",
+        "WS0008": "harpoon_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

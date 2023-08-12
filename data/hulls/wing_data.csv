@@ -6,3 +6,4 @@ A4N_wing,A4N_domain,"interceptor1, interceptor,DR, merc, pirate",2,,2,6,V,4000,5
 B4Y_Jean_wing,B4Y_Jean_domain,"bomber3, bomber,DR, merc, pirate",0,,3,20,V,4000,2000,700,3,BOMBER,Bomber,15,5000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,117
 F-35_wing,F-35_domain,"fighter4, fighter,DR",4,,10,30,V,6000,500,600,1,FIGHTER,Heavy Interceptor,10,10000,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,
 A10_wing,A10_domain,"bomber3, bomber,DR, merc, pirate",0,,4,20,V,4000,2000,600,3,BOMBER,Bomber,15,4000,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,
+euroFighter_wing,euroFighter_domain,"bomber4, bomber,DR, merc, pirate",4,,5,18,V,4000,2000,600,3,BOMBER,Bomber,18,11000,,,,,,,,,,,,,11,,,,,,,,,,,,,,,,,,,,,,,,,
