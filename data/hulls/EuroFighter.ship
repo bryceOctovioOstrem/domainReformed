@@ -1,0 +1,148 @@
+{
+  "hullName": "EuroFighter",
+  "hullId": "EuroFighter",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/EuroFighter.PNG",
+  "style": "LOW_TECH",
+  "height": 68,
+  "width": 46,
+  "center": [23, 34],
+  "collisionRadius": 34.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 36,
+  "viewOffset": 0,
+  "builtInMods": [
+    "eccm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5, -7]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5, 7]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -11]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0, 11],
+      "renderOrderMod": -20
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-11, -19]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-11, 19],
+      "renderOrderMod": -20
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-6, 15],
+      "renderOrderMod": -20
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-6, -15]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-30.5, 2.5],
+      "length": 10,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-30.5, -1.5],
+      "length": 10,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    33.5, -0,
+    29, 1,
+    24, 2,
+    17, 8,
+    17, 3,
+    15, 3,
+    15, 4,
+    8, 4,
+    -16, 22,
+    -13, 23,
+    -22, 23,
+    -22, 5,
+    -25, 5,
+    -25, 4,
+    -30, 4,
+    -30, -4,
+    -25, -4,
+    -25, -5,
+    -24, -5,
+    -22, -5,
+    -22, -22,
+    -24, -22,
+    -24, -23,
+    -13, -23,
+    -13, -22,
+    -15, -22,
+    -15, -21,
+    9, -4,
+    15, -4,
+    15, -3,
+    17, -3,
+    17, -8,
+    24, -2,
+    29, -1
+  ]
+}
