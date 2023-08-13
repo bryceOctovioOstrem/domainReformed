@@ -33,20 +33,38 @@
     {
       "id": "WS0003",
       "size": "SMALL",
-      "type": "MISSILE",
+      "type": "BALLISTIC",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [12.5, -21]
+      "locations": [12.5, 13.5]
     },
     {
       "id": "WS0004",
       "size": "SMALL",
-      "type": "MISSILE",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [12.5, -13.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [12.5, 17]
+      "locations": [12.5, 15.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [12.5, -15.5]
     }
   ],
   "engineSlots": [],
