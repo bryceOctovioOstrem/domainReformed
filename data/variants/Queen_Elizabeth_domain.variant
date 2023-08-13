@@ -9,14 +9,8 @@
   "permaMods": [],
   "hullMods": [
     "pointdefenseai",
-    "rugged",
-    "targetingunit",
-    "ballistic_rangefinder",
     "ecm",
-    "expanded_deck_crew",
-    "operations_center",
-    "armoredweapons",
-    "recovery_shuttles"
+    "operations_center"
   ],
   "weaponGroups": [
     {
@@ -43,13 +37,13 @@
   ],
   "modules": [],
   "wings": [
-    "xyphos_wing",
-    "claw_wing",
-    "longbow_wing",
-    "longbow_wing",
-    "longbow_wing",
-    "dagger_wing",
-    "dagger_wing",
-    "dagger_wing"
+    "F-35_wing",
+    "F-35_wing",
+    "euroFighter_wing",
+    "euroFighter_wing",
+    "euroFighter_wing",
+    "euroFighter_wing",
+    "euroFighter_wing",
+    "euroFighter_wing"
   ]
 }

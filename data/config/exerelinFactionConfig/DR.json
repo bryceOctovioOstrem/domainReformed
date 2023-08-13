@@ -7,13 +7,25 @@
     "marketSpawnWeight":2,
     "difficultyString":"hard",
 
-    #"startRelationships":{ "tritachyon": -0.3, "persean":-0.6 },
+    #"startRelationships":{ 
+	"tritachyon": -0.72, 
+	"persean":-0.6,
+	"sindrian_diktat": -0.69,
+	"hegemony": 0.9,
+	#"ironshell": 0.75,
+	#"battlefleets_imperium": -0.54,
+	#"sevencorp": -0.5,
+	#"xlu": -0.75,
+
+ },
     "maxRelationships":{ "remnant":-0.51,"luddic_path":-0.7,"luddic_church": -0.35},
     "diplomacyPositiveChance":{ "tritachyon":0.8 },
     "diplomacyNegativeChance":{ "tritachyon":1.2 },
     "dispositions":{
-        "persean": -10,
-        "sindrian_diktat": -10,
+        "persean": -80,
+        "sindrian_diktat": -69,
+        "hegemony": 80,
+	"tritachyon": -72,
     },
     
     "alignments":{

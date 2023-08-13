@@ -78,10 +78,8 @@
 		],
 	},
 	"priorityFighters":{
-		"tags":["hegemony"],
+		"tags":["DR"],
 		"fighters":[
-		"hoplon_wing",
-		"broadsword_wing"
 		],
 	},
 	"knownWeapons":{

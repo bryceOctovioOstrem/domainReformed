@@ -1,0 +1,97 @@
+{
+  "hullName": "F22",
+  "hullId": "F22",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/F22.PNG",
+  "style": "LOW_TECH",
+  "height": 60,
+  "width": 43,
+  "center": [21.5, 28.5],
+  "collisionRadius": 32,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 33,
+  "viewOffset": 0,
+  "builtInMods": [
+    "magazines"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [16.5, 3.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [16.5, -3.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-4, -4.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4, 4.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21.5, 2],
+      "length": 12,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-21.5, -2],
+      "length": 12,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    31.5, 0,
+    31.5, -0,
+    16.5, 1.5,
+    12.5, 6.5,
+    4.5, 6.5,
+    -9, 21.5,
+    -12, 21.5,
+    -17.5, 9.5,
+    -22.5, 13.5,
+    -27.5, 13.5,
+    -27.5, 8,
+    -20.5, 3.5,
+    -20.5, -3,
+    -27.5, -7.5,
+    -27.5, -12.5,
+    -21.5, -12.5,
+    -18, -8.5,
+    -11.5, -21,
+    -8.5, -21,
+    4.5, -6.5,
+    13, -6.5,
+    16.5, -2.5
+  ]
+}

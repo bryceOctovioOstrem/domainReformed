@@ -11,6 +11,9 @@
   "shieldCenter": [0, 0],
   "shieldRadius": 316.5,
   "viewOffset": 0,
+  "builtInMods": [
+    "rugged"
+  ],
   "weaponSlots": [
     {
       "id": "WS0001",
