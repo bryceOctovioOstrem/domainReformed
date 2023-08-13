@@ -1,0 +1,28 @@
+{
+  "variantId": "TBF_domain",
+  "hullId": "TBF",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "waterTorp",
+        "WS0002": "waterTorp",
+        "WS0003": "waterTorp",
+        "WS0004": "waterTorp",
+        "WS0005": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

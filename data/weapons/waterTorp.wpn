@@ -23,6 +23,6 @@
 				 "blowbackLength":22.0,
 				 "blowbackSpread":15.0,
 				 "particleColor":[100,100,100,200]},					 
-	"projectileSpecId":"hammer_torp",
+	"projectileSpecId":"water_torp",
 	"fireSoundTwo":"hammer_fire",
 }
