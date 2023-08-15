@@ -1,0 +1,171 @@
+{
+  "hullName": "cutter",
+  "hullId": "cutter",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/DR/ships/CUTTER.PNG",
+  "style": "LOW_TECH",
+  "height": 278,
+  "width": 92,
+  "center": [46, 139],
+  "collisionRadius": 139,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 144,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "shielded_holds",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 94.5,
+      "locations": [-82.5, 21.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-66, 26]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-49, 28]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-30.5, 29]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-4.5, 29]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 82.5,
+      "locations": [14, 26]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -76,
+      "locations": [15, -25]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-4.5, -28]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-30.5, -28]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-48.5, -27]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-65.5, -26]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -96,
+      "locations": [-84, -22]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -113,
+      "locations": [-92, -10]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 115.5,
+      "locations": [-92, 9]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    138, 2,
+    46.5, 3.5,
+    40.5, 10.5,
+    31.5, 17.5,
+    16, 24,
+    -5, 26.5,
+    -36.5, 26.5,
+    -64.5, 24,
+    -82, 20.5,
+    -97.5, 16,
+    -111.5, 9.5,
+    -111.5, -9,
+    -98.5, -16.5,
+    -82.5, -20.5,
+    -64, -24,
+    -36.5, -25,
+    -4.5, -25.5,
+    19, -21.5,
+    33.5, -16.5,
+    41, -10.5,
+    46.5, 0.5
+  ]
+}

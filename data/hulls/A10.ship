@@ -14,7 +14,7 @@
   "weaponSlots": [
     {
       "id": "WS0001",
-      "size": "MEDIUM",
+      "size": "LARGE",
       "type": "BALLISTIC",
       "mount": "HIDDEN",
       "arc": 0,

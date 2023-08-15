@@ -9,15 +9,17 @@
 	"combatSmall":{
 		"Virginia_domain":2,
 		#"popov_domain":1,
-		"Geobukseon_domain":1,
+		"Geobukseon_domain":2,
 		"tashkent_domain":3,
 		"town_domain":1,
+		"atlanta_domain":1,
 		"fallback":{"combatMedium":0.5},
 	},
 	"combatMedium":{
 		#"popov_domain":1,
-		#"Geobukseon _domain":1,
+		"Geobukseon_domain":1,
 		"town_domain":3,
+		"atlanta_domain":3,
 		"StLouis_domain":1,
 		"indianopolis_domain":2,
 		"fallback":{"combatSmall":1},
@@ -42,6 +44,7 @@
 		"fallback":{"freighterSmall":1},
 	},
 	"combatFreighterMedium":{
+		"liberty_domain":1,
 		"fallback":{"combatFreighterSmall":1},
 	},
 	"combatFreighterLarge":{
@@ -79,6 +82,7 @@
 		"fallback2":{"freighterLarge":0.25},
 	},
 	"freighterMedium":{
+		"liberty_domain":1,
 		"fallback":{"freighterSmall":1},
 		"fallback2":{"freighterLarge":0.5},
 	},

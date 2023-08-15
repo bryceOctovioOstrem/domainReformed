@@ -1,0 +1,33 @@
+{
+  "variantId": "liberty_domain",
+  "hullId": "liberty",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "shielded_holds"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "Oerlikon",
+        "WS0002": "Oerlikon",
+        "WS0003": "Oerlikon",
+        "WS0004": "Oerlikon",
+        "WS0005": "Oerlikon",
+        "WS0006": "Oerlikon",
+        "WS0007": "Oerlikon",
+        "WS0008": "Oerlikon",
+        "WS0009": "flak",
+        "WS0010": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

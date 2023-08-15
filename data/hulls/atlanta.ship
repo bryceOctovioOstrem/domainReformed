@@ -1,0 +1,450 @@
+{
+  "hullName": "atlanta",
+  "hullId": "atlanta",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/DR/ships/atlanta.png",
+  "style": "LOW_TECH",
+  "height": 531,
+  "width": 103,
+  "center": [51.5, 265.5],
+  "collisionRadius": 270,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 276,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pointdefenseai",
+    "ballistic_rangefinder",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 301,
+      "angle": 0,
+      "locations": [177.5, 0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 285,
+      "angle": 0,
+      "locations": [147.5, 0.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 0,
+      "locations": [125.5, 0.5],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": 0,
+      "locations": [108.5, 0.5],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 163,
+      "angle": 90,
+      "locations": [75.5, 20.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 161,
+      "angle": -90,
+      "locations": [74.5, -19.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 71,
+      "angle": 90,
+      "locations": [3.5, 15.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": 90,
+      "locations": [-9.5, 16.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 110,
+      "locations": [-56.5, 16.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -112,
+      "locations": [-56.5, -16.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 88,
+      "angle": -90,
+      "locations": [-30.5, -15.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": -90,
+      "locations": [-9.5, -16.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 71,
+      "angle": -90,
+      "locations": [2.5, -17.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 90,
+      "locations": [-30.5, 17.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 264,
+      "angle": 180,
+      "locations": [-66.5, -0],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-194.5, 11.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-212.5, 0.5]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-195.5, -9.5]
+    },
+    {
+      "id": "WS0019",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 264,
+      "angle": 180,
+      "locations": [-89, 0.5],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0020",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 264,
+      "angle": 180,
+      "locations": [-114, -0.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0021",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 264,
+      "angle": 180,
+      "locations": [-140, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-266.5, 43.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-263.5, 37],
+      "length": 16.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-263, 35],
+      "length": 16.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-262.5, 33.5],
+      "length": 16.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-262, 31.5],
+      "length": 16.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-261.5, 30],
+      "length": 16.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-261, 28.5],
+      "length": 16.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-260.5, 27],
+      "length": 16.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-260, 25],
+      "length": 16.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-260, -25],
+      "length": 16.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-240.5, 17],
+      "length": 21.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-241.5, 13],
+      "length": 21.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-242.5, 9],
+      "length": 21.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-244, 5],
+      "length": 21.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-244.5, 1],
+      "length": 21.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-244, -3.5],
+      "length": 21.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-243, -7.5],
+      "length": 21.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-242, -12],
+      "length": 21.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-261.5, -27],
+      "length": 16.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-262.5, -29],
+      "length": 16.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-262.5, -31],
+      "length": 16.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-263, -33],
+      "length": 16.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-263.5, -35],
+      "length": 16.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-264, -37],
+      "length": 16.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-267, -43],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-6, 0.5],
+      "length": 9,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [44.5, 0.5],
+      "length": 9,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    265, -0,
+    255.5, 5.5,
+    225.5, 8,
+    111, 20,
+    -84, 22,
+    -153, 20.5,
+    -229, 12,
+    -234, 2,
+    -231, -10.5,
+    -148.5, -20,
+    -82, -21.5,
+    112.5, -19.5,
+    225, -8,
+    256, -6
+  ]
+}

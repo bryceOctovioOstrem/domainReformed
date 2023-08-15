@@ -21,6 +21,18 @@
 				"randomStart":false, 
 			},
 		],
-    }
+    
+        "music_DR_theme_hostile_market":[
+			{
+                "source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"Vaughan Williams Dona Nobis Pacem II. Beat! Beat! Drums!.ogg",
+				],
+				"randomStart":false, 
+			},
+		],
+
+	}
 
 }

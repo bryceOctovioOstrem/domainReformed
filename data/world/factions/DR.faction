@@ -42,6 +42,8 @@
 		"town_domain":999,
 		"yamato_domain":999,
 		"Ford_domain":999,
+		"liberty_domain":999,
+		"atlanta_domain":999,
 },	
 	
 	# multiplier for how often hulls show up in the faction's fleets
@@ -102,7 +104,6 @@
 	"priorityWeapons":{
 		"tags":[DR],
 		"weapons":[
-		"mjolnir",
 		],
 	},
 	"knownHullMods":{
@@ -166,7 +167,7 @@
 	"music":{
 		"theme":"music_DR_theme",
 		"market_neutral":"music_DR_theme",
-		"market_hostile":"music_DR_theme_hostile",
+		"market_hostile":"music_DR_theme_hostile_market",
 		"market_friendly":"music_DR_theme",
 		"encounter_neutral":"music_DR_theme",
 		"encounter_hostile":"music_DR_theme_hostile",
