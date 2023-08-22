@@ -71,13 +71,13 @@
   ],
   "modules": [],
   "wings": [
-    "A10_wing",
-    "A10_wing",
-    "A10_wing",
+    "B-1_wing",
+    "hornet_wing",
+    "hornet_wing",
     "A10_wing",
     "F22_wing",
     "F22_wing",
-    "F-35_wing",
+    "hornet_wing",
     "F-35_wing",
     "F-35_wing",
     "F-35_wing"

@@ -86,7 +86,7 @@
         {"id":"nanoforge_corrupted", "count":1},
         #{"id":"synchrotron", "count":1},
     ],
-    "invasionStrengthBonusDefend":3,
+    "invasionStrengthBonusDefend":2,
     "maxColonyDistance": 30,
     "invasionPointMult":1.125,
     "invasionFleetSizeMod":1.5,

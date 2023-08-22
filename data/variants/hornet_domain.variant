@@ -1,0 +1,29 @@
+{
+  "variantId": "hornet_domain",
+  "hullId": "hornet",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightneedler",
+        "WS0002": "lightneedler",
+        "WS0003": "atropos",
+        "WS0004": "atropos",
+        "WS0005": "sabot_fighter",
+        "WS0006": "sabot_fighter",
+        "WS0007": "harpoon_single",
+        "WS0008": "harpoon_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

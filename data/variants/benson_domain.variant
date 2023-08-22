@@ -1,0 +1,32 @@
+{
+  "variantId": "benson_domain",
+  "hullId": "benson",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "Oerlikon",
+        "WS0002": "Oerlikon",
+        "WS0003": "annihilator",
+        "WS0004": "Oerlikon",
+        "WS0005": "Oerlikon",
+        "WS0006": "annihilator",
+        "WS0007": "flak",
+        "WS0008": "heavyblaster",
+        "WS0009": "railgun",
+        "WS0010": "heavyblaster",
+        "WS0011": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

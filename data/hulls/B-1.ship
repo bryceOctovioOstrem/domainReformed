@@ -1,0 +1,88 @@
+{
+  "hullName": "B-1",
+  "hullId": "B-1",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/B-1.png",
+  "style": "LOW_TECH",
+  "height": 99,
+  "width": 89,
+  "center": [44.5, 49.5],
+  "collisionRadius": 52,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 55,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [49.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23.5, 10],
+      "length": 15,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-23.5, -10],
+      "length": 15,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-23.5, 6],
+      "length": 12,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-23.5, -6],
+      "length": 12,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    46.5, -0,
+    39.5, 2.5,
+    37.5, 3.5,
+    37.5, 2.5,
+    23, 2.5,
+    2, 10.5,
+    -9, 44,
+    -13, 44,
+    -10.5, 15,
+    -7, 11.5,
+    -21, 11.5,
+    -21.5, 3.5,
+    -34.5, 2.5,
+    -47.5, 14.5,
+    -43, 0.5,
+    -48, -14.5,
+    -34.5, -3,
+    -21, -3.5,
+    -21, -11.5,
+    -7, -11.5,
+    -13, -44,
+    3, -10,
+    22.5, -3.5,
+    32.5, -2.5,
+    38.5, -2.5,
+    38.5, -3.5,
+    40.5, -2.5
+  ]
+}

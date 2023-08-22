@@ -1,5 +1,6 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-Type 94,type_94,3,,10000,1250,,1700,,1200,2,20,,,,HIGH_EXPLOSIVE,1500,,0,15,1,,0,9,4,9,,2160,,,400,,,,"DR,NO_SELL",,,,GENERAL,,,,,,,,,,7.4
+Type 94,type_94,3,,10000,1250,,1700,,1200,2,20,,,,HIGH_EXPLOSIVE,1500,,0,15,1,,0,9,4,9,,2160,,,400,,,,DR,,,,GENERAL,,,,,,,,,,7.4
 Oerlikon 20 mm cannon,Oerlikon,0,,150,280,,25,,1,55,3,,,,KINETIC,3,,0,0.3,6,0.1,0,5,1,15,,600,,,10,,,PD,DR,,,,Point Defense,,,,,,,,,,0.5
 water-class Torpedo,waterTorp,0,,0,2300,,1500,,100,10,0,1,,,HIGH_EXPLOSIVE,0,,0,5,1,,0,2,0,3,,110,110,35,5000,,,STRIKE,no_sell,,,,Torpedo,Fast,None,,,,,,,TRUE,
 Harpoon MRM_,harpoon_hidden,1,,200,2500,,750,,15,30,4,3,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,300,100,12.5,150,,,DO_NOT_AIM,"missile8, strike3, missile_bp, merc, ind",,,,Finisher,Medium,Medium,,,,,,,TRUE,11.5
+B-1 Bomb Bay,b-1Bomb,3,,1000,1000,,3360,,50,15,12,84,,,HIGH_EXPLOSIVE,0,,0,1,84,,4,12,3,0,,170,20,33,150,,,"STRIKE, BOMB","he0, no_sell, no_drop, no_drop_salvage",,,,Strike,,,,,,,,,TRUE,3.5

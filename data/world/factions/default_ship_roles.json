@@ -41,6 +41,7 @@
 	
 	# hybrid ships with good combat and cargo capacity
 	"combatFreighterSmall":{
+		"Trireme_domain":2,
 		"fallback":{"freighterSmall":1},
 	},
 	"combatFreighterMedium":{
