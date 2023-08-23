@@ -1,0 +1,105 @@
+{
+  "variantId": "Richelieu_domain",
+  "hullId": "Richelieu",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "Oerlikon",
+        "WS0002": "Oerlikon",
+        "WS0003": "Oerlikon",
+        "WS0008": "Oerlikon",
+        "WS0009": "Oerlikon",
+        "WS0010": "Oerlikon",
+        "WS0019": "Oerlikon",
+        "WS0020": "Oerlikon",
+        "WS0021": "Oerlikon",
+        "WS0025": "vulcan",
+        "WS0026": "vulcan",
+        "WS0029": "vulcan",
+        "WS0030": "vulcan",
+        "WS0031": "Oerlikon",
+        "WS0032": "vulcan",
+        "WS0040": "vulcan",
+        "WS0043": "dualflak",
+        "WS0048": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "Oerlikon",
+        "WS0006": "Oerlikon",
+        "WS0007": "Oerlikon",
+        "WS0011": "Oerlikon",
+        "WS0012": "Oerlikon",
+        "WS0013": "Oerlikon",
+        "WS0022": "Oerlikon",
+        "WS0023": "Oerlikon",
+        "WS0024": "Oerlikon",
+        "WS0027": "vulcan",
+        "WS0028": "vulcan",
+        "WS0033": "Oerlikon",
+        "WS0034": "vulcan",
+        "WS0035": "vulcan",
+        "WS0036": "vulcan",
+        "WS0041": "vulcan",
+        "WS0046": "dualflak",
+        "WS0049": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "Oerlikon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0037": "heavyac",
+        "WS0038": "heavyac",
+        "WS0039": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0042": "heavymortar",
+        "WS0044": "heavymortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0045": "heavymortar",
+        "WS0047": "heavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0050": "360",
+        "WS0051": "360"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "360",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/380.PNG",
+  "hardpointSprite": "graphics/weapons/380.PNG",
+  "glowColor": [
+    44,
+    250,
+    31,
+    255
+  ],
+  "hitGlowRadius": 30,
+  "turretOffsets": [
+    55,
+    11.5,
+    55,
+    5.5,
+    55,
+    -4.5,
+    55,
+    -11.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    255,
+    255,
+    100
+  ],
+  "coreColor": [
+    44,
+    250,
+    31,
+    255
+  ],
+  "width": 3,
+  "textureType": ROUGH2,
+  "textureScrollSpeed": 64,
+  "pixelsPerTexel": 1
+}

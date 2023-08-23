@@ -216,7 +216,7 @@
       "width": 17,
       "angle": 179,
       "contrailSize": 17,
-      "style": "COBRA_BOMBER"
+      "style": "OMEGA"
     },
     {
       "location": [26.5, -1.5],
@@ -224,7 +224,7 @@
       "width": 17,
       "angle": 179,
       "contrailSize": 17,
-      "style": "HIGH_TECH"
+      "style": "OMEGA"
     },
     {
       "location": [-11, -2],
@@ -232,7 +232,7 @@
       "width": 17,
       "angle": 179,
       "contrailSize": 17,
-      "style": "COBRA_BOMBER"
+      "style": "OMEGA"
     },
     {
       "location": [-46.5, -0.5],
@@ -240,7 +240,7 @@
       "width": 17,
       "angle": 179,
       "contrailSize": 17,
-      "style": "HIGH_TECH"
+      "style": "OMEGA"
     },
     {
       "location": [-209.5, 32.5],
