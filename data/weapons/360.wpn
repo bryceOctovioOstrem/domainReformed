@@ -52,5 +52,6 @@
   "width": 3,
   "textureType": ROUGH2,
   "textureScrollSpeed": 64,
-  "pixelsPerTexel": 1
+  "pixelsPerTexel": 1,
+  "fireSoundTwo": "380GunSounds"
 }

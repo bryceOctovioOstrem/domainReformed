@@ -7,7 +7,9 @@
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "blast_doors"
+  ],
   "weaponGroups": [
     {
       "autofire": true,
@@ -19,6 +21,11 @@
         "WS0008": "Oerlikon",
         "WS0009": "Oerlikon",
         "WS0010": "Oerlikon",
+        "WS0014": "Oerlikon",
+        "WS0015": "Oerlikon",
+        "WS0016": "Oerlikon",
+        "WS0017": "Oerlikon",
+        "WS0018": "Oerlikon",
         "WS0019": "Oerlikon",
         "WS0020": "Oerlikon",
         "WS0021": "Oerlikon",
@@ -30,7 +37,8 @@
         "WS0032": "vulcan",
         "WS0040": "vulcan",
         "WS0043": "dualflak",
-        "WS0048": "vulcan"
+        "WS0048": "vulcan",
+        "WS0052": "Oerlikon"
       }
     },
     {
