@@ -38,4 +38,8 @@
 	[
 		{"file":"sounds/sfx_wpn_guns/380SoundEffect.ogg","pitch":1,"volume":1},
 	],
+			"49GunSounds":
+	[
+		{"file":"sounds/sfx_wpn_guns/49gun.ogg","pitch":1,"volume":2},
+	],
 }

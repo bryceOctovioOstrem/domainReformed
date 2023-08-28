@@ -3,7 +3,7 @@
   "hullId": "Richelieu",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 0,
+  "fluxCapacitors": 2,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],

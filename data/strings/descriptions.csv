@@ -50,7 +50,7 @@ Geobukseon,SHIP,The Geobukseon is a holding ship with great staying power and de
 #weapons,,,,,
 type_94,WEAPON,"“The type 94 is a massive weapon consisting of three combustible light gas guns housed in a heavily armored turret in a dedicated anti-capital ship role. These guns work by igniting  a fuel mixture of hydrogen, liquid oxygen, and helium to propel an armor penetrating round with an antimatter charge.  HEGINT assets report test firing , using the example “acquired freely” from the self proclaimed Domain of Man, displays impressive velocity and range due to a flaw in the gas ignition system resulting in inaccuracy and slow reloading times. Recommend no sabotage or adoption."" - Classified report to the High Hegemon
 ",,,
-,,,,,
+360,WEAPON,"“The Quadruple 380 mm/45 Modele is comprised of four  macrons for suppressing enemy shields. These macrons fire a stream of millions of micrometer sized carbon macaroni filled with uranium-235 at incredibly fast speeds. On contact fission is achieved  creating millions of tiny explosions each eating away at the target. While this particular implantation of macron technology is inefficient a single gun version has a lot of potential as a cheaper replacement for the ion beam due to it’s incredible EMP generation potential and comparative ease of manufacture.  Recommend technology transfer."" - Classified report to the High Hegemon ",,,
 ,,,,,
 #wings,,,,,
 A10,SHIP,Big gun go BRRRRRRRRRRRRR,,,
