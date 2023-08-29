@@ -345,14 +345,14 @@
   "engineSlots": [
     {
       "location": [-444, -0],
-      "length": 237,
-      "width": 90,
+      "length": 190,
+      "width": 60,
       "angle": 180,
       "contrailSize": 90,
       "style": "COBRA_BOMBER"
     },
     {
-      "location": [7, 0.5],
+      "location": [2, 1],
       "length": 47.5,
       "width": 25,
       "angle": 180,
