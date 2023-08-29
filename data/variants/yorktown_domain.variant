@@ -116,11 +116,11 @@
   ],
   "modules": [],
   "wings": [
-    "Mustang_wing",
-    "Mustang_wing",
-    "grummanF6FHellcat_wing",
-    "grummanF6FHellcat_wing",
-    "grummanF6FHellcat_wing",
+    "TBF_wing",
+    "TBF_wing",
+    "TBF_wing",
+    "TBF_wing",
+    "TBF_wing",
     "grummanF6FHellcat_wing"
   ]
 }

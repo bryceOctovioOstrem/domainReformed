@@ -142,7 +142,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [30.5, -0],
+      "location": [28.5, -0],
       "length": 8,
       "width": 6,
       "angle": 180,
@@ -150,10 +150,10 @@
       "style": "OMEGA"
     },
     {
-      "location": [-18, -0],
+      "location": [-20.5, -0],
       "length": 8,
       "width": 6,
-      "angle": 180,
+      "angle": 176,
       "contrailSize": 6,
       "style": "OMEGA"
     }
