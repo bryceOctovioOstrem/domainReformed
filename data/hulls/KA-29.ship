@@ -1,0 +1,85 @@
+{
+  "hullName": "KA-29",
+  "hullId": "KA-29",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/Ka-29.PNG",
+  "style": "LOW_TECH",
+  "height": 76,
+  "width": 42,
+  "center": [21, 38],
+  "collisionRadius": 39,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 41,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-12, 15.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-14, 12]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-28, 3]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-14, -12.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-12, -16]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -26, 6,
+    -11, 6,
+    -11, 4,
+    -8, 4,
+    -8, 13,
+    -4, 17,
+    -2, 10,
+    6, 4.5,
+    30, 2,
+    30, 9,
+    35.5, 7.5,
+    36, -8,
+    30, -2,
+    6, -5,
+    3.5, -12.5,
+    -2, -13,
+    -4.5, -17,
+    -8, -11,
+    -8, -5,
+    -11.5, -5,
+    -26, -5.5
+  ]
+}

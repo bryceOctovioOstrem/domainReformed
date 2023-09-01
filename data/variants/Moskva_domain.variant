@@ -18,8 +18,12 @@
         "WS0001": "cyclone",
         "WS0002": "cyclone",
         "WS0003": "cyclone",
+        "WS0004": "Oerlikon",
+        "WS0005": "Oerlikon",
         "WS0006": "cyclone",
-        "WS0007": "heavymg",
+        "WS0007": "dualflak",
+        "WS0008": "Oerlikon",
+        "WS0009": "Oerlikon",
         "WS0012": "cyclone",
         "WS0013": "cyclone"
       }
@@ -27,16 +31,12 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0004": "lightmg"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0005": "lightmg"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
@@ -60,20 +60,16 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0009": "lightmg"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0008": "lightmg"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],
   "wings": [
-    "cobra_wing"
+    "KA-29_wing"
   ]
 }

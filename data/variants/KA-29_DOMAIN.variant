@@ -1,6 +1,6 @@
 {
-  "variantId": "A10_domain",
-  "hullId": "A10",
+  "variantId": "KA-29_DOMAIN",
+  "hullId": "KA-29",
   "displayName": "New Variant",
   "goalVariant": false,
   "fluxCapacitors": 0,
@@ -15,7 +15,11 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "shredder"
+        "WS0001": "lightneedler",
+        "WS0002": "lightneedler",
+        "WS0003": "lightneedler",
+        "WS0004": "lightneedler",
+        "WS0005": "lightneedler"
       }
     }
   ],

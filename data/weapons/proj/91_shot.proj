@@ -18,5 +18,5 @@
 	"passThroughMissiles":true,
 	"passThroughFighters":true,
 	"passThroughFightersOnlyWhenDestroyed":true,
-	"bulletSprite":"graphics/missiles/shell_49.png"
+	"bulletSprite":"graphics/missiles/shell_round_lrg.png"
 }

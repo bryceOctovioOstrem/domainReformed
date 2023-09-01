@@ -16,7 +16,8 @@
     "eccm",
     "ecm",
     "missleracks",
-    "rugged"
+    "rugged",
+    "malfunctioning_comms"
   ],
   "weaponSlots": [
     {
@@ -198,7 +199,7 @@
       "width": 13,
       "angle": 180,
       "contrailSize": 13,
-      "style": "COBRA_BOMBER"
+      "style": "OMEGA"
     },
     {
       "location": [-46, -12.5],
@@ -206,7 +207,7 @@
       "width": 12,
       "angle": -180,
       "contrailSize": 12,
-      "style": "COBRA_BOMBER"
+      "style": "OMEGA"
     },
     {
       "location": [-277, 1],

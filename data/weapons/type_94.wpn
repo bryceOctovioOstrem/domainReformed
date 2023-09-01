@@ -9,11 +9,11 @@
   "hardpointSprite": "graphics/weapons/DR_type94_large_hardpoint.png",
   "hardpointGunSprite": "graphics/weapons/DR_type94_large_hardpoint.png",
   "turretOffsets": [
-    82,
+    90,
     -12.5,
-    82,
+    90,
     -1,
-    82,
+    90,
     10.5
   ],
   "turretAngleOffsets": [
@@ -22,11 +22,11 @@
     0
   ],
   "hardpointOffsets": [
-    40,
+    90,
     -9,
-    40,
+    90,
     0,
-    40,
+    90,
     9
   ],
   "hardpointAngleOffsets": [
