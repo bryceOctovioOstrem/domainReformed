@@ -72,7 +72,7 @@
     },
     {
       "id": "WS0007",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
       "arc": 274,
@@ -81,7 +81,7 @@
     },
     {
       "id": "WS0008",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
       "arc": 294,
@@ -90,7 +90,7 @@
     },
     {
       "id": "WS0009",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
       "arc": 254,
@@ -99,7 +99,7 @@
     },
     {
       "id": "WS0010",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
       "arc": 291,
