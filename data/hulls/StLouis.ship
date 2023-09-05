@@ -48,7 +48,7 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "HIDDEN",
-      "arc": 170,
+      "arc": 180,
       "angle": 83,
       "locations": [131, 23]
     },
@@ -147,7 +147,7 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 245,
+      "arc": 228,
       "angle": 0,
       "locations": [125, -1]
     },
@@ -156,7 +156,7 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 253,
+      "arc": 238,
       "angle": 180,
       "locations": [-152, -1]
     }
@@ -176,7 +176,7 @@
       "width": 17,
       "angle": 90,
       "contrailSize": 128,
-      "style": "MIDLINE"
+      "style": "COBRA_BOMBER"
     },
     {
       "location": [-14.5, -49.5],
@@ -192,7 +192,7 @@
       "width": 16,
       "angle": -90,
       "contrailSize": 128,
-      "style": "MIDLINE"
+      "style": "COBRA_BOMBER"
     },
     {
       "location": [-35, -43.5],
@@ -200,7 +200,7 @@
       "width": 10,
       "angle": -90,
       "contrailSize": 128,
-      "style": "MIDLINE"
+      "style": "HIGH_TECH"
     },
     {
       "location": [-34, 41.5],
@@ -208,7 +208,7 @@
       "width": 11,
       "angle": 90,
       "contrailSize": 128,
-      "style": "MIDLINE"
+      "style": "HIGH_TECH"
     },
     {
       "location": [63.5, -1],
@@ -244,19 +244,20 @@
     },
     {
       "location": [-209.5, 32.5],
-      "length": 47.449135,
-      "width": 6.657217,
+      "length": 47.450001,
+      "width": 6.66,
       "angle": 179,
-      "contrailSize": 6.657217,
-      "style": "HIGH_TECH"
+      "contrailSize": 6.66,
+      "style": "COBRA_BOMBER"
     },
     {
       "location": [-208.5, 28],
-      "length": 47.449135,
-      "width": 6.657217,
+      "length": 47.450001,
+      "width": 6.66,
       "angle": 179,
-      "contrailSize": 6.657217,
-      "style": "HIGH_TECH"
+      "contrailSize": 6.66,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
     },
     {
       "location": [-207.5, 24.5],
@@ -268,58 +269,58 @@
     },
     {
       "location": [-206.5, 20],
-      "length": 47.449135,
-      "width": 6.657217,
+      "length": 47.450001,
+      "width": 6.66,
       "angle": 179,
-      "contrailSize": 6.657217,
-      "style": "HIGH_TECH"
+      "contrailSize": 6.66,
+      "style": "COBRA_BOMBER"
     },
     {
       "location": [-206, 16.5],
-      "length": 47.449135,
-      "width": 6.657217,
+      "length": 47.450001,
+      "width": 6.66,
       "angle": 179,
-      "contrailSize": 6.657217,
-      "style": "HIGH_TECH"
+      "contrailSize": 6.66,
+      "style": "MIDLINE"
     },
     {
       "location": [-206.5, -24.5],
-      "length": 47.449135,
-      "width": 6.657217,
+      "length": 47.450001,
+      "width": 6.66,
       "angle": 179,
-      "contrailSize": 6.657217,
-      "style": "HIGH_TECH"
+      "contrailSize": 6.66,
+      "style": "COBRA_BOMBER"
     },
     {
       "location": [-207.5, -29],
-      "length": 47.449135,
-      "width": 6.657217,
+      "length": 47.450001,
+      "width": 6.66,
       "angle": 179,
-      "contrailSize": 6.657217,
-      "style": "HIGH_TECH"
+      "contrailSize": 6.66,
+      "style": "MIDLINE"
     },
     {
       "location": [-208.5, -32.5],
-      "length": 47.449135,
-      "width": 6.657217,
+      "length": 47.450001,
+      "width": 6.66,
       "angle": 179,
-      "contrailSize": 6.657217,
+      "contrailSize": 6.66,
       "style": "HIGH_TECH"
     },
     {
       "location": [-209.5, -36.5],
-      "length": 47.449135,
-      "width": 6.657217,
+      "length": 47.450001,
+      "width": 6.66,
       "angle": 179,
-      "contrailSize": 6.657217,
-      "style": "HIGH_TECH"
+      "contrailSize": 6.66,
+      "style": "COBRA_BOMBER"
     },
     {
       "location": [-205.5, -20],
-      "length": 47.449135,
-      "width": 6.657217,
+      "length": 47.450001,
+      "width": 6.66,
       "angle": 179,
-      "contrailSize": 6.657217,
+      "contrailSize": 6.66,
       "style": "HIGH_TECH"
     }
   ],

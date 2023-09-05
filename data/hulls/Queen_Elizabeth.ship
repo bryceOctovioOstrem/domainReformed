@@ -38,8 +38,8 @@
       "size": "MEDIUM",
       "type": "UNIVERSAL",
       "mount": "TURRET",
-      "arc": 360,
-      "angle": 90,
+      "arc": 277,
+      "angle": 124.5,
       "locations": [-257.5, 82.5]
     },
     {

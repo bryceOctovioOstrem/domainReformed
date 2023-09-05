@@ -3,8 +3,8 @@
   "hullId": "tashkent",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 0,
-  "fluxVents": 20,
+  "fluxCapacitors": 20,
+  "fluxVents": 0,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -15,17 +15,29 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "railgun",
-        "WS0002": "railgun",
         "WS0003": "Oerlikon",
-        "WS0004": "Oerlikon",
-        "WS0007": "annihilator"
+        "WS0008": "vulcan",
+        "WS0011": "vulcan",
+        "WS0014": "vulcan"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0004": "Oerlikon",
+        "WS0010": "vulcan",
+        "WS0013": "vulcan",
+        "WS0015": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "railgun",
+        "WS0002": "railgun"
+      }
     },
     {
       "autofire": false,
@@ -39,26 +51,15 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "vulcan",
+        "WS0007": "annihilator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0009": "vulcan",
-        "WS0010": "vulcan",
-        "WS0011": "vulcan"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0012": "vulcan",
-        "WS0013": "vulcan"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0014": "vulcan",
-        "WS0015": "vulcan"
+        "WS0012": "vulcan"
       }
     },
     {

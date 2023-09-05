@@ -25,11 +25,11 @@
 					   "particleSizeRange":14.0,
 					   "particleDuration":0.15,
 					   "particleCount":11,
-					   "particleColor":[255,240,165,200]},	
-	"projectileSpecId":"vulcan_shot",  # projectile that will be fired
+					   "particleColor":[255,140,125,200]},	
+	"projectileSpecId":"shredder_shot",  # projectile that will be fired
 	#"noImpactSounds":true,
 	#"noShieldImpactSounds":true,
 	#"noNonShieldImpactSounds":true,
-	"fireSoundOne":"CIWSSound",	
+	"fireSoundOne":"thumper_fire",	
 	#"fireSoundTwo":"CIWSSound",	
 }

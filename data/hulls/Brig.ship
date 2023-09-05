@@ -1,0 +1,170 @@
+{
+  "hullName": "Brig",
+  "hullId": "Brig",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/DR/ships/Brig.PNG",
+  "style": "LOW_TECH",
+  "height": 334,
+  "width": 132,
+  "center": [66, 167],
+  "collisionRadius": 167,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 169,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons",
+    "autorepair",
+    "distributed_fire_control",
+    "fluxbreakers"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [13, 34]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-5, 34]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-23.5, 34]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 95,
+      "locations": [-77, 32]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -95,
+      "locations": [-77.5, -31]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-23.5, -34]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-5, -34]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [13, -34]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -95,
+      "locations": [-95, -28]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 95,
+      "locations": [-95, 28]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [100.5, -3],
+      "length": 0.1,
+      "width": 90,
+      "angle": 90,
+      "contrailSize": 90,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-47, 0.5],
+      "length": 0.1,
+      "width": 105,
+      "angle": 180,
+      "contrailSize": 105,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [36, -0],
+      "length": 0.1,
+      "width": 46,
+      "angle": 180,
+      "contrailSize": 46,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -165.5, -0,
+    -140, -5,
+    -137.5, -19,
+    -132.5, -17,
+    -55.5, -33.5,
+    -62.5, -39.5,
+    -47, -53,
+    -40.5, -31.5,
+    30.5, -31.5,
+    21.5, -36,
+    38, -46.5,
+    41, -24.5,
+    66, -7,
+    160.5, -0,
+    77, 2,
+    68, 6.5,
+    42, 24.5,
+    38.5, 48.5,
+    22, 36.5,
+    28, 31.5,
+    -39.5, 32,
+    -46, 57.5,
+    -47, 49.5,
+    -63, 39.5,
+    -55.5, 34,
+    -94, 26,
+    -134, 17.5,
+    -134.5, 19.5,
+    -138.5, 16,
+    -140, 1
+  ]
+}

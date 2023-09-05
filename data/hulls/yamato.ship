@@ -15,7 +15,8 @@
     "targetingunit",
     "rugged",
     "fluxbreakers",
-    "glitched_sensors"
+    "glitched_sensors",
+    "ablative_armor"
   ],
   "weaponSlots": [
     {
@@ -255,7 +256,7 @@
   "engineSlots": [
     {
       "location": [-422.5, 62],
-      "length": 30,
+      "length": 60,
       "width": 10,
       "angle": 180,
       "contrailSize": 30,
@@ -263,7 +264,7 @@
     },
     {
       "location": [-422.5, -62],
-      "length": 30,
+      "length": 60,
       "width": 10,
       "angle": -180,
       "contrailSize": 30,
@@ -271,7 +272,7 @@
     },
     {
       "location": [-422.5, 55.5],
-      "length": 30,
+      "length": 60,
       "width": 10,
       "angle": 180,
       "contrailSize": 30,
@@ -279,7 +280,7 @@
     },
     {
       "location": [-422.5, -55.5],
-      "length": 30,
+      "length": 60,
       "width": 10,
       "angle": -180,
       "contrailSize": 30,
@@ -287,7 +288,7 @@
     },
     {
       "location": [-422.5, 47],
-      "length": 30,
+      "length": 60,
       "width": 10,
       "angle": 180,
       "contrailSize": 30,
@@ -295,7 +296,7 @@
     },
     {
       "location": [-422.5, -47],
-      "length": 30,
+      "length": 60,
       "width": 10,
       "angle": -180,
       "contrailSize": 30,

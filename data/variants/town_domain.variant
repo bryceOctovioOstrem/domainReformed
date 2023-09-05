@@ -3,7 +3,7 @@
   "hullId": "town",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 21,
+  "fluxCapacitors": 6,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
@@ -16,32 +16,11 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "vulcan"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "lrpdlaser",
-        "WS0003": "lrpdlaser"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
+        "WS0001": "pdlaser",
         "WS0002": "vulcan",
-        "WS0004": "vulcan"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0006": "vulcan",
+        "WS0003": "pdlaser",
+        "WS0005": "vulcan",
         "WS0007": "vulcan",
-        "WS0008": "vulcan",
         "WS0009": "vulcan"
       }
     },
@@ -49,6 +28,9 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "WS0004": "vulcan",
+        "WS0006": "vulcan",
+        "WS0008": "vulcan",
         "WS0010": "vulcan"
       }
     },
@@ -56,7 +38,13 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0011": "heavyac",
+        "WS0011": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0012": "heavyac"
       }
     },
@@ -64,13 +52,24 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0013": "heavyac",
+        "WS0013": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0014": "heavyac"
       }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
     }
   ],
   "modules": [],
   "wings": [
-    "gladius_wing"
+    "vought_wing_2"
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "variantId": "Brig_domain",
+  "hullId": "Brig",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "railgun",
+        "WS0002": "railgun",
+        "WS0003": "railgun",
+        "WS0004": "railgun",
+        "WS0005": "railgun",
+        "WS0006": "railgun",
+        "WS0007": "railgun",
+        "WS0008": "railgun",
+        "WS0009": "railgun",
+        "WS0010": "railgun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

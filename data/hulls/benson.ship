@@ -13,7 +13,9 @@
   "viewOffset": 0,
   "builtInMods": [
     "targetingunit",
-    "rugged"
+    "rugged",
+    "autorepair",
+    "distributed_fire_control"
   ],
   "weaponSlots": [
     {
@@ -119,7 +121,7 @@
   "engineSlots": [
     {
       "location": [-185, 9.5],
-      "length": 23,
+      "length": 26,
       "width": 8,
       "angle": 180,
       "contrailSize": 8,
@@ -127,7 +129,7 @@
     },
     {
       "location": [-185.5, -9.5],
-      "length": 23,
+      "length": 26,
       "width": 8,
       "angle": 180,
       "contrailSize": 8,
@@ -135,10 +137,10 @@
     },
     {
       "location": [-185.5, -0.5],
-      "length": 32.5,
-      "width": 16,
+      "length": 32,
+      "width": 12,
       "angle": 180,
-      "contrailSize": 16,
+      "contrailSize": 12,
       "style": "MIDLINE"
     },
     {

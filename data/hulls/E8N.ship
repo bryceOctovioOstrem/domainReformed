@@ -1,0 +1,58 @@
+{
+  "hullName": "E8N",
+  "hullId": "E8N",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/NakajimaE8N.PNG",
+  "style": "LOW_TECH",
+  "height": 50,
+  "width": 62,
+  "center": [31, 25],
+  "collisionRadius": 31.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 32.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 185,
+      "angle": 180,
+      "locations": [-5, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    24, -0,
+    19, 3,
+    10, 3,
+    7, 27,
+    2.5, 30,
+    -2, 26,
+    -2, 2,
+    -15, 1,
+    -19.5, 10,
+    -23, 1,
+    -22, 1,
+    -22, -0,
+    -23, -0,
+    -19.5, -10,
+    -15, -2,
+    -2, -3,
+    -2, -27,
+    2.5, -31,
+    7, -27,
+    10, -3,
+    19, -3
+  ]
+}

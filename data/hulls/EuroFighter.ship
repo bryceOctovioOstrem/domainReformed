@@ -4,7 +4,6 @@
   "hullSize": "FIGHTER",
   "spriteName": "graphics/DR/ships/EuroFighter.PNG",
   "style": "HIGH_TECH",
-  "renderHints":[RENDER_LOADED_MISSILES_UNLESS_HIDDEN], 
   "height": 68,
   "width": 46,
   "center": [23, 34],
@@ -96,7 +95,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-30, -1.5],
+      "location": [-30, -2],
       "length": 9.5,
       "width": 3,
       "angle": 180,

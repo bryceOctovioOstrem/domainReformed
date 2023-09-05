@@ -4,7 +4,7 @@
   "displayName": "New Variant",
   "goalVariant": false,
   "fluxCapacitors": 0,
-  "fluxVents": 35,
+  "fluxVents": 49,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -17,47 +17,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "swarmer_fighter",
-        "WS0003": "pilum",
-        "WS0008": "chaingun",
-        "WS0009": "lightmg",
-        "WS0010": "lightmg"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0004": "atropos_single"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0005": "shredder"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0006": "shredder",
-        "WS0013": "lightmg"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0007": "shredder",
-        "WS0011": "lightmg"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
+        "WS0010": "lightmg",
+        "WS0011": "lightmg",
         "WS0012": "lightmg"
       }
     },
@@ -65,7 +26,46 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "pilum"
+        "WS0009": "lightmg",
+        "WS0013": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "CWIS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "CWIS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "CWIS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "CWIS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "swarmer_fighter",
+        "WS0002": "pilum",
+        "WS0003": "pilum",
+        "WS0004": "atropos_single"
       }
     }
   ],

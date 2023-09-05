@@ -3,8 +3,8 @@
   "hullId": "Queen_Elizabeth",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 5,
+  "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -17,21 +17,21 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "chaingun"
+        "WS0001": "CWIS"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "shredder"
+        "WS0002": "CWIS"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "shredder"
+        "WS0003": "CWIS"
       }
     }
   ],
@@ -42,8 +42,8 @@
     "euroFighter_wing",
     "euroFighter_wing",
     "euroFighter_wing",
-    "euroFighter_wing",
-    "euroFighter_wing",
-    "euroFighter_wing"
+    "F-35_wing",
+    "F-35_wing",
+    "F-35_wing"
   ]
 }

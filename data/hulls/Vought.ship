@@ -1,0 +1,64 @@
+{
+  "hullName": "Vought",
+  "hullId": "Vought",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/Vought_OS2U-1.PNG",
+  "style": "LOW_TECH",
+  "height": 57,
+  "width": 60,
+  "center": [30, 28.5],
+  "collisionRadius": 31.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 32.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10.5, 15]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [10.5, -15]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    27.5, -0,
+    21.5, 3,
+    10.5, 3,
+    10.5, 27.5,
+    6, 30,
+    -0.5, 25,
+    -4.5, 3.5,
+    -20.5, 2,
+    -24, 14,
+    -28.5, -0,
+    -24.5, -14,
+    -20.5, -2,
+    -4.5, -3,
+    2.5, -29,
+    5.5, -30,
+    9.5, -28,
+    10.5, -3,
+    21.5, -3
+  ]
+}

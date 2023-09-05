@@ -17,18 +17,30 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "railgun",
-        "WS0002": "railgun",
         "WS0003": "railgun",
-        "WS0004": "railgun",
         "WS0005": "railgun",
-        "WS0006": "railgun",
         "WS0007": "railgun",
-        "WS0008": "railgun",
         "WS0009": "railgun",
+        "WS0011": "railgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "railgun",
+        "WS0004": "railgun",
+        "WS0006": "railgun",
+        "WS0008": "railgun",
         "WS0010": "railgun",
-        "WS0011": "railgun",
-        "WS0012": "railgun",
-        "WS0014": "taclaser"
+        "WS0012": "railgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "lrpdlaser"
       }
     }
   ],

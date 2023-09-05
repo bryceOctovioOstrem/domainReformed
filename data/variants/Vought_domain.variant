@@ -1,25 +1,21 @@
 {
-  "variantId": "KA-29_DOMAIN",
-  "hullId": "KA-29",
+  "variantId": "Vought_domain",
+  "hullId": "Vought",
   "displayName": "New Variant",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [
-    "no_weapon_flux"
-  ],
+  "hullMods": [],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "lightdualac",
-        "WS0002": "lightdualac",
-        "WS0003": "lightneedler",
-        "WS0004": "lightdualac",
-        "WS0005": "lightdualac"
+        "WS0001": "lightmg",
+        "WS0002": "waterTorp",
+        "WS0003": "waterTorp"
       }
     }
   ],

@@ -12,8 +12,8 @@
   "shieldRadius": 329.5,
   "viewOffset": 0,
   "builtInMods": [
-    "targetingunit",
-    "rugged"
+    "rugged",
+    "dedicated_targeting_core"
   ],
   "weaponSlots": [
     {

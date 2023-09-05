@@ -144,7 +144,40 @@
       "locations": [-92, 9]
     }
   ],
-  "engineSlots": [],
+  "engineSlots": [
+    {
+      "location": [-109, 1],
+      "length": 1,
+      "width": 12,
+      "angle": 90,
+      "contrailSize": 29,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [16, -2.5],
+      "length": 1,
+      "width": 30,
+      "angle": -90,
+      "contrailSize": 60,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-54.5, -0],
+      "length": 1,
+      "width": 12,
+      "angle": -90,
+      "contrailSize": 29,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-25.5, 0.5],
+      "length": 1,
+      "width": 26,
+      "angle": 0,
+      "contrailSize": 58,
+      "style": "COBRA_BOMBER"
+    }
+  ],
   "bounds": [
     138, 2,
     46.5, 3.5,

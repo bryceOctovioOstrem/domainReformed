@@ -15,12 +15,12 @@
       "weapons": {
         "WS0001": "lightneedler",
         "WS0002": "lightneedler",
-        "WS0003": "atropos",
-        "WS0004": "atropos",
+        "WS0003": "atropos_hidden",
+        "WS0004": "atropos_hidden",
         "WS0005": "sabot_fighter",
         "WS0006": "sabot_fighter",
-        "WS0007": "harpoon_single",
-        "WS0008": "harpoon_single"
+        "WS0007": "harpoon_single_hidden",
+        "WS0008": "harpoon_single_hidden"
       }
     }
   ],

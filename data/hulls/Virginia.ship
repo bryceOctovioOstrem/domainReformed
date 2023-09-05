@@ -13,7 +13,8 @@
   "viewOffset": 0,
   "builtInMods": [
     "rugged",
-    "targetingunit"
+    "targetingunit",
+    "ablative_armor"
   ],
   "weaponSlots": [
     {
@@ -115,6 +116,22 @@
       "angle": 180,
       "contrailSize": 10,
       "style": "OMEGA"
+    },
+    {
+      "location": [-85.5, 8],
+      "length": 30,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-85.5, -10],
+      "length": 30,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "COBRA_BOMBER"
     }
   ],
   "bounds": [

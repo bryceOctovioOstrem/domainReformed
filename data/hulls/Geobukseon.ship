@@ -12,7 +12,8 @@
   "shieldRadius": 120.5,
   "viewOffset": 0,
   "builtInMods": [
-    "targetingunit"
+    "targetingunit",
+    "distributed_fire_control"
   ],
   "weaponSlots": [
     {
@@ -133,7 +134,24 @@
       "locations": [-57.5, -0]
     }
   ],
-  "engineSlots": [],
+  "engineSlots": [
+    {
+      "location": [-4.5, -0],
+      "length": 1,
+      "width": 69,
+      "angle": 180,
+      "contrailSize": 69,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [55.5, -0],
+      "length": 1,
+      "width": 69,
+      "angle": 180,
+      "contrailSize": 69,
+      "style": "LOW_TECH"
+    }
+  ],
   "bounds": [
     100.5, -20,
     100, 19.5,

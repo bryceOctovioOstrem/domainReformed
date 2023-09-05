@@ -14,7 +14,9 @@
   "builtInMods": [
     "autorepair",
     "targetingunit",
-    "rugged"
+    "rugged",
+    "ablative_armor",
+    "fluxbreakers"
   ],
   "weaponSlots": [
     {

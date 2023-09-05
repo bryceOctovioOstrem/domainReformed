@@ -14,7 +14,8 @@
   "builtInMods": [
     "targetingunit",
     "rugged",
-    "glitched_sensors"
+    "glitched_sensors",
+    "ablative_armor"
   ],
   "weaponSlots": [
     {

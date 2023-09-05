@@ -227,19 +227,19 @@
   "engineSlots": [
     {
       "location": [15, -0],
-      "length": 18.296783,
-      "width": 12.28458,
+      "length": 18.299999,
+      "width": 12.28,
       "angle": -178,
-      "contrailSize": 12.285,
-      "style": "HIGH_TECH"
+      "contrailSize": 12.28,
+      "style": "OMEGA"
     },
     {
       "location": [-20, -0],
-      "length": 18.296783,
-      "width": 12.28458,
+      "length": 18.299999,
+      "width": 12.28,
       "angle": -178,
-      "contrailSize": 12.285,
-      "style": "COBRA_BOMBER"
+      "contrailSize": 12.28,
+      "style": "OMEGA"
     },
     {
       "location": [-284, -0],

@@ -1,0 +1,122 @@
+{
+  "hullName": "tiger",
+  "hullId": "tiger",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/DR/ships/tiger.PNG",
+  "style": "LOW_TECH",
+  "height": 496,
+  "width": 60,
+  "center": [30, 254],
+  "collisionRadius": 254,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 257.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "repair_gantry",
+    "rugged",
+    "targetingunit"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 287,
+      "angle": 0,
+      "locations": [163, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 241,
+      "angle": 0,
+      "locations": [120, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 163,
+      "angle": 97,
+      "locations": [-65, 20]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 163,
+      "angle": -98.5,
+      "locations": [-66, -20]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 295,
+      "angle": 179,
+      "locations": [-175, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-255, 15],
+      "length": 60,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-255, -17],
+      "length": 60,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-31, -0],
+      "length": 8,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "OMEGA"
+    },
+    {
+      "location": [34, -0],
+      "length": 8,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "OMEGA"
+    }
+  ],
+  "bounds": [
+    240.5, -0,
+    195.5, 15,
+    139.5, 24,
+    -102, 26.5,
+    -154.5, 22,
+    -209.5, 14.5,
+    -226.5, 24.5,
+    -236.5, 25,
+    -241, 20,
+    -252.5, 20,
+    -253, -21,
+    -241.5, -21,
+    -237.5, -24,
+    -220, -18.5,
+    -209.5, -16,
+    -151.5, -22.5,
+    -102.5, -25,
+    140.5, -23,
+    197.5, -14
+  ]
+}
