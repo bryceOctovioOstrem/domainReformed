@@ -1,0 +1,73 @@
+{
+  "hullName": "loire",
+  "hullId": "loire",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/Loire.PNG",
+  "style": "LOW_TECH",
+  "height": 52,
+  "width": 73,
+  "center": [36.5, 26],
+  "collisionRadius": 37.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 38.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, -7]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [10, 7]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-5, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    26, -0,
+    24, 2.5,
+    20, 2.5,
+    20, 4.5,
+    15, 4.5,
+    10, 14.5,
+    7, 34.5,
+    0, 36.5,
+    -4, 32.5,
+    -3, 8.5,
+    1, 3.5,
+    -16, 2.5,
+    -22.5, 13.5,
+    -26, 9.5,
+    -26, -9.5,
+    -22.5, -13.5,
+    -16, -2.5,
+    1, -3.5,
+    -3, -8.5,
+    -4, -31,
+    2.5, -36.5,
+    9, -29,
+    9, -14.5,
+    15, -4,
+    20, -4,
+    20, -2.5,
+    24, -2.5
+  ]
+}

@@ -3,27 +3,29 @@
   "hullId": "bismark",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 17,
+  "fluxCapacitors": 0,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "armoredweapons",
-    "autorepair"
+    "armoredweapons"
   ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
+        "WS0003": "Oerlikon",
+        "WS0004": "Oerlikon",
         "WS0014": "vulcan",
         "WS0018": "dualflak",
         "WS0020": "vulcan",
-        "WS0021": "vulcan",
+        "WS0021": "Oerlikon",
         "WS0024": "vulcan",
         "WS0025": "dualflak",
         "WS0028": "vulcan",
-        "WS0030": "vulcan",
+        "WS0029": "Oerlikon",
+        "WS0030": "Oerlikon",
         "WS0032": "dualflak",
         "WS0033": "vulcan",
         "WS0034": "vulcan",
@@ -37,11 +39,10 @@
         "WS0015": "vulcan",
         "WS0017": "dualflak",
         "WS0019": "vulcan",
-        "WS0022": "vulcan",
+        "WS0022": "Oerlikon",
         "WS0023": "vulcan",
         "WS0026": "dualflak",
         "WS0027": "vulcan",
-        "WS0029": "vulcan",
         "WS0031": "dualflak",
         "WS0035": "vulcan"
       }
@@ -67,27 +68,22 @@
     {
       "autofire": true,
       "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
       "weapons": {
-        "WS0003": "lightmg",
-        "WS0004": "lightmg",
-        "WS0005": "vulcan",
-        "WS0006": "vulcan"
+        "WS0001": "380mmSK",
+        "WS0002": "380mmSK"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "mark9",
-        "WS0002": "mjolnir"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0013": "mark9",
-        "WS0016": "mjolnir"
+        "WS0013": "380mmSK",
+        "WS0016": "380mmSK"
       }
     }
   ],
