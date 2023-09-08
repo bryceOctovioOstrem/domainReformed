@@ -86,7 +86,7 @@
         {"id":"nanoforge_corrupted", "count":1},
         #{"id":"synchrotron", "count":1},
     ],
-    "invasionStrengthBonusDefend":2,
+    "invasionStrengthBonusDefend":1.5,
     "maxColonyDistance": 30,
     "invasionPointMult":1.125,
     "invasionFleetSizeMod":1.5,
@@ -94,9 +94,9 @@
     "morality":"amoral",
 
     # Number of entries must equal number of vengeance tiers (0-3)
-    "vengeanceLevelNames":["correction", "retribution", "extermination"],
-    "vengeanceFleetNames":["Correction", "Retribution", "Extermination"],
-    "vengeanceFleetNamesSingle":["a Correction fleet", "a Retribution Fleet", "an Extermination Armada"],
+    "vengeanceLevelNames":["restoration", "retribution", "extermination"],
+    "vengeanceFleetNames":["Restoration", "Retribution", "Extermination"],
+    "vengeanceFleetNamesSingle":["a Restoration fleet", "a Retribution Fleet", "an Extermination Armada"],
     "vengeanceFleetSizeMult":2.5,
 	
 	"specialForcesSizeMult":1.5,
