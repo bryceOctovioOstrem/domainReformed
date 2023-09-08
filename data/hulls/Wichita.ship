@@ -242,12 +242,13 @@
       "style": "OMEGA"
     },
     {
-      "location": [-284, -0],
-      "length": 65,
-      "width": 52,
+      "location": [-285.5, 0.5],
+      "length": 80,
+      "width": 32,
       "angle": -180,
-      "contrailSize": 52,
-      "style": "MIDLINE"
+      "contrailSize": 32,
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
     }
   ],
   "bounds": [

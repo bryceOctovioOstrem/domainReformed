@@ -596,29 +596,31 @@
   ],
   "engineSlots": [
     {
-      "location": [-394.5, 23],
+      "location": [-393, 23],
       "length": 79,
       "width": 15,
       "angle": 180,
       "contrailSize": 15,
-      "style": "COBRA_BOMBER",
-      "styleId": "COBRA_BOMBER"
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
     },
     {
-      "location": [-395, -25.5],
+      "location": [-393, -26],
       "length": 79,
       "width": 15,
       "angle": 180,
       "contrailSize": 15,
-      "style": "HIGH_TECH"
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
     },
     {
-      "location": [-404, -2],
-      "length": 127.5,
-      "width": 37,
+      "location": [-401, -1.5],
+      "length": 80,
+      "width": 34,
       "angle": 180,
-      "contrailSize": 37,
-      "style": "LOW_TECH_FIGHTER"
+      "contrailSize": 34,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
     }
   ],
   "bounds": [

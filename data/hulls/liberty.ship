@@ -111,179 +111,201 @@
   "engineSlots": [
     {
       "location": [-214.5, 30],
-      "length": 21.5,
+      "length": 40,
       "width": 4,
       "angle": 180,
       "contrailSize": 4,
-      "style": "COBRA_BOMBER"
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
     },
     {
       "location": [-216, 26.5],
-      "length": 21.5,
+      "length": 40,
       "width": 4,
       "angle": 180,
       "contrailSize": 4,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
     },
     {
       "location": [-218, 23],
-      "length": 21.5,
+      "length": 40,
       "width": 4,
       "angle": 180,
       "contrailSize": 4,
-      "style": "HIGH_TECH"
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
     },
     {
       "location": [-220, 19.5],
-      "length": 21.5,
+      "length": 40,
       "width": 4,
       "angle": 180,
       "contrailSize": 4,
-      "style": "COBRA_BOMBER"
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
     },
     {
       "location": [-220, -18.5],
-      "length": 21.5,
+      "length": 40,
       "width": 4,
       "angle": 180,
       "contrailSize": 4,
-      "style": "COBRA_BOMBER"
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
     },
     {
       "location": [-219, -22.5],
-      "length": 21.5,
+      "length": 40,
       "width": 4,
       "angle": 180,
       "contrailSize": 4,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
     },
     {
       "location": [-217, -26.5],
-      "length": 21.5,
+      "length": 40,
       "width": 4,
       "angle": 180,
       "contrailSize": 4,
-      "style": "HIGH_TECH"
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
     },
     {
       "location": [-215, -30],
-      "length": 21.5,
+      "length": 40,
       "width": 4,
       "angle": 180,
       "contrailSize": 4,
-      "style": "COBRA_BOMBER"
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
     },
     {
       "location": [-221.5, 13.5],
-      "length": 20,
+      "length": 30,
       "width": 2,
       "angle": 180,
       "contrailSize": 2,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
     },
     {
       "location": [-221.5, 11.5],
-      "length": 20,
+      "length": 30,
       "width": 2,
       "angle": 180,
       "contrailSize": 2,
-      "style": "HIGH_TECH"
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
     },
     {
       "location": [-222.5, 9.5],
-      "length": 20,
+      "length": 30,
       "width": 2,
       "angle": 180,
       "contrailSize": 2,
-      "style": "COBRA_BOMBER"
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
     },
     {
       "location": [-223, 7.5],
-      "length": 20,
+      "length": 30,
       "width": 2,
       "angle": 180,
       "contrailSize": 2,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
     },
     {
       "location": [-224, 5.5],
-      "length": 20,
+      "length": 30,
       "width": 2,
       "angle": 180,
       "contrailSize": 2,
-      "style": "HIGH_TECH"
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
     },
     {
       "location": [-224, 3.5],
-      "length": 20,
+      "length": 30,
       "width": 2,
       "angle": 180,
       "contrailSize": 2,
-      "style": "COBRA_BOMBER"
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
     },
     {
       "location": [-224.5, 1.5],
-      "length": 20,
+      "length": 30,
       "width": 2,
       "angle": 180,
       "contrailSize": 2,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
     },
     {
       "location": [-224, -1.5],
-      "length": 20,
+      "length": 30,
       "width": 2,
       "angle": 180,
       "contrailSize": 2,
-      "style": "HIGH_TECH"
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
     },
     {
       "location": [-224, -3.5],
-      "length": 20,
+      "length": 30,
       "width": 2,
       "angle": 180,
       "contrailSize": 2,
-      "style": "COBRA_BOMBER"
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
     },
     {
       "location": [-223.5, -5.5],
-      "length": 20,
+      "length": 30,
       "width": 2,
       "angle": 180,
       "contrailSize": 2,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
     },
     {
-      "location": [-223, -7],
-      "length": 20,
-      "width": 2,
+      "location": [-223, -7.5],
+      "length": 30,
+      "width": 1,
       "angle": 180,
-      "contrailSize": 2,
-      "style": "HIGH_TECH"
+      "contrailSize": 1,
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
     },
     {
       "location": [-222.5, -9],
-      "length": 20,
+      "length": 30,
       "width": 2,
       "angle": 180,
       "contrailSize": 2,
-      "style": "COBRA_BOMBER"
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
     },
     {
       "location": [-222, -10.5],
-      "length": 20,
-      "width": 2,
+      "length": 30,
+      "width": 1,
       "angle": 180,
-      "contrailSize": 2,
-      "style": "MIDLINE"
+      "contrailSize": 1,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
     },
     {
       "location": [-222, -12],
-      "length": 20,
+      "length": 30,
       "width": 2,
       "angle": 180,
       "contrailSize": 2,
-      "style": "HIGH_TECH"
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
     },
     {
       "location": [1, -0],
@@ -291,7 +313,8 @@
       "width": 6,
       "angle": 180,
       "contrailSize": 6,
-      "style": "LOW_TECH"
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
     }
   ],
   "bounds": [

@@ -15,7 +15,8 @@
     "targetingunit",
     "rugged",
     "glitched_sensors",
-    "ablative_armor"
+    "ablative_armor",
+    "hbi"
   ],
   "weaponSlots": [
     {
@@ -340,7 +341,8 @@
       "width": 25,
       "angle": 180,
       "contrailSize": 25,
-      "style": "OMEGA"
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
     }
   ],
   "bounds": [

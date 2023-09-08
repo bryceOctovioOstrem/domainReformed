@@ -88,7 +88,8 @@
       "width": 41,
       "angle": 180,
       "contrailSize": 41,
-      "style": "LOW_TECH_FIGHTER"
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
     }
   ],
   "bounds": [

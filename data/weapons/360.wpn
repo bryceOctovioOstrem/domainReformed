@@ -49,7 +49,8 @@
     31,
     255
   ],
-  "width": 3,
+  "glowRadius":10,
+  "width": 13,
   "textureType": ROUGH2,
   "textureScrollSpeed": 64,
   "pixelsPerTexel": 1,

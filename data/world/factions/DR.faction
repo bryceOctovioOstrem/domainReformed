@@ -8,7 +8,7 @@
 	"entityNamePrefix":"Domain",
 	"shipNamePrefix":"DN",
 	"shipNameSources":{
-		"BRITISH_NAVY":1,
+		"BRITISH_NAVY":4,
 		"ROMAN":2,
 		"GREEK":1,
 	},
@@ -22,28 +22,32 @@
 	
 	# variantOverrides restricts hulls to listed variants and adjusts their probability
 	"variantOverrides":{
-		"R_mothership_domain":999,
-		"Conte_di_Cavour_Domain":999,
-		"bismark_domain":999,
-		"StLouis_domain":999,
-		"popov_domain":999,
-		"Trireme_domain":999,
-		"Wichita_domain":999,
-		"petya_domain":999,
-		"Furious_domain":999,
-		"independence_domain":999,
-		"indianopolis_domain":999,
-		"Queen_Elizabeth_domain":999,
-		"Virginia_domain":999,
-		"yorktown_domain":999,
-		"Moskva_domain":999,
-		"hosho_domain":999,
-		"Geobukseon_domain":999,
-		"town_domain":999,
-		"yamato_domain":999,
-		"Ford_domain":999,
-		"liberty_domain":999,
-		"atlanta_domain":999,
+		"R_mothership_domain":100,
+		"Conte_di_Cavour_Domain":100,
+		"bismark_domain":100,
+		"StLouis_domain":100,
+		"popov_domain":100,
+		"Trireme_domain":100,
+		"Wichita_domain":100,
+		"petya_domain":100,
+		"Furious_domain":100,
+		"independence_domain":100,
+		"indianopolis_domain":100,
+		"Queen_Elizabeth_domain":100,
+		"Virginia_domain":100,
+		"yorktown_domain":100,
+		"Moskva_domain":100,
+		"hosho_domain":100,
+		"Geobukseon_domain":100,
+		"town_domain":100,
+		"yamato_domain":100,
+		"Ford_domain":100,
+		"liberty_domain":100,
+		"atlanta_domain":100,
+		"tiger_domain":100,
+		"benson_domain":100,
+		"Brig_domain":100,
+		"Richelieu_domain":100,
 },	
 	
 	# multiplier for how often hulls show up in the faction's fleets
@@ -85,7 +89,7 @@
 		],
 	},
 	"knownWeapons":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "missile_bp", "hegemony","DR","ind", "independent",*,"merc","rare_bp","restricted","hist1t","omega"],
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "missile_bp", "hegemony","DR","ind", "independent",*,"merc","rare_bp","restricted","hist1t"],
 		#"tags":[*],
 		"weapons":[
 			"railgun",
@@ -149,7 +153,7 @@
 		"combatFreighterProbability":0.1,      				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
 		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
-		"autofitRandomizeProbability":0.1,
+		"autofitRandomizeProbability":0,
 		
 		"commanderSkillsShuffleProbability":1,
 		"commanderSkills":[
@@ -226,7 +230,7 @@
 		"offersCommissions":true,
 		"engagesInHostilities":true,
 		"buysAICores":true,
-		"AICoreValueMult":2,
+		"AICoreValueMult":3,
 		"AICoreRepMult":4,
 		"buysSurveyData":true,
 		"hostilityImpactOnGrowth":false,

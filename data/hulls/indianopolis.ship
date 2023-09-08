@@ -224,12 +224,13 @@
       "style": "OMEGA"
     },
     {
-      "location": [-234.5, -0.5],
+      "location": [-236, -1],
       "length": 74,
       "width": 21,
       "angle": 180,
       "contrailSize": 21,
-      "style": "LOW_TECH"
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
     }
   ],
   "bounds": [

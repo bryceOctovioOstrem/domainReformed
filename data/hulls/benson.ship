@@ -125,7 +125,8 @@
       "width": 8,
       "angle": 180,
       "contrailSize": 8,
-      "style": "COBRA_BOMBER"
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
     },
     {
       "location": [-185.5, -9.5],
@@ -133,7 +134,8 @@
       "width": 8,
       "angle": 180,
       "contrailSize": 8,
-      "style": "HIGH_TECH"
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
     },
     {
       "location": [-185.5, -0.5],
@@ -141,7 +143,8 @@
       "width": 12,
       "angle": 180,
       "contrailSize": 12,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
     },
     {
       "location": [28.5, -0],

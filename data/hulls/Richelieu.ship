@@ -16,7 +16,8 @@
     "targetingunit",
     "rugged",
     "ablative_armor",
-    "fluxbreakers"
+    "fluxbreakers",
+    "hbi"
   ],
   "weaponSlots": [
     {
@@ -507,7 +508,8 @@
       "width": 8,
       "angle": 180,
       "contrailSize": 8,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
     },
     {
       "location": [-349, -55],
@@ -515,7 +517,8 @@
       "width": 7,
       "angle": -180,
       "contrailSize": 7,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
     },
     {
       "location": [-349, 47.5],
