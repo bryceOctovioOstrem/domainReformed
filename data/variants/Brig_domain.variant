@@ -4,27 +4,45 @@
   "displayName": "New Variant",
   "goalVariant": false,
   "fluxCapacitors": 10,
-  "fluxVents": 6,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "targetingunit"
+    "targetingunit",
+    "fluxbreakers",
+    "surveying_equipment",
+    "autorepair",
+    "hiressensors"
   ],
   "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "smoothBore",
+        "WS0002": "smoothBore",
+        "WS0003": "smoothBore",
+        "WS0004": "smoothBore",
+        "WS0010": "smoothBore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "smoothBore",
+        "WS0006": "smoothBore",
+        "WS0007": "smoothBore",
+        "WS0008": "smoothBore",
+        "WS0009": "smoothBore"
+      }
+    },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "railgun",
-        "WS0002": "railgun",
-        "WS0003": "railgun",
-        "WS0004": "railgun",
-        "WS0005": "railgun",
-        "WS0006": "railgun",
-        "WS0007": "railgun",
-        "WS0008": "railgun",
-        "WS0009": "railgun",
-        "WS0010": "railgun"
+        "WS0011": "smoothBore",
+        "WS0012": "smoothBore"
       }
     }
   ],

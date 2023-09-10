@@ -1,7 +1,7 @@
 {
 	id:"DR",
 	"color":[252,213,134,255],
-	"displayName":"Domain",
+	"displayName":"Domain Reconstructionists",
 	"displayNameWithArticle":"the Domain",
 	"logo":"graphics/DR/factions/domain.png",
 	"crest":"graphics/DR/factions/domain_crest.png",
@@ -142,17 +142,17 @@
 		"carriers":4,
 		"phaseShips":0,
 		
-		"officerQuality":1,
-		"shipQuality":2,
+		"officerQuality":0,
+		"shipQuality":1,
 		"numShips":5,
 		
 		"shipSize":5,
 		
-		"aggression":1,
+		"aggression":0,
 		
-		"combatFreighterProbability":0.1,      				# instead of some portion of the freighters in a fleet
-		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
-		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
+		"combatFreighterProbability":0.9,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":1,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
 		"autofitRandomizeProbability":0,
 		
 		"commanderSkillsShuffleProbability":1,

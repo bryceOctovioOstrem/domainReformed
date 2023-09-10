@@ -1,13 +1,13 @@
 {
-  "displayName": "New",
-  "fluxCapacitors": 13,
-  "fluxVents": 50,
-  "goalVariant": true,
-  "hullId": "yamato",
-  "hullMods": [],
-  "permaMods": [],
-  "quality": 0,
   "variantId": "yamato_domain",
+  "hullId": "yamato",
+  "displayName": "New",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 50,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
   "weaponGroups": [
     {
       "autofire": false,
@@ -63,6 +63,9 @@
       }
     }
   ],
-  "wings": ["E8N_wing_3",
-"E8N_wing_4"]
+  "modules": [],
+  "wings": [
+    "E8N_wing_3",
+    "E8N_wing_4"
+  ]
 }

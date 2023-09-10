@@ -14,9 +14,9 @@
   "builtInMods": [
     "targetingunit",
     "rugged",
-    "glitched_sensors",
     "ablative_armor",
-    "hbi"
+    "hbi",
+    "armoredweapons"
   ],
   "weaponSlots": [
     {
@@ -328,7 +328,7 @@
   ],
   "engineSlots": [
     {
-      "location": [-444, -0],
+      "location": [-440.5, -0],
       "length": 190,
       "width": 60,
       "angle": 180,

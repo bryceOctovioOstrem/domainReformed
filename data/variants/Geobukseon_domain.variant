@@ -3,8 +3,8 @@
   "hullId": "Geobukseon",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 0,
-  "fluxVents": 8,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -16,32 +16,30 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "railgun",
-        "WS0003": "railgun",
-        "WS0005": "railgun",
-        "WS0007": "railgun",
-        "WS0009": "railgun",
-        "WS0011": "railgun"
+        "WS0001": "smoothBore",
+        "WS0002": "smoothBore",
+        "WS0003": "smoothBore",
+        "WS0004": "smoothBore",
+        "WS0005": "smoothBore",
+        "WS0006": "smoothBore",
+        "WS0007": "smoothBore",
+        "WS0008": "smoothBore",
+        "WS0009": "smoothBore",
+        "WS0010": "smoothBore",
+        "WS0011": "smoothBore",
+        "WS0012": "smoothBore",
+        "WS0014": "pdlaser"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0002": "railgun",
-        "WS0004": "railgun",
-        "WS0006": "railgun",
-        "WS0008": "railgun",
-        "WS0010": "railgun",
-        "WS0012": "railgun"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0014": "lrpdlaser"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

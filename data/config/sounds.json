@@ -50,4 +50,8 @@
 	[
 		{"file":"sounds/sfx_wpn_guns/380SK.ogg","pitch":1,"volume":.7},
 	],
+		"powder_cannon":
+	[
+		{"file":"sounds/sfx_wpn_guns/powder_cannon.ogg","pitch":1,"volume":.4},
+	],
 }

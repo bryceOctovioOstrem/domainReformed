@@ -13,9 +13,8 @@
   "viewOffset": 0,
   "builtInMods": [
     "armoredweapons",
-    "autorepair",
     "distributed_fire_control",
-    "fluxbreakers"
+    "shielded_holds"
   ],
   "weaponSlots": [
     {
@@ -107,6 +106,24 @@
       "arc": 0,
       "angle": 95,
       "locations": [-95, 28]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-141, 9]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-141, -9]
     }
   ],
   "engineSlots": [
@@ -116,7 +133,8 @@
       "width": 90,
       "angle": 90,
       "contrailSize": 90,
-      "style": "HIGH_TECH"
+      "style": "CUSTOM",
+      "styleId": "sail"
     },
     {
       "location": [-47, 0.5],
@@ -124,7 +142,8 @@
       "width": 105,
       "angle": 180,
       "contrailSize": 105,
-      "style": "HIGH_TECH"
+      "style": "CUSTOM",
+      "styleId": "sail"
     },
     {
       "location": [36, -0],
@@ -132,7 +151,26 @@
       "width": 46,
       "angle": 180,
       "contrailSize": 46,
-      "style": "HIGH_TECH"
+      "style": "CUSTOM",
+      "styleId": "sail"
+    },
+    {
+      "location": [-86, 1],
+      "length": 0.5,
+      "width": 36,
+      "angle": 90,
+      "contrailSize": 36,
+      "style": "CUSTOM",
+      "styleId": "sail"
+    },
+    {
+      "location": [-140, -1.5],
+      "length": 0.5,
+      "width": 28,
+      "angle": 90,
+      "contrailSize": 28,
+      "style": "CUSTOM",
+      "styleId": "sail"
     }
   ],
   "bounds": [
