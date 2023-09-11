@@ -132,6 +132,51 @@
       "arc": 280,
       "angle": 180,
       "locations": [-57.5, -0]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 0,
+      "locations": [101.5, 14]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -0,
+      "locations": [101.5, -14]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 180,
+      "locations": [-79.5, 9.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": -180,
+      "locations": [-79.5, -9.5]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 0,
+      "locations": [113.5, -0]
     }
   ],
   "engineSlots": [

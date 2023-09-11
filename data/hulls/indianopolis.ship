@@ -31,7 +31,7 @@
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 92,
-      "angle": -46,
+      "angle": -46.5,
       "locations": [173.5, -7.5]
     },
     {
@@ -145,9 +145,9 @@
     {
       "id": "WS0015",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "SYNERGY",
       "mount": "TURRET",
-      "arc": 218,
+      "arc": 246,
       "angle": 180,
       "locations": [-157.5, -1]
     },
@@ -190,7 +190,7 @@
     {
       "id": "WS0018",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "SYNERGY",
       "mount": "TURRET",
       "arc": 278,
       "angle": 0,
@@ -199,11 +199,12 @@
     {
       "id": "WS0019",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "SYNERGY",
       "mount": "TURRET",
       "arc": 248,
       "angle": 0,
-      "locations": [94.5, -1.5]
+      "locations": [94.5, -1.5],
+      "renderOrderMod": 100
     }
   ],
   "engineSlots": [
@@ -217,8 +218,8 @@
     },
     {
       "location": [-56.5, -0],
-      "length": 23,
-      "width": 11,
+      "length": 15,
+      "width": 6,
       "angle": 180,
       "contrailSize": 11,
       "style": "OMEGA"
@@ -239,6 +240,7 @@
     -111, 19.5,
     -225, -1.5,
     -111, -23,
-    67.5, -22.5
+    67.5, -22.5,
+    149.5, -15.5
   ]
 }

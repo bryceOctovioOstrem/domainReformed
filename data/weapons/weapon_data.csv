@@ -14,3 +14,4 @@ Atropos-class Torpedo Rack hidden,atropos_hidden,2,0.5,600,1200,,1000,,40,10,3,2
 close-in weapon system,CWIS,0,,700,500,,100,,1,40,7,60,5,20,FRAGMENTATION,30,,0,0.55,38,0.05,0,7,1,20,,800,,,30,,,,"kinetic8, ind, DR",,,,General,,,,,,,,,,
 38 cm SK C/34 naval gun,380mmSK,2,0.4,7000,962,,1200,800,40,4,28,,,,ENERGY,1600,,0,4,1,,0,3,1,10,,1000,,,75,,,,"energy18, he17, kinetic17, hist1t, merc, ind,DR",,,,General,,,,,,,,,,
 blackpowder cannon,smoothBore,0,,80,600,,300,,16,15,3,,,,KINETIC,220,,0,4,1,,0,15,3,10,,600,,,10,,,"GROUP_ALTERNATING, FIRE_WHEN_INEFFICIENT","kinetic6, ind, DR, pirates",,,,General,,,,,,,,,,
+8-inch/55-caliber Mark 12,mk12,1,,1000,1120,,200,,20,6,10,,,,KINETIC,200,,0,2,3,0.4,0,17,3,10,,1600,400,3,400,,,GROUP_ALTERNATING,"kinetic14, lowtech_bp, merc, ind",,,,Anti Shield,,,,,,,,,,5

@@ -54,4 +54,8 @@
 	[
 		{"file":"sounds/sfx_wpn_guns/powder_cannon.ogg","pitch":1,"volume":.4},
 	],
+		"gyrojet_medium_sound":
+	[
+		{"file":"sounds/sfx_wpn_guns/powder_cannon.ogg","pitch":1,"volume":.4},
+	],
 }

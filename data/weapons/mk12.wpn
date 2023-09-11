@@ -1,0 +1,63 @@
+{
+  "id": "mk12",
+  "specClass": "projectile",
+  "projectileSpecId": "gyrojet",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "displayArcRadius": 650,
+  "turretSprite": "graphics/weapons/MK12.png",
+  "turretGunSprite": "graphics/weapons/MK12.png",
+  "hardpointSprite": "graphics/weapons/MK12.png",
+  "hardpointGunSprite": "graphics/weapons/MK12.png",
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    31.5,
+    -3,
+    31.5,
+    0,
+    31.5,
+    3
+  ],
+  "turretAngleOffsets": [
+    -0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    25,
+    -5,
+    27,
+    0,
+    25,
+    5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 3,
+    "particleSizeRange": 6,
+    "cloudParticleCount": 6,
+    "cloudDuration": 1.5,
+    "cloudRadius": 4,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 22,
+    "blowbackSpread": 15,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ]
+  },
+  "fireSoundTwo": "gyrojet_medium_sound"
+}

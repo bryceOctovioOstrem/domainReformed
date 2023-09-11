@@ -3,13 +3,11 @@
   "hullId": "Wichita",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 0,
-  "fluxVents": 25,
-  "quality": 1,
+  "fluxCapacitors": 1,
+  "fluxVents": 30,
   "permaMods": [],
   "hullMods": [
     "armoredweapons",
-    "defensive_targeting_array",
     "autorepair",
     "repair_gantry"
   ],
@@ -44,15 +42,15 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "heavyac",
-        "WS0002": "heavyac"
+        "WS0001": "mk12",
+        "WS0002": "mk12"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0017": "heavyac"
+        "WS0017": "mk12"
       }
     },
     {
