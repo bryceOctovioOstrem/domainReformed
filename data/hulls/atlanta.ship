@@ -15,8 +15,9 @@
     "pointdefenseai",
     "ballistic_rangefinder",
     "rugged",
-    "magazines"
-    "turretgyros"
+    "magazines",
+    "turretgyros",
+    "escort_package"
   ],
   "weaponSlots": [
     {
