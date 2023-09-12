@@ -16,6 +16,7 @@
     "ballistic_rangefinder",
     "rugged",
     "magazines"
+    "turretgyros"
   ],
   "weaponSlots": [
     {
