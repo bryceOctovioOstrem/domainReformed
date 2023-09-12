@@ -8,7 +8,7 @@
 		"fallback":{"combatSmall":1},
 	},
 	"combatSmall":{
-		"Brig_domain":3,
+		"Brig_domain":1,
 		"Virginia_domain":2,
 		#"popov_domain":1,
 		"Geobukseon_domain":2,
@@ -32,10 +32,12 @@
 		"StLouis_domain":1,
 		"Wichita_domain":2,
 		"Moskva_domain":1,
+		"wasa_domain":1,
 		"fallback":{"combatMedium":1},
 	},
 	"combatCapital":{
 		"Conte_di_Cavour_Domain":4,
+		"wasa_domain":3,
 		"yamato_domain":1,
 		"bismark_domain":2,
 		"Richelieu_domain":3,
@@ -46,13 +48,17 @@
 	# hybrid ships with good combat and cargo capacity
 	"combatFreighterSmall":{
 		"cutter_domain":2,
+		"Brig_domain":1,
 		"fallback":{"freighterSmall":1},
 	},
 	"combatFreighterMedium":{
+		"Brig_domain":2,
 		"liberty_domain":1,
 		"fallback":{"combatFreighterSmall":1},
 	},
 	"combatFreighterLarge":{
+		"liberty_domain":1,
+		"wasa_domain":2,
 		"fallback":{"combatFreighterMedium":1},
 	},
 	
@@ -68,7 +74,8 @@
 	},
 	"carrierMedium":{
 		"hosho_domain":2,
-		"Furious_domain":1,
+		"Furious_domain":2,
+		"yorktown_domain":1,
 		"fallback":{"carrierSmall":1},
 		"fallback2":{"carrierLarge":0.5},
 	},

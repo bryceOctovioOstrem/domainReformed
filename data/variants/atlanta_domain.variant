@@ -8,31 +8,9 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "magazines"
+    "targetingunit"
   ],
   "weaponGroups": [
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "dualflak"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0002": "heavyneedler",
-        "WS0003": "heavyneedler"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0004": "vulcan"
-      }
-    },
     {
       "autofire": true,
       "mode": "LINKED",
@@ -40,17 +18,51 @@
         "WS0005": "vulcan",
         "WS0007": "Oerlikon",
         "WS0008": "Oerlikon",
-        "WS0009": "lightdualmg"
+        "WS0009": "5in",
+        "WS0016": "Oerlikon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "vulcan",
+        "WS0010": "5in",
+        "WS0012": "Oerlikon",
+        "WS0013": "Oerlikon",
+        "WS0018": "Oerlikon"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "vulcan",
-        "WS0010": "lightdualmg",
-        "WS0012": "Oerlikon",
-        "WS0013": "Oerlikon"
+        "WS0004": "vulcan",
+        "WS0015": "vulcan",
+        "WS0017": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "5in",
+        "WS0002": "5in",
+        "WS0003": "5in"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "5in",
+        "WS0020": "5in",
+        "WS0021": "5in"
       }
     },
     {
@@ -59,19 +71,6 @@
       "weapons": {
         "WS0011": "swarmer_fighter",
         "WS0014": "swarmer_fighter"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0015": "vulcan",
-        "WS0016": "Oerlikon",
-        "WS0017": "vulcan",
-        "WS0018": "Oerlikon",
-        "WS0019": "dualflak",
-        "WS0020": "dualflak",
-        "WS0021": "dualflak"
       }
     }
   ],

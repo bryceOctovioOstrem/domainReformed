@@ -2,7 +2,7 @@
   "id": "mk12",
   "specClass": "projectile",
   "projectileSpecId": "gyrojet",
-  "type": "MISSILE",
+  "type": "BALLISTIC",
   "size": "MEDIUM",
   "displayArcRadius": 650,
   "turretSprite": "graphics/weapons/MK12.png",

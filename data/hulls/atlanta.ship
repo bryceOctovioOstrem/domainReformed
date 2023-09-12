@@ -14,12 +14,13 @@
   "builtInMods": [
     "pointdefenseai",
     "ballistic_rangefinder",
-    "rugged"
+    "rugged",
+    "magazines"
   ],
   "weaponSlots": [
     {
       "id": "WS0001",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 301,
@@ -28,7 +29,7 @@
     },
     {
       "id": "WS0002",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 285,
@@ -38,7 +39,7 @@
     },
     {
       "id": "WS0003",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 260,
@@ -115,7 +116,7 @@
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "TURRET",
-      "arc": 88,
+      "arc": 1,
       "angle": -90,
       "locations": [-30.5, -15.5]
     },
@@ -142,7 +143,7 @@
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "TURRET",
-      "arc": 90,
+      "arc": 1,
       "angle": 90,
       "locations": [-30.5, 17.5]
     },
@@ -185,7 +186,7 @@
     },
     {
       "id": "WS0019",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 264,
@@ -195,7 +196,7 @@
     },
     {
       "id": "WS0020",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 264,
@@ -205,7 +206,7 @@
     },
     {
       "id": "WS0021",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 264,

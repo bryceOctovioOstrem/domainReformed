@@ -58,43 +58,43 @@
     {
       "id": "WS0007",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 183,
       "angle": -75.5,
-      "locations": [102.5, -42]
+      "locations": [103, -41.5]
     },
     {
       "id": "WS0008",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 180,
       "angle": 75.5,
-      "locations": [104, 41]
+      "locations": [104.5, 40.5]
     },
     {
       "id": "WS0009",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 190,
       "angle": 90,
-      "locations": [32, 48.5]
+      "locations": [33, 48.5]
     },
     {
       "id": "WS0010",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 186,
       "angle": -90,
-      "locations": [33, -48.5]
+      "locations": [34, -48.5]
     },
     {
       "id": "WS0011",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 181,
       "angle": -95,
@@ -103,11 +103,11 @@
     {
       "id": "WS0012",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 182,
       "angle": 94.5,
-      "locations": [-81.5, 45.5]
+      "locations": [-81, 45.5]
     },
     {
       "id": "WS0013",
@@ -148,7 +148,7 @@
     {
       "id": "WS0017",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 177,
       "angle": -91.5,
@@ -157,11 +157,11 @@
     {
       "id": "WS0018",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 187,
       "angle": 94.5,
-      "locations": [-105.5, 34]
+      "locations": [-105, 34.5]
     },
     {
       "id": "WS0019",
@@ -220,20 +220,22 @@
     {
       "id": "WS0025",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 141,
       "angle": 70,
-      "locations": [7.5, 42.5]
+      "locations": [8, 42.5],
+      "renderOrderMod": 100
     },
     {
       "id": "WS0026",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 115,
       "angle": -57.5,
-      "locations": [9, -42.5]
+      "locations": [9, -42.5],
+      "renderOrderMod": 100
     },
     {
       "id": "WS0027",
@@ -274,20 +276,20 @@
     {
       "id": "WS0031",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 186,
       "angle": -87.5,
-      "locations": [68, -40.5]
+      "locations": [69, -40.5]
     },
     {
       "id": "WS0032",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 184,
       "angle": 82.5,
-      "locations": [67.5, 40]
+      "locations": [68.5, 39.5]
     },
     {
       "id": "WS0033",

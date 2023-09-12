@@ -25,7 +25,7 @@
 		"contrailParticleSizeMult":10,
 		"contrailParticleDuration":5,
 		"contrailParticleFinalSizeMult":1,
-		"contrailMaxSpeedMult":0.5,
+		"contrailMaxSpeedMult":0.1,
 		"contrailAngularVelocityMult":0.5,
 		"contrailColor":[50,50,50,50],
 		"contrailCampaignColor":[150,50,255,255],

@@ -23,12 +23,16 @@
         "WS0005": "smoothBore",
         "WS0006": "smoothBore",
         "WS0007": "smoothBore",
-        "WS0008": "smoothBore",
         "WS0009": "smoothBore",
         "WS0010": "smoothBore",
         "WS0011": "smoothBore",
         "WS0012": "smoothBore",
-        "WS0014": "pdlaser"
+        "WS0013": "smoothBore",
+        "WS0014": "pdlaser",
+        "WS0015": "smoothBore",
+        "WS0016": "smoothBore",
+        "WS0017": "smoothBore",
+        "WS0018": "pdlaser"
       }
     },
     {
