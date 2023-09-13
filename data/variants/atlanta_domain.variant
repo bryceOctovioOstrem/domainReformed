@@ -23,7 +23,7 @@
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0006": "vulcan",
@@ -37,15 +37,16 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "vulcan",
-        "WS0015": "vulcan",
-        "WS0017": "vulcan"
+        "WS0004": "vulcan"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0015": "vulcan",
+        "WS0017": "vulcan"
+      }
     },
     {
       "autofire": true,

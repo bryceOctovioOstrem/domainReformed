@@ -40,7 +40,7 @@
 	],
 			"49GunSounds":
 	[
-		{"file":"sounds/sfx_wpn_guns/49gun.ogg","pitch":1,"volume":1.5},
+		{"file":"sounds/sfx_wpn_guns/49gun.ogg","pitch":1,"volume":1.7},
 	],
 		"CIWSSound":
 	[
@@ -57,5 +57,9 @@
 		"gyrojet_medium_sound":
 	[
 		{"file":"sounds/sfx_wpn_guns/powder_cannon.ogg","pitch":1,"volume":.4},
+	],
+		"YamatoChargeUp":
+	[
+		{"file":"sounds/sfx_wpn_guns/YamatoChargeUp.ogg","pitch":1,"volume":1.8},
 	],
 }

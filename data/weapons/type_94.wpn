@@ -9,11 +9,11 @@
   "hardpointSprite": "graphics/weapons/DR_type94_large_hardpoint.png",
   "hardpointGunSprite": "graphics/weapons/DR_type94_large_hardpoint.png",
   "turretOffsets": [
-    90,
-    -12.5,
-    90,
-    -1,
-    90,
+    81,
+    -12,
+    81,
+    -0.5,
+    81,
     10.5
   ],
   "turretAngleOffsets": [
@@ -49,5 +49,6 @@
       245
     ]
   },
+  "fireSoundOne": "YamatoChargeUp",
   "fireSoundTwo": "49GunSounds"
 }

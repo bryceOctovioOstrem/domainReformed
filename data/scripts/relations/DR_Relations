@@ -1,0 +1,57 @@
+package data.scripts.relations;
+
+import com.fs.starfarer.api.impl.campaign.ids.Factions;
+import com.fs.starfarer.api.campaign.SectorAPI;
+import static data.scripts.DR_ModPlugin;
+
+public static class DR_Relations implements SectorGeneratorPlugin {
+    @Override
+    public void generate(SectorAPI sector) {
+        FactionAPI DR = sector.getFaction("DR"); // assigns a faction variable
+        SharedData.getData().getPersonBountyEventData().addParticipatingFaction("DR");
+        DR.setRelationship(Factions.LUDDIC_CHURCH, -0.5f);
+        DR.setRelationship(Factions.LUDDIC_PATH, -1.0f);
+        DR.setRelationship(Factions.PERSEAN, -0.6f);
+        DR.setRelationship(Factions.PIRATES, -0.5f);
+        DR.setRelationship("sindrian_diktat", -0.5f);
+
+        // mods
+        // DR.setRelationship("cabal", RepLevel.FRIENDLY);    
+        // DR.setRelationship("sun_ici", RepLevel.FAVORABLE);       
+        // DR.setRelationship("crystanite", RepLevel.SUSPICIOUS); 
+        // DR.setRelationship("mayorate", RepLevel.SUSPICIOUS);	 
+        // DR.setRelationship("pirateAnar", RepLevel.SUSPICIOUS);	 
+        // DR.setRelationship("exipirated", RepLevel.SUSPICIOUS);	 
+        // DR.setRelationship("exigency", RepLevel.SUSPICIOUS);
+        // DR.setRelationship("syndicate_asp", RepLevel.SUSPICIOUS);	   
+        // DR.setRelationship("tiandong", RepLevel.SUSPICIOUS);        
+        // DR.setRelationship("SCY", RepLevel.SUSPICIOUS);     
+        // DR.setRelationship("neutrinocorp", RepLevel.SUSPICIOUS);           
+        // DR.setRelationship("6eme_bureau", RepLevel.INHOSPITABLE);	
+        // DR.setRelationship("dassault_mikoyan", RepLevel.INHOSPITABLE);
+        // DR.setRelationship("pack", RepLevel.INHOSPITABLE);     
+        // DR.setRelationship("blackrock_driveyards", RepLevel.INHOSPITABLE);	   
+        // DR.setRelationship("citadeldefenders", RepLevel.INHOSPITABLE);
+        // DR.setRelationship("pn_colony", RepLevel.INHOSPITABLE);    
+        // DR.setRelationship("junk_pirates", RepLevel.INHOSPITABLE);  
+        // DR.setRelationship("sun_ice", RepLevel.INHOSPITABLE);          
+        // DR.setRelationship("shadow_industry", RepLevel.HOSTILE);	
+        // DR.setRelationship("ORA", RepLevel.HOSTILE);     
+        // DR.setRelationship("interstellarimperium", RepLevel.HOSTILE);     
+        // DR.setRelationship("blade_breakers", RepLevel.HOSTILE);   
+        // DR.setRelationship("new_galactic_order", RepLevel.VENGEFUL);	
+        // DR.setRelationship("explorer_society", RepLevel.VENGEFUL);
+        // DR.setRelationship("Coalition", -0.2f);      
+        // DR.setRelationship("metelson", -0.2f);     
+        // DR.setRelationship("the_deserter", 0.35f);    
+        // DR.setRelationship("noir", 0.0f);     
+        // DR.setRelationship("Lte", 0.0f);  
+        // DR.setRelationship("GKSec", 0.1f); 
+        // DR.setRelationship("gmda", -0.1f);   
+        // DR.setRelationship("oculus", -0.25f);     
+        // DR.setRelationship("nomads", -0.25f); 
+        // DR.setRelationship("thulelegacy", -0.25f); 
+        // DR.setRelationship("infected", -0.99f);     
+    }
+
+}

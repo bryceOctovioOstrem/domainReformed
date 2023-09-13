@@ -12,7 +12,7 @@ TBF_wing,TBF_domain,"bomber3, bomber, DR, merc, pirate",2,,3,12,V,4000,2000,750,
 F22_wing,F22_domain,"interceptor4, interceptor,DR, no_sell",4,,6,20,V,5000,500,900,1,INTERCEPTOR,Heavy Interceptor,15,12000,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,
 B-1_wing,B-1_domain,"bomber4, bomber, DR, merc, pirate",4,,5,30,CLAW,4000,2500,800,1,BOMBER,Bomber,15,12000,,,,,,,,,,,,,12,,,,,,,,,,,,,,,,,,,,,
 hornet_wing,hornet_domain,"bomber4, bomber,DR, merc, pirate",4,,5,20,V,12000,2000,600,1,BOMBER,Bomber,18,11000,,,,,,,,,,,,,11,,,,,,,,,,,,,,,,,,,,,
-KA-29_wing,KA-29_DOMAIN,"bomber4, bomber,DR, merc, pirate",3,,4,20,V,3000,600,300,1,BOMBER,BOMBER,10,10000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KA-29_wing,KA-29_DOMAIN,"bomber4, bomber,DR, merc, pirate",3,,4,20,V,3000,600,300,1,BOMBER,Bomber,10,10000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 E8N_wing_4,E8N_domain,"bomber3, bomber,DR, merc, pirate",0,,3,2,V,4000,1500,700,4,INTERCEPTOR,Interceptor,15,4000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 E8N_wing_3,E8N_domain,"bomber3, bomber,DR, merc, pirate",0,,3,1,V,4000,1500,700,3,INTERCEPTOR,Interceptor,15,3000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 vought_wing_3,Vought_domain,"bomber3, bomber,DR, merc, pirate",1,,3,5,V,4000,1500,700,3,FIGHTER,Heavy Fighter,10,4000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0

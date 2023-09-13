@@ -168,7 +168,7 @@
       "location": [-170.5, 26],
       "length": 41.587063,
       "width": 11.834888,
-      "angle": 107,
+      "angle": 105.5,
       "contrailSize": 11.834888,
       "style": "COBRA_BOMBER"
     },
@@ -206,19 +206,21 @@
     },
     {
       "location": [-27, -0],
-      "length": 28.051292,
-      "width": 11.510857,
+      "length": 28.049999,
+      "width": 11.51,
       "angle": 179.5,
-      "contrailSize": 11.510857,
-      "style": "COBRA_BOMBER"
+      "contrailSize": 11.51,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
     },
     {
       "location": [44.5, -0.5],
-      "length": 20.547214,
-      "width": 10.641793,
+      "length": 20.549999,
+      "width": 10.64,
       "angle": 179.5,
-      "contrailSize": 10.641793,
-      "style": "COBRA_BOMBER"
+      "contrailSize": 10.64,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
     }
   ],
   "bounds": [

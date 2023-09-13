@@ -1,0 +1,99 @@
+{
+  "hullName": "B5N",
+  "hullId": "B5N",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/B5N.PNG",
+  "style": "LOW_TECH",
+  "height": 47,
+  "width": 68,
+  "center": [34, 23.5],
+  "collisionRadius": 35,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 36.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [21.5, 2]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [21.5, -2]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [21.5, 3]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [21.5, -3]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [23.5, -1]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [23.5, 1]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 194,
+      "angle": 180,
+      "locations": [-3.5, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    12.5, -3,
+    21.5, -3,
+    21.5, -3,
+    21.5, 3,
+    12.5, 3,
+    10, 31,
+    8, 34,
+    -2.5, 2,
+    -15.5, 2,
+    -20, 11,
+    -22.5, 6.5,
+    -22.5, -6.5,
+    -20.5, -11,
+    -15.5, -2,
+    -2, -2,
+    6.5, -34.5,
+    10.5, -29
+  ]
+}
