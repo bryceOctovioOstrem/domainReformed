@@ -18,3 +18,4 @@ Cannon,smoothBore,0,,80,600,,250,,16,15,3,,,,KINETIC,200,,0,4,1,,0,15,3,10,,600,
 Duel 5-inch/38-caliber,5in,0,,700,700,,110,,12,40,7,,,,FRAGMENTATION,90,,0,0.7,2,0.3,0,18,5,5,,1000,250,1.5,150,,,"PD,GROUP_ALTERNATING","he11,DR, merc, ind, pirates",,,,General,,,,,,,,,,
 20.3 cm SK C/34 naval gun,20cmSK,3,0.1,2000,700,200,,,0,8,10,,,,ENERGY,,300,0.2,0.2,,,,,,,2400,,,,,,,PD,"energy18, he17, kinetic17, merc, ind,DR,pirates,no_sell",,,,General,,,,,"Creates space-time rifts along the beam length, targeted at nearby enemy missiles and fighters. Each rift deals up to %s energy damage to nearby targets.",200,,,,21
 Kamikaze,kamikaze,2,0.5,300,4000,,4000,,4000,1,15,,,,HIGH_EXPLOSIVE,0,,0,30,1,,0,0,0,0,,320,0,30,400,,,"GUIDED_POOR,DO_NOT_AIM","no_sell, no_drop, no_drop_salvage",,,,Torpedo,medium,medium,,,,,,,TRUE,9.75
+130 mm/50 B13 Pattern 1936,130mm,2,,250,500,,200,,25,40,6,,,,FRAGMENTATION,100,,0,0.5,1,,,,,,,750,,,,,,,"energy8, merc, ind, DR, ",,,,General,,,,,,,,,,

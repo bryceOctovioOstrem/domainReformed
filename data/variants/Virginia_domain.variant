@@ -7,42 +7,22 @@
   "fluxVents": 0,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [
-    "blast_doors"
-  ],
+  "hullMods": [],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "railgun",
-        "WS0003": "railgun",
-        "WS0006": "railgun",
-        "WS0007": "railgun"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "railgun",
-        "WS0004": "railgun",
-        "WS0005": "railgun",
-        "WS0008": "railgun"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0009": "amblaster"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0010": "amblaster"
+        "WS0001": "smoothBore",
+        "WS0002": "smoothBore",
+        "WS0003": "smoothBore",
+        "WS0004": "smoothBore",
+        "WS0005": "smoothBore",
+        "WS0006": "smoothBore",
+        "WS0007": "smoothBore",
+        "WS0008": "smoothBore",
+        "WS0009": "smoothBore",
+        "WS0010": "smoothBore"
       }
     }
   ],

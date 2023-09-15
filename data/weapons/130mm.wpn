@@ -1,0 +1,49 @@
+{
+  "id": "130mm",
+  "specClass": "projectile",
+  "projectileSpecId": "130mm_shot",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/130mm.png",
+  "hardpointSprite": "graphics/weapons/130mm.png",
+  "glowColor": [
+    0,
+    57,
+    166,
+    255
+  ],
+  "turretOffsets": [
+    22,
+    2,
+    22,
+    -2
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    15,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 15,
+    "particleSizeMin": 20,
+    "particleSizeRange": 10,
+    "particleDuration": 0.24,
+    "particleCount": 12,
+    "particleColor": [
+      0,
+      57,
+      166,
+      255
+    ]
+  },
+  "fireSoundTwo": "cryoblaster_fire"
+}
