@@ -15,13 +15,13 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0001": "130mm",
+        "WS0002": "130mm",
         "WS0003": "Oerlikon",
-        "WS0005": "annihilator_fighter",
-        "WS0006": "annihilator_fighter",
-        "WS0007": "annihilator_fighter",
         "WS0008": "vulcan",
         "WS0011": "vulcan",
-        "WS0014": "vulcan"
+        "WS0014": "vulcan",
+        "WS0016": "130mm"
       }
     },
     {
@@ -37,22 +37,22 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0001": "130mm",
-        "WS0002": "130mm"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0016": "130mm"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
       "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "harpoon",
+        "WS0006": "harpoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "annihilator"
+      }
     },
     {
       "autofire": false,
