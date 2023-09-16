@@ -37,12 +37,12 @@
         "WS0035": "smoothBore",
         "WS0036": "smoothBore",
         "WS0037": "smoothBore",
-        "WS0038": "smoothBore",
         "WS0039": "smoothBore",
         "WS0040": "smoothBore",
         "WS0056": "smoothBore",
-        "WS0060": "smoothBore",
-        "WS0061": "smoothBore"
+        "WS0058": "smoothBore",
+        "WS0063": "smoothBore",
+        "WS0065": "smoothBore"
       }
     },
     {
@@ -75,7 +75,10 @@
         "WS0051": "smoothBore",
         "WS0052": "smoothBore",
         "WS0053": "smoothBore",
-        "WS0057": "smoothBore"
+        "WS0057": "smoothBore",
+        "WS0059": "smoothBore",
+        "WS0062": "smoothBore",
+        "WS0066": "smoothBore"
       }
     },
     {
@@ -89,21 +92,20 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0058": "smoothBore"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0059": "smoothBore"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0060": "smoothBore",
+        "WS0061": "smoothBore"
+      }
     },
     {
       "autofire": false,

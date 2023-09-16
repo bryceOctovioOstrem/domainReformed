@@ -18,6 +18,10 @@
     "rugged",
     "fragile_subsystems"
   ],
+  "builtInWeapons": {
+    "WS0038": "wasa_dec",
+    "WS0064": "wasa_dec"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -131,7 +135,7 @@
       "id": "WS0013",
       "size": "SMALL",
       "type": "HYBRID",
-      "mount": "HARDPOINT",
+      "mount": "HIDDEN",
       "arc": 0,
       "angle": 90,
       "locations": [65, 40]
@@ -353,15 +357,6 @@
       "locations": [-135.5, 34]
     },
     {
-      "id": "WS0038",
-      "size": "SMALL",
-      "type": "HYBRID",
-      "mount": "HIDDEN",
-      "arc": 0,
-      "angle": 90,
-      "locations": [-122, 31]
-    },
-    {
       "id": "WS0039",
       "size": "SMALL",
       "type": "HYBRID",
@@ -537,8 +532,8 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "HIDDEN",
-      "arc": 45,
-      "angle": 76,
+      "arc": 1,
+      "angle": 90,
       "locations": [82.5, 33]
     },
     {
@@ -546,8 +541,8 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "HIDDEN",
-      "arc": 45,
-      "angle": -76,
+      "arc": 1,
+      "angle": -90,
       "locations": [82.5, -33]
     },
     {
@@ -567,6 +562,62 @@
       "arc": 1,
       "angle": -0,
       "locations": [92, -12.5]
+    },
+    {
+      "id": "WS0062",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-105.5, -33]
+    },
+    {
+      "id": "WS0063",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-105.5, 33]
+    },
+    {
+      "id": "WS0038",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-125.5, 20.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0064",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-119, -20.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0065",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-122, 18.5]
+    },
+    {
+      "id": "WS0066",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-122, -19]
     }
   ],
   "engineSlots": [
@@ -585,15 +636,6 @@
       "width": 116,
       "angle": 180,
       "contrailSize": 116,
-      "style": "CUSTOM",
-      "styleId": "sail"
-    },
-    {
-      "location": [-143, -0.5],
-      "length": 0.5,
-      "width": 78,
-      "angle": 180,
-      "contrailSize": 78,
       "style": "CUSTOM",
       "styleId": "sail"
     },

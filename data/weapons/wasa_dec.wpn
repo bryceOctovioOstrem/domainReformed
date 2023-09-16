@@ -1,11 +1,11 @@
 {
-  "id": "smoothBore",
+  "id": "wasa_dec",
   "specClass": "projectile",
   "projectileSpecId": "cannonball",
-  "type": "BALLISTIC",
+  "type": "DECORATIVE",
   "size": "SMALL",
-  "turretSprite": "graphics/weapons/smoothBore.png",
-  "hardpointSprite": "graphics/weapons/smoothBoreHardpoint.png",
+  "turretSprite": "graphics/weapons/wasa_decretive_weapon.png",
+  "hardpointSprite": "graphics/weapons/wasa_decretive_weapon.png",
   "turretOffsets": [
     14,
     0

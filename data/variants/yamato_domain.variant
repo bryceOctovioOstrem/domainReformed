@@ -13,7 +13,6 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "type_94",
         "WS0012": "dualflak",
         "WS0013": "dualflak",
         "WS0014": "dualflak",
@@ -26,8 +25,7 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "type_94",
-        "WS0002": "type_94"
+        "WS0001": "type_94"
       }
     },
     {
@@ -60,6 +58,20 @@
         "WS0021": "vulcan",
         "WS0022": "vulcan",
         "WS0023": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "type_94"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "type_94"
       }
     }
   ],

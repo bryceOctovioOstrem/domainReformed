@@ -8,7 +8,6 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "armoredweapons",
     "autorepair"
   ],
   "weaponGroups": [
@@ -18,7 +17,6 @@
       "weapons": {
         "WS0001": "pdlaser",
         "WS0002": "vulcan",
-        "WS0003": "pdlaser",
         "WS0005": "vulcan",
         "WS0007": "vulcan",
         "WS0009": "vulcan"
@@ -28,6 +26,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "WS0003": "pdlaser",
         "WS0004": "vulcan",
         "WS0006": "vulcan",
         "WS0008": "vulcan",
@@ -38,28 +37,28 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0011": "heavyac"
+        "WS0011": "6in"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0012": "heavyac"
+        "WS0012": "6in"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0013": "heavyac"
+        "WS0013": "6in"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0014": "heavyac"
+        "WS0014": "6in"
       }
     },
     {
