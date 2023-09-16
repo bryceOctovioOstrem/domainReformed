@@ -109,10 +109,10 @@
   ],
   "modules": [],
   "wings": [
-    "hoplon_wing",
-    "hoplon_wing",
-    "hoplon_wing",
-    "hoplon_wing",
+    "B5N_wing",
+    "B5N_wing",
+    "B5N_wing",
+    "B5N_wing",
     "Zero_wing",
     "Zero_wing",
     "Zero_wing"

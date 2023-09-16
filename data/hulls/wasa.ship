@@ -131,7 +131,7 @@
       "id": "WS0013",
       "size": "SMALL",
       "type": "HYBRID",
-      "mount": "HIDDEN",
+      "mount": "HARDPOINT",
       "arc": 0,
       "angle": 90,
       "locations": [65, 40]
@@ -555,18 +555,18 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "HIDDEN",
-      "arc": 45,
-      "angle": 23,
-      "locations": [96, 11.5]
+      "arc": 1,
+      "angle": 0,
+      "locations": [92, 12.5]
     },
     {
       "id": "WS0061",
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "HIDDEN",
-      "arc": 45,
-      "angle": -22.5,
-      "locations": [96, -11.5]
+      "arc": 1,
+      "angle": -0,
+      "locations": [92, -12.5]
     }
   ],
   "engineSlots": [

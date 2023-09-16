@@ -40,7 +40,9 @@
         "WS0038": "smoothBore",
         "WS0039": "smoothBore",
         "WS0040": "smoothBore",
-        "WS0056": "smoothBore"
+        "WS0056": "smoothBore",
+        "WS0060": "smoothBore",
+        "WS0061": "smoothBore"
       }
     },
     {
@@ -101,10 +103,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0060": "smoothBore",
-        "WS0061": "smoothBore"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
