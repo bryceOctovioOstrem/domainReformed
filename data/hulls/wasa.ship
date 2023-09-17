@@ -20,7 +20,13 @@
   ],
   "builtInWeapons": {
     "WS0038": "wasa_dec",
-    "WS0064": "wasa_dec"
+    "WS0039": "smoothBore",
+    "WS0057": "smoothBore",
+    "WS0062": "smoothBore",
+    "WS0063": "smoothBore",
+    "WS0064": "wasa_dec",
+    "WS0065": "smoothBore",
+    "WS0066": "smoothBore"
   },
   "weaponSlots": [
     {
@@ -359,7 +365,7 @@
     {
       "id": "WS0039",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 90,
@@ -503,7 +509,7 @@
     {
       "id": "WS0057",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -90,
@@ -552,7 +558,7 @@
       "mount": "HIDDEN",
       "arc": 1,
       "angle": 0,
-      "locations": [92, 12.5]
+      "locations": [95, 12]
     },
     {
       "id": "WS0061",
@@ -561,12 +567,12 @@
       "mount": "HIDDEN",
       "arc": 1,
       "angle": -0,
-      "locations": [92, -12.5]
+      "locations": [95, -11.5]
     },
     {
       "id": "WS0062",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -90,
@@ -575,7 +581,7 @@
     {
       "id": "WS0063",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 90,
@@ -604,7 +610,7 @@
     {
       "id": "WS0065",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": 90,
@@ -613,7 +619,7 @@
     {
       "id": "WS0066",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": -90,

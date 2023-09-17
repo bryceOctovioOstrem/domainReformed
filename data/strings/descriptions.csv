@@ -15,10 +15,13 @@ DR_planet_Burke,CUSTOM,Burke is the breadbasket of the Metternich system. Thousa
 DR_planet_Maistre,CUSTOM,"Mariste is a brutal prison world.  The people who reside here are career criminals, political prisoners, terrorists, and the few brave pioneers willing to tough it out for great riches. On this world, hundreds of criminals slave away digging up the mineral riches of the world to fuel the arms manufacturing sector. They are locked in battle with the jungle and the local megafauna for survival. A steady stream of outside personnel is necessary to keep the population steady. ",,,
 ,,,,,
 ,,,,,
-,,,,,
-,,,,,
-,,,,,
 #Ships,,,,,
+,,,,,
+,,,,,
+wasa,SHIP,"The Wasa class of ships have an incredible broadside potential at the cost of frontal combat ability. The Wasa class shreds frigates with ease ,but struggles with anything larger. The first of this class, the Domain Recon created navi Computer' had a massive malfunction. Causing it to enter the gravity well of Illyn. Destroying the tallest mountain on the planet. Ending global warming and beginning global cooling.
+
+	This ship makes use of archaic solar sail technology. This allows for an incredible max speed and low fuel consumption at the cost of acceleration.
+",,,
 StLouis,SHIP,"The most beautiful ship used by the domain and a personal favorite of director Ivanov, this warship can enter and exit the atmosphere with its own power. This has made it a common sight in the many parades Director Ivanov constantly orders. A capable gunboat for those with a love for theatrics.",,,
 Trireme,SHIP,A  small cargo transport with decent enough . This ship makes use of archaic solar sail technology. This allows for an incredible max speed and almost nonexistent fuel consumption at the cost of acceleration. Luddic path zealots are known for using these ships as suicide rams.,,,
 bismark,SHIP,"A favorite among older pirate lords and the more ""disciplinarian inclined"" admirals, the Bismark is an incredibly durable battleship with a very intimidating image, the Bismark-class fills a vital middle point between conquest and a paragon across the sector. with heavy armor and good firepower the Bismark is the backbone of any fleet it finds itself in.  When the first Bismark launched from the Illyn the admirals cheered at the glory of the Dominion. The dockworkers lamented the amount of suffering it had taken to build it, and its soon-to-be sisters.",,,

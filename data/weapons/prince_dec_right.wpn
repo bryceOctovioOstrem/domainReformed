@@ -1,11 +1,11 @@
 {
-  "id": "smoothBore",
+  "id": "prince_dec_right",
   "specClass": "projectile",
   "projectileSpecId": "cannonball",
-  "type": "BALLISTIC",
+  "type": "DECORATIVE",
   "size": "SMALL",
-  "turretSprite": "graphics/weapons/smoothBore.png",
-  "hardpointSprite": "graphics/weapons/smoothBoreHardpoint.png",
+  "turretSprite": "graphics/weapons/prince_dec_right.png",
+  "hardpointSprite": "graphics/weapons/prince_dec_right.png",
   "turretOffsets": [
     14,
     0
@@ -24,14 +24,14 @@
   "animationType": "SMOKE",
   "smokeSpec": {
     "particleSizeMin": 6,
-    "particleSizeRange": 9,
-    "cloudParticleCount": 24,
-    "cloudDuration": 10,
-    "cloudRadius": 24,
-    "blowbackParticleCount": 10,
-    "blowbackDuration": 10,
-    "blowbackLength": -10,
-    "blowbackSpread": 20,
+    "particleSizeRange": 12,
+    "cloudParticleCount": 6,
+    "cloudDuration": 1,
+    "cloudRadius": 6,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 22,
+    "blowbackSpread": 15,
     "particleColor": [
       225,
       225,

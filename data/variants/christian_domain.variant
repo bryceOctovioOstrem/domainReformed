@@ -1,0 +1,127 @@
+{
+  "variantId": "christian_domain",
+  "hullId": "christian",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 38,
+  "fluxVents": 50,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": ["armoredweapons",
+"blast_doors",
+"insulatedengine"],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "smoothBore",
+        "WS0002": "smoothBore",
+        "WS0003": "smoothBore",
+        "WS0004": "smoothBore",
+        "WS0005": "smoothBore",
+        "WS0006": "smoothBore",
+        "WS0007": "smoothBore",
+        "WS0008": "smoothBore",
+        "WS0009": "smoothBore",
+        "WS0010": "smoothBore",
+        "WS0011": "smoothBore",
+        "WS0012": "smoothBore",
+        "WS0013": "smoothBore",
+        "WS0014": "smoothBore",
+        "WS0015": "smoothBore",
+        "WS0016": "smoothBore",
+        "WS0017": "smoothBore",
+        "WS0034": "smoothBore",
+        "WS0035": "smoothBore",
+        "WS0036": "smoothBore",
+        "WS0041": "smoothBore",
+        "WS0044": "smoothBore",
+        "WS0045": "smoothBore",
+        "WS0048": "smoothBore",
+        "WS0051": "smoothBore",
+        "WS0056": "smoothBore",
+        "WS0060": "smoothBore",
+        "WS0062": "smoothBore",
+        "WS0064": "smoothBore",
+        "WS0069": "smoothBore",
+        "WS0070": "smoothBore",
+        "WS0071": "smoothBore",
+        "WS0072": "smoothBore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "smoothBore",
+        "WS0021": "smoothBore",
+        "WS0022": "smoothBore",
+        "WS0023": "smoothBore",
+        "WS0024": "smoothBore",
+        "WS0025": "smoothBore",
+        "WS0026": "smoothBore",
+        "WS0027": "smoothBore",
+        "WS0028": "smoothBore",
+        "WS0029": "smoothBore",
+        "WS0030": "smoothBore",
+        "WS0031": "smoothBore",
+        "WS0032": "smoothBore",
+        "WS0033": "smoothBore",
+        "WS0037": "smoothBore",
+        "WS0038": "smoothBore",
+        "WS0039": "smoothBore",
+        "WS0046": "smoothBore",
+        "WS0047": "smoothBore",
+        "WS0049": "smoothBore",
+        "WS0050": "smoothBore",
+        "WS0052": "smoothBore",
+        "WS0053": "smoothBore",
+        "WS0057": "smoothBore",
+        "WS0061": "smoothBore",
+        "WS0063": "smoothBore",
+        "WS0065": "smoothBore",
+        "WS0068": "smoothBore",
+        "WS0072": "smoothBore",
+        "WS0073": "smoothBore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "smoothBore",
+        "WS0019": "smoothBore",
+        "WS0066": "smoothBore",
+        "WS0067": "smoothBore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0054": "smoothBore",
+        "WS0055": "smoothBore",
+        "WS0058": "smoothBore",
+        "WS0059": "smoothBore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

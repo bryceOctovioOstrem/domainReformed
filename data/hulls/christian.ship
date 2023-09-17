@@ -1,0 +1,774 @@
+{
+  "hullName": "christian",
+  "hullId": "christian",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/DR/ships/prince.PNG",
+  "style": "LOW_TECH",
+  "height": 745,
+  "width": 370,
+  "center": [174.5, 382],
+  "collisionRadius": 361,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 375.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedcore",
+    "distributed_fire_control",
+    "shielded_holds",
+    "rugged"
+  ],
+  "builtInWeapons": {
+    "WS0034": "smoothBore",
+    "WS0035": "smoothBore",
+    "WS0036": "smoothBore",
+    "WS0037": "smoothBore",
+    "WS0038": "smoothBore",
+    "WS0039": "smoothBore",
+    "WS0041": "smoothBore",
+    "WS0051": "smoothBore",
+    "WS0052": "smoothBore",
+    "WS0068": "smoothBore",
+    "WS0069": "smoothBore",
+    "WS0074": "prince_dec_right",
+    "WS0075": "prince_dec"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [69.5, 65.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [39, 66.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [25, 58.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [9.5, 66.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-5, 59.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-20, 67.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-34.5, 58.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-50, 66.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-65, 58.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-109.5, 64.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-139.5, 65.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-168.5, 63.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-199, 58.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 99.5,
+      "locations": [-228.5, 55]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 96.5,
+      "locations": [-259.5, 51.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-183.5, 54.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-213.5, 51.5]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [160, -23.5]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [160, 23.5]
+    },
+    {
+      "id": "WS0020",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [39.5, -67.5]
+    },
+    {
+      "id": "WS0021",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [9.5, -66.5]
+    },
+    {
+      "id": "WS0022",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-20, -67.5]
+    },
+    {
+      "id": "WS0023",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-5, -58.5]
+    },
+    {
+      "id": "WS0024",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-34.5, -59.5]
+    },
+    {
+      "id": "WS0025",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-50, -66.5]
+    },
+    {
+      "id": "WS0026",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-109.5, -65.5]
+    },
+    {
+      "id": "WS0027",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-139, -66]
+    },
+    {
+      "id": "WS0028",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-169, -63.5]
+    },
+    {
+      "id": "WS0029",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-199, -60]
+    },
+    {
+      "id": "WS0030",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-183.5, -55.5]
+    },
+    {
+      "id": "WS0031",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-213, -51.5]
+    },
+    {
+      "id": "WS0032",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -93.5,
+      "locations": [-229, -55.5]
+    },
+    {
+      "id": "WS0033",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -96.5,
+      "locations": [-259.5, -51.5]
+    },
+    {
+      "id": "WS0034",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [39, 53.5]
+    },
+    {
+      "id": "WS0035",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-20, 52.5]
+    },
+    {
+      "id": "WS0036",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-50, 52.5]
+    },
+    {
+      "id": "WS0037",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [39, -54.5]
+    },
+    {
+      "id": "WS0038",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-20, -53.5]
+    },
+    {
+      "id": "WS0039",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-50, -53.5]
+    },
+    {
+      "id": "WS0040",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-158.5, -46.5]
+    },
+    {
+      "id": "WS0041",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-187, -45.5]
+    },
+    {
+      "id": "WS0042",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-187, 45.5]
+    },
+    {
+      "id": "WS0043",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-158, 46.5]
+    },
+    {
+      "id": "WS0044",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-198.5, 47.5]
+    },
+    {
+      "id": "WS0045",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-168.5, 49.5]
+    },
+    {
+      "id": "WS0046",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-199, -47.5]
+    },
+    {
+      "id": "WS0047",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [24.5, -58.5]
+    },
+    {
+      "id": "WS0048",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [52, 61.5]
+    },
+    {
+      "id": "WS0049",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [52.5, -62.5]
+    },
+    {
+      "id": "WS0050",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-97, -60.5]
+    },
+    {
+      "id": "WS0051",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-94, 60.5]
+    },
+    {
+      "id": "WS0052",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-101, -56.5]
+    },
+    {
+      "id": "WS0053",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [68.5, -65.5]
+    },
+    {
+      "id": "WS0054",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-337, 11]
+    },
+    {
+      "id": "WS0055",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-337, -11]
+    },
+    {
+      "id": "WS0058",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-332, 30]
+    },
+    {
+      "id": "WS0059",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-332, -30]
+    },
+    {
+      "id": "WS0056",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-151, 58.5]
+    },
+    {
+      "id": "WS0057",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-151, -58.5]
+    },
+    {
+      "id": "WS0060",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-128, 59.5]
+    },
+    {
+      "id": "WS0061",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-128, -59.5]
+    },
+    {
+      "id": "WS0062",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 99.5,
+      "locations": [-231.5, 49.5]
+    },
+    {
+      "id": "WS0063",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -97,
+      "locations": [-231.5, -49.5]
+    },
+    {
+      "id": "WS0064",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 96.5,
+      "locations": [-246, 48.5]
+    },
+    {
+      "id": "WS0065",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -96.5,
+      "locations": [-246, -48.5]
+    },
+    {
+      "id": "WS0066",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 45,
+      "locations": [144, 43.5]
+    },
+    {
+      "id": "WS0067",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -45,
+      "locations": [144, -43.5]
+    },
+    {
+      "id": "WS0068",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [10, -36.5]
+    },
+    {
+      "id": "WS0069",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [10, 36.5]
+    },
+    {
+      "id": "WS0070",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-107.5, 54.5]
+    },
+    {
+      "id": "WS0071",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-138.5, 52.5]
+    },
+    {
+      "id": "WS0072",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-108, -54.5]
+    },
+    {
+      "id": "WS0073",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-138.5, -53.5]
+    },
+    {
+      "id": "WS0074",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [10, -42]
+    },
+    {
+      "id": "WS0075",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, 41]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -337, 0,
+    -330.5, 29.5,
+    -313.5, 55.5,
+    -285.5, 51,
+    -274.5, 46,
+    -223, 56.5,
+    -221.5, 99.5,
+    -215.5, 58.5,
+    -84, 65.5,
+    -81.5, 142,
+    -68, 65,
+    60, 65,
+    85.5, 64,
+    108, 58.5,
+    116.5, 55.5,
+    119, 113.5,
+    122, 54.5,
+    130.5, 58,
+    131, 81,
+    134.5, 52.5,
+    156.5, 52.5,
+    150, 40,
+    210, 3,
+    265, 2,
+    266, 84,
+    276, 2,
+    321.5, 1.5,
+    321.5, 55,
+    326, 1.5,
+    360, 0,
+    326.5, -3,
+    322.5, -53,
+    321.5, -4,
+    276.5, -12,
+    266.5, -85,
+    266, -12,
+    202, -9,
+    150, -39.5,
+    157.5, -53,
+    132.5, -48,
+    131.5, -81,
+    130.5, -50,
+    120.5, -54.5,
+    119.5, -122,
+    115.5, -56,
+    98.5, -63.5,
+    65.5, -66,
+    -67, -65.5,
+    -79, -121.5,
+    -81, -143,
+    -82.5, -65.5,
+    -214.5, -59.5,
+    -220.5, -100,
+    -223.5, -57,
+    -251, -52.5,
+    -274.5, -46.5,
+    -290.5, -53,
+    -314.5, -54,
+    -331.5, -30
+  ]
+}

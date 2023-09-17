@@ -14,8 +14,13 @@
   "builtInMods": [
     "armoredweapons",
     "distributed_fire_control",
-    "shielded_holds"
+    "shielded_holds",
+	"targetingunit"
   ],
+  "builtInWeapons": {
+    "WS0002": "smoothBore",
+    "WS0007": "smoothBore"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -29,11 +34,11 @@
     {
       "id": "WS0002",
       "size": "SMALL",
-      "type": "HYBRID",
-      "mount": "HIDDEN",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
       "arc": 0,
       "angle": 90,
-      "locations": [-5, 34]
+      "locations": [-5.5, 20.5]
     },
     {
       "id": "WS0003",
@@ -74,11 +79,11 @@
     {
       "id": "WS0007",
       "size": "SMALL",
-      "type": "HYBRID",
-      "mount": "HIDDEN",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
       "arc": 0,
       "angle": -90,
-      "locations": [-5, -34]
+      "locations": [-5.5, -20.5]
     },
     {
       "id": "WS0008",
