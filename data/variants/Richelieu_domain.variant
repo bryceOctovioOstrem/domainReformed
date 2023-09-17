@@ -32,7 +32,12 @@
         "WS0031": "Oerlikon",
         "WS0032": "vulcan",
         "WS0040": "vulcan",
-        "WS0043": "dualflak",
+        "WS0042": "100mm",
+        "WS0043": "100mm",
+        "WS0044": "100mm",
+        "WS0045": "100mm",
+        "WS0046": "100mm",
+        "WS0047": "100mm",
         "WS0048": "vulcan"
       }
     },
@@ -58,7 +63,6 @@
         "WS0035": "vulcan",
         "WS0036": "vulcan",
         "WS0041": "vulcan",
-        "WS0046": "dualflak",
         "WS0049": "vulcan",
         "WS0052": "Oerlikon"
       }
@@ -82,18 +86,12 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0042": "heavymortar",
-        "WS0044": "heavymortar"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0045": "heavymortar",
-        "WS0047": "heavymortar"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,

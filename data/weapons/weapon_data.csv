@@ -23,3 +23,4 @@ BL 6-inch Mk XXIII naval gun,6in,1,,800,870,,110,,12,30,10,,,,HIGH_EXPLOSIVE,90,
 wasa_dec,wasa_dec,0,,40,600,,0,,16,15,3,,,,KINETIC,200,,0,4,1,,0,15,3,10,,600,,,10,,,"GROUP_ALTERNATING, FIRE_WHEN_INEFFICIENT,PD","no_sell, no_drop, no_drop_salvage",,,,General,,,,,,,,,,
 prince_dec_left,prince_dec,0,,40,600,,0,,16,15,3,,,,KINETIC,200,,0,4,1,,0,15,3,10,,600,,,10,,,"GROUP_ALTERNATING, FIRE_WHEN_INEFFICIENT,PD","no_sell, no_drop, no_drop_salvage",,,,General,,,,,,,,,,
 prince_dec_right,prince_dec_right,0,,40,600,,0,,16,15,3,,,,KINETIC,200,,0,4,1,,0,15,3,10,,600,,,10,,,"GROUP_ALTERNATING, FIRE_WHEN_INEFFICIENT,PD","no_sell, no_drop, no_drop_salvage",,,,General,,,,,,,,,,
+"100 mm/45 (3.9"") Model 1930",100mm,2,,2000,673,650,,,0,40,9,6,0.5,,ENERGY,,400,0.1,0.1,1,0.2,,,,,10000,,,,,,,"PD,ANTI_FTR","pd15, beam10, rare_bp, merc, ind",,,,Point Defense,,,,,,,,,,22.5
