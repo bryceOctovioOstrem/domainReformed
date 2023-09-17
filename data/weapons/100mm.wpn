@@ -4,6 +4,7 @@
   "type": "ENERGY",
   "size": "MEDIUM",
   "collisionClass": "RAY",
+  "barrelMode": "ALTERNATING",
   "collisionClassByFighter": "RAY_FIGHTER",
   "turretSprite": "graphics/weapons/DR_100mm.png",
   "hardpointSprite": "graphics/weapons/100mmHardPoint.png",

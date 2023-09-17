@@ -399,7 +399,7 @@
       "arc": 190,
       "angle": 90,
       "locations": [-102, 39],
-      "renderOrderMod": 100
+      "renderOrderMod": 110
     },
     {
       "id": "WS0043",
@@ -447,7 +447,7 @@
       "arc": 190,
       "angle": -91.5,
       "locations": [-100, -37],
-      "renderOrderMod": 100
+      "renderOrderMod": 110
     },
     {
       "id": "WS0048",

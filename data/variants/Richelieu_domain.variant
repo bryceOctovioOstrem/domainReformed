@@ -32,12 +32,6 @@
         "WS0031": "Oerlikon",
         "WS0032": "vulcan",
         "WS0040": "vulcan",
-        "WS0042": "100mm",
-        "WS0043": "100mm",
-        "WS0044": "100mm",
-        "WS0045": "100mm",
-        "WS0046": "100mm",
-        "WS0047": "100mm",
         "WS0048": "vulcan"
       }
     },
@@ -86,12 +80,20 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0042": "100mm",
+        "WS0043": "100mm",
+        "WS0044": "100mm"
+      }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0045": "100mm",
+        "WS0046": "100mm",
+        "WS0047": "100mm"
+      }
     },
     {
       "autofire": false,

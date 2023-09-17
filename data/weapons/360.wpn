@@ -1,6 +1,7 @@
 {
   "id": "360",
   "specClass": "beam",
+"beamEffect":"com.fs.starfarer.api.impl.combat.IonBeamEffect",
   "type": "ENERGY",
   "size": "LARGE",
   "collisionClass": "RAY",
