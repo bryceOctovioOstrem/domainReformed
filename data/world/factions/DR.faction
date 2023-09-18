@@ -1,7 +1,7 @@
 {
 	id:"DR",
 	"color":[252,213,134,255],
-	"displayName":"Domain Reconstructionists",
+	"displayName":"Reconstructionist",
 	"displayNameWithArticle":"the Domain",
 	"logo":"graphics/DR/factions/domain.png",
 	"crest":"graphics/DR/factions/domain_crest.png",
