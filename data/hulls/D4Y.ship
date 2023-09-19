@@ -1,0 +1,108 @@
+{
+  "hullName": "D4Y",
+  "hullId": "D4Y",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/D4Y.PNG",
+  "style": "LOW_TECH",
+  "height": 56,
+  "width": 60,
+  "center": [30, 28],
+  "collisionRadius": 32,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 33,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13, 13.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [13, -13.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [16, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 215,
+      "angle": 180,
+      "locations": [-7, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13, 11]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [13, -11]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13, 16]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [13, -16]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    27, -3,
+    27, 3,
+    14, 3,
+    12, 28,
+    9, 30,
+    3, 20,
+    0, 3,
+    -16, 2,
+    -20.5, 13,
+    -25, -0,
+    -20.5, -13,
+    -16, -2,
+    0, -3,
+    3, -20,
+    9, -30,
+    12, -25,
+    14, -3
+  ]
+}

@@ -18,8 +18,7 @@
     "surveying_equipment",
     "autorepair",
     "ablative_armor",
-    "fragile_subsystems",
-    "distributed_fire_control"
+    "fragile_subsystems"
   ],
   "builtInWeapons": {
     "WS0053": "kamikaze",

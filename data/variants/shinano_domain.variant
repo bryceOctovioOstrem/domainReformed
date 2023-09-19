@@ -7,9 +7,7 @@
   "fluxVents": 0,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [
-    "fragile_subsystems"
-  ],
+  "hullMods": [],
   "weaponGroups": [
     {
       "autofire": false,
@@ -34,7 +32,8 @@
         "WS0027": "vulcan",
         "WS0045": "dualflak",
         "WS0049": "dualflak",
-        "WS0050": "dualflak"
+        "WS0050": "dualflak",
+        "WS0056": "vulcan"
       }
     },
     {
@@ -109,8 +108,8 @@
   ],
   "modules": [],
   "wings": [
-    "B5N_wing",
-    "B5N_wing",
+    "D4Y_wing",
+    "D4Y_wing",
     "B5N_wing",
     "B5N_wing",
     "Zero_wing",
