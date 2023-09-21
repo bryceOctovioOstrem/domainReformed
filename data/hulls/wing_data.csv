@@ -21,3 +21,5 @@ vought_wing_2,Vought_domain,"bomber3, bomber,DR, merc, pirate",1,,4,4,V,4000,150
 Zero_wing,Zero_domain,"bomber3, bomber, DR, merc, pirate",2,,3,10,V,4000,2000,750,2,INTERCEPTOR,Interceptor,15,8000,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,
 B5N_wing,B5N_domain,"bomber3, bomber, DR, merc, pirate",2,,3,19,V,4000,2000,750,2,BOMBER,BOMBER,15,9500,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,
 D4Y_wing,D4Y_domain,"bomber3, bomber, DR, merc, pirate",2,,3,11,V,4000,2000,750,2,BOMBER,BOMBER,15,9500,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,
+SB2C_wing,SB2C_domain,"bomber3, bomber, DR, merc, pirate",2,,3,12,V,4000,2000,750,2,BOMBER,Bomber,10,7000,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,
+SBD_wing,SBD_domain,"bomber3, bomber, DR, merc, pirate",2,,3,12,V,4000,2000,750,2,BOMBER,Bomber,10,9000,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,

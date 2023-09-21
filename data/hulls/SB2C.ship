@@ -1,0 +1,92 @@
+{
+  "hullName": "SB2C",
+  "hullId": "SB2C",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/SB2C.PNG",
+  "style": "LOW_TECH",
+  "height": 55,
+  "width": 64,
+  "center": [32, 27.5],
+  "collisionRadius": 0,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [13.5, 8.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13.5, -8.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13.5, 11.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [13.5, -11.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 195,
+      "angle": 180,
+      "locations": [-3.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [27.5, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    12.5, -3,
+    23.5, -3,
+    23.5, 3,
+    12.5, 3,
+    12.5, 30,
+    8, 32,
+    1.5, 19,
+    0.5, 4,
+    -2.5, 3,
+    -20.5, 2,
+    -24, 12,
+    -27.5, -0,
+    -24, -12,
+    -20.5, -2,
+    -2.5, -3,
+    0.5, -5,
+    2.5, -22,
+    8, -32,
+    12.5, -30
+  ]
+}
