@@ -1,68 +1,69 @@
 {
-  "variantId": "Geobukseon_domain",
-  "hullId": "Geobukseon",
+  "variantId": "kiev_domain",
+  "hullId": "kiev",
   "displayName": "New Variant",
   "goalVariant": false,
   "fluxCapacitors": 20,
-  "fluxVents": 20,
+  "fluxVents": 2,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "autorepair",
-    "blast_doors"
+    "turretgyros",
+    "missleracks"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "smoothBore",
-        "WS0003": "smoothBore",
-        "WS0005": "smoothBore",
-        "WS0007": "smoothBore",
-        "WS0009": "smoothBore",
-        "WS0011": "smoothBore"
+        "WS0003": "Oerlikon",
+        "WS0006": "annihilator",
+        "WS0007": "Oerlikon",
+        "WS0009": "annihilator",
+        "WS0010": "Oerlikon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "smoothBore",
-        "WS0004": "smoothBore",
-        "WS0006": "smoothBore",
-        "WS0010": "smoothBore",
-        "WS0012": "smoothBore"
+        "WS0004": "Oerlikon",
+        "WS0008": "Oerlikon",
+        "WS0012": "Oerlikon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0013": "smoothBore",
-        "WS0015": "smoothBore"
+        "WS0001": "130mm"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0014": "pdlaser"
+        "WS0002": "130mm"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0016": "smoothBore",
-        "WS0017": "smoothBore"
+        "WS0005": "Oerlikon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
       "weapons": {
-        "WS0018": "pdlaser"
+        "WS0011": "130mm",
+        "WS0013": "130mm"
       }
     }
   ],

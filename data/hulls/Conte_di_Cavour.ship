@@ -15,6 +15,9 @@
     "rugged",
     "dedicated_targeting_core"
   ],
+  "builtInWeapons": {
+    "WS0004": "mjolnir"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -39,16 +42,16 @@
       "size": "LARGE",
       "type": "UNIVERSAL",
       "mount": "TURRET",
-      "arc": 331,
+      "arc": 308,
       "angle": 0,
       "locations": [-20.5, 1]
     },
     {
       "id": "WS0004",
       "size": "LARGE",
-      "type": "UNIVERSAL",
+      "type": "BUILT_IN",
       "mount": "TURRET",
-      "arc": 331,
+      "arc": 263,
       "angle": 179,
       "locations": [-137, 0.5]
     },
@@ -57,7 +60,7 @@
       "size": "LARGE",
       "type": "UNIVERSAL",
       "mount": "TURRET",
-      "arc": 331,
+      "arc": 283,
       "angle": 179,
       "locations": [-182, -0.5]
     }

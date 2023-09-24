@@ -17,6 +17,9 @@
     "autorepair",
     "distributed_fire_control"
   ],
+  "builtInWeapons": {
+    "WS0008": "amblaster"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -84,7 +87,7 @@
     {
       "id": "WS0008",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "TURRET",
       "arc": 294,
       "angle": 180,

@@ -4,26 +4,31 @@
   "displayName": "New Variant",
   "goalVariant": false,
   "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "turretgyros",
+    "autorepair",
+    "hiressensors"
+  ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "cyclone",
-        "WS0002": "cyclone",
-        "WS0003": "cyclone",
         "WS0004": "Oerlikon",
+        "WS0006": "wyrm",
+        "WS0007": "cryoblaster",
+        "WS0008": "Oerlikon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0005": "Oerlikon",
-        "WS0006": "cyclone",
-        "WS0007": "dualflak",
-        "WS0008": "Oerlikon",
-        "WS0009": "Oerlikon",
-        "WS0012": "cyclone",
-        "WS0013": "cyclone"
+        "WS0009": "Oerlikon"
       }
     },
     {
@@ -34,25 +39,26 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0001": "wyrm",
+        "WS0002": "wyrm",
+        "WS0003": "wyrm",
+        "WS0012": "wyrm",
+        "WS0013": "wyrm"
+      }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0010": "sabot_fighter",
-        "WS0011": "sabot_fighter",
-        "WS0014": "sabot_fighter",
-        "WS0016": "sabot_fighter",
-        "WS0017": "sabot_fighter",
-        "WS0018": "sabot_fighter",
-        "WS0019": "sabot_fighter",
-        "WS0021": "sabot_fighter"
+        "WS0010": "sabot_single_hidden",
+        "WS0011": "sabot_single_hidden",
+        "WS0014": "sabot_single_hidden",
+        "WS0016": "sabot_single_hidden",
+        "WS0017": "sabot_single_hidden",
+        "WS0018": "sabot_single_hidden",
+        "WS0019": "sabot_single_hidden",
+        "WS0021": "sabot_single_hidden"
       }
     },
     {

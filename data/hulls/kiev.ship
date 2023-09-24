@@ -1,0 +1,219 @@
+{
+  "hullName": "kiev",
+  "hullId": "kiev",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/DR/ships/Kiev.PNG",
+  "style": "LOW_TECH",
+  "height": 455,
+  "width": 44,
+  "center": [22, 227.5],
+  "collisionRadius": 228,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 233,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "rugged"
+  ],
+  "builtInWeapons": {
+    "WS0013": "130mm"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 294,
+      "angle": 0,
+      "locations": [158.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 295,
+      "angle": 0,
+      "locations": [136.5, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 122,
+      "angle": 90,
+      "locations": [33.5, 11]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 122,
+      "angle": -90,
+      "locations": [32.5, -11]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 122,
+      "angle": 180,
+      "locations": [22.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -90,
+      "locations": [-12.5, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 90,
+      "locations": [-56.5, 10]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -90,
+      "locations": [-56.5, -10]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -90,
+      "locations": [-78.5, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 90,
+      "locations": [-107.5, 15]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 227,
+      "angle": 180,
+      "locations": [-125.5, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -90,
+      "locations": [-108.5, -15]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-150.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-39, -0],
+      "length": 9.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [47.5, 0.5],
+      "length": 11,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [-225.5, 8],
+      "length": 23.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-225.5, -8.5],
+      "length": 23.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-226.5, 12],
+      "length": 24,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "russian_blue"
+    },
+    {
+      "location": [-227.5, -12.5],
+      "length": 24,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "russian_blue"
+    }
+  ],
+  "bounds": [
+    -220, -15,
+    -216.5, -10.5,
+    -183, -13,
+    -176.5, -19,
+    -171, -14.5,
+    -146, -16.5,
+    -103, -20,
+    107, -20.5,
+    178.5, -12.5,
+    225.5, 0.5,
+    178.5, 12.5,
+    107, 20.5,
+    -103, 20,
+    -146, 16.5,
+    -171, 14.5,
+    -176.5, 19,
+    -183, 13,
+    -216.5, 10.5,
+    -220, 15
+  ]
+}

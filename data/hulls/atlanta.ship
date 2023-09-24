@@ -19,6 +19,9 @@
     "turretgyros",
     "escort_package"
   ],
+  "builtInWeapons": {
+    "WS0021": "5in"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -164,8 +167,8 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 360,
-      "angle": 180,
+      "arc": 180,
+      "angle": 90,
       "locations": [-194.5, 11.5]
     },
     {
@@ -173,7 +176,7 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 360,
+      "arc": 180,
       "angle": 180,
       "locations": [-212.5, 0.5]
     },
@@ -182,8 +185,8 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 360,
-      "angle": 180,
+      "arc": 180,
+      "angle": -90,
       "locations": [-195.5, -9.5]
     },
     {
@@ -209,7 +212,7 @@
     {
       "id": "WS0021",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "BUILT_IN",
       "mount": "TURRET",
       "arc": 264,
       "angle": 180,

@@ -3,8 +3,8 @@
 	"specClass":"missile",
 	"missileType":"ROCKET",
 	"sprite":"graphics/missiles/shell_small.png",
-	"size":[10,22],	
-	"center":[5,11],
+	"size":[5,11],	
+	"center":[2,6],
 	"collisionRadius":15,
 	"collisionClass":"MISSILE_FF",
 	"explosionColor":[255, 87, 51,255],  # purely visual, will get a white additively blended core on top of this color

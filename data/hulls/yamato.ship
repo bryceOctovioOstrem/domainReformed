@@ -18,6 +18,9 @@
     "glitched_sensors",
     "ablative_armor"
   ],
+  "builtInWeapons": {
+    "WS0004": "type_94"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -51,7 +54,7 @@
     {
       "id": "WS0004",
       "size": "LARGE",
-      "type": "UNIVERSAL",
+      "type": "BUILT_IN",
       "mount": "TURRET",
       "arc": 272,
       "angle": 180,

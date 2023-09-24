@@ -17,6 +17,9 @@
     "autorepair",
     "insulatedengine"
   ],
+  "builtInWeapons": {
+    "WS0016": "130mm"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -156,10 +159,10 @@
     {
       "id": "WS0016",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "TURRET",
       "arc": 286,
-      "angle": 179,
+      "angle": 180,
       "locations": [-139, -0]
     }
   ],

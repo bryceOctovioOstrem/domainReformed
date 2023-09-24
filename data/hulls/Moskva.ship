@@ -1,7 +1,7 @@
 {
   "hullName": "Moskva",
   "hullId": "Moskva",
-  "hullSize": "CRUISER",
+  "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/DR/ships/moskva.png",
   "style": "LOW_TECH",
   "height": 575,
@@ -12,18 +12,26 @@
   "shieldRadius": 308,
   "viewOffset": 0,
   "builtInMods": [
-    "targetingunit",
     "eccm",
     "ecm",
-    "missleracks",
     "rugged",
-    "malfunctioning_comms"
+    "malfunctioning_comms",
+    "damaged_mounts",
+    "fragile_subsystems"
   ],
+  "builtInWeapons": {
+    "WS0001": "wyrm",
+    "WS0002": "wyrm",
+    "WS0003": "wyrm",
+    "WS0006": "wyrm",
+    "WS0012": "wyrm",
+    "WS0013": "wyrm"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
-      "size": "LARGE",
-      "type": "MISSILE",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 1,
       "angle": 0,
@@ -76,8 +84,8 @@
     },
     {
       "id": "WS0002",
-      "size": "LARGE",
-      "type": "MISSILE",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 1,
       "angle": 0,
@@ -85,8 +93,8 @@
     },
     {
       "id": "WS0003",
-      "size": "LARGE",
-      "type": "MISSILE",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 1,
       "angle": 0,
@@ -94,8 +102,8 @@
     },
     {
       "id": "WS0006",
-      "size": "LARGE",
-      "type": "MISSILE",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 1,
       "angle": 0,
@@ -103,8 +111,8 @@
     },
     {
       "id": "WS0012",
-      "size": "LARGE",
-      "type": "MISSILE",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 1,
       "angle": 0,
@@ -112,8 +120,8 @@
     },
     {
       "id": "WS0013",
-      "size": "LARGE",
-      "type": "MISSILE",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 1,
       "angle": 0,
@@ -198,38 +206,32 @@
       "mount": "HIDDEN",
       "arc": 360,
       "angle": 0,
-      "locations": [-241, -0.5]
-    },
-    {
-      "id": "LB 2",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [-230, -0]
+      "locations": [
+        -241, -0.5,
+        -229.5, 0.5
+      ]
     }
   ],
   "engineSlots": [
     {
-      "location": [-46, 9.5],
-      "length": 19.5,
-      "width": 13,
+      "location": [-46, 10],
+      "length": 18.5,
+      "width": 10,
       "angle": 180,
-      "contrailSize": 13,
+      "contrailSize": 10,
       "style": "OMEGA"
     },
     {
-      "location": [-46, -12.5],
+      "location": [-44.5, -12],
       "length": 21,
-      "width": 12,
+      "width": 10,
       "angle": -180,
-      "contrailSize": 12,
+      "contrailSize": 10,
       "style": "OMEGA"
     },
     {
       "location": [-277, 1],
-      "length": 146,
+      "length": 120,
       "width": 28,
       "angle": -180,
       "contrailSize": 28,

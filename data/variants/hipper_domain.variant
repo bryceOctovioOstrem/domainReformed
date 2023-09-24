@@ -1,75 +1,78 @@
 {
-  "variantId": "tashkent_domain",
-  "hullId": "tashkent",
+  "variantId": "hipper_domain",
+  "hullId": "hipper",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 20,
-  "fluxVents": 5,
+  "fluxCapacitors": 0,
+  "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "armoredweapons"
+    "advancedoptics",
+    "reinforcedhull",
+    "armoredweapons",
+    "heavyarmor"
   ],
   "weaponGroups": [
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "130mm",
-        "WS0003": "Oerlikon",
-        "WS0008": "vulcan",
-        "WS0011": "vulcan",
-        "WS0014": "vulcan"
+        "WS0002": "Oerlikon",
+        "WS0003": "lightdualmg",
+        "WS0005": "lightdualmg",
+        "WS0007": "lightdualmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "Oerlikon",
+        "WS0004": "lightdualmg",
+        "WS0006": "lightdualmg",
+        "WS0008": "lightdualmg"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "Oerlikon",
-        "WS0010": "vulcan",
-        "WS0013": "vulcan",
-        "WS0015": "vulcan"
+        "WS0009": "20cmSK"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0016": "130mm"
+        "WS0010": "20cmSK"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "harpoon",
-        "WS0006": "harpoon"
+        "WS0011": "20cmSK"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "annihilator"
+        "WS0012": "20cmSK"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0009": "vulcan",
-        "WS0012": "vulcan"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "130mm"
+        "WS0013": "harpoon",
+        "WS0014": "harpoon"
       }
     }
   ],
   "modules": [],
-  "wings": []
+  "wings": [
+    "vought_wing_3"
+  ]
 }

@@ -14,8 +14,8 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "lightmg",
-        "WS0002": "waterTorp",
-        "WS0003": "waterTorp"
+        "WS0002": "hiddenBombSmall",
+        "WS0003": "hiddenBombSmall"
       }
     }
   ],

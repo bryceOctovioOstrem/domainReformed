@@ -122,5 +122,22 @@
 		#"contrailCampaignColor":[120,50,50,50],
 		"type":"SMOKE" # GLOW or SMOKE,
 	},
+	"black":{
+		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
+		#"glowShape":"graphics/fx/engineflame32.png",
+		"engineColor":[32, 32, 32,255],
+		"engineCampaignColor":[32, 32, 32,255],
+		"contrailParticleSizeMult":6,
+		"contrailParticleDuration":3,
+		"contrailParticleFinalSizeMult":1,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0.5,
+		"contrailColor":[32, 32, 32,50],
+		"contrailCampaignColor":[32, 32, 32,75],
+		#"contrailCampaignColor":[120,50,50,50],
+		"type":"SMOKE" # GLOW or SMOKE,
+	},
+
+
 }
 

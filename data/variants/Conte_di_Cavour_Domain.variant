@@ -4,12 +4,13 @@
   "displayName": "New Variant",
   "goalVariant": false,
   "fluxCapacitors": 0,
-  "fluxVents": 42,
+  "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "armoredweapons",
-    "autorepair"
+    "autorepair",
+    "hardened_subsystems"
   ],
   "weaponGroups": [
     {

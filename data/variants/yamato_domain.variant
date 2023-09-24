@@ -3,11 +3,13 @@
   "hullId": "yamato",
   "displayName": "New",
   "goalVariant": true,
-  "fluxCapacitors": 0,
+  "fluxCapacitors": 13,
   "fluxVents": 50,
   "quality": 0,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "autorepair"
+  ],
   "weaponGroups": [
     {
       "autofire": false,
