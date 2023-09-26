@@ -56,7 +56,6 @@
 	},
 	"combatFreighterMedium":{
 		"Brig_domain":2,
-		"liberty_domain":1,
 		"fallback":{"combatFreighterSmall":1},
 	},
 	"combatFreighterLarge":{

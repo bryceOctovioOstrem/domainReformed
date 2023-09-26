@@ -1,8 +1,8 @@
 {
 	id:"DR",
 	"color":[252,213,134,255],
-	"displayName":"Reconstructionist",
-	"displayNameWithArticle":"the Domain",
+	"displayName":"Reconstructionists",
+	"displayNameWithArticle":"The Domain reformed",
 	"logo":"graphics/DR/factions/domain.png",
 	"crest":"graphics/DR/factions/domain_crest.png",
 	"entityNamePrefix":"Domain",
@@ -89,7 +89,7 @@
 		],
 	},
 	"knownWeapons":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "missile_bp", "hegemony","DR","ind", "independent",*,"merc","rare_bp","restricted","hist1t"],
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "missile_bp", "hegemony","DR","ind", "independent","merc","restricted","hist1t"],
 		#"tags":[*],
 		"weapons":[
 			"railgun",

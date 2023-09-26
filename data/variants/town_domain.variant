@@ -9,7 +9,7 @@
   "permaMods": [],
   "hullMods": [
     "autorepair",
-    "turretgyros"
+    "solar_shielding"
   ],
   "weaponGroups": [
     {
