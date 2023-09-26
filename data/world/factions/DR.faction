@@ -2,7 +2,7 @@
 	id:"DR",
 	"color":[252,213,134,255],
 	"displayName":"Reconstructionists",
-	"displayNameWithArticle":"The Domain reformed",
+	"displayNameWithArticle":"The Domain Reformed",
 	"logo":"graphics/DR/factions/domain.png",
 	"crest":"graphics/DR/factions/domain_crest.png",
 	"entityNamePrefix":"Domain",
@@ -47,7 +47,12 @@
 		"tiger_domain":100,
 		"benson_domain":100,
 		"Brig_domain":100,
-		"Richelieu_domain":100,
+		"kingGeorge_domain":100,
+		"gearing_domain":100,
+		"hipper_domain":100,
+		"shinano_domain":100,
+		"christian_domain":100,
+		"wasa_domain":100,
 },	
 	
 	# multiplier for how often hulls show up in the faction's fleets
