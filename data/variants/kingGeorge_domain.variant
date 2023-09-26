@@ -1,0 +1,90 @@
+{
+  "variantId": "kingGeorge_domain",
+  "hullId": "kingGeorge",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 12,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "solar_shielding"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "Oerlikon",
+        "WS0002": "Oerlikon",
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0010": "Oerlikon",
+        "WS0025": "Oerlikon",
+        "WS0027": "Oerlikon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "Oerlikon",
+        "WS0005": "Oerlikon",
+        "WS0006": "vulcan",
+        "WS0011": "Oerlikon",
+        "WS0012": "vulcan",
+        "WS0013": "vulcan",
+        "WS0026": "Oerlikon",
+        "WS0028": "Oerlikon",
+        "WS0029": "Oerlikon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "Oerlikon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "twin14in",
+        "WS0015": "quad14in"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "duelQF",
+        "WS0017": "duelQF",
+        "WS0022": "duelQF",
+        "WS0023": "duelQF"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "duelQF",
+        "WS0019": "duelQF",
+        "WS0020": "duelQF",
+        "WS0021": "duelQF"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0024": "quad14in"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "vought_wing_4"
+  ]
+}

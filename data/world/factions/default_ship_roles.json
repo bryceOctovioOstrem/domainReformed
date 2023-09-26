@@ -15,6 +15,7 @@
 		"tashkent_domain":3,
 		"town_domain":1,
 		"atlanta_domain":1,
+		"kiev_domain":1,
 		"fallback":{"combatMedium":0.5},
 	},
 	"combatMedium":{
@@ -41,6 +42,8 @@
 		"yamato_domain":1,
 		"bismark_domain":2,
 		"Richelieu_domain":3,
+		"kingGeorge_domain":3,
+		"christian_domain":.5,
 		"fallback":{"combatLarge":1},
 	},
 	
@@ -59,6 +62,7 @@
 	"combatFreighterLarge":{
 		"liberty_domain":1,
 		"wasa_domain":2,
+		"christian_domain":1,
 		"fallback":{"combatFreighterMedium":1},
 	},
 	
@@ -111,12 +115,14 @@
 	},
 	"tankerMedium":{
 		"Furious_domain":2,
+		"yorktown_domain":1,
 		"fallback":{"tankerSmall":0.5},
 	},
 	"tankerLarge":{
 		"yorktown_domain":2,
 		"Queen_Elizabeth_domain":1.5,
 		"Ford_domain":1,
+		"shinano_domain":2,
 		"fallback":{"tankerMedium":1},
 		"fallback2":{"tankerSmall":1},
 	},

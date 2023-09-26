@@ -17,7 +17,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "devastator"
+        "WS0001": "devastator",
+        "WS0004": "mjolnir"
       }
     },
     {
@@ -37,9 +38,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0004": "mjolnir"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
