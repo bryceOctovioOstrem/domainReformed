@@ -1,7 +1,7 @@
 {
   "id": "twin14in",
   "specClass": "projectile",
-  "projectileSpecId": "plasma_shot",
+  "projectileSpecId": "BL_plasma_shot",
   "type": "ENERGY",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/DR_twin14in_turret.png",

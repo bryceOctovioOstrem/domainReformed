@@ -1,0 +1,18 @@
+{
+	"id":"QF_plasma_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":40.0,
+	"width":6,
+	"fadeTime":0.3,
+	"fringeColor":[255, 255, 255,150],
+	"coreColor":[200, 16, 46,255],
+	"glowColor":[1,33,105,75],
+	"glowRadius":35,
+	"hitGlowRadius":75,	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png"	
+}
