@@ -131,19 +131,19 @@
       "id": "WS0013",
       "size": "SMALL",
       "type": "MISSILE",
-      "mount": "TURRET",
+      "mount": "HARDPOINT",
       "arc": 1,
       "angle": 90,
-      "locations": [-30, 27.5]
+      "locations": [-30, 23.5]
     },
     {
       "id": "WS0014",
       "size": "SMALL",
       "type": "MISSILE",
-      "mount": "TURRET",
+      "mount": "HARDPOINT",
       "arc": 1,
       "angle": -90,
-      "locations": [-29, -30.5]
+      "locations": [-29, -26.5]
     },
     {
       "id": "LB 1",

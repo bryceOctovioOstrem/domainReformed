@@ -15,11 +15,18 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "WS0001": "5in",
+        "WS0002": "5in",
+        "WS0003": "5in",
+        "WS0004": "5in",
         "WS0005": "vulcan",
         "WS0007": "Oerlikon",
         "WS0008": "Oerlikon",
         "WS0009": "5in",
-        "WS0016": "Oerlikon"
+        "WS0016": "Oerlikon",
+        "WS0019": "5in",
+        "WS0020": "5in",
+        "WS0021": "5in"
       }
     },
     {
@@ -36,9 +43,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0004": "vulcan"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
@@ -51,20 +56,12 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0001": "5in",
-        "WS0002": "5in",
-        "WS0003": "5in"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0019": "5in",
-        "WS0020": "5in",
-        "WS0021": "5in"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

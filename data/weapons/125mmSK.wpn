@@ -1,0 +1,36 @@
+{
+  "id": "125mmSK",
+  "specClass": "projectile",
+  "projectileSpecId": "cryoflux_shot",
+  "type": "ENERGY",
+  "mountTypeOverride": "HYBRID",
+  "size": "SMALL",
+  "everyFrameEffect": "com.fs.starfarer.api.impl.combat.CryofluxTransducerEffect",
+  "turretSprite": "graphics/weapons/DR_125mmSK_turret.png",
+  "hardpointSprite": "graphics/weapons/DR_125mmSK_hardpoint.png",
+  "glowColor": [
+    221,
+    0,
+    0,
+    255
+  ],
+  "turretOffsets": [
+    29,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    15,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW",
+  "autocharge": true,
+  "noImpactSounds": true,
+  "unaffectedByProjectileSpeedBonuses": true
+}

@@ -75,10 +75,9 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addCondition(Conditions.RUINS_VAST);
         //market.addCondition(Conditions.PATHER_CELLS);
         // BREAK
-        market.addCondition(Conditions.ORGANICS_PLENTIFUL);
+        //market.addCondition(Conditions.ORGANICS_PLENTIFUL);
         market.addCondition(Conditions.FARMLAND_BOUNTIFUL);
-        market.addCondition(Conditions.RARE_ORE_MODERATE);
-        market.addCondition(Conditions.URBANIZED_POLITY);
+       //market.addCondition(Conditions.URBANIZED_POLITY);
         market.addCondition(Conditions.REGIONAL_CAPITAL);
         market.addCondition(Conditions.HOT);
         market.addCondition(Conditions.SOLAR_ARRAY);

@@ -9,7 +9,7 @@
   "permaMods": [],
   "hullMods": [
     "autorepair",
-    "solar_shielding"
+    "escort_package"
   ],
   "weaponGroups": [
     {

@@ -8,27 +8,65 @@
   "quality": 0,
   "permaMods": [],
   "hullMods": [
-    "autorepair"
+    "autorepair",
+    "armoredweapons"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "type_94",
-        "WS0012": "dualflak",
-        "WS0013": "dualflak",
-        "WS0014": "dualflak",
+        "WS0006": "vulcan",
+        "WS0008": "vulcan",
         "WS0015": "dualflak",
         "WS0016": "dualflak",
-        "WS0017": "dualflak"
+        "WS0017": "dualflak",
+        "WS0018": "vulcan",
+        "WS0019": "vulcan",
+        "WS0023": "vulcan"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "type_94"
+        "WS0009": "vulcan",
+        "WS0011": "vulcan",
+        "WS0012": "dualflak",
+        "WS0013": "dualflak",
+        "WS0014": "dualflak",
+        "WS0020": "vulcan",
+        "WS0021": "vulcan",
+        "WS0022": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "devastator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "type_94",
+        "WS0002": "type_94"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "type_94"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "devastator"
       }
     },
     {
@@ -38,42 +76,6 @@
         "WS0007": "heavyac",
         "WS0010": "heavyac"
       }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0003": "devastator",
-        "WS0005": "devastator"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0006": "vulcan",
-        "WS0008": "vulcan",
-        "WS0009": "vulcan",
-        "WS0011": "vulcan",
-        "WS0018": "vulcan",
-        "WS0019": "vulcan",
-        "WS0020": "vulcan",
-        "WS0021": "vulcan",
-        "WS0022": "vulcan",
-        "WS0023": "vulcan"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0002": "type_94"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {}
     }
   ],
   "modules": [],

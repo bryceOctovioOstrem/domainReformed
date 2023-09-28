@@ -69,9 +69,9 @@
       "id": "WS0006",
       "size": "SMALL",
       "type": "MISSILE",
-      "mount": "TURRET",
+      "mount": "HARDPOINT",
       "arc": 50,
-      "angle": -90,
+      "angle": 90,
       "locations": [-12.5, -0]
     },
     {
@@ -96,7 +96,7 @@
       "id": "WS0009",
       "size": "SMALL",
       "type": "MISSILE",
-      "mount": "TURRET",
+      "mount": "HARDPOINT",
       "arc": 45,
       "angle": -90,
       "locations": [-78.5, -0]
@@ -132,7 +132,7 @@
     {
       "id": "WS0013",
       "size": "SMALL",
-      "type": "BUILT_IN",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 270,
       "angle": 180,

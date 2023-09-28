@@ -3,7 +3,7 @@
   "hullId": "hipper",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 0,
+  "fluxCapacitors": 6,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
@@ -19,9 +19,9 @@
       "mode": "LINKED",
       "weapons": {
         "WS0002": "Oerlikon",
-        "WS0003": "lightdualmg",
-        "WS0005": "lightdualmg",
-        "WS0007": "lightdualmg"
+        "WS0003": "vulcan",
+        "WS0005": "vulcan",
+        "WS0007": "vulcan"
       }
     },
     {
@@ -29,9 +29,9 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "Oerlikon",
-        "WS0004": "lightdualmg",
-        "WS0006": "lightdualmg",
-        "WS0008": "lightdualmg"
+        "WS0004": "vulcan",
+        "WS0006": "vulcan",
+        "WS0008": "vulcan"
       }
     },
     {

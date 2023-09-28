@@ -20,7 +20,8 @@
         "WS0006": "annihilator",
         "WS0007": "Oerlikon",
         "WS0009": "annihilator",
-        "WS0010": "Oerlikon"
+        "WS0010": "Oerlikon",
+        "WS0013": "130mm"
       }
     },
     {
@@ -62,8 +63,7 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0011": "130mm",
-        "WS0013": "130mm"
+        "WS0011": "130mm"
       }
     }
   ],

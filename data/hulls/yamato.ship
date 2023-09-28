@@ -54,7 +54,7 @@
     {
       "id": "WS0004",
       "size": "LARGE",
-      "type": "BUILT_IN",
+      "type": "UNIVERSAL",
       "mount": "TURRET",
       "arc": 272,
       "angle": 180,

@@ -17,9 +17,6 @@
     "autorepair",
     "insulatedengine"
   ],
-  "builtInWeapons": {
-    "WS0016": "130mm"
-  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -61,7 +58,7 @@
       "id": "WS0005",
       "size": "SMALL",
       "type": "MISSILE",
-      "mount": "TURRET",
+      "mount": "HARDPOINT",
       "arc": 1,
       "angle": 90,
       "locations": [18, -1.5]
@@ -70,7 +67,7 @@
       "id": "WS0006",
       "size": "SMALL",
       "type": "MISSILE",
-      "mount": "TURRET",
+      "mount": "HARDPOINT",
       "arc": 1,
       "angle": 90,
       "locations": [-64, -0]
@@ -79,7 +76,7 @@
       "id": "WS0007",
       "size": "SMALL",
       "type": "MISSILE",
-      "mount": "TURRET",
+      "mount": "HARDPOINT",
       "arc": 1,
       "angle": 90,
       "locations": [-100, -0]
@@ -159,7 +156,7 @@
     {
       "id": "WS0016",
       "size": "SMALL",
-      "type": "BUILT_IN",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 286,
       "angle": 180,

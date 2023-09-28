@@ -17,16 +17,13 @@
     "autorepair",
     "distributed_fire_control"
   ],
-  "builtInWeapons": {
-    "WS0008": "amblaster"
-  },
   "weaponSlots": [
     {
       "id": "WS0001",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 360,
+      "arc": 180,
       "angle": 62,
       "locations": [82.5, 9.5]
     },
@@ -35,7 +32,7 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 360,
+      "arc": 180,
       "angle": -46.5,
       "locations": [82.5, -9.5]
     },
@@ -43,7 +40,7 @@
       "id": "WS0003",
       "size": "SMALL",
       "type": "MISSILE",
-      "mount": "TURRET",
+      "mount": "HARDPOINT",
       "arc": 1,
       "angle": 90,
       "locations": [8.5, -1]
@@ -70,9 +67,9 @@
       "id": "WS0006",
       "size": "SMALL",
       "type": "MISSILE",
-      "mount": "TURRET",
+      "mount": "HARDPOINT",
       "arc": 1,
-      "angle": 90,
+      "angle": -90,
       "locations": [-66.5, 0.5]
     },
     {
@@ -87,7 +84,7 @@
     {
       "id": "WS0008",
       "size": "SMALL",
-      "type": "BUILT_IN",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 294,
       "angle": 180,
@@ -116,7 +113,7 @@
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 255,
+      "arc": 250,
       "angle": 180,
       "locations": [-43.5, -0.5]
     }
