@@ -1,0 +1,37 @@
+{
+  "variantId": "Z23_domain",
+  "hullId": "Z23",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 15,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "escort_package",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "125mmSK",
+        "WS0002": "125mmSK",
+        "WS0003": "Oerlikon",
+        "WS0004": "Oerlikon",
+        "WS0005": "swarmer_fighter",
+        "WS0006": "vulcan",
+        "WS0007": "Oerlikon",
+        "WS0008": "Oerlikon",
+        "WS0009": "vulcan",
+        "WS0010": "swarmer_fighter",
+        "WS0011": "125mmSK",
+        "WS0012": "125mmSK",
+        "WS0013": "125mmSK"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,200 @@
+{
+  "hullName": "Z23",
+  "hullId": "Z23",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/DR/ships/nimi.PNG",
+  "style": "LOW_TECH",
+  "height": 423,
+  "width": 62,
+  "center": [31, 211.5],
+  "collisionRadius": 212.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 216.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 252,
+      "angle": 0,
+      "locations": [139.5, -1]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 0,
+      "locations": [113.5, -1],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 90,
+      "locations": [39.5, 7]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -90,
+      "locations": [39.5, -9]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 90,
+      "locations": [21.5, -1]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 50.5,
+      "locations": [-6.5, 15]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 134.5,
+      "locations": [-22.5, 10]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -135,
+      "locations": [-22.5, -11]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -50.5,
+      "locations": [-5.5, -16]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-59.5, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-92.5, -1],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": 180,
+      "locations": [-129.5, -1],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": 180,
+      "locations": [-159.5, -1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-210.5, -22],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-210.5, 22],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-5, -0.5],
+      "length": 10.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [56.5, -0.5],
+      "length": 18,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    }
+  ],
+  "bounds": [
+    209.5, -0.5,
+    196.5, 5.5,
+    168.5, 13.5,
+    136.5, 15.5,
+    -75, 16.5,
+    -168, 13.5,
+    -167, 21,
+    -178, 28,
+    -196, 25,
+    -204.5, 28,
+    -209, 21.5,
+    -204.5, 17,
+    -196, 19,
+    -190, 15,
+    -206, 10.5,
+    -206, -11.5,
+    -188.5, -15.5,
+    -207.5, -17,
+    -207.5, -27.5,
+    -179.5, -28.5,
+    -165.5, -21,
+    -172.5, -14.5,
+    -74, -19,
+    136.5, -16.5,
+    168.5, -14.5,
+    198, -5.5
+  ]
+}
