@@ -19,13 +19,16 @@
 
  },
     "maxRelationships":{ "remnant":-0.51,"luddic_path":-0.7,"luddic_church": -0.35},
-    "diplomacyPositiveChance":{ "tritachyon":0.8 },
-    "diplomacyNegativeChance":{ "tritachyon":1.2 },
+    "diplomacyPositiveChance":{ "tritachyon"1.2,
+				"hegemony"":0.8
+ },
+    "diplomacyNegativeChance":{ "tritachyon":0.8,
+				"hegemony":1.2 },
     "dispositions":{
         "persean": -80,
         "sindrian_diktat": -69,
-        "hegemony": 80,
-	"tritachyon": -72,
+        #"hegemony": 80,
+	#"tritachyon": -72,
     },
     
     "alignments":{
@@ -87,7 +90,7 @@
         #{"id":"synchrotron", "count":1},
     ],
     "invasionStrengthBonusDefend":1.5,
-    "maxColonyDistance": 30,
+    "maxColonyDistance": 40,
     "invasionPointMult":1.125,
     "invasionFleetSizeMod":1.5,
     "responseFleetSizeMod": 1.6,
@@ -99,7 +102,7 @@
     "vengeanceFleetNamesSingle":["a Restoration fleet", "a Retribution Fleet", "an Extermination Armada"],
     "vengeanceFleetSizeMult":2.0,
 	
-	"specialForcesSizeMult":1.5,
-	"specialForcesPointMult": .9,
+	"specialForcesSizeMult":1.2,
+	"specialForcesPointMult": 1,
 
 }

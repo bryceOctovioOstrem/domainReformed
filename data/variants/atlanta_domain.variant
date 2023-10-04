@@ -15,18 +15,12 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "5in",
-        "WS0002": "5in",
-        "WS0003": "5in",
-        "WS0004": "5in",
         "WS0005": "vulcan",
         "WS0007": "Oerlikon",
-        "WS0008": "Oerlikon",
         "WS0009": "5in",
-        "WS0016": "Oerlikon",
-        "WS0019": "5in",
-        "WS0020": "5in",
-        "WS0021": "5in"
+        "WS0011": "swarmer_fighter",
+        "WS0014": "swarmer_fighter",
+        "WS0016": "Oerlikon"
       }
     },
     {
@@ -34,11 +28,27 @@
       "mode": "LINKED",
       "weapons": {
         "WS0006": "vulcan",
+        "WS0008": "Oerlikon",
         "WS0010": "5in",
         "WS0012": "Oerlikon",
         "WS0013": "Oerlikon",
         "WS0018": "Oerlikon"
       }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "5in",
+        "WS0002": "5in",
+        "WS0003": "5in",
+        "WS0004": "5in"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
     },
     {
       "autofire": true,
@@ -56,19 +66,10 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {}
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
       "weapons": {
-        "WS0011": "swarmer_fighter",
-        "WS0014": "swarmer_fighter"
+        "WS0019": "5in",
+        "WS0020": "5in",
+        "WS0021": "5in"
       }
     }
   ],

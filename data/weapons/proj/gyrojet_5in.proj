@@ -7,8 +7,9 @@
 	"center":[2,6],
 	"collisionRadius":15,
 	"collisionClass":"MISSILE_FF",
-	"explosionColor":[255, 87, 51,255],  # purely visual, will get a white additively blended core on top of this color
-	"explosionRadius":19, # purely visual
+	"hitGlowRadius":50,
+	"explosionColor":[255,225,125,125],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":50, # purely visual
 	"explosionSpec":{"duration":0.1f, # not visual
 					 "radius":19,
 					 "coreRadius":65, # full damage within core radius
@@ -18,30 +19,30 @@
 					 "particleSizeRange":3.0,
 					 "particleDuration":1,
 					 "particleCount":75,
-					 "particleColor":[255, 87, 51,255]},
-	"flameoutTime":2, # total time from flameout to full fadeout
+					 "particleColor":[237,98,64,255]},
+	"flameoutTime":3, # total time from flameout to full fadeout
 	"armingTime":0,
 	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
-	"fadeTime":0.5, # fadeout duration					 
-	"engineSpec":{"turnAcc":120,
-				  "turnRate":30,
-				  "acc":750,
-				  "dec":200},
+	"fadeTime":1, # fadeout duration					 
+	"engineSpec":{"turnAcc":600,
+				  "turnRate":150,
+				  "acc":100,
+				  "dec":100},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-10, 0],
 				    "style":"CUSTOM",
 					"styleSpec":{
 						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
-						"engineColor":[225,100,70,255],
+						"engineColor":[178, 34, 52,255],
 						"glowSizeMult":1,
-						"contrailDuration":2,
-						"contrailWidthMult":1,
+						"contrailDuration":1,
+						"contrailWidthMult":.5,
 						"contrailWidthAddedFractionAtEnd":3,  # can be negative. makes trail spread out/narrow at the end
 						"contrailMinSeg":5, # min segment length, in pixels
 						"contrailMaxSpeedMult":.0f,
 						"contrailAngularVelocityMult":0.5f,
 						"contrailSpawnDistMult":.5, # how far away from engine it starts
-						"contrailColor":[225,180,150,75],
+						"contrailColor":[255, 255, 255,75],
 						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
 					},
 				    "width":5.0,
@@ -49,17 +50,18 @@
 				    "angle":180.0}],
 
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
-					"range":15,
+					"range":25,
 					"explosionSpec":{"duration":0.1f,
-									 "radius":30,
-									 "coreRadius":15, # full damage within core radius - also equal to proximity fuse range
+									 "radius":50,
+									 "coreRadius":13, # full damage within core radius - also equal to proximity fuse range
 									 "collisionClass":PROJECTILE_FF,
 									 "collisionClassByFighter":PROJECTILE_FIGHTER,
-									 "particleSizeMin":3.0,
-									 "particleSizeRange":3.0,
-									 "particleDuration":1,
-									 "particleCount":100,
-									 "particleColor":[255,155,155,255],
+									 "particleSizeMin":7.0,
+									 "particleSizeRange":4.0,
+									 "particleDuration":2,
+									 "particleCount":25,
+									 "particleColor":[255,225,125,255],
+								
 									 "sound":"explosion_flak"},
 					}
 }

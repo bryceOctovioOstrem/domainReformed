@@ -234,15 +234,8 @@
       "width": 12.28,
       "angle": -178,
       "contrailSize": 12.28,
-      "style": "OMEGA"
-    },
-    {
-      "location": [-20, -0],
-      "length": 18.299999,
-      "width": 12.28,
-      "angle": -178,
-      "contrailSize": 12.28,
-      "style": "OMEGA"
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
     },
     {
       "location": [-285.5, 0.5],
@@ -252,6 +245,15 @@
       "contrailSize": 32,
       "style": "CUSTOM",
       "styleId": "oldGloryRed"
+    },
+    {
+      "location": [-19.5, 0.5],
+      "length": 18.299999,
+      "width": 12.28,
+      "angle": -178,
+      "contrailSize": 12.28,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
     }
   ],
   "bounds": [

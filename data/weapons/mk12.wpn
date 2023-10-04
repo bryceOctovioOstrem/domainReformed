@@ -43,20 +43,16 @@
   "barrelMode": "ALTERNATING",
   "animationType": "SMOKE",
   "smokeSpec": {
-    "particleSizeMin": 3,
+    "particleSizeMin": 5,
     "particleSizeRange": 6,
-    "cloudParticleCount": 6,
+    "cloudParticleCount": 13,
     "cloudDuration": 1.5,
-    "cloudRadius": 4,
+    "cloudRadius": 13,
     "blowbackParticleCount": 4,
     "blowbackDuration": 2,
-    "blowbackLength": 22,
-    "blowbackSpread": 15,
-    "particleColor": [
-      100,
-      100,
-      100,
-      200
+    "blowbackLength": -22,
+    "blowbackSpread": 13,
+    "particleColor": [60, 59, 110,200
     ]
   },
   "fireSoundTwo": "gyrojet_medium_sound"

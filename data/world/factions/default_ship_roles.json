@@ -44,6 +44,7 @@
 		"Richelieu_domain":3,
 		"kingGeorge_domain":3,
 		"christian_domain":.5,
+		"Iowa_domain":2,
 		"fallback":{"combatLarge":1},
 	},
 	

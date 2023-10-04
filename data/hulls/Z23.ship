@@ -11,6 +11,11 @@
   "shieldCenter": [0, 0],
   "shieldRadius": 216.5,
   "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "targetingunit",
+    "hardened_subsystems"
+  ],
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -107,9 +112,9 @@
       "id": "WS0011",
       "size": "SMALL",
       "type": "HYBRID",
-      "mount": "HARDPOINT",
-      "arc": 1,
-      "angle": 90,
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
       "locations": [-92.5, -1],
       "renderOrderMod": 100
     },
@@ -152,19 +157,19 @@
     },
     {
       "location": [-5, -0.5],
-      "length": 10.5,
-      "width": 9,
+      "length": 8,
+      "width": 7,
       "angle": 180,
-      "contrailSize": 9,
+      "contrailSize": 7,
       "style": "CUSTOM",
       "styleId": "CUSTOM_stack"
     },
     {
       "location": [56.5, -0.5],
-      "length": 18,
-      "width": 10,
+      "length": 11,
+      "width": 6,
       "angle": 180,
-      "contrailSize": 10,
+      "contrailSize": 6,
       "style": "CUSTOM",
       "styleId": "CUSTOM_stack"
     }

@@ -3,12 +3,12 @@
 	"specClass":"missile",
 	"missileType":"ROCKET",
 	"sprite":"graphics/missiles/shell_large.png",
-	"size":[10,22],	
+	"size":[9,18],	
 	"center":[5,11],
 	"collisionRadius":15,
 	"collisionClass":"MISSILE_FF",
-	"explosionColor":[255, 87, 51,255],  # purely visual, will get a white additively blended core on top of this color
-	"explosionRadius":38, # purely visual
+	"explosionColor":[60, 59, 110,250],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":25, # purely visual
 	"explosionSpec":{"duration":0.1f, # not visual
 					 "radius":38,
 					 "coreRadius":65, # full damage within core radius
@@ -18,21 +18,21 @@
 					 "particleSizeRange":3.0,
 					 "particleDuration":1,
 					 "particleCount":150,
-					 "particleColor":[255, 87, 51,255]},
+					 "particleColor":[113, 121, 126,250]},
 	"flameoutTime":3, # total time from flameout to full fadeout
 	"armingTime":0,
 	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
 	"fadeTime":0.5, # fadeout duration					 
-	"engineSpec":{"turnAcc":120,
-				  "turnRate":30,
-				  "acc":750,
-				  "dec":200},
+	"engineSpec":{"turnAcc":600,
+				  "turnRate":150,
+				  "acc":100,
+				  "dec":100},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-10, 0],
 				    "style":"CUSTOM",
 					"styleSpec":{
 						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
-						"engineColor":[225,100,70,255],
+						"engineColor":[178, 34, 52,250],
 						"glowSizeMult":1,
 						"contrailDuration":2,
 						"contrailWidthMult":1,
@@ -40,8 +40,8 @@
 						"contrailMinSeg":5, # min segment length, in pixels
 						"contrailMaxSpeedMult":.0f,
 						"contrailAngularVelocityMult":0.5f,
-						"contrailSpawnDistMult":.5, # how far away from engine it starts
-						"contrailColor":[225,180,150,75],
+						"contrailSpawnDistMult":0, # how far away from engine it starts
+						"contrailColor":[60, 59, 110,150],
 						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
 					},
 				    "width":10.0,

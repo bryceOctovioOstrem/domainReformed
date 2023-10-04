@@ -36,8 +36,8 @@
   "barrelMode": "LINKED",
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {
-    "length": 100,
-    "spread": 45,
+    "length": 120,
+    "spread": 60,
     "particleSizeMin": 10,
     "particleSizeRange": 70,
     "particleDuration": 1,

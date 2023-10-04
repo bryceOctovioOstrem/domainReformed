@@ -53,6 +53,7 @@
 		"shinano_domain":100,
 		"christian_domain":100,
 		"wasa_domain":100,
+		"Iowa_domain":100,
 },	
 	
 	# multiplier for how often hulls show up in the faction's fleets
@@ -153,7 +154,7 @@
 		
 		"shipSize":5,
 		
-		"aggression":1,
+		"aggression":2,
 		
 		"combatFreighterProbability":0.9,      				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":1,  				# as part of the normal combat lineup
