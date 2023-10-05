@@ -4,7 +4,7 @@
 	"missileType":"MISSILE",
 	#"missileType":"MISSILE_TWO_STAGE_SECOND_UNGUIDED",
 	"sprite":"graphics/missiles/missile_harpoon.png",
-	"size":[10,21],	
+	"size":[10,25],	
 	"center":[5,10.5],
 	"collisionRadius":15,
 	"collisionClass":"MISSILE_NO_FF",

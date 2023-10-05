@@ -21,7 +21,8 @@
         "WS0005": "smoothBore",
         "WS0007": "smoothBore",
         "WS0009": "smoothBore",
-        "WS0011": "smoothBore"
+        "WS0011": "smoothBore",
+        "WS0018": "smoothBore"
       }
     },
     {
@@ -61,9 +62,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0018": "pdlaser"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

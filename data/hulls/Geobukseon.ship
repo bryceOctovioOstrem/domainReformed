@@ -174,7 +174,7 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "HIDDEN",
-      "arc": 180,
+      "arc": 1,
       "angle": 0,
       "locations": [110.5, -0]
     }
@@ -186,7 +186,8 @@
       "width": 69,
       "angle": 180,
       "contrailSize": 69,
-      "style": "LOW_TECH"
+      "style": "CUSTOM",
+      "styleId": "sail"
     },
     {
       "location": [55.5, -0],
@@ -194,7 +195,8 @@
       "width": 69,
       "angle": 180,
       "contrailSize": 69,
-      "style": "LOW_TECH"
+      "style": "CUSTOM",
+      "styleId": "sail"
     }
   ],
   "bounds": [

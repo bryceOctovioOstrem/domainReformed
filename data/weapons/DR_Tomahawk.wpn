@@ -7,9 +7,9 @@
   "turretSprite": "graphics/weapons/Tomahawk.png",
   "hardpointSprite": "graphics/weapons/Tomahawk.png",
   "turretOffsets": [
-    11.5,
+    21.5,
     -6.5,
-    11.5,
+    21.5,
     6.5
   ],
   "turretAngleOffsets": [
