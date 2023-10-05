@@ -17,6 +17,10 @@
     "rugged",
     "autorepair"
   ],
+  "builtInWeapons": {
+    "WS0030": "fireControl800",
+    "WS0031": "fireControl800"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -298,6 +302,24 @@
         -35.5, -47.5,
         -36, 45.5
       ]
+    },
+    {
+      "id": "WS0030",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-69, 25.5]
+    },
+    {
+      "id": "WS0031",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-69, -25.5]
     }
   ],
   "engineSlots": [

@@ -44,7 +44,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "devastator"
+        "WS0003": "devastator",
+        "WS0005": "devastator"
       }
     },
     {
@@ -66,7 +67,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "devastator"
+        "WS0024": "fireControl1000",
+        "WS0025": "fireControl1000"
       }
     },
     {

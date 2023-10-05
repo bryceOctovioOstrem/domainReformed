@@ -19,7 +19,8 @@
     "ablative_armor"
   ],
   "builtInWeapons": {
-    "WS0004": "type_94"
+    "WS0024": "fireControl1000",
+    "WS0025": "fireControl1000"
   },
   "weaponSlots": [
     {
@@ -56,7 +57,7 @@
       "size": "LARGE",
       "type": "UNIVERSAL",
       "mount": "TURRET",
-      "arc": 272,
+      "arc": 275,
       "angle": 180,
       "locations": [-212, -1]
     },
@@ -254,6 +255,24 @@
         -343, -31,
         -220.5, -31.5
       ]
+    },
+    {
+      "id": "WS0024",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 94,
+      "locations": [-13.5, 9]
+    },
+    {
+      "id": "WS0025",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": -94,
+      "locations": [-13.5, -10]
     }
   ],
   "engineSlots": [

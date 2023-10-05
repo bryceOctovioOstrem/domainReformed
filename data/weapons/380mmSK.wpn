@@ -37,10 +37,7 @@
     "particleSizeRange": 24,
     "particleDuration": 0.12,
     "particleCount": 12,
-    "particleColor": [
-      255,
-      185,
-      215,
+    "particleColor": [221, 0, 0,
       215
     ]
   },

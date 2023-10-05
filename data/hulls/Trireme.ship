@@ -21,8 +21,8 @@
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 308,
-      "angle": 1.5,
+      "arc": 240,
+      "angle": -179,
       "locations": [-58.5, -0.5]
     }
   ],

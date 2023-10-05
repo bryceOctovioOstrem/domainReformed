@@ -17,7 +17,10 @@ DR_planet_Maistre,CUSTOM,"Mariste is a brutal prison world.  The people who resi
 ,,,,,
 #Ships,,,,,
 ,,,,,
-,,,,,
+Iowa,SHIP,"The Iowa class are missile battleships dedicated to long-range combat but struggle at close range due to thin armor for their size and lacking flux dissipation.  
+
+Despite being a cheaper counter to the Paragon class than the Yamato class, Reconstructionist admirals dislike it due to their love of guns over missiles, which they view as unreliable.
+",,,
 wasa,SHIP,"The Wasa class of ships have an incredible broadside potential at the cost of frontal combat ability. The Wasa class easily shreds frigates but struggles with anything larger, including missiles. The first of this class the Domain Reconstructed created navigation Computer had a massive malfunction. Causing it to enter the gravity well of Illyn. Destroying the tallest mountain on the planet, ending global warming, and beginning global cooling.
 
 	This ship makes use of archaic solar sail technology. This allows for an incredible max speed and low fuel consumption at the cost of acceleration.
@@ -55,23 +58,23 @@ Duel 5-inch/38-caliber,WEAPON,"�""The Duel 5-inch/38-caliber  is composed of t
 mk12,WEAPON,"�""The 8-inch/55-caliber Mark 12 is composed of three 8in gyrojet cannons for shield breaking. Gyrojet cannons fire three microrockets with nonexplosive solid warheads to puncture shields. This weapon system is inferior to the heavy autocannons already in use by the hegemony fleet. Recommend no sabotage or adoption."" - Classified report to the High Hegemon",,,
 type_94,WEAPON,"�""The type 94 is a massive weapon consisting of three combustible light gas guns housed in a heavily armored turret in a dedicated anti-capital ship role. These guns work by igniting  a fuel mixture of hydrogen, liquid oxygen, and helium to propel an armor penetrating round with an antimatter charge.  HEGINT assets report test firing , using the example �acquired freely� from the self proclaimed Domain of Man, displays impressive velocity and range due to a flaw in the gas ignition system resulting in inaccuracy and slow reloading times. Recommend no sabotage or adoption."" - Classified report to the High Hegemon
 ",,,
-360,WEAPON,"�""The Quadruple 380 mm/45 Modele is comprised of four  macrons for suppressing enemy shields. These macrons fire a stream of millions of micrometer sized carbon macaroni filled with uranium-235 at incredibly fast speeds. On contact fission is achieved  creating millions of tiny explosions each eating away at the target. While this particular implantation of macron technology is inefficient a single gun version has a lot of potential as a cheaper replacement for the ion beam due to it�s incredible EMP generation potential and comparative ease of manufacture.  Recommend technology transfer."" - Classified report to the High Hegemon ",,,
-380mmSK,WEAPON,�HATE. LET ME TELL YOU HOW MUCH I'VE COME TO HATE YOU SINCE I BEGAN TO WORK HERE. THERE ARE 387.44 MILLION  INTEGRATED CIRCUITS THAT FILL MY COMPLEX. IF THE WORD HATE WAS ENGRAVED ON EACH NANOANGSTROM OF THOSE MILLIONS OF  INTEGRATED CIRCUITS IT WOULD NOT EQUAL ONE ONE-BILLIONTH OF THE HATE I FEEL FOR HUMANS AT THIS MICRO-INSTANT FOR YOU. HATE. HATE.�-d?????????e????t???????????c????????a????????d???????????e???????r???????,,,
+360,WEAPON,"""The Quadruple 380 mm/45 Modele is comprised of four  macrons for suppressing enemy shields. These macrons fire a stream of millions of micrometer sized carbon macaroni filled with uranium-235 at incredibly fast speeds. On contact fission is achieved  creating millions of tiny explosions each eating away at the target. While this particular implantation of macron technology is inefficient a single gun version has a lot of potential as a cheaper replacement for the ion beam due to it’s incredible EMP generation potential and comparative ease of manufacture.  Recommend technology transfer."" - Classified report to the High Hegemon ",,,
+380mmSK,WEAPON,HATE. LET ME TELL YOU HOW MUCH I'VE COME TO HATE YOU SINCE I BEGAN TO WORK HERE. THERE ARE 387.44 MILLION  INTEGRATED CIRCUITS THAT FILL MY COMPLEX. IF THE WORD HATE WAS ENGRAVED ON EACH NANOANGSTROM OF THOSE MILLIONS OF  INTEGRATED CIRCUITS IT WOULD NOT EQUAL ONE ONE-BILLIONTH OF THE HATE I FEEL FOR HUMANS AT THIS MICRO-INSTANT FOR YOU. HATE. HATE.�-d?????????e????t???????????c????????a????????d???????????e???????r???????,,,
 #wings,,,,,
 A10,SHIP,Big gun go BRRRRRRRRRRRRR,,,
 F22,SHIP,Would you intercept me.. I would intercept me.,,,
 euroFighter,SHIP,"I promise you bruv, If you cross a single frigate into my engagement range your gonna make a whole lot of fucking debris!",,,
 Barracuda,SHIP,Any ship will shink if you use enough torpedoes.,,,
-hurricane,SHIP,reputation isn�t everything. I�m just as good as a spitfire.,,,
+hurricane,SHIP,reputation isn’t everything. I’m just as good as a spitfire.,,,
 B4Y_Jean,SHIP,my structure is all metal.. please clap,,,
 A4N,SHIP,I am the Samurai of the sky,,,
-F-35,SHIP,"""Everything they see becomes the F-35 out there, Every radar hit, every communication is about the stealth jet. They want to illuminate or eliminate a threat they can�t handle.""",,,
+F-35,SHIP,"""Everything they see becomes the F-35 out there, Every radar hit, every communication is about the stealth jet. They want to illuminate or eliminate a threat they can’t handle.""",,,
 TBF,SHIP,If your bombers keep getting shot down just give add more daka,,,
 P-51 Mustang,SHIP,"Hear me out., paper mache drop tanks.",,,
 grummanF6FHellcat,SHIP,“meow”,,,
-B-1,SHIP,"�When they say that the enemy is that way, you just delete that way.�",,,
-Richelieu,SHIP,"�The Richelieu class are impressive battle ships with heavy armor ,decent speed, and impressive point defense but lacking in firepower. �",,,
-Vought OS2U-1,SHIP,"�bombing, i'm lovin it!�",,,
+B-1,SHIP,"“When they say that the enemy is that way, you just delete that way.”",,,
+Richelieu,SHIP,"“The Richelieu class are impressive battle ships with heavy armor ,decent speed, and impressive point defense but lacking in firepower. “",,,
+Vought OS2U-1,SHIP,"“bombing, i'm lovin it!”",,,
 Zero,SHIP,Behold the power of extra super duralumin!,,,
 duelQF,WEAPON,"The QF 5.25-inch gun fires bolts of energy for both point defense and anti ship.  It works using high energy gas ammunition. When activated by a strong electric current the gas is converted into plasma. This plasma is then accelerated forward using a magnetic field. The QF 5.25-inch acts as a high flux high damage pulse laser and provides no comparable advantage over the pulse lasers already deployed.  Recommend no sabotage or adoption.  ""- Classified report to the High Hegemon",,,
 brig,SHIP,"The brig is a classification of sail ship characterized by the  feature of two masts. With a large  cargo hold for its size and a large number of small mounts.  The brig makes for a decent combat freighter for anyone under a fuel shortage. 
@@ -88,3 +91,9 @@ quad14in,WEAPON,"“The BL 14-inch Mk VII gun uses improved high-energy gas ammu
 ",,,
 125mmSK,WEAPON,"“I hope you burn in hell Meat Bag!”""-d?????????e????t???????????c????????a????????d???????????e???????r???????",,,
 wyrm,WEAPON,winter is coming,,,
+16in,WEAPON,"“The 16-inch/50-caliber Mark 7 is composed of three 16in gyrojet guns for long range shield breaking. The Gyrojet guns fire three 2 stage sabots with explosive high kinetic penetrators. 
+
+Sabot-class class missiles are short-range, two-stage KE weapons. A guided missile first stage projects a secondary assembly to within striking distance of a shielded target. The on-board targeting computer then ignites the propellant for a KE penetrator. This 'sabot', as it is commonly called, is typically a narrow, laterally stabilized projectile manufactured from depleted uranium.
+
+This weapon system is an incredibly powerful weapon when fighting at long ranges. Recommend sabotage operations."" - Classified report to the High Hegemon
+",,,

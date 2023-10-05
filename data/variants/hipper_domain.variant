@@ -35,16 +35,18 @@
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0009": "20cmSK"
+        "WS0015": "fireControl800",
+        "WS0016": "fireControl800"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0009": "20cmSK",
         "WS0010": "20cmSK"
       }
     },

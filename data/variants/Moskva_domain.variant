@@ -18,8 +18,6 @@
       "mode": "LINKED",
       "weapons": {
         "WS0004": "Oerlikon",
-        "WS0006": "wyrm",
-        "WS0007": "cryoblaster",
         "WS0008": "Oerlikon"
       }
     },
@@ -43,8 +41,11 @@
         "WS0001": "wyrm",
         "WS0002": "wyrm",
         "WS0003": "wyrm",
+        "WS0006": "wyrm",
         "WS0012": "wyrm",
-        "WS0013": "wyrm"
+        "WS0013": "wyrm",
+        "WS0015": "wyrm",
+        "WS0020": "wyrm"
       }
     },
     {
@@ -64,7 +65,9 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0007": "cryoblaster"
+      }
     },
     {
       "autofire": false,

@@ -3,11 +3,13 @@
   "hullId": "Richelieu",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 2,
+  "fluxCapacitors": 4,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "turretgyros"
+  ],
   "weaponGroups": [
     {
       "autofire": true,
@@ -39,6 +41,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "WS0004": "Oerlikon",
         "WS0005": "Oerlikon",
         "WS0006": "Oerlikon",
         "WS0007": "Oerlikon",
@@ -65,7 +68,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "Oerlikon"
+        "WS0053": "fireControl1000",
+        "WS0054": "fireControl1000"
       }
     },
     {

@@ -108,8 +108,8 @@
       "size": "MEDIUM",
       "type": "MISSILE",
       "mount": "TURRET",
-      "arc": 150,
-      "angle": 105,
+      "arc": 140,
+      "angle": 110.5,
       "locations": [-116, 25.5]
     },
     {
@@ -117,8 +117,8 @@
       "size": "MEDIUM",
       "type": "MISSILE",
       "mount": "TURRET",
-      "arc": 150,
-      "angle": -104.5,
+      "arc": 140,
+      "angle": -110,
       "locations": [-115, -26.5]
     },
     {

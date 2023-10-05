@@ -3,7 +3,7 @@
   "hullId": "Iowa",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 1,
+  "fluxCapacitors": 13,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
@@ -11,7 +11,7 @@
     "blast_doors",
     "autorepair",
     "hiressensors",
-    "missile_autoloader"
+    "missleracks",
   ],
   "weaponGroups": [
     {
@@ -40,7 +40,7 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "resonatormrm",
+        "WS0004": "DR_Tomahawk",
         "WS0009": "swarmer"
       }
     },
@@ -48,7 +48,7 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "resonatormrm",
+        "WS0005": "DR_Tomahawk",
         "WS0008": "swarmer"
       }
     },
@@ -71,11 +71,11 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0010": "harpoonpod",
-        "WS0011": "harpoonpod"
+        "WS0010": "DR_Tomahawk",
+        "WS0011": "DR_Tomahawk"
       }
     }
   ],
   "modules": [],
-  "wings": [vought_wing_4]
+  "wings": [vought_wing_3]
 }

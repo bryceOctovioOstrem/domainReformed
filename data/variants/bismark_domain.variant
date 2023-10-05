@@ -15,13 +15,17 @@
       "weapons": {
         "WS0003": "Oerlikon",
         "WS0004": "Oerlikon",
+        "WS0012": "20cmSK",
         "WS0014": "vulcan",
+        "WS0018": "dualflak",
         "WS0020": "vulcan",
         "WS0021": "Oerlikon",
         "WS0024": "vulcan",
+        "WS0025": "dualflak",
         "WS0028": "vulcan",
         "WS0029": "Oerlikon",
         "WS0030": "Oerlikon",
+        "WS0032": "dualflak",
         "WS0033": "vulcan",
         "WS0034": "vulcan",
         "WS0036": "vulcan"
@@ -32,10 +36,13 @@
       "mode": "ALTERNATING",
       "weapons": {
         "WS0015": "vulcan",
+        "WS0017": "dualflak",
         "WS0019": "vulcan",
         "WS0022": "Oerlikon",
         "WS0023": "vulcan",
+        "WS0026": "dualflak",
         "WS0027": "vulcan",
+        "WS0031": "dualflak",
         "WS0035": "vulcan"
       }
     },
@@ -45,10 +52,7 @@
       "weapons": {
         "WS0007": "20cmSK",
         "WS0010": "20cmSK",
-        "WS0011": "20cmSK",
-        "WS0017": "20cmSK",
-        "WS0026": "20cmSK",
-        "WS0031": "20cmSK"
+        "WS0011": "20cmSK"
       }
     },
     {
@@ -56,17 +60,16 @@
       "mode": "LINKED",
       "weapons": {
         "WS0008": "20cmSK",
-        "WS0009": "20cmSK",
-        "WS0012": "20cmSK",
-        "WS0018": "20cmSK",
-        "WS0025": "20cmSK",
-        "WS0032": "20cmSK"
+        "WS0009": "20cmSK"
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0005": "fireControl1000",
+        "WS0006": "fireControl1000"
+      }
     },
     {
       "autofire": false,

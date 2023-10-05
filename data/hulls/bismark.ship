@@ -18,6 +18,10 @@
     "hbi",
     "damaged_mounts"
   ],
+  "builtInWeapons": {
+    "WS0005": "fireControl1000",
+    "WS0006": "fireControl1000"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -35,7 +39,7 @@
       "mount": "TURRET",
       "arc": 251,
       "angle": 0,
-      "locations": [176, 0.5]
+      "locations": [177, 0.5]
     },
     {
       "id": "WS0003",
@@ -58,7 +62,7 @@
     {
       "id": "WS0007",
       "size": "MEDIUM",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 183,
       "angle": -75.5,
@@ -67,7 +71,7 @@
     {
       "id": "WS0008",
       "size": "MEDIUM",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 180,
       "angle": 75.5,
@@ -76,7 +80,7 @@
     {
       "id": "WS0009",
       "size": "MEDIUM",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 190,
       "angle": 90,
@@ -85,7 +89,7 @@
     {
       "id": "WS0010",
       "size": "MEDIUM",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 186,
       "angle": -90,
@@ -94,7 +98,7 @@
     {
       "id": "WS0011",
       "size": "MEDIUM",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 181,
       "angle": -95,
@@ -103,7 +107,7 @@
     {
       "id": "WS0012",
       "size": "MEDIUM",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 182,
       "angle": 94.5,
@@ -148,7 +152,7 @@
     {
       "id": "WS0017",
       "size": "MEDIUM",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 177,
       "angle": -91.5,
@@ -157,7 +161,7 @@
     {
       "id": "WS0018",
       "size": "MEDIUM",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 187,
       "angle": 94.5,
@@ -220,7 +224,7 @@
     {
       "id": "WS0025",
       "size": "MEDIUM",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 141,
       "angle": 70,
@@ -230,7 +234,7 @@
     {
       "id": "WS0026",
       "size": "MEDIUM",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 115,
       "angle": -57.5,
@@ -276,7 +280,7 @@
     {
       "id": "WS0031",
       "size": "MEDIUM",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 186,
       "angle": -87.5,
@@ -285,7 +289,7 @@
     {
       "id": "WS0032",
       "size": "MEDIUM",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 184,
       "angle": 82.5,
@@ -326,6 +330,24 @@
       "arc": 165,
       "angle": -83.5,
       "locations": [71, -15.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-94.5, 17]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-94.5, -14.5]
     }
   ],
   "engineSlots": [
@@ -336,7 +358,7 @@
       "angle": 180,
       "contrailSize": 34,
       "style": "CUSTOM",
-      "styleId": "black"
+      "styleId": "COBRA_BOMBER"
     },
     {
       "location": [2, 1],

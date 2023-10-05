@@ -2,6 +2,7 @@
   "id": "16in",
   "specClass": "projectile",
   "projectileSpecId": "gyrojet_large",
+  "mountTypeOverride":"COMPOSITE",
   "type": "BALLISTIC",
   "size": "LARGE",
   "displayArcRadius": 450,
@@ -39,7 +40,12 @@
     "particleSizeRange": 70,
     "particleDuration": 1,
     "particleCount": 100,
-    "particleColor": [237,98,64,245]
+    "particleColor": [
+      237,
+      98,
+      64,
+      245
+    ]
   },
   "fireSoundTwo": "gyrojet_large_sound"
 }

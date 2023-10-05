@@ -19,6 +19,10 @@
     "fluxbreakers",
     "hbi"
   ],
+  "builtInWeapons": {
+    "WS0053": "fireControl1000",
+    "WS0054": "fireControl1000"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -495,6 +499,24 @@
       "arc": 80,
       "angle": -107.5,
       "locations": [-187, -40]
+    },
+    {
+      "id": "WS0053",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 95.5,
+      "locations": [-30, 9]
+    },
+    {
+      "id": "WS0054",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": -94,
+      "locations": [-30, -9]
     }
   ],
   "engineSlots": [

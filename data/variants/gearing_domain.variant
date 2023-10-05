@@ -3,7 +3,7 @@
   "hullId": "gearing",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 0,
+  "fluxCapacitors": 7,
   "fluxVents": 22,
   "quality": 1,
   "permaMods": [],

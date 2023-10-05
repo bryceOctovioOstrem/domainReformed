@@ -2,7 +2,7 @@
   "id": "100mm",
   "specClass": "beam",
   "type": "ENERGY",
-  "size": "MEDIUM",
+  "size": "SMALL",
   "collisionClass": "RAY",
   "barrelMode": "ALTERNATING",
   "collisionClassByFighter": "RAY_FIGHTER",
