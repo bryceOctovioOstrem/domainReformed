@@ -38,14 +38,14 @@
 	},
 	"combatCapital":{
 		"Conte_di_Cavour_Domain":4,
-		"wasa_domain":3,
+		"wasa_domain":2,
 		"yamato_domain":1,
 		"bismark_domain":2,
 		"Richelieu_domain":3,
 		"kingGeorge_domain":3,
 		"christian_domain":.5,
-		"Iowa_domain":2,
-		"fallback":{"combatLarge":1},
+		"Iowa_domain":1,
+		"fallback":{"combatLarge":.5},
 	},
 	
 	
