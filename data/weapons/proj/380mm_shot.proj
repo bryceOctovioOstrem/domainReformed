@@ -5,7 +5,7 @@
 	#"collisionClass":"RAY",
 	#"collisionClassByFighter":"RAY_FIGHTER",
 	"onHitEffect":"com.fs.starfarer.api.impl.combat.RiftTorpedoEffect",
-	"size":[28,32],	
+	"size":[56,64],	
 	#"center":[7,8],
 	"useHitGlowWhenDealingDamage":false, # using the scripted rift explosion instead
 	"useHitGlowWhenDestroyed":true, # instead of the default explosion
@@ -13,7 +13,7 @@
 	"spawnType":"BALLISTIC",
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
-	"length":2000.0,
+	"length":962g.0,
 	"hitGlowRadius":288,
         "explosionColor":[221, 0, 0],
 	"width":8.0,

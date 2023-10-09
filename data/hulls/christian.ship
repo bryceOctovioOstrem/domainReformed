@@ -709,7 +709,98 @@
       "locations": [10, 41]
     }
   ],
-  "engineSlots": [],
+  "engineSlots": [
+    {
+      "location": [-77, -0],
+      "length": 1,
+      "width": 221,
+      "angle": 0,
+      "contrailSize": 221,
+      "style": "CUSTOM",
+      "styleId": "sail"
+    },
+    {
+      "location": [-221, 0.5],
+      "length": 1,
+      "width": 147,
+      "angle": 180,
+      "contrailSize": 147,
+      "style": "CUSTOM",
+      "styleId": "sail"
+    },
+    {
+      "location": [131.5, -0],
+      "length": 1,
+      "width": 134,
+      "angle": 180,
+      "contrailSize": 134,
+      "style": "CUSTOM",
+      "styleId": "sail"
+    },
+    {
+      "location": [117, 71.5],
+      "length": 1,
+      "width": 89,
+      "angle": 180,
+      "contrailSize": 89,
+      "style": "CUSTOM",
+      "styleId": "sail"
+    },
+    {
+      "location": [117, -68.5],
+      "length": 1,
+      "width": 83,
+      "angle": 180,
+      "contrailSize": 83,
+      "style": "CUSTOM",
+      "styleId": "sail"
+    },
+    {
+      "location": [265, 40],
+      "length": 1,
+      "width": 73,
+      "angle": 180,
+      "contrailSize": 73,
+      "style": "CUSTOM",
+      "styleId": "sail"
+    },
+    {
+      "location": [265, -49],
+      "length": 1,
+      "width": 73,
+      "angle": 180,
+      "contrailSize": 73,
+      "style": "CUSTOM",
+      "styleId": "sail"
+    },
+    {
+      "location": [253, -5],
+      "length": 1,
+      "width": 121,
+      "angle": -90,
+      "contrailSize": 121,
+      "style": "CUSTOM",
+      "styleId": "sail"
+    },
+    {
+      "location": [321, 28],
+      "length": 1,
+      "width": 53,
+      "angle": 180,
+      "contrailSize": 53,
+      "style": "CUSTOM",
+      "styleId": "sail"
+    },
+    {
+      "location": [321, -28.5],
+      "length": 1,
+      "width": 53,
+      "angle": 180,
+      "contrailSize": 53,
+      "style": "CUSTOM",
+      "styleId": "sail"
+    }
+  ],
   "bounds": [
     -337, 0,
     -330.5, 29.5,

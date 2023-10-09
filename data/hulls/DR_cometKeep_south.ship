@@ -1,0 +1,141 @@
+{
+  "hullName": "DR_cometKeep_south",
+  "hullId": "DR_cometKeep_south",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/DR_cometKeep_south.png",
+  "style": "LOW_TECH",
+  "height": 360,
+  "width": 43,
+  "center": [21.5, 207],
+  "collisionRadius": 208,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 211,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "rugged",
+    "hiressensors",
+    "targetingunit"
+  ],
+  "builtInWeapons": {
+    "WS0003": "5in"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [91, -0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [60, -0.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 180,
+      "locations": [-155, -0.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 184,
+      "angle": 90,
+      "locations": [-5, 14.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 184,
+      "angle": -90,
+      "locations": [-5, -15.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 91.5,
+      "locations": [-94, 12.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 80,
+      "angle": 90,
+      "locations": [-36.5, -0.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-125, 13.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 295,
+      "angle": 180,
+      "locations": [-186, -0.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-124, -13.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    142, 5.5,
+    134.5, 7.5,
+    117.5, 10.5,
+    100.5, 12.5,
+    66, 15.5,
+    35, 17.5,
+    -6, 19.5,
+    -106, 19.5,
+    -181, 14.5,
+    -189, 11.5,
+    -199.5, 15.5,
+    -206, -0.5,
+    -200, -16.5,
+    -188.5, -13,
+    -180.5, -16,
+    -105.5, -19.5,
+    -6, -19.5,
+    65, -16,
+    131, -7,
+    145.5, -4,
+    152.5, -0
+  ]
+}

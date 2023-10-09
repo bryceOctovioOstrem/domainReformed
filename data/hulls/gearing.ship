@@ -43,7 +43,7 @@
     {
       "id": "WS0003",
       "size": "SMALL",
-      "type": "BUILT_IN",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 280,
       "angle": 180,
@@ -159,7 +159,7 @@
       "angle": 163,
       "contrailSize": 16.290001,
       "style": "CUSTOM",
-      "styleId": "oldGloryRed"
+      "styleId": "CUSTOM_WHITE"
     },
     {
       "location": [-207.5, -0.5],
@@ -168,7 +168,7 @@
       "angle": 180,
       "contrailSize": 30,
       "style": "CUSTOM",
-      "styleId": "CUSTOM_WHITE"
+      "styleId": "oldGloryBlue"
     },
     {
       "location": [-206.5, -10.5],
@@ -177,7 +177,7 @@
       "angle": -161.5,
       "contrailSize": 30,
       "style": "CUSTOM",
-      "styleId": "oldGloryBlue"
+      "styleId": "oldGloryRed"
     },
     {
       "location": [-202.5, -16.5],
@@ -186,7 +186,7 @@
       "angle": -152.5,
       "contrailSize": 30,
       "style": "CUSTOM",
-      "styleId": "oldGloryBlue"
+      "styleId": "CUSTOM_WHITE"
     },
     {
       "location": [-21, -0],

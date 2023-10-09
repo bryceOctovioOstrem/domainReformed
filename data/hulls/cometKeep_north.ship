@@ -1,0 +1,177 @@
+{
+  "hullName": "comeKeep_north",
+  "hullId": "cometKeep_north",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/DR/ships/DR_cometKeep_north.png",
+  "style": "LOW_TECH",
+  "height": 360,
+  "width": 93,
+  "center": [46.5, 188],
+  "collisionRadius": 187.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 203,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "hiressensors",
+    "autorepair",
+    "fluxbreakers"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [62, 21.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [67, -19.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 92.5,
+      "locations": [-125, 20.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 94,
+      "locations": [-157.5, 17.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -93.5,
+      "locations": [-156.5, -16.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -92.5,
+      "locations": [-125, -20.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 45,
+      "locations": [96, 19.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": -45,
+      "locations": [95, -17.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-50, 22.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-48, -22.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -87, 0.5,
+        -71, 0.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        71.5, 1,
+        89, 1.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-187.5, -0],
+      "length": 94.5,
+      "width": 29,
+      "angle": 180,
+      "contrailSize": 29,
+      "style": "CUSTOM",
+      "styleId": "JAPAN_RED"
+    },
+    {
+      "location": [53, -23],
+      "length": 11,
+      "width": 7,
+      "angle": -90,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    },
+    {
+      "location": [53, 25],
+      "length": 11,
+      "width": 7,
+      "angle": 90,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    }
+  ],
+  "bounds": [
+    172, -8.5,
+    172, 11.5,
+    99.5, 15,
+    91, 22,
+    -98, 21,
+    -182, 13,
+    -182.5, -12.5,
+    -97.5, -20,
+    90.5, -19.5,
+    100, -12.5
+  ]
+}

@@ -145,7 +145,7 @@
       "size": "LARGE",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 248,
+      "arc": 255,
       "angle": 180,
       "locations": [-193, 0.5]
     },
@@ -362,10 +362,10 @@
     },
     {
       "location": [2, 1],
-      "length": 47.5,
-      "width": 25,
+      "length": 45,
+      "width": 15,
       "angle": 180,
-      "contrailSize": 25,
+      "contrailSize": 15,
       "style": "CUSTOM",
       "styleId": "CUSTOM_stack"
     }

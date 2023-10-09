@@ -1,0 +1,170 @@
+{
+  "hullName": "DR_cometKee_west",
+  "hullId": "DR_cometKeep_west",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/DR/ships/DR_cometKeep_west.png",
+  "style": "LOW_TECH",
+  "height": 344,
+  "width": 41,
+  "center": [20.5, 210],
+  "collisionRadius": 211.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 217.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "rugged",
+    "autorepair",
+    "insulatedengine"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 275,
+      "angle": 0,
+      "locations": [60.5, 0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 275,
+      "angle": 0,
+      "locations": [43, 0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 84,
+      "locations": [-10, 13.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -86,
+      "locations": [-11, -13.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-58, 2]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-140, 2.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-176.5, 2.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-85, 10.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [-78, 0.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-85, -9.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-116, 10.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-122.5, 0.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-116, -11.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 173,
+      "angle": 98,
+      "locations": [-191.5, 10.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -108.5,
+      "locations": [-192, -8.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    206, -9,
+    152, 4,
+    -20.5, 9,
+    -120, 6.5,
+    -182, 0,
+    -207, -8.5,
+    -182, -18.5,
+    -119.5, -25,
+    -20, -28,
+    152.5, -23.5
+  ]
+}

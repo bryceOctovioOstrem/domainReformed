@@ -1,0 +1,50 @@
+{
+  "id": "356mm-45-Type41",
+  "specClass": "projectile",
+  "projectileSpecId": "45_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/DR_356mm_turret.png",
+  "hardpointSprite": "graphics/weapons/DR_356mm_hardpoint.png",
+  "glowColor": [
+    200,
+    16,
+    46,
+    255
+  ],
+  "turretOffsets": [
+    54,
+    -3,
+    54,
+    5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    40,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 60,
+    "spread": 30,
+    "particleSizeMin": 5,
+    "particleSizeRange": 35,
+    "particleDuration": 1,
+    "particleCount": 50,
+    "particleColor": [
+      255,
+      120,
+      50,
+      245
+    ]
+  },
+  "fireSoundTwo": "380SK"
+}
