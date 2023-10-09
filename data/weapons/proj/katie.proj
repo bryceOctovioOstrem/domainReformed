@@ -1,0 +1,51 @@
+{
+	"id":"katie",
+	"specClass":"missile",
+	"missileType":"ROCKET",
+	"sprite":"graphics/missiles/shell_large.png",
+	"size":[18,36],	
+	"center":[10,22],
+	"collisionRadius":30,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[240, 186, 50,100],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":435, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":80,
+					 "coreRadius":65, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":5.0,
+					 "particleSizeRange":3.0,
+					 "particleDuration":1,
+					 "particleCount":150,
+					 "particleColor":[178, 34, 52,250]},
+	"flameoutTime":4, # total time from flameout to full fadeout
+	"armingTime":0,
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration					 
+	"engineSpec":{"turnAcc":600,
+				  "turnRate":150,
+				  "acc":435,
+				  "dec":100},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-10, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[178, 34, 52,250],
+						"glowSizeMult":1,
+						"contrailDuration":2,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":3,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0, # how far away from engine it starts
+						"contrailColor":[60, 59, 110,250],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":10.0,
+				    "length":30.0,
+				    "angle":180.0}]
+		
+}

@@ -1,7 +1,7 @@
 {
   "id": "16in",
   "specClass": "projectile",
-  "projectileSpecId": "gyrojet_large",
+  "projectileSpecId": "katie",
   "mountTypeOverride":"COMPOSITE",
   "type": "BALLISTIC",
   "size": "LARGE",

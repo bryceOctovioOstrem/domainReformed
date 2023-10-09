@@ -1,7 +1,7 @@
 {
   "id": "type_94",
   "specClass": "projectile",
-  "projectileSpecId": "91_shot",
+  "projectileSpecId": "Sanshiki",
   "type": "BALLISTIC",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/DR_type94_large_turret.png",
@@ -33,6 +33,7 @@
     0,
     0
   ],
+ "autocharge":true,
   "barrelMode": "LINKED",
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {
