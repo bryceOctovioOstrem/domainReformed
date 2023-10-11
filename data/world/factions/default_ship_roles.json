@@ -45,6 +45,7 @@
 		"kingGeorge_domain":3,
 		"christian_domain":.5,
 		"Iowa_domain":1,
+		"Ise_domain":1,
 		"fallback":{"combatLarge":.5},
 	},
 	
@@ -87,6 +88,7 @@
 		"yorktown_domain":2,
 		"Queen_Elizabeth_domain":1.5,
 		"Ford_domain":1,
+		"Ise_domain":1,
 		"fallback":{"carrierMedium":1},
 		"fallback2":{"carrierSmall":1},
 	},

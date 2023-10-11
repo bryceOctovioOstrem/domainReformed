@@ -57,12 +57,12 @@
 					"smokeSpec":{"particleSizeMin":20.0,
 								 "particleSizeRange":10.83,
 								 "cloudParticleCount":8,
-								 "cloudDuration":0.1,
+								 "cloudDuration":1,
 								 "cloudRadius":20.0,
 								 "blowbackParticleCount":10,
 								 "blowbackDuration":0.1,
 								 "blowbackLength":-500,
 								 "blowbackSpread":20,
-								 "particleColor":[188, 0, 45,200]}
+								 "particleColor":[255, 119, 0,200]}
 					}				    
 }
