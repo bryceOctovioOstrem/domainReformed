@@ -54,6 +54,7 @@
 		"christian_domain":100,
 		"wasa_domain":100,
 		"Iowa_domain":100,
+		"Ise_domain":100
 },	
 	
 	# multiplier for how often hulls show up in the faction's fleets
@@ -119,7 +120,6 @@
 	"knownHullMods":{
 		"tags":["base_bp", "hegemony","DR"],
 		"hullMods":[
-			"advancedshieldemitter",
 			"turretgyros",
 			"armoredweapons",
 			"augmentedengines",
@@ -127,15 +127,12 @@
 			"expanded_deck_crew",
 			"magazines",
 			"missleracks",
-			"extendedshieldemitter",
-			"frontemitter",
 			"heavyarmor",
 			"insulatedengine",
 			"targetingunit",
 			"nav_relay",
 			"operations_center",
 			"fluxbreakers",
-			"stabilizedshieldemitter",
 			"surveying_equipment",
 			"efficiency_overhaul",
 			"converted_fighterbay",

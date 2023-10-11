@@ -2,7 +2,7 @@
   "variantId": "Wichita_domain",
   "hullId": "Wichita",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 1,
   "fluxVents": 30,
   "permaMods": [],

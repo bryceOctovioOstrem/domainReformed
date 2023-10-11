@@ -2,7 +2,7 @@
   "variantId": "bismark_domain",
   "hullId": "bismark",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 42,
   "quality": 1,

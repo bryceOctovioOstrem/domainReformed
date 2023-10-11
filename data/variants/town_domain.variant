@@ -2,7 +2,7 @@
   "variantId": "town_domain",
   "hullId": "town",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 30,
   "quality": 1,

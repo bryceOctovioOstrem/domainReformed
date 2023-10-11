@@ -2,7 +2,7 @@
   "variantId": "Richelieu_domain",
   "hullId": "Richelieu",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 4,
   "fluxVents": 50,
   "quality": 1,

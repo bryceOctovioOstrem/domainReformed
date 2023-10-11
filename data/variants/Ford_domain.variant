@@ -2,7 +2,7 @@
   "variantId": "Ford_domain",
   "hullId": "Ford",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 41,
   "quality": 1,

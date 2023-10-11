@@ -2,7 +2,7 @@
   "variantId": "indianopolis_domain",
   "hullId": "indianopolis",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 6,
   "fluxVents": 30,
   "quality": 1,

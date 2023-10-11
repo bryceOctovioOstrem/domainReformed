@@ -2,9 +2,9 @@
   "variantId": "Ise_domain",
   "hullId": "Ise",
   "displayName": "Domain",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 13,
+  "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -53,8 +53,7 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "356mm-45-Type41",
-        "WS0038": "356mm-45-Type41"
+        "WS0001": "356mm-45-Type41"
       }
     },
     {
@@ -80,12 +79,17 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0039": "fireControl1000",
+        "WS0040": "fireControl1000"
+      }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0038": "356mm-45-Type41"
+      }
     }
   ],
   "modules": [],

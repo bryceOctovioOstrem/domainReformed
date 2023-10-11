@@ -2,7 +2,7 @@
   "variantId": "R_mothership_domain",
   "hullId": "R_mothership",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,

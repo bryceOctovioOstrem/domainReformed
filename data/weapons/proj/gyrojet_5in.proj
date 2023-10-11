@@ -50,8 +50,8 @@
 				    "angle":180.0}],
 
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
-					"range":25,
-					"explosionSpec":{"duration":0.1f,
+					"range":35,
+					"explosionSpec":{"duration":2.0f,
 									 "radius":50,
 									 "coreRadius":25, # full damage within core radius - also equal to proximity fuse range
 									 "collisionClass":PROJECTILE_FF,
@@ -59,7 +59,7 @@
 									 "particleSizeMin":7.0,
 									 "particleSizeRange":4.0,
 									 "particleDuration":2,
-									 "particleCount":25,
+									 "particleCount":50,
 									 "particleColor":[255,225,125,255],
 								
 									 "sound":"explosion_flak"},

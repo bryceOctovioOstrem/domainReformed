@@ -14,8 +14,16 @@
   "builtInMods": [
     "targetingunit",
     "rugged",
-    "fluxbreakers"
+    "fluxbreakers",
+    "repair_gantry",
+    "autorepair"
   ],
+  "builtInWeapons": {
+    "WS0039": "fireControl1000",
+    "WS0040": "fireControl1000",
+    "WS0041": "IseCrane",
+    "WS0042": "IseCrane"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -101,7 +109,7 @@
       "arc": 215,
       "angle": -127,
       "locations": [0.5, -17],
-      "renderOrderMod": 200
+      "renderOrderMod": 300
     },
     {
       "id": "WS0010",
@@ -111,22 +119,23 @@
       "arc": 215,
       "angle": 134,
       "locations": [-1.5, 16],
-      "renderOrderMod": 200
+      "renderOrderMod": 300
     },
     {
       "id": "WS0011",
       "size": "LARGE",
       "type": "HYBRID",
-      "mount": "HARDPOINT",
+      "mount": "TURRET",
       "arc": 65,
       "angle": -100,
-      "locations": [-22.5, -1]
+      "locations": [-22.5, -1],
+      "renderOrderMod": 200
     },
     {
       "id": "WS0012",
       "size": "LARGE",
       "type": "HYBRID",
-      "mount": "HARDPOINT",
+      "mount": "TURRET",
       "arc": 60,
       "angle": 74.5,
       "locations": [-63.5, -1]
@@ -377,6 +386,44 @@
         -247.5, 1,
         -277.5, 1
       ]
+    },
+    {
+      "id": "WS0039",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-127, 7]
+    },
+    {
+      "id": "WS0040",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-127, -8.5]
+    },
+    {
+      "id": "WS0041",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 30,
+      "locations": [-97.5, -43],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0042",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": -20,
+      "locations": [-97.5, 42],
+      "renderOrderMod": 100
     }
   ],
   "engineSlots": [
@@ -409,7 +456,7 @@
     },
     {
       "location": [-358.5, 17.5],
-      "length": 20,
+      "length": 25,
       "width": 3,
       "angle": 180,
       "contrailSize": 3,
@@ -436,7 +483,7 @@
     },
     {
       "location": [-358.5, -17.5],
-      "length": 20,
+      "length": 25,
       "width": 3,
       "angle": 180,
       "contrailSize": 3,

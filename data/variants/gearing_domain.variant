@@ -2,7 +2,7 @@
   "variantId": "gearing_domain",
   "hullId": "gearing",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 7,
   "fluxVents": 22,
   "quality": 1,

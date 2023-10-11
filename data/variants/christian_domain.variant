@@ -2,7 +2,7 @@
   "variantId": "christian_domain",
   "hullId": "christian",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 38,
   "fluxVents": 50,
   "quality": 0,

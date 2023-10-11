@@ -2,7 +2,7 @@
   "variantId": "hosho_domain",
   "hullId": "hosho",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 20,
   "fluxVents": 0,
   "quality": 1,

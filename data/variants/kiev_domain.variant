@@ -2,7 +2,7 @@
   "variantId": "kiev_domain",
   "hullId": "kiev",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 20,
   "fluxVents": 2,
   "quality": 1,

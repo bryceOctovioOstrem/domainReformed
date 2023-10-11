@@ -2,7 +2,7 @@
   "variantId": "wasa_domain",
   "hullId": "wasa",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 30,
   "quality": 1,

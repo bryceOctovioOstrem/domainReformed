@@ -2,7 +2,7 @@
   "variantId": "cutter_domain",
   "hullId": "cutter",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 10,
   "fluxVents": 10,
   "quality": 1,

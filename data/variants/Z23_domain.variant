@@ -2,7 +2,7 @@
   "variantId": "Z23_domain",
   "hullId": "Z23",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 20,
   "fluxVents": 2,
   "quality": 1,

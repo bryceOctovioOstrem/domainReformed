@@ -2,7 +2,7 @@
   "variantId": "hipper_domain",
   "hullId": "hipper",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 6,
   "fluxVents": 30,
   "quality": 1,

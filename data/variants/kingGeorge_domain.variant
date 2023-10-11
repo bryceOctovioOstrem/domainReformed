@@ -2,7 +2,7 @@
   "variantId": "kingGeorge_domain",
   "hullId": "kingGeorge",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 12,
   "fluxVents": 50,
   "quality": 1,

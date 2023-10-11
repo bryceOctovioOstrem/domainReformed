@@ -2,7 +2,7 @@
   "variantId": "Queen_Elizabeth_domain",
   "hullId": "Queen_Elizabeth",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 5,
   "fluxVents": 50,
   "quality": 1,

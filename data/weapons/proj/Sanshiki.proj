@@ -47,7 +47,7 @@
 					"damageType":HIGH_EXPLOSIVE,
 					"hitpoints":500,
 					"evenSpread":true,
-					"arc":25,
+					"arc":20,
 					"spreadInaccuracy":10.83,
 					#"spreadSpeed":300,
 					"spreadSpeed":2000,
@@ -55,14 +55,14 @@
 					"projectileRange":600, # only needed if not a missile
 					"projectileSpec":"beeHive_warhead2",
 					"smokeSpec":{"particleSizeMin":20.0,
-								 "particleSizeRange":10.0,
-								 "cloudParticleCount":5,
-								 "cloudDuration":0.01,
-								 "cloudRadius":40.0,
-								 "blowbackParticleCount":0,
-								 "blowbackDuration":0,
-								 "blowbackLength":0,
-								 "blowbackSpread":0,
-								 "particleColor":[250,250,210,200]}
+								 "particleSizeRange":10.83,
+								 "cloudParticleCount":8,
+								 "cloudDuration":0.1,
+								 "cloudRadius":20.0,
+								 "blowbackParticleCount":10,
+								 "blowbackDuration":0.1,
+								 "blowbackLength":-500,
+								 "blowbackSpread":20,
+								 "particleColor":[188, 0, 45,200]}
 					}				    
 }

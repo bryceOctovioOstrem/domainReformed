@@ -2,7 +2,7 @@
   "variantId": "Geobukseon_domain",
   "hullId": "Geobukseon",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 20,
   "fluxVents": 20,
   "quality": 1,

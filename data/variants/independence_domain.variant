@@ -2,7 +2,7 @@
   "variantId": "independence_domain",
   "hullId": "independence",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 10,
   "quality": 1,
