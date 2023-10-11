@@ -156,7 +156,7 @@
 		"combatFreighterProbability":0.9,      				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":1,  				# as part of the normal combat lineup
 		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
-		"autofitRandomizeProbability":0,
+		"autofitRandomizeProbability":0.01,
 		
 		"commanderSkillsShuffleProbability":1,
 		"commanderSkills":[
