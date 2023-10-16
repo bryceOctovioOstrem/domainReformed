@@ -64,6 +64,7 @@
 		"liberty_domain":1,
 		"wasa_domain":2,
 		"christian_domain":1,
+		"Ise_domain":1,
 		"fallback":{"combatFreighterMedium":1},
 	},
 	

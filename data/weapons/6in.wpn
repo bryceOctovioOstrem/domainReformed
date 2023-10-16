@@ -1,7 +1,7 @@
 {
   "id": "6in",
   "specClass": "projectile",
-  "projectileSpecId": "hellbore_shot",
+  "projectileSpecId": "6in_shot",
   "type": "BALLISTIC",
   "size": "MEDIUM",
   "displayArcRadius": 650,
