@@ -23,13 +23,13 @@
   "barrelMode": "ALTERNATING",
   "animationType": "SMOKE",
   "smokeSpec": {
-    "particleSizeMin": 6,
+    "particleSizeMin": 12,
     "particleSizeRange": 9,
     "cloudParticleCount": 68,
     "cloudDuration": 20,
     "cloudRadius": 8,
     "blowbackParticleCount": 10,
-    "blowbackDuration": 10,
+    "blowbackDuration": 20,
     "blowbackLength": -10,
     "blowbackSpread": 20,
     "particleColor": [

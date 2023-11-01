@@ -8,7 +8,7 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "blast_doors",
+    "reinforcedhull",
     "autorepair",
     "hiressensors",
     "missleracks",
