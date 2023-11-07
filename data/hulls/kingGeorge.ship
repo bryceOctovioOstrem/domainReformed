@@ -324,7 +324,7 @@
   ],
   "engineSlots": [
     {
-      "location": [4.5, -0],
+      "location": [3.5, -0],
       "length": 10.5,
       "width": 8,
       "angle": 180,
@@ -333,7 +333,7 @@
       "styleId": "CUSTOM_stack"
     },
     {
-      "location": [-71.5, -0],
+      "location": [-72.5, -0],
       "length": 13.5,
       "width": 8,
       "angle": 180,

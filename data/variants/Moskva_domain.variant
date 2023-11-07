@@ -3,7 +3,7 @@
   "hullId": "Moskva",
   "displayName": "New Variant",
   "goalVariant": true,
-  "fluxCapacitors": 0,
+  "fluxCapacitors": 9,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
@@ -18,6 +18,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0004": "Oerlikon",
+        "WS0007": "130mm",
         "WS0008": "Oerlikon"
       }
     },
@@ -65,9 +66,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0007": "cryoblaster"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,

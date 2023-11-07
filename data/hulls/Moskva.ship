@@ -42,7 +42,7 @@
     {
       "id": "WS0007",
       "size": "MEDIUM",
-      "type": "UNIVERSAL",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 248,
       "angle": 0,

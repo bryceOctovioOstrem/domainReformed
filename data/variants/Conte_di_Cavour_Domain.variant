@@ -3,13 +3,12 @@
   "hullId": "Conte_di_Cavour",
   "displayName": "New Variant",
   "goalVariant": true,
-  "fluxCapacitors": 50,
-  "fluxVents": 50,
+  "fluxCapacitors": 0,
+  "fluxVents": 42,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "armoredweapons",
-    "autorepair",
     "hardened_subsystems"
   ],
   "weaponGroups": [
@@ -17,34 +16,55 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "devastator",
-        "WS0004": "mjolnir"
+        "WS0001": "triple320mm"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "mjolnir"
+        "WS0002": "twin308"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "devastator"
+        "WS0003": "triple320mm"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0004": "twin308"
+      }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "devastator"
+        "WS0005": "triple320mm"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "railgun",
+        "WS0007": "railgun",
+        "WS0008": "railgun",
+        "WS0009": "railgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "railgun",
+        "WS0011": "railgun",
+        "WS0012": "railgun",
+        "WS0013": "railgun"
       }
     }
   ],

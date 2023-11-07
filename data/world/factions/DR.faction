@@ -8,8 +8,8 @@
 	"entityNamePrefix":"Domain",
 	"shipNamePrefix":"DN",
 	"shipNameSources":{
-		"BRITISH_NAVY":4,
-		"ROMAN":2,
+		"BRITISH_NAVY":2,
+		"ROMAN":4,
 		"GREEK":1,
 	},
 	"names":{

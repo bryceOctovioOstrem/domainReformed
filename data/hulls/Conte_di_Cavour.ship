@@ -13,8 +13,13 @@
   "viewOffset": 0,
   "builtInMods": [
     "rugged",
-    "dedicated_targeting_core"
+    "dedicated_targeting_core",
+    "glitched_sensors"
   ],
+  "builtInWeapons": {
+    "WS0002": "twin308",
+    "WS0004": "twin308"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -28,29 +33,31 @@
     {
       "id": "WS0002",
       "size": "LARGE",
-      "type": "UNIVERSAL",
+      "type": "BUILT_IN",
       "mount": "TURRET",
       "arc": 248,
       "angle": 0,
-      "locations": [99.5, -0.5]
+      "locations": [103, -0.5],
+      "renderOrderMod": 100
     },
     {
       "id": "WS0003",
       "size": "LARGE",
       "type": "UNIVERSAL",
       "mount": "TURRET",
-      "arc": 130,
-      "angle": 91,
+      "arc": 120,
+      "angle": -90,
       "locations": [-20.5, 1]
     },
     {
       "id": "WS0004",
       "size": "LARGE",
-      "type": "UNIVERSAL",
+      "type": "BUILT_IN",
       "mount": "TURRET",
       "arc": 263,
-      "angle": 179,
-      "locations": [-137, 0.5]
+      "angle": 180,
+      "locations": [-140, 0.5],
+      "renderOrderMod": 1002
     },
     {
       "id": "WS0005",
@@ -58,26 +65,98 @@
       "type": "UNIVERSAL",
       "mount": "TURRET",
       "arc": 283,
-      "angle": 179,
-      "locations": [-182, -0.5]
+      "angle": 180,
+      "locations": [-182, -1]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 127,
+      "angle": 63.5,
+      "locations": [47, 29]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 127,
+      "angle": -63.5,
+      "locations": [74, -25]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 127,
+      "angle": -63.5,
+      "locations": [48, -30]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 127,
+      "angle": 63.5,
+      "locations": [74, 24]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 127,
+      "angle": 117.5,
+      "locations": [-79.5, 32.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 127,
+      "angle": 117,
+      "locations": [-102, 25]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 127,
+      "angle": -116.5,
+      "locations": [-77, -34]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 127,
+      "angle": -116.5,
+      "locations": [-102, -26]
     }
   ],
   "engineSlots": [
     {
-      "location": [-302.5, -1],
-      "length": 145,
-      "width": 43,
+      "location": [-301, -0.5],
+      "length": 45,
+      "width": 25,
       "angle": 180,
-      "contrailSize": 43,
+      "contrailSize": 25,
       "style": "CUSTOM",
-      "styleId": "CUSTOM_WHITE"
+      "styleId": "ITALY_GREEN"
     },
     {
       "location": [54.5, -0.5],
-      "length": 4.5,
-      "width": 9,
+      "length": 3.5,
+      "width": 7,
       "angle": 180,
-      "contrailSize": 9,
+      "contrailSize": 7,
       "style": "OMEGA"
     }
   ],
@@ -85,7 +164,10 @@
     286.5, -0,
     219.5, 17,
     -36.5, 41,
+    -293.5, 16.5,
+    -293.5, 14,
     -293.5, -1,
+    -293.5, -16.5,
     -39, -43,
     220, -20
   ]

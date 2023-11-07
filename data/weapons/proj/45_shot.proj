@@ -4,6 +4,8 @@
 	"spawnType":"BALLISTIC",
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"explosionColor":[188, 0, 45,150],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":461, # purely visual
 	"length":1250.0,
 	"hitGlowRadius":538,
 	"width":9.0,
