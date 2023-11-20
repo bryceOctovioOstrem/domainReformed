@@ -1,0 +1,111 @@
+{
+  "hullName": "cometKeep",
+  "hullId": "cometKeep",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/DR/ships/DR_station_base.png",
+  "style": "LOW_TECH",
+  "height": 512,
+  "width": 512,
+  "center": [257, 257],
+  "collisionRadius": 184,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 189.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation",
+    "vastbulk",
+    "supercomputer"
+  ],
+  "builtInWeapons": {
+    "WS0009": "StationFace",
+    "WS0010": "StationFace",
+    "WS0011": "StationFace",
+    "WS0012": "StationFace"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [1.5, 351]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [398.5, -1.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-381, 1.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-1.5, -375.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [1, 160],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [158, -1]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-3, -158]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-160, 3]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -0.5, 169,
+    119, 119,
+    169.5, 0.5,
+    121, -121,
+    -0.5, -170,
+    -119.5, -119,
+    -171, 2,
+    -119, 120
+  ]
+}

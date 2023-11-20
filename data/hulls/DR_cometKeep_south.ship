@@ -17,9 +17,6 @@
     "hiressensors",
     "targetingunit"
   ],
-  "builtInWeapons": {
-    "WS0003": "5in"
-  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -43,7 +40,7 @@
     {
       "id": "WS0003",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "COMPOSITE",
       "mount": "TURRET",
       "arc": 280,
       "angle": 180,
@@ -97,8 +94,8 @@
     },
     {
       "id": "WS0012",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "size": "SMALL",
+      "type": "COMPOSITE",
       "mount": "TURRET",
       "arc": 295,
       "angle": 180,

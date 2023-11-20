@@ -12,8 +12,10 @@
   "shieldRadius": 233,
   "viewOffset": 0,
   "builtInMods": [
-    "targetingunit",
-    "rugged"
+    "rugged",
+    "turretgyros",
+    "missleracks",
+    "supercomputer"
   ],
   "weaponSlots": [
     {

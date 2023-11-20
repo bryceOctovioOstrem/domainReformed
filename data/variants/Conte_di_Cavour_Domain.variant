@@ -16,15 +16,15 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "triple320mm"
+        "WS0001": "triple320mm",
+        "WS0002": "twin308",
+        "WS0004": "twin308"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0002": "twin308"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
@@ -36,9 +36,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0004": "twin308"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

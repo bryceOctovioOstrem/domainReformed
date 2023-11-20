@@ -1,0 +1,137 @@
+{
+  "hullName": "DR_starFortress",
+  "hullId": "DR_starFortress",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/DR/ships/DR_station_base.png",
+  "style": "LOW_TECH",
+  "height": 512,
+  "width": 512,
+  "center": [256, 256],
+  "collisionRadius": 191.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 199.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation",
+    "supercomputer"
+  ],
+  "builtInWeapons": {
+    "WS0005": "CWIS",
+    "WS0006": "CWIS",
+    "WS0007": "CWIS",
+    "WS0008": "CWIS"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [10, 464]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [495, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-1, -456.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-490.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 45,
+      "locations": [106, 105]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -45,
+      "locations": [106, -106]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -135,
+      "locations": [-104, -106]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 135,
+      "locations": [-104, 105]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    0.5, 171,
+    85.5, 140.5,
+    64, 112.5,
+    82.5, 96.5,
+    110, 126,
+    124.5, 108.5,
+    97, 81.5,
+    108, 68.5,
+    147.5, 77,
+    171.5, -0.5,
+    147, -79,
+    109.5, -64.5,
+    95, -82.5,
+    126, -113,
+    110, -128.5,
+    82.5, -97.5,
+    70, -108.5,
+    77.5, -146.5,
+    -1.5, -171.5,
+    -77.5, -146.5,
+    -64, -111.5,
+    -81.5, -98.5,
+    -111, -128.5,
+    -127.5, -114.5,
+    -96.5, -85,
+    -111, -67.5,
+    -147.5, -77.5,
+    -171, 0.5,
+    -146.5, 76.5,
+    -111.5, 65.5,
+    -96.5, 84,
+    -128, 113,
+    -112.5, 127,
+    -82.5, 97,
+    -64, 113.5,
+    -79, 146.5
+  ]
+}

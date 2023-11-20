@@ -6,7 +6,7 @@
 	"collisionClassByFighter":"RAY_FIGHTER",
 	"explosionColor":[1, 33, 105,200],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":435, # purely visual
-	"length":1000.0,
+	"length":8.0,
 	"width":12,
 	"fadeTime":0.6,
 	"fringeColor":[255, 255, 255,200],

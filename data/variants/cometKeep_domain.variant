@@ -1,0 +1,33 @@
+{
+  "variantId": "cometKeep_domain",
+  "hullId": "cometKeep",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [
+    {
+      "WS0006": "DR_cometKeep_east_domain"
+    },
+    {
+      "WS0005": "cometKeep_north_domain"
+    },
+    {
+      "WS0008": "DR_cometKeep_south_domain"
+    },
+    {
+      "WS0007": "DR_cometKeep_west_domain"
+    }
+  ],
+  "wings": []
+}

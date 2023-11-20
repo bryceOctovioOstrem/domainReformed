@@ -1,0 +1,27 @@
+{
+  "variantId": "DR_starFortress_east_variant",
+  "hullId": "DR_starFortress_east",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0038": "100mm",
+        "WS0041": "100mm",
+        "WS0042": "100mm",
+        "WS0043": "100mm",
+        "WS0044": "100mm",
+        "WS0045": "100mm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

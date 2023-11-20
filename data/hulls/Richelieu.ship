@@ -506,7 +506,7 @@
       "type": "BUILT_IN",
       "mount": "HARDPOINT",
       "arc": 1,
-      "angle": 95.5,
+      "angle": 90,
       "locations": [-30, 9]
     },
     {
@@ -515,7 +515,7 @@
       "type": "BUILT_IN",
       "mount": "HARDPOINT",
       "arc": 1,
-      "angle": -94,
+      "angle": -90,
       "locations": [-30, -9]
     }
   ],

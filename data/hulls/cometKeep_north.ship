@@ -131,45 +131,26 @@
         71.5, 1,
         89, 1.5
       ]
-    }
-  ],
-  "engineSlots": [
-    {
-      "location": [-187.5, -0],
-      "length": 94.5,
-      "width": 29,
-      "angle": 180,
-      "contrailSize": 29,
-      "style": "CUSTOM",
-      "styleId": "JAPAN_RED"
     },
     {
-      "location": [53, -23],
-      "length": 11,
-      "width": 7,
-      "angle": -90,
-      "contrailSize": 7,
-      "style": "CUSTOM",
-      "styleId": "CUSTOM_WHITE"
-    },
-    {
-      "location": [53, 25],
-      "length": 11,
-      "width": 7,
-      "angle": 90,
-      "contrailSize": 7,
-      "style": "CUSTOM",
-      "styleId": "CUSTOM_WHITE"
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [81, 1]
     }
   ],
+  "engineSlots": [],
   "bounds": [
-    172, -8.5,
-    172, 11.5,
+    171, -8.5,
+    171, 10.5,
     99.5, 15,
     91, 22,
     -98, 21,
-    -182, 13,
-    -182.5, -12.5,
+    -162.5, 16,
+    -162, -17.5,
     -97.5, -20,
     90.5, -19.5,
     100, -12.5

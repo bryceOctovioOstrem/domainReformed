@@ -17,6 +17,9 @@
     "autorepair",
     "fluxbreakers"
   ],
+  "builtInWeapons": {
+    "WS0011": "kamikaze"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -119,6 +122,15 @@
         97, 2,
         -64, 1
       ]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 0,
+      "locations": [94.5, 1]
     }
   ],
   "engineSlots": [

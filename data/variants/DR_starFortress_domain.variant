@@ -1,0 +1,56 @@
+{
+  "variantId": "DR_starFortress_domain",
+  "hullId": "DR_starFortress",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "CWIS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "CWIS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "CWIS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "CWIS"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0001": "DR_starFortress_north_domain"
+    },
+    {
+      "WS0002": "DR_starFortress_east_variant"
+    },
+    {
+      "WS0003": "DR_starFortress_south_domain"
+    },
+    {
+      "WS0004": "DR_starFortress_west_domain"
+    }
+  ],
+  "wings": []
+}

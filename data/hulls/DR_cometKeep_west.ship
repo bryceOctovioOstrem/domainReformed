@@ -12,10 +12,10 @@
   "shieldRadius": 217.5,
   "viewOffset": 0,
   "builtInMods": [
-    "targetingunit",
     "rugged",
     "autorepair",
-    "insulatedengine"
+    "insulatedengine",
+    "supercomputer"
   ],
   "weaponSlots": [
     {

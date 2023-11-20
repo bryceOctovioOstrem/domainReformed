@@ -1,0 +1,159 @@
+{
+  "hullName": "DR_starFortress_south",
+  "hullId": "DR_starFortress_south",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/DR/ships/DR_starFortress_south.png",
+  "style": "LOW_TECH",
+  "height": 575,
+  "width": 100,
+  "center": [50, 287.5],
+  "collisionRadius": 293.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 305.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion",
+    "reduced_explosion",
+    "do_not_fire_through",
+    "ill_advised",
+    "always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 285,
+      "angle": 0,
+      "locations": [139.5, 1]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [87.5, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -90,
+      "locations": [-32.5, 1]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 180,
+      "locations": [-149.5, 1],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 180,
+      "locations": [-194.5, -1]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 125,
+      "angle": 60,
+      "locations": [61, 24]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 125,
+      "angle": 60,
+      "locations": [34, 29]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 125,
+      "angle": -62,
+      "locations": [31.5, -30.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 125,
+      "angle": -62,
+      "locations": [61.5, -24.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 125,
+      "angle": -118,
+      "locations": [-114, -25.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 125,
+      "angle": -117.5,
+      "locations": [-90, -33]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 125,
+      "angle": 117.5,
+      "locations": [-114, 26]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 125,
+      "angle": 117.5,
+      "locations": [-87.5, 35]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    275.5, 0.5,
+    234.5, 20,
+    213.5, 20,
+    128, 37,
+    -18, 46,
+    -192.5, 36.5,
+    -272, 21.5,
+    -272, -20.5,
+    -194.5, -35.5,
+    -16.5, -44,
+    125.5, -36,
+    211, -19.5,
+    235.5, -19
+  ]
+}
