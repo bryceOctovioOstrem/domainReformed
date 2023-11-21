@@ -13,14 +13,9 @@
   "viewOffset": 0,
   "builtInMods": [
     "axialrotation",
+    "ill_advised",
     "supercomputer"
   ],
-  "builtInWeapons": {
-    "WS0005": "CWIS",
-    "WS0006": "CWIS",
-    "WS0007": "CWIS",
-    "WS0008": "CWIS"
-  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -29,7 +24,7 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": 90,
-      "locations": [10, 464]
+      "locations": [1, 537]
     },
     {
       "id": "WS0002",
@@ -57,42 +52,6 @@
       "arc": 0,
       "angle": 180,
       "locations": [-490.5, -0]
-    },
-    {
-      "id": "WS0005",
-      "size": "MEDIUM",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 90,
-      "angle": 45,
-      "locations": [106, 105]
-    },
-    {
-      "id": "WS0006",
-      "size": "MEDIUM",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 90,
-      "angle": -45,
-      "locations": [106, -106]
-    },
-    {
-      "id": "WS0007",
-      "size": "MEDIUM",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 90,
-      "angle": -135,
-      "locations": [-104, -106]
-    },
-    {
-      "id": "WS0008",
-      "size": "MEDIUM",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 90,
-      "angle": 135,
-      "locations": [-104, 105]
     }
   ],
   "engineSlots": [],

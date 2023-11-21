@@ -4,7 +4,7 @@
   "displayName": "New Variant",
   "goalVariant": false,
   "fluxCapacitors": 0,
-  "fluxVents": 50,
+  "fluxVents": 0,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -45,12 +45,18 @@
       "mode": "LINKED",
       "weapons": {
         "WS0014": "duelQF",
-        "WS0015": "duelQF",
         "WS0016": "duelQF",
+        "WS0019": "duelQF",
+        "WS0020": "duelQF"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "duelQF",
         "WS0017": "duelQF",
         "WS0018": "duelQF",
-        "WS0019": "duelQF",
-        "WS0020": "duelQF",
         "WS0021": "duelQF"
       }
     },
@@ -58,13 +64,7 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0022": "quad14in"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
+        "WS0022": "quad14in",
         "WS0023": "twin14in"
       }
     },

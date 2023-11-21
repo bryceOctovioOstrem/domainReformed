@@ -12,30 +12,22 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0005": "CWIS"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0006": "CWIS"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0007": "CWIS"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0008": "CWIS"
-      }
+      "weapons": {}
     }
   ],
   "modules": [
