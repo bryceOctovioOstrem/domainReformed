@@ -300,8 +300,8 @@
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 90,
-      "angle": 77,
+      "arc": 45,
+      "angle": 66.5,
       "locations": [-298, 29]
     },
     {
@@ -309,8 +309,8 @@
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 290,
-      "angle": 180,
+      "arc": 45,
+      "angle": -67,
       "locations": [-249, -0]
     },
     {
@@ -327,18 +327,18 @@
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 166,
-      "angle": 80.5,
+      "arc": 45,
+      "angle": 67.5,
       "locations": [-172, 39],
       "renderOrderMod": 200
     },
     {
       "id": "WS0035",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 90,
-      "angle": -77,
+      "arc": 45,
+      "angle": -67,
       "locations": [-298, -29]
     },
     {
@@ -346,8 +346,8 @@
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 166,
-      "angle": -92.5,
+      "arc": 45,
+      "angle": -68.5,
       "locations": [-170, -37],
       "renderOrderMod": 200
     },
@@ -356,8 +356,8 @@
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 150,
-      "angle": -90,
+      "arc": 90,
+      "angle": -45,
       "locations": [-139, -46],
       "renderOrderMod": 100
     },
@@ -366,8 +366,8 @@
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 160,
-      "angle": -88,
+      "arc": 90,
+      "angle": -44,
       "locations": [-121, -39]
     },
     {
@@ -375,8 +375,8 @@
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 180,
-      "angle": 84.5,
+      "arc": 90,
+      "angle": 45,
       "locations": [-139, 44],
       "renderOrderMod": 100
     },
@@ -385,8 +385,8 @@
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 180,
-      "angle": 84.5,
+      "arc": 90,
+      "angle": 45,
       "locations": [-120, 38]
     },
     {
@@ -394,7 +394,7 @@
       "size": "LARGE",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 280,
+      "arc": 180,
       "angle": 0,
       "locations": [-6, -0]
     },
@@ -403,7 +403,7 @@
       "size": "LARGE",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 300,
+      "arc": 180,
       "angle": 0,
       "locations": [104, -0]
     }

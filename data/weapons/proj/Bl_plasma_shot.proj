@@ -5,7 +5,7 @@
 	"collisionClass":"RAY",
 	"collisionClassByFighter":"RAY_FIGHTER",
 	"explosionColor":[1, 33, 105,200],  # purely visual, will get a white additively blended core on top of this color
-	"explosionRadius":435, # purely visual
+	"explosionRadius":410, # purely visual
 	"length":8.0,
 	"width":12,
 	"fadeTime":0.6,
@@ -13,7 +13,7 @@
 	"coreColor":[200, 16, 46,255],
 	"glowColor":[1,33,105,175],
 	"glowRadius":35,
-	"hitGlowRadius":120,	
+	"hitGlowRadius":122,	
 	"textureScrollSpeed":64.0,
 	"pixelsPerTexel":5.0,
 	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png"	

@@ -13,19 +13,37 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "Oerlikon",
-        "WS0002": "Oerlikon",
         "WS0003": "Oerlikon",
-        "WS0004": "Oerlikon",
-        "WS0005": "Oerlikon",
-        "WS0006": "vulcan",
         "WS0007": "vulcan",
         "WS0008": "vulcan",
+        "WS0011": "vulcan",
+        "WS0013": "Oerlikon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "Oerlikon",
+        "WS0006": "vulcan",
         "WS0009": "vulcan",
         "WS0010": "vulcan",
-        "WS0011": "vulcan",
-        "WS0012": "Oerlikon",
-        "WS0013": "Oerlikon",
+        "WS0012": "Oerlikon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "Oerlikon",
+        "WS0002": "Oerlikon",
+        "WS0004": "Oerlikon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0014": "duelQF",
         "WS0015": "duelQF",
         "WS0016": "duelQF",
@@ -33,9 +51,27 @@
         "WS0018": "duelQF",
         "WS0019": "duelQF",
         "WS0020": "duelQF",
-        "WS0021": "duelQF",
-        "WS0022": "quad14in",
-        "WS0023": "twin14in",
+        "WS0021": "duelQF"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0022": "quad14in"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0023": "twin14in"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0024": "quad14in"
       }
     }

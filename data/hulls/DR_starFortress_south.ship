@@ -25,7 +25,7 @@
       "size": "LARGE",
       "type": "UNIVERSAL",
       "mount": "TURRET",
-      "arc": 285,
+      "arc": 180,
       "angle": 0,
       "locations": [139.5, 1]
     },
@@ -34,7 +34,7 @@
       "size": "LARGE",
       "type": "UNIVERSAL",
       "mount": "TURRET",
-      "arc": 240,
+      "arc": 180,
       "angle": 0,
       "locations": [87.5, -0],
       "renderOrderMod": 100
@@ -44,8 +44,8 @@
       "size": "LARGE",
       "type": "UNIVERSAL",
       "mount": "TURRET",
-      "arc": 120,
-      "angle": -90,
+      "arc": 60,
+      "angle": -59,
       "locations": [-32.5, 1]
     },
     {
@@ -53,8 +53,8 @@
       "size": "LARGE",
       "type": "UNIVERSAL",
       "mount": "TURRET",
-      "arc": 250,
-      "angle": 180,
+      "arc": 45,
+      "angle": 69.5,
       "locations": [-149.5, 1],
       "renderOrderMod": 100
     },
@@ -63,8 +63,8 @@
       "size": "LARGE",
       "type": "UNIVERSAL",
       "mount": "TURRET",
-      "arc": 300,
-      "angle": 180,
+      "arc": 45,
+      "angle": -68.5,
       "locations": [-194.5, -1]
     },
     {
@@ -72,8 +72,8 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "HIDDEN",
-      "arc": 125,
-      "angle": 60,
+      "arc": 90,
+      "angle": 45,
       "locations": [61, 24]
     },
     {
@@ -81,8 +81,8 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "HIDDEN",
-      "arc": 125,
-      "angle": 60,
+      "arc": 90,
+      "angle": 45,
       "locations": [34, 29]
     },
     {
@@ -90,8 +90,8 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "HIDDEN",
-      "arc": 125,
-      "angle": -62,
+      "arc": 90,
+      "angle": -44,
       "locations": [31.5, -30.5]
     },
     {
@@ -99,8 +99,8 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "HIDDEN",
-      "arc": 125,
-      "angle": -62,
+      "arc": 90,
+      "angle": -45,
       "locations": [61.5, -24.5]
     },
     {
@@ -108,8 +108,8 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "HIDDEN",
-      "arc": 125,
-      "angle": -118,
+      "arc": 45,
+      "angle": -68,
       "locations": [-114, -25.5]
     },
     {
@@ -117,8 +117,8 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "HIDDEN",
-      "arc": 125,
-      "angle": -117.5,
+      "arc": 45,
+      "angle": -68.5,
       "locations": [-90, -33]
     },
     {
@@ -126,8 +126,8 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "HIDDEN",
-      "arc": 125,
-      "angle": 117.5,
+      "arc": 45,
+      "angle": 67.5,
       "locations": [-114, 26]
     },
     {
@@ -135,8 +135,8 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "HIDDEN",
-      "arc": 125,
-      "angle": 117.5,
+      "arc": 45,
+      "angle": 68,
       "locations": [-87.5, 35]
     }
   ],
