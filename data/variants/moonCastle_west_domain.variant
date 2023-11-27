@@ -1,69 +1,76 @@
 {
-  "variantId": "cometKeep_north_domain",
-  "hullId": "cometKeep_north",
+  "variantId": "moonCastle_west_domain",
+  "hullId": "moonCastle_west",
   "displayName": "New Variant",
   "goalVariant": true,
-  "fluxCapacitors": 20,
-  "fluxVents": 0,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "armoredweapons"
+    "ballistic_rangefinder"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "vulcan",
         "WS0003": "vulcan",
+        "WS0006": "Oerlikon",
+        "WS0007": "Oerlikon",
+        "WS0008": "vulcan",
+        "WS0009": "Oerlikon",
+        "WS0010": "Oerlikon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0004": "vulcan",
-        "WS0009": "dualflak",
-        "WS0010": "dualflak"
+        "WS0005": "Oerlikon",
+        "WS0011": "Oerlikon",
+        "WS0012": "Oerlikon",
+        "WS0013": "vulcan",
+        "WS0014": "Oerlikon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "vulcan",
-        "WS0005": "vulcan",
-        "WS0006": "vulcan"
+        "WS0015": "mk12"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "taclaser"
+        "WS0016": "mk12"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "taclaser"
+        "WS0017": "heavyac"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0001": "vulcan"
+      }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0002": "vulcan"
+      }
     }
   ],
   "modules": [],
-  "wings": [
-    "A4N_wing",
-    "B4Y_Jean_wing"
-  ]
+  "wings": []
 }

@@ -9,9 +9,9 @@
   "turretSprite": "graphics/weapons/DR_100mm.png",
   "hardpointSprite": "graphics/weapons/100mmHardPoint.png",
   "glowColor": [
-    255,
-    255,
-    255,
+    221,
+    0,
+    0,
     255
   ],
   "hitGlowRadius": 0,

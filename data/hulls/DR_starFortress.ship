@@ -13,6 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "axialrotation",
+    "vastbulk",
     "ill_advised",
     "supercomputer"
   ],
@@ -52,6 +53,30 @@
       "arc": 0,
       "angle": 180,
       "locations": [-490.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        117.5, -119,
+        -117.5, -118
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        118.5, 120,
+        -116, 117.5
+      ]
     }
   ],
   "engineSlots": [],

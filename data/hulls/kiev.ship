@@ -15,9 +15,6 @@
     "targetingunit",
     "rugged"
   ],
-  "builtInWeapons": {
-    "WS0013": "130mm"
-  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -142,16 +139,16 @@
   "engineSlots": [
     {
       "location": [-39, -0],
-      "length": 9.5,
-      "width": 7,
+      "length": 15,
+      "width": 8,
       "angle": 180,
-      "contrailSize": 7,
+      "contrailSize": 8,
       "style": "CUSTOM",
       "styleId": "CUSTOM_stack"
     },
     {
       "location": [47.5, 0.5],
-      "length": 11,
+      "length": 19,
       "width": 7,
       "angle": 180,
       "contrailSize": 7,
@@ -159,25 +156,25 @@
       "styleId": "CUSTOM_stack"
     },
     {
-      "location": [-225.5, 8],
+      "location": [-225, 9],
+      "length": 23.5,
+      "width": 4,
+      "angle": 179.5,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "MIDLINE"
+    },
+    {
+      "location": [-227.5, -12.5],
       "length": 23.5,
       "width": 4,
       "angle": 180,
       "contrailSize": 4,
       "style": "CUSTOM",
-      "styleId": "COBRA_BOMBER"
+      "styleId": "MIDLINE"
     },
     {
-      "location": [-225.5, -8.5],
-      "length": 23.5,
-      "width": 4,
-      "angle": 180,
-      "contrailSize": 4,
-      "style": "CUSTOM",
-      "styleId": "COBRA_BOMBER"
-    },
-    {
-      "location": [-226.5, 12],
+      "location": [-227.5, 14],
       "length": 24,
       "width": 4,
       "angle": 180,
@@ -186,7 +183,7 @@
       "styleId": "russian_blue"
     },
     {
-      "location": [-227.5, -12.5],
+      "location": [-225, -8.5],
       "length": 24,
       "width": 4,
       "angle": 180,

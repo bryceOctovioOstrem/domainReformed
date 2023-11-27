@@ -2,7 +2,7 @@
   "variantId": "DR_starFortress_east_variant",
   "hullId": "DR_starFortress_east",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,

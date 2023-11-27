@@ -1,7 +1,7 @@
 {
   "variantId": "Iowa_domain",
   "hullId": "Iowa",
-  "displayName": "New Variant",
+  "displayName": "Domain",
   "goalVariant": true,
   "fluxCapacitors": 13,
   "fluxVents": 50,

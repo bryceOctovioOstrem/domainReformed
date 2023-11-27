@@ -13,10 +13,8 @@
   "viewOffset": 0,
   "builtInMods": [
     "fluxbreakers",
-    "fragile_subsystems",
     "supercomputer",
     "do_not_fire_through",
-    "ill_advised",
     "always_detaches"
   ],
   "weaponSlots": [

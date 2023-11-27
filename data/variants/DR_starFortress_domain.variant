@@ -2,7 +2,7 @@
   "variantId": "DR_starFortress_domain",
   "hullId": "DR_starFortress",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,
@@ -44,5 +44,10 @@
       "WS0004": "DR_starFortress_west_domain"
     }
   ],
-  "wings": []
+  "wings": [
+"A10_wing",
+"A10_wing",
+"A10_wing",
+"A10_wing",
+]
 }

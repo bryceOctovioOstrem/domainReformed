@@ -1,0 +1,213 @@
+{
+  "hullName": "moonCastle_south",
+  "hullId": "moonCastle_south",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/DR/ships/DR_moonCastle_south.png",
+  "style": "LOW_TECH",
+  "height": 427,
+  "width": 65,
+  "center": [32.5, 213.5],
+  "collisionRadius": 214,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 218.5,
+  "viewOffset": 0,
+"builtInMods":[
+    "rugged",
+    "supercomputer",
+    "do_not_fire_through",
+"autorepair",
+    "always_detaches"
+],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 95,
+      "angle": 42.5,
+      "locations": [145.5, 16.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 95,
+      "angle": -42.5,
+      "locations": [147, -16.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 68,
+      "locations": [85.5, 22.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -68,
+      "locations": [84.5, -21.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -68,
+      "locations": [52.5, -24.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -67,
+      "locations": [3.5, -22.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -68,
+      "locations": [-10.5, -21.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -68,
+      "locations": [-92.5, -26.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -68,
+      "locations": [-111.5, -26.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -68,
+      "locations": [-130.5, -25.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 68,
+      "locations": [-130.5, 26.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 68,
+      "locations": [-111.5, 26.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 68,
+      "locations": [-92.5, 26.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [174.5, -0.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 85,
+      "angle": 47.5,
+      "locations": [-79, 29.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 85,
+      "angle": -47.5,
+      "locations": [-79.5, -29.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 65,
+      "angle": 57,
+      "locations": [-143.5, 28.5]
+    },
+    {
+      "id": "WS0018",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 65,
+      "angle": -57.5,
+      "locations": [-144.5, -29.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        53, 0.5,
+        -178, -0.5
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    212, -0,
+    167, 12.5,
+    157, 13,
+    146.5, 22.5,
+    119, 22,
+    119, 27.5,
+    -200.5, 23.5,
+    -200, -24.5,
+    119, -26,
+    120.5, -22,
+    148.5, -21.5,
+    156, -13,
+    170, -12
+  ]
+}

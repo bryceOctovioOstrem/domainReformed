@@ -1,0 +1,91 @@
+{
+  "hullName": "moonCastle",
+  "hullId": "moonCastle",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/DR/ships/DR_station_base.png",
+  "style": "LOW_TECH",
+  "height": 512,
+  "width": 512,
+  "center": [256, 256],
+  "collisionRadius": 186,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 197.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation",
+"vastbulk"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [0.5, 436]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [440.5, -0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-0.5, -383.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-385.5, -1.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        119, 119,
+        119.5, -119.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -117, -118,
+        -116.5, 118
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -1, 171,
+    119.5, 118.5,
+    171, -2,
+    121, -121.5,
+    2.5, -171,
+    -117, -122,
+    -171, 0.5,
+    -118.5, 119
+  ]
+}

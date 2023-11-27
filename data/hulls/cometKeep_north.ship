@@ -12,11 +12,21 @@
   "shieldRadius": 203,
   "viewOffset": 0,
   "builtInMods": [
+    "armoredweapons",
+    "missleracks",
+    "pointdefenseai",
+    "reduced_explosion",
     "rugged",
+    "supercomputer",
     "hiressensors",
     "autorepair",
-    "fluxbreakers"
+    "fluxbreakers",
+    "do_not_fire_through",
+    "always_detaches"
   ],
+  "builtInWeapons": {
+    "WS0011": "kamikaze"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -79,7 +89,7 @@
       "mount": "HIDDEN",
       "arc": 90,
       "angle": 45,
-      "locations": [96, 19.5]
+      "locations": [95, 18.5]
     },
     {
       "id": "WS0008",
@@ -88,7 +98,7 @@
       "mount": "HIDDEN",
       "arc": 90,
       "angle": -45,
-      "locations": [95, -17.5]
+      "locations": [94, -16.5]
     },
     {
       "id": "WS0009",

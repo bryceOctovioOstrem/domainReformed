@@ -1,0 +1,33 @@
+{
+  "variantId": "comet_Keep_domain",
+  "hullId": "comet_Keep",
+  "displayName": "New Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [   
+  ],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0001": "cometKeep_north_domain"
+    },
+    {
+      "WS0002": "cometKeep_east_domain"
+    },
+    {
+      "WS0003": "cometKeep_south_domain"
+    },
+    {
+      "WS0004": "cometKeep_west_domain"
+    }
+  ],
+  "wings": [
+"A10_wing",
+"A10_wing",
+"A10_wing",
+"A10_wing",
+]
+}

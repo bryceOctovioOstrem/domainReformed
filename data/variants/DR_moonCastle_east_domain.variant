@@ -1,14 +1,14 @@
 {
-  "variantId": "cometKeep_north_domain",
-  "hullId": "cometKeep_north",
+  "variantId": "DR_moonCastle_east_domain",
+  "hullId": "DR_moonCastle_east",
   "displayName": "New Variant",
   "goalVariant": true,
-  "fluxCapacitors": 20,
-  "fluxVents": 0,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "armoredweapons"
+    "reinforcedhull"
   ],
   "weaponGroups": [
     {
@@ -16,54 +16,63 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "vulcan",
+        "WS0002": "Oerlikon",
         "WS0003": "vulcan",
+        "WS0007": "Oerlikon",
+        "WS0009": "Oerlikon",
+        "WS0011": "Oerlikon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0004": "vulcan",
-        "WS0009": "dualflak",
-        "WS0010": "dualflak"
+        "WS0005": "Oerlikon",
+        "WS0006": "vulcan",
+        "WS0008": "Oerlikon",
+        "WS0010": "Oerlikon",
+        "WS0012": "Oerlikon",
+        "WS0013": "Oerlikon",
+        "WS0014": "Oerlikon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "vulcan",
-        "WS0005": "vulcan",
-        "WS0006": "vulcan"
+        "WS0015": "lightag"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "taclaser"
+        "WS0016": "lightag"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "taclaser"
+        "WS0017": "mk12"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0018": "mk12"
+      }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0019": "mk12"
+      }
     }
   ],
   "modules": [],
-  "wings": [
-    "A4N_wing",
-    "B4Y_Jean_wing"
-  ]
+  "wings": []
 }

@@ -3,7 +3,7 @@
   "hullId": "Conte_di_Cavour",
   "displayName": "New Variant",
   "goalVariant": true,
-  "fluxCapacitors": 0,
+  "fluxCapacitors": 10,
   "fluxVents": 42,
   "quality": 1,
   "permaMods": [],

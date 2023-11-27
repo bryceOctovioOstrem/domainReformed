@@ -1,34 +1,34 @@
 {
-  "variantId": "DR_cometKeep_west_domain",
-  "hullId": "DR_cometKeep_west",
+  "variantId": "moonCastle_north_domain",
+  "hullId": "moonCastle_north",
   "displayName": "New Variant",
-  "goalVariant": false,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "blast_doors",
+    "armoredweapons"
+  ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "Oerlikon",
+        "WS0003": "vulcan",
         "WS0007": "vulcan",
-        "WS0008": "vulcan",
-        "WS0011": "vulcan",
-        "WS0013": "vulcan"
+        "WS0008": "lightdualmg"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "Oerlikon",
-        "WS0006": "vulcan",
-        "WS0009": "vulcan",
-        "WS0010": "vulcan",
-        "WS0012": "vulcan"
+        "WS0004": "vulcan",
+        "WS0005": "lightdualmg",
+        "WS0006": "vulcan"
       }
     },
     {
@@ -36,43 +36,37 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "Oerlikon",
-        "WS0002": "Oerlikon",
-        "WS0004": "Oerlikon"
+        "WS0002": "Oerlikon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0014": "duelQF",
-        "WS0016": "duelQF",
-        "WS0019": "duelQF",
-        "WS0020": "duelQF"
+        "WS0010": "breach_hidden",
+        "WS0011": "breach_hidden"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0015": "duelQF",
-        "WS0017": "duelQF",
-        "WS0018": "duelQF",
-        "WS0021": "duelQF"
+        "WS0009": "20cmSK",
+        "WS0012": "20cmSK"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0022": "quad14in",
-        "WS0023": "twin14in"
+        "WS0013": "20cmSK"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0024": "quad14in"
+        "WS0014": "20cmSK"
       }
     }
   ],

@@ -9,9 +9,9 @@
   "turretSprite": "graphics/weapons/DR_125mmSK_turret.png",
   "hardpointSprite": "graphics/weapons/DR_125mmSK_hardpoint.png",
   "glowColor": [
-    221,
-    0,
-    0,
+    255,
+    255,
+    255,
     255
   ],
   "turretOffsets": [

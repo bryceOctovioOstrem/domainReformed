@@ -23,7 +23,10 @@
         "WS0007": "vulcan",
         "WS0008": "Oerlikon",
         "WS0009": "Oerlikon",
-        "WS0016": "vulcan"
+        "WS0015": "heavyac",
+        "WS0016": "vulcan",
+        "WS0018": "mk12",
+        "WS0019": "heavyac"
       }
     },
     {
@@ -42,23 +45,17 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0015": "mk12"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0018": "mk12"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0019": "mk12"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

@@ -2,10 +2,10 @@
   "variantId": "DR_starFortress_south_domain",
   "hullId": "DR_starFortress_south",
   "displayName": "New Variant",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 0,
-  "quality": 1,
+  "fluxVents": 50,
+  "quality": 0,
   "permaMods": [],
   "hullMods": [],
   "weaponGroups": [

@@ -3,8 +3,8 @@
 	"specClass":"missile",
 	"missileType":"ROCKET",
 	"sprite":"graphics/missiles/shell_large.png",
-	"size":[9,18],	
-	"center":[5,11],
+	"size":[4,18],	
+	"center":[2,9],
 	"collisionRadius":15,
 	"collisionClass":"MISSILE_FF",
 	"explosionColor":[60, 59, 110,250],  # purely visual, will get a white additively blended core on top of this color
@@ -24,8 +24,8 @@
 	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
 	"fadeTime":0.5, # fadeout duration					 
 	"engineSpec":{"turnAcc":600,
-				  "turnRate":150,
-				  "acc":100,
+				  "turnRate":435,
+				  "acc":435,
 				  "dec":100},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-10, 0],

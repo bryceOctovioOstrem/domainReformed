@@ -1,0 +1,31 @@
+{
+  "variantId": "moonCastle_domain",
+  "hullId": "moonCastle",
+  "displayName": "New Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0001": "moonCastle_north_domain"
+    },
+    {
+      "WS0002": "DR_moonCastle_east_domain"
+    },
+    {
+      "WS0003": "moonCastle_south_domain"
+    },
+    {
+      "WS0004": "moonCastle_west_domain"
+    }
+  ],
+  "wings": [
+"A10_wing",
+"A10_wing",
+"A10_wing",
+"A10_wing",]
+}

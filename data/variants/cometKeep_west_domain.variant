@@ -1,54 +1,58 @@
 {
-  "variantId": "cometKeep_north_domain",
-  "hullId": "cometKeep_north",
+  "variantId": "cometKeep_west_domain",
+  "hullId": "cometKeep_west",
   "displayName": "New Variant",
   "goalVariant": true,
-  "fluxCapacitors": 20,
-  "fluxVents": 0,
+  "fluxCapacitors": 30,
+  "fluxVents": 1,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [
-    "armoredweapons"
-  ],
+  "hullMods": [],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "vulcan",
-        "WS0003": "vulcan",
-        "WS0004": "vulcan",
-        "WS0009": "dualflak",
-        "WS0010": "dualflak"
+        "WS0003": "Oerlikon",
+        "WS0005": "breach",
+        "WS0006": "vulcan",
+        "WS0009": "vulcan",
+        "WS0012": "sabot",
+        "WS0013": "sabot",
+        "WS0014": "Oerlikon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "vulcan",
-        "WS0005": "vulcan",
-        "WS0006": "vulcan"
+        "WS0004": "Oerlikon",
+        "WS0007": "vulcan",
+        "WS0010": "vulcan",
+        "WS0015": "Oerlikon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "taclaser"
+        "WS0001": "130mm",
+        "WS0002": "130mm"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "taclaser"
+        "WS0011": "vulcan"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0008": "vulcan"
+      }
     },
     {
       "autofire": false,
@@ -62,8 +66,5 @@
     }
   ],
   "modules": [],
-  "wings": [
-    "A4N_wing",
-    "B4Y_Jean_wing"
-  ]
+  "wings": []
 }
