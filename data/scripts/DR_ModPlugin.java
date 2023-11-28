@@ -35,6 +35,8 @@ import com.fs.starfarer.api.campaign.SectorAPI;
 //import com.fs.starfarer.api.impl.campaign.ids.Factions;
 //import data.strings.descriptions;
 import data.scripts.relations.DR_Relations;
+import data.scripts.campaign.econ.DR_industries;
+//import 
 
 public class DR_ModPlugin extends BaseModPlugin {
 
@@ -85,7 +87,8 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.POPULATION);
         market.addIndustry(Industries.SPACEPORT);
         market.addIndustry(Industries.HIGHCOMMAND);
-        market.addIndustry(Industries.STARFORTRESS);
+        //market.addIndustry(Industries.STARFORTRESS);
+	market.addIndustry(DR_industries.DR_STATION3);
         market.addIndustry(Industries.PATROLHQ);
         market.addIndustry(Industries.HEAVYBATTERIES);
 
@@ -167,7 +170,8 @@ public class DR_ModPlugin extends BaseModPlugin {
 
         // industries
         market.addIndustry(Industries.SPACEPORT);
-        market.addIndustry(Industries.STARFORTRESS);
+        //market.addIndustry(Industries.STARFORTRESS);
+	market.addIndustry(DR_industries.DR_STATION3);
         market.addIndustry(Industries.PATROLHQ);
         market.addIndustry(Industries.HEAVYBATTERIES);
         market.addIndustry(Industries.MINING);
@@ -238,7 +242,8 @@ public class DR_ModPlugin extends BaseModPlugin {
 
         // industries
         market.addIndustry(Industries.MEGAPORT);
-        market.addIndustry(Industries.STARFORTRESS);
+        //market.addIndustry(Industries.STARFORTRESS);
+	market.addIndustry(DR_industries.DR_STATION3);
         market.addIndustry(Industries.PATROLHQ);
         market.addIndustry(Industries.HEAVYBATTERIES);
         market.addIndustry(Industries.ORBITALWORKS);
@@ -313,7 +318,8 @@ public class DR_ModPlugin extends BaseModPlugin {
 
         // industries
         market.addIndustry(Industries.MEGAPORT);
-        market.addIndustry(Industries.STARFORTRESS);
+        //market.addIndustry(Industries.STARFORTRESS);
+	market.addIndustry(DR_industries.DR_STATION3);
         market.addIndustry(Industries.PATROLHQ);
         market.addIndustry(Industries.HEAVYBATTERIES);
         market.addIndustry(Industries.HEAVYINDUSTRY);

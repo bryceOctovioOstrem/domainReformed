@@ -75,7 +75,7 @@
     
     "defenceStations":[
         {"ids":["orbitalstation", "battlestation", "starfortress"]},
-        {"ids":["orbitalstation_low", "battlestation_low", "starfortress_low"], "weight":0.8},
+        {"ids":["comet_Keep", "moonCastle", "DR_starFortress"], "weight":0.9},
     ],
     
     #"industrySeeds":[
