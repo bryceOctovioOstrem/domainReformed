@@ -1,16 +1,19 @@
 {
   "id": "360",
   "specClass": "beam",
-"beamEffect":"com.fs.starfarer.api.impl.combat.IonBeamEffect",
   "type": "ENERGY",
   "size": "LARGE",
-	"explosionColor":[129, 255, 20,255],  # purely visual, will get a white additively blended core on top of this color
-	"explosionRadius":418, # purely visual
+  "beamEffect": "com.fs.starfarer.api.impl.combat.IonBeamEffect",
   "collisionClass": "RAY",
   "collisionClassByFighter": "RAY_FIGHTER",
   "turretSprite": "graphics/weapons/380.PNG",
   "hardpointSprite": "graphics/weapons/380.PNG",
-  "glowColor": [237,41,57,255],
+  "glowColor": [
+    237,
+    41,
+    57,
+    255
+  ],
   "hitGlowRadius": 418,
   "turretOffsets": [
     55,
@@ -29,15 +32,33 @@
     0
   ],
   "hardpointOffsets": [
+    82.5,
+    11.5,
+    82.5,
+    5.5,
+    82.5,
+    -4.5,
+    82.5,
+    -11.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
     0,
     0
   ],
-  "hardpointAngleOffsets": [
-    0
+  "fringeColor": [
+    0,
+    35,
+    149,
+    200
   ],
-  "fringeColor": [0,35,149,200],
-  "coreColor": [255,255,255,200],
-  "glowRadius":10,
+  "coreColor": [
+    255,
+    255,
+    255,
+    200
+  ],
   "width": 13,
   "textureType": ROUGH2,
   "textureScrollSpeed": 64,

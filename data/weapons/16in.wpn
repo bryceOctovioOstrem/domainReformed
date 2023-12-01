@@ -2,8 +2,8 @@
   "id": "16in",
   "specClass": "projectile",
   "projectileSpecId": "katie",
-  "mountTypeOverride":"COMPOSITE",
   "type": "BALLISTIC",
+  "mountTypeOverride": "COMPOSITE",
   "size": "LARGE",
   "displayArcRadius": 450,
   "turretSprite": "graphics/weapons/DR_16in_turret.png",
@@ -22,12 +22,15 @@
     0
   ],
   "hardpointOffsets": [
-    37,
-    -4.5,
-    37,
-    4.5
+    69,
+    -10.5,
+    69,
+    -0.5,
+    69,
+    9.5
   ],
   "hardpointAngleOffsets": [
+    0,
     0,
     0
   ],

@@ -1,11 +1,11 @@
 {
-  "id": "quad14in",
+  "id": "356mm/45Type41",
   "specClass": "projectile",
   "projectileSpecId": "BL_plasma_shot",
   "type": "ENERGY",
   "size": "LARGE",
-  "turretSprite": "graphics/weapons/DR_quad_BL14in_turret.png",
-  "hardpointSprite": "graphics/weapons/DR_quad_BL14in.png",
+  "turretSprite": "graphics/weapons/DR_356mm_turret.png",
+  "hardpointSprite": "graphics/weapons/DR_356mm_hardpoint.png",
   "glowColor": [
     200,
     16,
@@ -13,34 +13,22 @@
     255
   ],
   "turretOffsets": [
-    52,
-    12,
-    52,
-    4,
-    52,
-    -4,
-    52,
-    -12
+    54,
+    -3,
+    54,
+    5
   ],
   "turretAngleOffsets": [
-    0,
-    0,
     0,
     0
   ],
   "hardpointOffsets": [
     60,
-    4,
+    5,
     60,
-    -4,
-    60,
-    12,
-    60,
-    -12
+    -4
   ],
   "hardpointAngleOffsets": [
-    0,
-    0,
     0,
     0
   ],
@@ -48,16 +36,16 @@
   "animationType": "GLOW_AND_FLASH",
   "autocharge": true,
   "muzzleFlashSpec": {
-    "length": 40,
+    "length": 34,
     "spread": 15,
-    "particleSizeMin": 20,
-    "particleSizeRange": 10,
-    "particleDuration": 0.12,
-    "particleCount": 12,
+    "particleSizeMin": 15,
+    "particleSizeRange": 15,
+    "particleDuration": 0.15,
+    "particleCount": 30,
     "particleColor": [
-      1,
-      33,
-      105,
+      200,
+      16,
+      46,
       255
     ]
   },

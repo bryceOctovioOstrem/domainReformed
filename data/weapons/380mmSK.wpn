@@ -19,9 +19,9 @@
     0
   ],
   "hardpointOffsets": [
-    75.5,
+    86.5,
     5.5,
-    75.5,
+    86.5,
     -6.5
   ],
   "hardpointAngleOffsets": [
@@ -37,7 +37,10 @@
     "particleSizeRange": 24,
     "particleDuration": 0.12,
     "particleCount": 12,
-    "particleColor": [221, 0, 0,
+    "particleColor": [
+      221,
+      0,
+      0,
       215
     ]
   },

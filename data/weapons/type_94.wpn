@@ -23,19 +23,19 @@
   ],
   "hardpointOffsets": [
     90,
-    -9,
+    -12,
     90,
-    0,
+    -0.5,
     90,
-    9
+    10.5
   ],
   "hardpointAngleOffsets": [
     0,
     0
   ],
- "autocharge":true,
   "barrelMode": "LINKED",
   "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
   "muzzleFlashSpec": {
     "length": 120,
     "spread": 60,

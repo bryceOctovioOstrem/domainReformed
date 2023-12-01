@@ -5,7 +5,7 @@
   "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 30,
-  "quality": 1,
+  "quality": 0,
   "permaMods": [],
   "hullMods": [
     "targetingunit"

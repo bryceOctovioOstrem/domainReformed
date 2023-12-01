@@ -35,8 +35,8 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 180,
-      "angle": 35,
+      "arc": 160,
+      "angle": 57.5,
       "locations": [201, 12.5]
     },
     {

@@ -7,19 +7,19 @@
   "displayArcRadius": 650,
   "turretSprite": "graphics/weapons/MK12.png",
   "turretGunSprite": "graphics/weapons/MK12.png",
-  "hardpointSprite": "graphics/weapons/MK12.png",
-  "hardpointGunSprite": "graphics/weapons/MK12.png",
+  "hardpointSprite": "graphics/weapons/MK12_hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/MK12_hardpoint.png",
   "specialWeaponGlowHeight": 40,
   "specialWeaponGlowWidth": 15,
   "renderHints": [
     RENDER_BARREL_BELOW
   ],
   "turretOffsets": [
-    31.5,
-    -3,
-    31.5,
-    0,
-    31.5,
+    25.5,
+    -2,
+    25.5,
+    0.5,
+    25.5,
     3
   ],
   "turretAngleOffsets": [
@@ -28,12 +28,12 @@
     0
   ],
   "hardpointOffsets": [
-    25,
-    -5,
-    27,
+    31,
+    -2.5,
+    31,
     0,
-    25,
-    5
+    31,
+    2.5
   ],
   "hardpointAngleOffsets": [
     0,
@@ -52,7 +52,11 @@
     "blowbackDuration": 2,
     "blowbackLength": -22,
     "blowbackSpread": 13,
-    "particleColor": [60, 59, 110,200
+    "particleColor": [
+      60,
+      59,
+      110,
+      200
     ]
   },
   "fireSoundTwo": "gyrojet_medium_sound"

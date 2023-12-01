@@ -5,7 +5,7 @@
   "goalVariant": true,
   "fluxCapacitors": 6,
   "fluxVents": 30,
-  "quality": 1,
+  "quality": 0,
   "permaMods": [],
   "hullMods": [
     "advancedoptics",
@@ -24,7 +24,8 @@
         "WS0005": "lightdualmg",
         "WS0006": "lightdualmg",
         "WS0007": "vulcan",
-        "WS0013": "harpoon_hidden"
+        "WS0013": "sabot",
+        "WS0014": "sabot"
       }
     },
     {
@@ -68,13 +69,9 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0014": "harpoon"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],
-  "wings": [
-    "vought_wing_3"
-  ]
+  "wings": []
 }

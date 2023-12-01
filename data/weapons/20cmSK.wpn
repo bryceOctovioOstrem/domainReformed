@@ -26,10 +26,13 @@
     0
   ],
   "hardpointOffsets": [
-    23,
-    0
+    40.5,
+    -2.5,
+    40.5,
+    2.5
   ],
   "hardpointAngleOffsets": [
+    0,
     0
   ],
   "fringeColor": [

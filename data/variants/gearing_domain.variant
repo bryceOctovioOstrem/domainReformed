@@ -5,7 +5,7 @@
   "goalVariant": true,
   "fluxCapacitors": 7,
   "fluxVents": 22,
-  "quality": 1,
+  "quality": 0,
   "permaMods": [],
   "hullMods": [
     "ballistic_rangefinder"

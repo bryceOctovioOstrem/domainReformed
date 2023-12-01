@@ -5,7 +5,7 @@
   "goalVariant": true,
   "fluxCapacitors": 20,
   "fluxVents": 15,
-  "quality": 1,
+  "quality": 0,
   "permaMods": [],
   "hullMods": [],
   "weaponGroups": [

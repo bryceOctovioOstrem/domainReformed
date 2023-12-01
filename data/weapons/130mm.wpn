@@ -23,10 +23,13 @@
     0
   ],
   "hardpointOffsets": [
-    15,
-    0
+    33,
+    -2,
+    33,
+    2
   ],
   "hardpointAngleOffsets": [
+    0,
     0
   ],
   "barrelMode": "ALTERNATING",

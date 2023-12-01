@@ -4,7 +4,6 @@
   "type": "ENERGY",
   "size": "SMALL",
   "collisionClass": "RAY",
-  "barrelMode": "ALTERNATING",
   "collisionClassByFighter": "RAY_FIGHTER",
   "turretSprite": "graphics/weapons/DR_100mm.png",
   "hardpointSprite": "graphics/weapons/100mmHardPoint.png",
@@ -26,10 +25,13 @@
     0
   ],
   "hardpointOffsets": [
-    20,
-    0
+    23.5,
+    1.5,
+    23.5,
+    -1.5
   ],
   "hardpointAngleOffsets": [
+    0,
     0
   ],
   "fringeColor": [
@@ -43,7 +45,7 @@
     33,
     83,
     255
-],
+  ],
   "width": 14,
   "textureType": ROUGH,
   "textureScrollSpeed": 128,

@@ -6,12 +6,6 @@
   "size": "LARGE",
   "turretSprite": "graphics/weapons/DR_356mm_turret.png",
   "hardpointSprite": "graphics/weapons/DR_356mm_hardpoint.png",
-  "glowColor": [
-    200,
-    16,
-    46,
-    255
-  ],
   "turretOffsets": [
     54,
     -3,
@@ -23,10 +17,13 @@
     0
   ],
   "hardpointOffsets": [
-    40,
-    0
+    60,
+    5,
+    60,
+    -4
   ],
   "hardpointAngleOffsets": [
+    0,
     0
   ],
   "barrelMode": "ALTERNATING",
