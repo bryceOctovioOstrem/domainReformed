@@ -15,7 +15,8 @@
     "ballistic_rangefinder",
     "eccm",
     "ecm",
-    "operations_center"
+    "operations_center",
+    "fragile_subsystems"
   ],
   "weaponSlots": [
     {
@@ -160,20 +161,22 @@
   ],
   "engineSlots": [
     {
-      "location": [-393, 38.5],
+      "location": [-393, 39],
       "length": 24,
       "width": 8,
       "angle": 180,
       "contrailSize": 8,
-      "style": "HIGH_TECH"
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
     },
     {
-      "location": [-393, -62.5],
+      "location": [-393, -63],
       "length": 27,
       "width": 10,
       "angle": 180,
       "contrailSize": 10,
-      "style": "HIGH_TECH"
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
     },
     {
       "location": [-390, -73.5],
@@ -181,7 +184,8 @@
       "width": 10,
       "angle": 180,
       "contrailSize": 10,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
     },
     {
       "location": [-390, 50],
@@ -189,7 +193,8 @@
       "width": 6,
       "angle": 180,
       "contrailSize": 6,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
     },
     {
       "location": [-386, 60],
@@ -197,7 +202,8 @@
       "width": 4,
       "angle": 180,
       "contrailSize": 4,
-      "style": "COBRA_BOMBER"
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
     },
     {
       "location": [-385, -83],
@@ -205,7 +211,8 @@
       "width": 6,
       "angle": 180,
       "contrailSize": 6,
-      "style": "COBRA_BOMBER"
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
     }
   ],
   "bounds": [

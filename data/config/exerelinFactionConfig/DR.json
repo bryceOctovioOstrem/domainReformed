@@ -92,7 +92,7 @@
     "invasionStrengthBonusDefend":1.5,
     "maxColonyDistance": 40,
     "invasionPointMult":1.125,
-    "invasionFleetSizeMod":1.5,
+    "invasionFleetSizeMod":1.2,
     "responseFleetSizeMod": 1.6,
     "morality":"amoral",
 

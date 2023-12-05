@@ -19,9 +19,6 @@
     "turretgyros",
     "escort_package"
   ],
-  "builtInWeapons": {
-    "WS0021": "5in"
-  },
   "weaponSlots": [
     {
       "id": "WS0001",

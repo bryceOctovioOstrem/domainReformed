@@ -4,8 +4,8 @@
   "displayName": "New Variant",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 41,
-  "quality": 1,
+  "fluxVents": 0,
+  "quality": 0,
   "permaMods": [],
   "hullMods": [
     "hiressensors",
