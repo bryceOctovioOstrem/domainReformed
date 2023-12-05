@@ -4,7 +4,7 @@
   "displayName": "New Variant",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 27,
+  "fluxVents": 30,
   "quality": 0,
   "permaMods": [],
   "hullMods": [
@@ -15,11 +15,12 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "Oerlikon",
         "WS0005": "vulcan",
         "WS0007": "Oerlikon",
         "WS0009": "5in",
-        "WS0016": "Oerlikon"
+        "WS0015": "5in",
+        "WS0016": "Oerlikon",
+        "WS0019": "vulcan"
       }
     },
     {
@@ -61,7 +62,6 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0015": "vulcan",
         "WS0017": "vulcan"
       }
     },
@@ -69,7 +69,6 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0019": "5in",
         "WS0020": "5in",
         "WS0021": "5in"
       }
