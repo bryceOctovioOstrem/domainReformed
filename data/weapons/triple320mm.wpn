@@ -1,7 +1,7 @@
 {
   "id": "triple320mm",
   "specClass": "projectile",
-  "projectileSpecId": "mjolnir_shot",
+  "projectileSpecId": "triple320mm_shot",
   "type": "BALLISTIC",
   "size": "LARGE",
   "displayArcRadius": 450,
