@@ -44,5 +44,5 @@ Ise_crane,IseCrane,0,,40,600,,0,,16,15,3,,,,KINETIC,200,,0,4,1,,0,15,3,10,,600,,
 Twin 305 mm model 46 ,twin308,1,,4000,961,,193,,961,6,21,,,,HIGH_EXPLOSIVE,75,,0,4,12,0.1,5,30,5,5,,774,,,106,,,"PD,PD_ALSO","he16, pd17,ind, DR,pirates,luddic_path",,,,Anti Fighter (Area),,,,,"Each shell has a fuse set to explode at a random distance, resulting in a barrage that's increasingly more deadly at closer ranges.
 
 Will target missiles if no other targets are in range.",,,,,7.4
-Triple 305 mm model 46 ,triple320mm,3,,5000,1176,,663,,961,3,25,,,,KINETIC,1194,,0,6,3,,3,11,6,10,,1115,,,402,,,,"kinetic20,ind, DR,pirates,luddic_path",,,,Anti Shield,,,,,,,,,,6
+Triple 305 mm model 46 ,triple320mm,3,,5000,1176,,663,,961,3,25,,,,KINETIC,1194,,0,6,3,,3,11,6,10,,1115,,,402,,,,"kinetic20,ind, DR,pirates,luddic_path",,,,Anti Shield,,,,,,,,,,6
 station face,StationFace,0,,40,600,,0,,16,15,3,,,,KINETIC,200,,0,4,1,,0,15,3,10,,600,,,10,,,"GROUP_ALTERNATING, FIRE_WHEN_INEFFICIENT,PD","no_sell, no_drop, no_drop_salvage",,Unknown,,General,,,,,,,,,,

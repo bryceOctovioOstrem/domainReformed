@@ -119,7 +119,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         );
 
         //make asteroid belt surround it
-        system.addAsteroidBelt(star, 800, 6000f, 150f, 180, 365, Terrain.ASTEROID_BELT, "");
+        system.addAsteroidBelt(star, 2400, 4800f, 600f, 1200, 365, Terrain.ASTEROID_BELT, "Astroid Belt");
         system.autogenerateHyperspaceJumpPoints(true, true);
 
         
@@ -169,7 +169,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         
 
         // industries
-        market.addIndustry(Industries.SPACEPORT);
+        market.addIndustry(Industries.MEGAPORT);
         //market.addIndustry(Industries.STARFORTRESS);
 	market.addIndustry(DR_industries.DR_STATION3);
         market.addIndustry(Industries.PATROLHQ);

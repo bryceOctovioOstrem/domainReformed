@@ -3,7 +3,6 @@
   "specClass": "projectile",
   "projectileSpecId": "cryoflux_shot",
   "type": "ENERGY",
-  "mountTypeOverride": "HYBRID",
   "size": "SMALL",
   "everyFrameEffect": "com.fs.starfarer.api.impl.combat.CryofluxTransducerEffect",
   "turretSprite": "graphics/weapons/DR_125mmSK_turret.png",

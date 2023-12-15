@@ -50,6 +50,7 @@
 				    "angle":180.0}],
 
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"shotRangeVariance":0.75,
 					"range":35,
 					"explosionSpec":{"duration":2.0f,
 									 "radius":50,

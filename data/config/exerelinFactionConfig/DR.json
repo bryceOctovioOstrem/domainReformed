@@ -1,7 +1,7 @@
 {
     "playableFaction":true,
     "corvusCompatible":true,
-    "startingFaction": false,
+    "startingFaction": true,
     "rebelFleetSuffix":"Traitors",
     
     "marketSpawnWeight":2,
@@ -9,7 +9,7 @@
 
     #"startRelationships":{ 
 	"tritachyon": -0.72, 
-	"persean":-0.6,
+	"persean":-0.66,
 	"sindrian_diktat": -0.69,
 	"hegemony": 0.9,
 	#"ironshell": 0.75,
@@ -51,26 +51,27 @@
     #"specialForcesFlagshipVariants":{ "paragon_Elite":1, "astral_Strike":0.5 },
     
     "startShipsSolo":[
-	  ["swp_alastor_xiv_eli"],
-	  ["lasher_Starting"]
+	  ["wasa_domain"],
+	  ["christian_domain"]
 	],
     "startShipsCombatSmall":[
-      ["swp_caliber_sta", "swp_brawler_hegemony_ass", "swp_lasher_xiv_eli"],
-      ["enforcer_Balanced", "lasher_CS", "wolf_hegemony_CS"]
+      ["Brig_domain", "hosho_domain", "Geobukseon_domain"],
+      ["Brig_domain", "hosho_domain", "Z23_domain"]
     ],
-    "startShipsTradeSmall":[["mule_Starting", "hound_hegemony_Standard", "kite_hegemony_Interceptor"]],
+    "startShipsTradeSmall":[["liberty_domain", "hosho_domain", "Virginia_domain"]],
     "startShipsCombatLarge":[
-      ["swp_punisher_sta", "swp_caliber_cs", "wolf_hegemony_CS"],
-      ["dominator_Assault", "enforcer_Escort", "kite_hegemony_Interceptor"]
+      ["Furious_domain", "christian_domain", "Wichita_domain"],
+      ["yorktown_domain", "wasa_domain", "indianopolis_domain"]
     ],
-    "startShipsTradeLarge":[["colossus_Standard", "mule_Standard", "kite_Starting"]],
-    "startShipsExplorerLarge":[["venture_Balanced", "buffalo_hegemony_Standard", "shepherd_Frontier"]],
+    "startShipsTradeLarge":[["christian_domain", "hosho_domain", "gearing_domain"]],
+    "startShipsExplorerLarge":[["christian_domain", "wasa_domain", "Brig_domain"]],
     "startShipsCarrierSmall":[["condor_Attack", "lasher_Standard", "hound_hegemony_Standard"]],
     "startShipsCarrierLarge":[["mora_Assault", "enforcer_Escort", "lasher_Strike"]],
-    #"startShipsGrandFleet":[["onslaught_xiv_Elite"]],
+   # "startShipsGrandFleet":[["yamato_domain"],
+#["Ford_domain"]],
     
     "startSpecialItems":[
-        [["DR_package", ""]],
+        [["DR_package"]],
     ],
     
     "defenceStations":[

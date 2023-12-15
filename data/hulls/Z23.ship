@@ -19,21 +19,21 @@
   "weaponSlots": [
     {
       "id": "WS0001",
-      "size": "SMALL",
-      "type": "HYBRID",
+      "size": "MEDIUM",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 252,
       "angle": 0,
-      "locations": [139.5, -1]
+      "locations": [144.5, -1]
     },
     {
       "id": "WS0002",
-      "size": "SMALL",
-      "type": "HYBRID",
+      "size": "MEDIUM",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 230,
       "angle": 0,
-      "locations": [113.5, -1],
+      "locations": [119.5, -1],
       "renderOrderMod": 100
     },
     {
@@ -41,7 +41,7 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 145,
+      "arc": 140,
       "angle": 90,
       "locations": [39.5, 7]
     },
@@ -50,7 +50,7 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 145,
+      "arc": 140,
       "angle": -90,
       "locations": [39.5, -9]
     },
@@ -110,28 +110,28 @@
     },
     {
       "id": "WS0011",
-      "size": "SMALL",
-      "type": "HYBRID",
+      "size": "MEDIUM",
+      "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 280,
-      "angle": 0,
+      "arc": 90,
+      "angle": 90,
       "locations": [-92.5, -1],
       "renderOrderMod": 100
     },
     {
       "id": "WS0012",
-      "size": "SMALL",
-      "type": "HYBRID",
+      "size": "MEDIUM",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 290,
       "angle": 180,
-      "locations": [-129.5, -1],
+      "locations": [-127.5, -1],
       "renderOrderMod": 100
     },
     {
       "id": "WS0013",
-      "size": "SMALL",
-      "type": "HYBRID",
+      "size": "MEDIUM",
+      "type": "ENERGY",
       "mount": "TURRET",
       "arc": 290,
       "angle": 180,
