@@ -96,7 +96,7 @@
 		],
 	},
 	"knownWeapons":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "missile_bp", "hegemony","DR","ind", "independent","merc","restricted","hist1t"],
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hegemony","DR","ind", "independent","merc","hist1t"],
 		#"tags":[*],
 		"weapons":[
 			"railgun",
@@ -220,8 +220,8 @@
 			"spacer":5,
 		},
 		"MEDIUM":{
-			"soldier":10,
-			"official":5,
+			"soldier":5,
+			"official":10,
 		},
 		"HIGH":{
 			"soldier":5,

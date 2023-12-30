@@ -96,7 +96,7 @@
 
 	# freighters and such
 	"freighterSmall":{
-		"Trireme_domain":2,
+		"cutter_domain":2,
 		"fallback":{"freighterMedium":0.5},
 		"fallback2":{"freighterLarge":0.25},
 	},
@@ -129,6 +129,7 @@
 		"fallback":{"tankerMedium":1},
 		"fallback2":{"tankerSmall":1},
 	},
-	
-	
+	"personnelSmall":{
+		"Trireme_domain":2
+},	
 }

@@ -3,7 +3,7 @@
     "name": "Domain reformed",
     "author": "LordKhorne",
     "version": "1.2 alpha",
-    "description": " this is a faction mod about ",
+    "description": " A hyper-reactionary faction mod for those with a love of the past ",
     "gameVersion": "0.96a-RC10",
     "dependencies": [],
     "modPlugin":"data.scripts.DR_ModPlugin"

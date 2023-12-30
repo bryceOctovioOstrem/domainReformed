@@ -1,6 +1,6 @@
 {
     "playableFaction":true,
-    "corvusCompatible":true,
+    "corvusCompatible":false,
     "startingFaction": true,
     "rebelFleetSuffix":"Traitors",
     
@@ -50,25 +50,30 @@
     "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
     #"specialForcesFlagshipVariants":{ "paragon_Elite":1, "astral_Strike":0.5 },
     
-    "startShipsSolo":[
-	  ["wasa_domain"],
-	  ["christian_domain"]
+
+	"startShipsSolo":[
+	  ["venture_Balanced"],
 	],
-    "startShipsCombatSmall":[
-      ["Brig_domain", "hosho_domain", "Geobukseon_domain"],
-      ["Brig_domain", "hosho_domain", "Z23_domain"]
-    ],
-    "startShipsTradeSmall":[["liberty_domain", "hosho_domain", "Virginia_domain"]],
-    "startShipsCombatLarge":[
-      ["Furious_domain", "christian_domain", "Wichita_domain"],
-      ["yorktown_domain", "wasa_domain", "indianopolis_domain"]
-    ],
-    "startShipsTradeLarge":[["christian_domain", "hosho_domain", "gearing_domain"]],
-    "startShipsExplorerLarge":[["christian_domain", "wasa_domain", "Brig_domain"]],
-    "startShipsCarrierSmall":[["condor_Attack", "lasher_Standard", "hound_hegemony_Standard"]],
-    "startShipsCarrierLarge":[["mora_Assault", "enforcer_Escort", "lasher_Strike"]],
-   # "startShipsGrandFleet":[["yamato_domain"],
-#["Ford_domain"]],
+    #"startShipsGrandFleet":[["onslaught_xiv_Elite"]],
+
+    #"startShipsSolo":[
+	  #["wasa_domain"],
+	  #["christian_domain"]
+	#],
+    #"startShipsCombatSmall":[
+      #["Brig_domain", "hosho_domain", "Geobukseon_domain"],
+      #["Brig_domain", "hosho_domain", "Z23_domain"]
+    #],
+    #"startShipsTradeSmall":[["liberty_domain", "hosho_domain", "Virginia_domain"]],
+    #"startShipsCombatLarge":[
+	#["Furious_domain", "christian_domain", "Wichita_domain"],
+	#["yorktown_domain", "wasa_domain", "indianopolis_domain"]
+	#],
+    #"startShipsTradeLarge":[["christian_domain", "hosho_domain", "gearing_domain"]],
+    #"startShipsExplorerLarge":[["christian_domain", "wasa_domain", "Brig_domain"]],
+    #"startShipsCarrierSmall":[["hosho_domain", "wasa_domain", "atlanta_domain"]],
+    #"startShipsCarrierLarge":[["Furious_domain", "Brig_domain", "hipper_domain"]],
+    #"startShipsGrandFleet":[["yamato_domain"],["Ford_domain"]],
     
     "startSpecialItems":[
         [["DR_package"]],
@@ -76,7 +81,7 @@
     
     "defenceStations":[
         {"ids":["orbitalstation", "battlestation", "starfortress"]},
-        {"ids":["comet_Keep", "moonCastle", "DR_starFortress"], "weight":0.9},
+        {"ids":["comet_Keep", "moonCastle", "DR_starFortress"], "weight":1.0},
     ],
     
     #"industrySeeds":[

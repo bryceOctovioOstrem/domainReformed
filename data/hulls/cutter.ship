@@ -14,7 +14,8 @@
   "builtInMods": [
     "targetingunit",
     "shielded_holds",
-    "rugged"
+    "rugged",
+    "tow_cable"
   ],
   "weaponSlots": [
     {
