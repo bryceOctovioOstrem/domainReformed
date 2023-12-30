@@ -180,7 +180,7 @@
 		"encounter_hostile":"music_DR_theme_hostile",
 		"encounter_friendly":"music_DR_theme",
 	},	
-	#"internalComms":"hegemony_internal",
+	#"internalComms":"Domain_internal",
 	#"tariffFraction":0.4,
 	#"tollFraction":0.1,
 	#"fineFraction":0.25,
