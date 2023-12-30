@@ -1,7 +1,7 @@
 {
     "playableFaction":true,
     "corvusCompatible":false,
-    "startingFaction": true,
+    "startingFaction": false,
     "rebelFleetSuffix":"Traitors",
     
     "marketSpawnWeight":2,
@@ -18,14 +18,14 @@
 	#"xlu": -0.75,
 
  },
-    "maxRelationships":{ "remnant":-0.51,"luddic_path":-0.7,"luddic_church": -0.35},
+    "maxRelationships":{ "remnant":-0.51,"luddic_path":-0.7,"luddic_church": -0.35,"persean":-0.66,"sindrian_diktat": -0.69},
     "diplomacyPositiveChance":{ "tritachyon"1.2,
 				"hegemony"":0.8
  },
     "diplomacyNegativeChance":{ "tritachyon":0.8,
 				"hegemony":1.2 },
     "dispositions":{
-        "persean": -80,
+        "persean": -66,
         "sindrian_diktat": -69,
         #"hegemony": 80,
 	#"tritachyon": -72,
