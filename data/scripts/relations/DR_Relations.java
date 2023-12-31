@@ -13,6 +13,7 @@ public class DR_Relations implements SectorGeneratorPlugin {
         FactionAPI DR = sector.getFaction("DR"); // assigns a faction variable
         SharedData.getData().getPersonBountyEventData().addParticipatingFaction("DR");
         DR.setRelationship(Factions.LUDDIC_CHURCH, -0.55f);
+	//DR.setRelationship(Factions.independent, -0.50f);
         DR.setRelationship(Factions.LUDDIC_PATH, -1.0f);
         DR.setRelationship(Factions.PERSEAN, -0.8f);
         DR.setRelationship(Factions.PIRATES, -0.5f);

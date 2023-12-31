@@ -12,13 +12,14 @@
 	"persean":-0.66,
 	"sindrian_diktat": -0.69,
 	"hegemony": 0.9,
+	"independent": -0.5,
 	#"ironshell": 0.75,
 	#"battlefleets_imperium": -0.54,
 	#"sevencorp": -0.5,
 	#"xlu": -0.75,
 
  },
-    "maxRelationships":{ "remnant":-0.51,"luddic_path":-0.7,"luddic_church": -0.35,"persean":-0.66,"sindrian_diktat": -0.69},
+    "maxRelationships":{ "remnant":-0.51,"luddic_path":-0.7,"luddic_church": -0.35,"persean":-0.66,"sindrian_diktat": -0.69,"independent": -0.5},
     "diplomacyPositiveChance":{ "tritachyon"1.2,
 				"hegemony"":0.8
  },
@@ -51,9 +52,9 @@
     #"specialForcesFlagshipVariants":{ "paragon_Elite":1, "astral_Strike":0.5 },
     
 
-	"startShipsSolo":[
-	  ["venture_Balanced"],
-	],
+	#"startShipsSolo":[
+	  #["venture_Balanced"],
+	#],
     #"startShipsGrandFleet":[["onslaught_xiv_Elite"]],
 
     #"startShipsSolo":[
