@@ -15,7 +15,7 @@
     "armoredweapons",
     "distributed_fire_control",
     "shielded_holds",
-	"targetingunit"
+    "targetingunit"
   ],
   "builtInWeapons": {
     "WS0002": "smoothBore",
@@ -142,8 +142,8 @@
       "styleId": "sail"
     },
     {
-      "location": [-47, 0.5],
-      "length": 0.1,
+      "location": [-45.5, -0],
+      "length": 1,
       "width": 105,
       "angle": 180,
       "contrailSize": 105,
@@ -151,8 +151,8 @@
       "styleId": "sail"
     },
     {
-      "location": [36, -0],
-      "length": 0.1,
+      "location": [38, -0],
+      "length": 1,
       "width": 46,
       "angle": 180,
       "contrailSize": 46,

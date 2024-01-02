@@ -154,6 +154,15 @@
       "angle": -105.5,
       "contrailSize": 128,
       "style": "LOW_TECH"
+    },
+    {
+      "location": [4, -0.5],
+      "length": 1,
+      "width": 122,
+      "angle": 180,
+      "contrailSize": 122,
+      "style": "CUSTOM",
+      "styleId": "sail"
     }
   ],
   "bounds": [

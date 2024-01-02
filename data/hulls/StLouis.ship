@@ -75,8 +75,8 @@
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "HIDDEN",
-      "arc": 184,
-      "angle": 91,
+      "arc": 180,
+      "angle": 93.5,
       "locations": [-64, 34]
     },
     {
@@ -84,8 +84,8 @@
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "HIDDEN",
-      "arc": 184,
-      "angle": -90.5,
+      "arc": 180,
+      "angle": -93.5,
       "locations": [-64, -36]
     },
     {
@@ -145,7 +145,7 @@
     {
       "id": "WS0012",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 228,
       "angle": 0,
@@ -154,7 +154,7 @@
     {
       "id": "WS0013",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 238,
       "angle": 180,

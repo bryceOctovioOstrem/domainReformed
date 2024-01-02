@@ -1,6 +1,6 @@
 {
     "playableFaction":true,
-    "corvusCompatible":false,
+    "corvusCompatible":true,
     "startingFaction": false,
     "rebelFleetSuffix":"Traitors",
     

@@ -1,22 +1,26 @@
 id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
-comet_Keep,Comet Keep – domain,45,80,,3,,DR_starFortress,"station, sub_item, unraidable, structure","{
+comet_Keep,Domain Comet Keep ,45,80,,3,,DR_starFortress,"station, sub_item, unraidable, structure","{
 Radius:80,
 variant:comet_Keep_domain,
 fleetName:Orbital Station,
-}",graphics/icons/industry/orbital_station.png,data.scripts.campaign.econ.impl.DR_orbitalStationChecker,"An Imperial space station, featuring moderate firepower, heavy missiles, and a fighter complement.
+}",graphics/icons/industry/orbital_station.png,data.scripts.campaign.econ.impl.DR_orbitalStationChecker,"A small Reconstructionist space station made of decommissioned warships and a universal center module made into the image of the domain crest. While not particularly powerful It can be built quickly.
 
 Must be reduced before invasions or bombardment can be attempted.",2100,
-moonCastle,Moon Castle – domain,100,120,,4,comet_Keep,DR_starFortress,"station, battlestation, unraidable, structure","{
+moonCastle,Domain Moon Castle,100,120,,4,comet_Keep,DR_starFortress,"station, battlestation, unraidable, structure","{
 Radius:80,
 variant:moonCastle_domain,
 fleetName:Battlestation,
-}",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.impl.DR_orbitalStationUpgradeChecker,"An augmented space station, fitted with docking guards, armored hangar bays and missile batteries for long-ranged defense.
+}",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.impl.DR_orbitalStationUpgradeChecker,"A medium Reconstructionist space station made of decommissioned warships and a universal center module made into the image of the domain crest. It has great firepower and armor with a decent fighter complement.  
 
-Must be reduced before invasions or bombardment can be attempted.",27020,
-DR_starFortress,Star Fortress – domain,200,200,,5,moonCastle,,"station, starfortress, unraidable, structure","{
+It must be reduced before invasions or bombardment can be attempted.
+
+
+",27020,
+DR_starFortress,Domain Star Fortress ,200,200,,5,moonCastle,,"station, starfortress, unraidable, structure","{
 radius:80,
 variant:DR_starFortress_domain,
 fleetName:Star Fortress
-}",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.impl.DR_orbitalStationUpgradeChecker,"A fully armored battlestation, that features Phosphor-class flak drones and an extensive minefield.
+}",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.impl.DR_orbitalStationUpgradeChecker,"A large Reconstructionist space station made of decommissioned warships and a universal center module made into the image of the domain crest. It has incredible firepower and armor with a dominating fighter complement.  
 
-Must be reduced before invasions or bombardment can be attempted.",27030,
+It must be reduced before invasions or bombardment can be attempted.
+",27030,

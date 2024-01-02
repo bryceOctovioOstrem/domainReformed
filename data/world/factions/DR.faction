@@ -151,7 +151,7 @@
 		
 		"shipSize":5,
 		
-		"aggression":2,
+		"aggression":3,
 		
 		"combatFreighterProbability":0.9,      				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":1,  				# as part of the normal combat lineup

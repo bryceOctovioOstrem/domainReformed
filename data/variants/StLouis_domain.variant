@@ -3,7 +3,7 @@
   "hullId": "StLouis",
   "displayName": "New Variant",
   "goalVariant": true,
-  "fluxCapacitors": 0,
+  "fluxCapacitors": 6,
   "fluxVents": 30,
   "quality": 0,
   "permaMods": [],
@@ -21,6 +21,8 @@
         "WS0002": "pdlaser",
         "WS0003": "irpulse",
         "WS0004": "irpulse",
+        "WS0012": "taclaser",
+        "WS0013": "taclaser",
         "WS0015": "irpulse",
         "WS0016": "irpulse"
       }
@@ -60,16 +62,12 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0012": "railgun"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0013": "railgun"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

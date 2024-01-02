@@ -22,7 +22,7 @@
       "size": "MEDIUM",
       "type": "UNIVERSAL",
       "mount": "TURRET",
-      "arc": 306,
+      "arc": 290,
       "angle": 0,
       "locations": [147, -1]
     },
