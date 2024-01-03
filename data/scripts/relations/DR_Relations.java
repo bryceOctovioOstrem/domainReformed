@@ -50,15 +50,18 @@ public class DR_Relations implements SectorGeneratorPlugin {
         DR.setRelationship("diableavionics", -0.2f);      
         DR.setRelationship("unitedpamed", -0.25f);     
         DR.setRelationship("rb", -0.5f);    
-        DR.setRelationship("JYD", 0.11f);     
+        DR.setRelationship("JYD", 0.11f);
+	DR.setRelationship("legionarry", -0.5f);      
         // DR.setRelationship("Lte", 0.0f);   
         DR.setRelationship("gmda", 0.05f);   
         // DR.setRelationship("oculus", -0.25f);     
         // DR.setRelationship("nomads", -0.25f); 
         // DR.setRelationship("thulelegacy", -0.25f); 
-        // DR.setRelationship("infected", -0.99f);   
-        
-        
+        // DR.setRelationship("infected", -0.99f); 
+	DR.setRelationship("fantasy_manufacturing", 0.15f);
+	DR.setRelationship("Goat_Aviation_Bureau", 0.30f);
+	DR.setRelationship("fob", -0.10f); 
+	DR.setRelationship("batavia", -0.50f);    
     }
 
 }

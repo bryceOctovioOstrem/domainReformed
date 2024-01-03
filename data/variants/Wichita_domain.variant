@@ -5,6 +5,7 @@
   "goalVariant": true,
   "fluxCapacitors": 1,
   "fluxVents": 30,
+  "quality": 1,
   "permaMods": [],
   "hullMods": [
     "armoredweapons",

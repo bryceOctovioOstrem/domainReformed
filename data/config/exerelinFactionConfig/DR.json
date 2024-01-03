@@ -5,7 +5,7 @@
     "rebelFleetSuffix":"Traitors",
     
     "marketSpawnWeight":2,
-    "difficultyString":"hard",
+    #"difficultyString":"hard",
 
     #"startRelationships":{ 
 	"tritachyon": -0.72, 

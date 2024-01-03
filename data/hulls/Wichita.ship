@@ -155,7 +155,7 @@
     },
     {
       "id": "WS0016",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 239,
