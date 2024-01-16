@@ -101,7 +101,7 @@
     "invasionPointMult":1.125,
     "invasionFleetSizeMod":1.2,
     "responseFleetSizeMod": 1.6,
-    "morality":"amoral",
+    "morality":"evil",
 
     # Number of entries must equal number of vengeance tiers (0-3)
     "vengeanceLevelNames":["restoration", "retribution", "extermination"],
