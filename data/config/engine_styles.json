@@ -138,6 +138,35 @@
 		"type":"SMOKE" # GLOW or SMOKE,
 	},
 
-
+	"koreanBlue":{
+		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
+		#"glowShape":"graphics/fx/engineflame32.png",
+		"engineColor":[0, 72, 160,255],
+		"engineCampaignColor":[0, 72, 160,255],
+		"contrailParticleSizeMult":6,
+		"contrailParticleDuration":3,
+		"contrailParticleFinalSizeMult":1,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0.5,
+		"contrailColor":[50,50,50,50],
+		"contrailCampaignColor":[0, 72, 160,75],
+		#"contrailCampaignColor":[120,50,50,50],
+		"type":"SMOKE" # GLOW or SMOKE
+	},
+	"koreanRed":{
+		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
+		#"glowShape":"graphics/fx/engineflame32.png",
+		"engineColor":[205, 46, 59,255],
+		"engineCampaignColor":[205, 46, 59,255],
+		"contrailParticleSizeMult":6,
+		"contrailParticleDuration":3,
+		"contrailParticleFinalSizeMult":1,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0.5,
+		"contrailColor":[50,50,50,50],
+		"contrailCampaignColor":[205, 46, 59,75],
+		#"contrailCampaignColor":[120,50,50,50],
+		"type":"SMOKE" # GLOW or SMOKE
+	},
 }
 
