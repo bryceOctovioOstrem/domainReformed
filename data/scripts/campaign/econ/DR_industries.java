@@ -6,4 +6,6 @@ public class DR_industries {
     public static final String DR_STATION1 = "comet_Keep";
     public static final String DR_STATION2 = "moonCastle";
     public static final String DR_STATION3 = "DR_starFortress";
+    public static final String WHITESKYE = "DR_Whiteskye";// CREATES PUBLIC STRING FOR pmc code
+	
 }

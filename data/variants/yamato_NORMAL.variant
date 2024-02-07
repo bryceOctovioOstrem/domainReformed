@@ -1,9 +1,9 @@
 {
-  "variantId": "yamato_domain",
+  "variantId": "yamato_NORMAL",
   "hullId": "yamato",
   "displayName": "New",
   "goalVariant": true,
-  "fluxCapacitors": 7,
+  "fluxCapacitors": 17,
   "fluxVents": 50,
   "quality": 0,
   "permaMods": [],
@@ -18,7 +18,13 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0001": "guardian",
+        "WS0002": "hephag",
+        "WS0003": "hellbore",
+        "WS0004": "gauss",
+        "WS0005": "hephag",
         "WS0006": "vulcan",
+        "WS0007": "heavyac",
         "WS0008": "vulcan",
         "WS0015": "dualflak",
         "WS0016": "dualflak",
@@ -45,25 +51,17 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0003": "devastator",
-        "WS0005": "devastator"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0001": "type_94",
-        "WS0002": "type_94"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0004": "type_94"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
@@ -77,7 +75,6 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "heavyac",
         "WS0010": "heavyac"
       }
     }

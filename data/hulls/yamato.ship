@@ -14,8 +14,7 @@
   "builtInMods": [
     "targetingunit",
     "rugged",
-    "fluxbreakers",
-    "glitched_sensors",
+    "distributed_fire_control",
     "ablative_armor"
   ],
   "builtInWeapons": {
@@ -95,7 +94,8 @@
       "mount": "TURRET",
       "arc": 164,
       "angle": 87,
-      "locations": [-19.5, 40.5]
+      "locations": [-19.5, 40.5],
+      "renderOrderMod": 66
     },
     {
       "id": "WS0009",
@@ -104,7 +104,8 @@
       "mount": "TURRET",
       "arc": 167,
       "angle": -83.5,
-      "locations": [-18.5, -41.5]
+      "locations": [-18.5, -41.5],
+      "renderOrderMod": 66
     },
     {
       "id": "WS0010",
@@ -185,7 +186,8 @@
       "mount": "TURRET",
       "arc": 95,
       "angle": 77.5,
-      "locations": [-2, 25]
+      "locations": [-2, 25],
+      "renderOrderMod": 33
     },
     {
       "id": "WS0019",
@@ -212,7 +214,8 @@
       "mount": "TURRET",
       "arc": 95,
       "angle": -71,
-      "locations": [-2.5, -26]
+      "locations": [-2.5, -26],
+      "renderOrderMod": 33
     },
     {
       "id": "WS0022",
@@ -296,7 +299,7 @@
     },
     {
       "location": [-422.5, 55.5],
-      "length": 60,
+      "length": 69,
       "width": 10,
       "angle": 180,
       "contrailSize": 30,
@@ -305,7 +308,7 @@
     },
     {
       "location": [-422.5, -55.5],
-      "length": 60,
+      "length": 69,
       "width": 10,
       "angle": -180,
       "contrailSize": 30,
