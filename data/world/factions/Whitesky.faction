@@ -223,6 +223,15 @@
 			"graphics/portraits/portrait46.png",	
 		],
 	},
+	"music":{
+		"theme":"music_DR_theme",
+		"market_neutral":"music_whiteskye_theme",
+		"market_hostile":"music_whiteskye_theme",
+		"market_friendly":"music_whiteskye_theme",
+		"encounter_neutral":"music_whiteskye_theme",
+		"encounter_hostile":"music_whiteskye_theme",
+		"encounter_friendly":"music_whiteskye_theme",
+	},
 	"voices":{
 		"LOW":{
 			"soldier":10,
