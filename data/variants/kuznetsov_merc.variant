@@ -1,0 +1,43 @@
+{
+  "variantId": "kuznetsov_merc",
+  "hullId": "kuznetsov",
+  "displayName": "merc Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 25,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "hiressensors",
+    "operations_center",
+    "ecm",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymg",
+        "WS0002": "heavymg",
+        "WS0003": "heavymg",
+        "WS0004": "heavymg",
+        "WS0005": "flak",
+        "WS0006": "gazerpod",
+        "WS0007": "flak",
+        "WS0008": "gazerpod",
+        "WS0009": "swarmer_fighter",
+        "WS0010": "swarmer_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "gladius_wing",
+    "xyphos_wing",
+    "trident_wing",
+    "trident_wing",
+    "trident_wing",
+    "longbow_wing"
+  ]
+}

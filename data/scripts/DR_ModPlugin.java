@@ -91,7 +91,7 @@ public class DR_ModPlugin extends BaseModPlugin {
 	market.addIndustry(DR_industries.DR_STATION3);
         market.addIndustry(Industries.PATROLHQ);
         market.addIndustry(Industries.HEAVYBATTERIES);
-		market.addIndustry(DR_industries.WHITESKYE);
+		market.addIndustry(DR_industries.DR_BLACKFLEET);
 
 
         Industry newTerraPATROLHQ = market.getIndustry(Industries.HIGHCOMMAND);// grabs the orbital 
@@ -167,7 +167,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addCondition(Conditions.INIMICAL_BIOSPHERE);
         market.addCondition(Conditions.FRONTIER);
         market.addCondition(Conditions.LOW_GRAVITY);
-        
+
         
 
         // industries
@@ -331,7 +331,8 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.WAYSTATION);
         market.addIndustry(Industries.FARMING);
         //market.addIndustry(Industries.COMMERCE);
-	market.addIndustry(DR_industries.WHITESKYE);
+	//market.addIndustry(DR_industries.DR_WENDIGO);
+        market.addIndustry(DR_industries.WHITESKYE);
 
         Industry BurkeOrbitalWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
         BurkeOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge

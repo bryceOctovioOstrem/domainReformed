@@ -77,3 +77,4 @@ moon castle,moonCastle,Battlestation,DR,targetingfeed,200,80000,1933,1000,2500,1
 ,moonCastle_south,Gun Pod,DR,ammofeed,7,10850,3000,4000,4000,200,143,3,0,0,0,0,0,18500,NONE,,0,0,0,,,0,0,0,0,1,0,0,40000,5,10,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","UNBOARDABLE, HIDE_IN_CODEX",,0.9,4,5,,
 ,moonCastle_west,Gun Pod,DR,ammofeed,7,9950,5000,10000,10000,290,138,,0,0,0,0,0,18500,NONE,,0,0,0,,,0,0,0,0,1,0,0,40000,5,10,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","UNBOARDABLE, HIDE_IN_CODEX",,0.9,4,5,,
 Chungmugong Yi Sun-sin,Yi,Destroyer,DR,forgevats,10,6417,983,5000,4167,225,90,1,56,70,50,30,9,5500,NONE,,0,0.4,1,,,50,80,80,50,2,25,9,45000,5,12,420,0.2,12,12,,,,,,,,"DR, merc, ind,pirates",,0.4,2,3,,
+A Kuznetsov,kuznetsov,Carrier,DR,forgevats,27,53000,2500,9070,15000,130,300,6,30,29,6,1.5,4,3000,NONE,,0,0.7,0.6,,,450,1985,250,1982,10,20,7,400000,3,15,600,0.25,50,50,,,,,,,CARRIER,"DR, merc, ind,pirates",,0.6,2,4,,

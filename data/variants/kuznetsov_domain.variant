@@ -1,0 +1,38 @@
+{
+  "variantId": "kuznetsov_domain",
+  "hullId": "kuznetsov",
+  "displayName": "domain Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "CWIS",
+        "WS0002": "breachpod",
+        "WS0003": "CWIS",
+        "WS0004": "breachpod",
+        "WS0005": "CWIS",
+        "WS0006": "gazerpod",
+        "WS0007": "CWIS",
+        "WS0008": "gazerpod",
+        "WS0009": "swarmer_fighter",
+        "WS0010": "swarmer_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "longbow_wing",
+    "hurricane_wing",
+    "claw_wing",
+    "sarissa_wing",
+    "gladius_wing",
+    "trident_wing"
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "hullName": "kuznetov",
+  "hullId": "kuznetsov",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/DR/ships/AdmiralKuznetsov.png",
+  "style": "LOW_TECH",
+  "height": 663,
+  "width": 175,
+  "center": [87.5, 331.5],
+  "collisionRadius": 337,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 344.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "degraded_engines",
+    "faulty_grid",
+    "rugged",
+    "targetingunit"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 147,
+      "angle": 64.5,
+      "locations": [168.5, 47.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 56.5,
+      "locations": [140.5, 47.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 161,
+      "angle": -72.5,
+      "locations": [167.5, -60.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": -58.5,
+      "locations": [139.5, -61.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 146,
+      "angle": 116.5,
+      "locations": [-246.5, 56.5],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 112,
+      "locations": [-292.5, 53.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -103,
+      "locations": [-245.5, -71.5],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 175,
+      "angle": -115.5,
+      "locations": [-293.5, -64.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-266.5, -63.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-269.5, 49.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -161.5, -57.5,
+        -163, -41.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        48, -57.5,
+        49, -44.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-78, -59],
+      "length": 22.5,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "kuznetsov"
+    },
+    {
+      "location": [-329, 53],
+      "length": 54,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    },
+    {
+      "location": [-330.5, 42],
+      "length": 60,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "russian_blue"
+    },
+    {
+      "location": [-332.5, 28],
+      "length": 60,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-330.5, -64],
+      "length": 54,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-332.5, -39],
+      "length": 60,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    },
+    {
+      "location": [-331.5, -52],
+      "length": 60,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "russian_blue"
+    },
+    {
+      "location": [-324.5, -22],
+      "length": 76,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    },
+    {
+      "location": [-324.5, 11],
+      "length": 76,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    }
+  ],
+  "bounds": [
+    329.5, 14.5,
+    132, 34.5,
+    108, 82,
+    -211, 73,
+    -244, 50,
+    -312.5, 73.5,
+    -325.5, 52,
+    -314.5, -14.5,
+    -329.5, -40,
+    -314.5, -75.5,
+    -112.5, -65.5,
+    18.5, -65,
+    167, -59.5,
+    185.5, -41.5,
+    330.5, -28.5
+  ]
+}

@@ -32,7 +32,7 @@ import data.scripts.campaign.econ.DR_industries;
 import java.util.Random;
 
 // TODO: Contains stuff to be checked after a Starsector update is released
-public class DR_Whiteskye extends MilitaryBase{
+public class blackFleet extends MilitaryBase{
 	
 	
 	
@@ -45,7 +45,7 @@ public class DR_Whiteskye extends MilitaryBase{
 
         Random random = route.getRandom();
 
-        CampaignFleetAPI fleet = createPatrol(COMBAT, "Whitesky", route, market, null, random);// generates the fleet
+        CampaignFleetAPI fleet = createPatrol(COMBAT, "Black_Fleet", route, market, null, random);// generates the fleet
 
         if (fleet == null || fleet.isEmpty())
         {

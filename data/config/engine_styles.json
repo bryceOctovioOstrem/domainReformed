@@ -160,11 +160,26 @@
 		"engineCampaignColor":[205, 46, 59,255],
 		"contrailParticleSizeMult":6,
 		"contrailParticleDuration":3,
-		"contrailParticleFinalSizeMult":1,
+		"contrailParticleFinalSizeMult":2,
 		"contrailMaxSpeedMult":0.5,
 		"contrailAngularVelocityMult":0.5,
 		"contrailColor":[50,50,50,50],
 		"contrailCampaignColor":[205, 46, 59,75],
+		#"contrailCampaignColor":[120,50,50,50],
+		"type":"SMOKE" # GLOW or SMOKE
+	},
+	"kuznetsov":{
+		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
+		#"glowShape":"graphics/fx/engineflame32.png",
+		"engineColor":[150,50,255,255],
+		"engineCampaignColor":[10,10,10,225],
+		"contrailParticleSizeMult":20,
+		"contrailParticleDuration":20,
+		"contrailParticleFinalSizeMult":1,
+		"contrailMaxSpeedMult":0.2,
+		"contrailAngularVelocityMult":0.8,
+		"contrailColor":[50,50,50,50],
+		"contrailCampaignColor":[150,50,255,0],
 		#"contrailCampaignColor":[120,50,50,50],
 		"type":"SMOKE" # GLOW or SMOKE
 	},
