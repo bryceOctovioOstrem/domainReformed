@@ -72,7 +72,7 @@
 		],
 	},
 	"knownShips":{
-		"tags":["base_bp", "heg_aux_bp", "lowtech_bp","DR"],
+		"tags":["base_bp", "heg_aux_bp", "lowtech_bp","DR","derelict"],
 		"hulls":[
 		],
 	},
