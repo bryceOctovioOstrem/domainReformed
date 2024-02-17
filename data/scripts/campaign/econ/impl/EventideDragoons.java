@@ -86,8 +86,9 @@ public class EventideDragoons extends MilitaryBase{
 		 public void apply() {
 		
 		 int size = market.getSize();// gets market size 
-		 demand(Commodities.SHIPS, size-1);//increases ore demand
-		 demand(Commodities.HAND_WEAPONS, size-1);// increases organics demand
+		 demand(Commodities.LOBSTER, size-3);//increases ore demand
+		 demand(Commodities.DRUGS, size-2);//increases ore demand
+		 demand(Commodities.LUXURY_GOODS, size);// increases organics demand
 		 supply(Commodities.CREW, size-2);// increases marines production
          	supply(Commodities.MARINES, size-2);// increases marine demand
 		applyIncomeAndUpkeep(3);

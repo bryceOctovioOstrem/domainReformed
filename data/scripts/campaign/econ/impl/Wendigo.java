@@ -86,8 +86,9 @@ public class Wendigo extends MilitaryBase{
 		 public void apply() {
 		
 		 int size = market.getSize();// gets market size 
-		 demand(Commodities.SHIPS, size-1);//increases ore demand
-		 demand(Commodities.HAND_WEAPONS, size-1);// increases organics demand
+		 demand(Commodities.RARE_ORE, size-1);//increases  rare ore demand
+		 demand(Commodities.ORE, size-1);// increases ore demand
+		 demand(Commodities.ORGANICS, size);// increases organics demand
 		 supply(Commodities.CREW, size-2);// increases marines production
          	supply(Commodities.MARINES, size-2);// increases marine demand
 		applyIncomeAndUpkeep(3);

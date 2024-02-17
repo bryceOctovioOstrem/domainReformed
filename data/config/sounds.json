@@ -52,6 +52,26 @@
 				"randomStart":false, 
 			},
 		],
+        "music_Wendigo_good":[
+			{
+                "source":"sounds/music",
+				"volume":0.1,
+				"files":[
+					"DarkTomb.ogg",
+				],
+				"randomStart":false, 
+			},
+		],
+        "music_Wendigo_theme":[
+			{
+                "source":"sounds/music",
+				"volume":0.4,
+				"files":[
+					"Wendigo sounds.ogg",
+				],
+				"randomStart":false, 
+			},
+		],
 	},
 		
 		"380GunSounds":

@@ -86,8 +86,9 @@ public class blackFleet extends MilitaryBase{
 		 public void apply() {
 		
 		 int size = market.getSize();// gets market size 
-		 demand(Commodities.SHIPS, size-1);//increases ore demand
-		 demand(Commodities.HAND_WEAPONS, size-1);// increases organics demand
+		 demand(Commodities.SUPPLIES, size-1);//increases ore demand
+		demand(Commodities.HEAVY_MACHINERY, size-1);//increases ore demand
+		 demand(Commodities.DOMESTIC_GOODS, size-1);// increases organics demand
 		 supply(Commodities.CREW, size-2);// increases marines production
          	supply(Commodities.MARINES, size-2);// increases marine demand
 		applyIncomeAndUpkeep(3);
