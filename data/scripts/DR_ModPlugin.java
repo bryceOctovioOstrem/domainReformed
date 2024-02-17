@@ -178,7 +178,8 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.HEAVYBATTERIES);
         market.addIndustry(Industries.MINING);
         market.addIndustry(Industries.HEAVYINDUSTRY);
-		market.addIndustry(DR_industries.WHITESKYE);
+		//market.addIndustry(DR_industries.WHITESKYE);
+	market.addIndustry(DR_industries.DR_WENDIGO);
 
 
         Industry MaistrePATROLHQ = market.getIndustry(Industries.PATROLHQ);// grabs the orbital 

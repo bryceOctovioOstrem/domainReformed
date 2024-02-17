@@ -32,7 +32,7 @@ import data.scripts.campaign.econ.DR_industries;
 import java.util.Random;
 
 // TODO: Contains stuff to be checked after a Starsector update is released
-public class EventideDragoons extends MilitaryBase{
+public class Wendigo extends MilitaryBase{
 	
 	
 	
@@ -45,7 +45,7 @@ public class EventideDragoons extends MilitaryBase{
 
         Random random = route.getRandom();
 
-        CampaignFleetAPI fleet = createPatrol(FAST, "EventideDragoons", route, market, null, random);// generates the fleet
+        CampaignFleetAPI fleet = createPatrol(HEAVY, "Wendigos", route, market, null, random);// generates the fleet
 
         if (fleet == null || fleet.isEmpty())
         {
