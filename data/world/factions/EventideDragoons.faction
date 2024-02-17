@@ -1,0 +1,295 @@
+{
+	id:"EventideDragoons",
+	#"color":[227,218,201,255],
+	"color":[49, 140, 231,255],
+	"displayName":"Eventide gendarmes",
+	"logo":"graphics/illustrations/protest.jpg",
+	"displayNameWithArticle":"Eventide gendarmes",
+	"shipNamePrefix":"EGN",
+	"showInIntelTab":false,
+	"shipNameSources":{
+		"KNIGHTS":4,
+	},
+	"names":{
+		"modern":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["DR"],
+		"hulls":[
+		],
+	},
+		"knownShips":{
+		"tags":["heg_aux_bp", "XIV_bp", "hegemony"],
+		"hulls":[
+			"cerberus",
+			"crig",
+			"ox",
+			"dram",
+			"phaeton",
+			"prometheus",
+			"shepherd",
+			"mule",
+			"venture",
+			"atlas",
+			"hermes",
+			"mudskipper",
+			"nebula",
+			"valkyrie",
+			"starliner",
+			"tarsus",
+			"colossus",
+			"buffalo_hegemony",
+			
+			"hound_hegemony",
+			"kite_hegemony",
+			"wolf_hegemony",
+			"lasher",
+			"centurion",
+			"gremlin",
+			#"vanguard", ? - no, LC
+			
+			"condor",
+			"enforcer",
+			"enforcer_xiv",
+			#"manticore", ? - no, LC
+			
+			"eagle",
+			"dominator",
+			"dominator_xiv",
+			"eagle_xiv",
+			"falcon_xiv",
+			"mora",
+			"grendel", # 0 phase doctrine, but added to combatLarge elsewhere in this file
+			
+			"legion",
+			"onslaught",
+			"onslaught_xiv",
+
+			"Richelieu"
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		# capitals are all priority - this makes it so that they will get picked for the "capital" size ship
+		# without concern for matching the doctrine, i.e. a Legion will be as likely a pick as an Onslaught
+		# despite the Legion being a carrier and the carrier portion of the doctrine being low 
+		"hulls":[
+			"legion",
+			"legion_xiv",
+			"onslaught",
+			"onslaught_xiv",
+			
+			# need to be prioritized otherwise the Legion eats any and all carrier points
+			"condor",
+			"mora",
+			"Richelieu"
+		],
+	},
+	"knownFighters":{
+		"tags":["hegemony"],
+		"fighters":[
+			"gladius_wing",
+			"broadsword_wing",
+			"warthog_wing",
+			"hoplon_wing",
+			"longbow_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["hegemony"],
+		"weapons":[
+			"lightmg",
+			"lightdualmg",
+			"vulcan",
+			"lightac",
+			"lightdualac",
+			"lightag",
+			"lightneedler",
+			"railgun",
+
+			"heavymortar",
+			"chaingun",
+			"heavyac",
+			"hveldriver",
+			"heavymauler",
+			"heavyneedler",
+			"flak",
+			"dualflak",
+			
+			"gauss",
+			"hephag",
+			"mark9",
+			"devastator",
+			"multineedler",
+			
+			
+			"reaper",
+			"atropos",
+			"atropos_single",
+			"swarmer",
+			"annihilator",
+			"heatseeker",
+			"harpoon",
+			"harpoon_single",
+			"breach",
+			"sabot",
+			"sabot_single",
+			
+			"pilum",
+			"breachpod",
+			"harpoonpod",
+			"sabotpod",
+			"phasecl",
+			"typhoon",
+			
+			# not mountable on any Hegemony ships (except the Legion XIV, which they don't have immediate access to);
+			# still available to buy from them
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+			
+			"taclaser",
+			"pdlaser",
+			"lrpdlaser",
+			"ioncannon",
+			"gravitonbeam",
+			"pulselaser",
+			"phasebeam",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+			#"amblaster",
+			#"heavyblaster",
+			#"kineticblaster",
+			#"gigacannon",
+		],
+	},
+	"knownHullMods":{
+		"tags":[],
+		"hullMods":[
+		"targetingunit",
+		"hardenedshieldemitter",
+		"ecm",
+		"missleracks",
+		"eccm",
+		],
+	},
+	"weaponSellFrequency":{
+	},
+	"fighterSellFrequency":{
+	},
+	"hullmodSellFrequency":{
+	},	
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":5,
+		"shipQuality":4,
+		"numShips":5,
+		
+		"shipSize":1,
+		
+		"aggression":2,
+		
+		"combatFreighterProbability":0.5,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+	},
+	"illegalCommodities":[
+	],
+	"internalComms":"Domain_internal",
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait12.png",
+			"graphics/portraits/portrait13.png",
+			"graphics/portraits/portrait15.png",
+			"graphics/portraits/portrait17.png",
+			"graphics/portraits/portrait18.png",
+			"graphics/portraits/portrait20.png",
+			"graphics/portraits/portrait25.png",
+			"graphics/portraits/portrait26.png",
+			"graphics/portraits/portrait30.png",
+			"graphics/portraits/portrait31.png",
+			"graphics/portraits/portrait33.png",
+			"graphics/portraits/portrait35.png",
+			"graphics/portraits/portrait36.png",
+			"graphics/portraits/portrait40.png",
+			"graphics/portraits/portrait43.png",	
+			"graphics/portraits/portrait44.png",
+			"graphics/portraits/portrait47.png",	
+			"graphics/portraits/portrait48.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait24.png",
+			"graphics/portraits/portrait14.png",
+			"graphics/portraits/portrait16.png",
+			"graphics/portraits/portrait21.png",
+			"graphics/portraits/portrait22.png",
+			"graphics/portraits/portrait27.png",
+			"graphics/portraits/portrait28.png",
+			"graphics/portraits/portrait29.png",
+			"graphics/portraits/portrait32.png",
+			"graphics/portraits/portrait34.png",
+			"graphics/portraits/portrait37.png",
+			"graphics/portraits/portrait39.png",
+			"graphics/portraits/portrait41.png",		
+			"graphics/portraits/portrait42.png",	
+			"graphics/portraits/portrait45.png",	
+			"graphics/portraits/portrait46.png",	
+		],
+	},
+	"music":{
+		"market_neutral":"Renaissance",
+		"market_hostile":"dance",
+		"market_friendly":"Renaissance",
+		"encounter_neutral":"Renaissance",
+		"encounter_hostile":"dance",
+		"encounter_friendly":"Renaissance",
+	},
+	"voices":{
+		"LOW":{
+			"aristo":10,
+		},
+		"MEDIUM":{
+			"aristo":10,
+		},
+		"HIGH":{
+			"aristo":10,
+		},
+	},
+	"fleetTypeNames":{
+		"patrolSmall":"Gendarme Patrouille",
+		"patrolMedium":"Gendarme Détachement",
+		"patrolLarge":"Gendarme légion",
+	},
+	"custom":{
+		"postsNoBounties":true,
+	},
+
+},

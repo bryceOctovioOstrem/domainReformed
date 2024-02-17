@@ -32,12 +32,12 @@
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
-		"tags":["merc","DR"],
+		"tags":["merc"],
 		"hulls":[
 		],
 	},
 	"knownShips":{
-		"tags":["derelict"],
+		"tags":["derelict","DR"],
 		"hulls":[
 		],
 	},

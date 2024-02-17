@@ -9,5 +9,6 @@ public class DR_industries {
     public static final String WHITESKYE = "DR_Whiteskye";// CREATES PUBLIC STRING FOR pmc code
     //public static final String DR_WENDIGO = "DR_Wendigo";// CREATES PUBLIC STRING FOR pmc code
     public static final String DR_BLACKFLEET = "blackFleet";// CREATES PUBLIC STRING FOR pmc code
+    public static final String DR_GENDARMERIE = "Gendarmerie";// CREATES PUBLIC STRING FOR pmc code Gendarmerie
 	
 }

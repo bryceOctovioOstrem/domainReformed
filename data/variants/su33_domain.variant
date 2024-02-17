@@ -1,0 +1,25 @@
+{
+  "variantId": "su33_domain",
+  "hullId": "su33",
+  "displayName": "domain Varient",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightmg",
+        "WS0002": "swarmer",
+        "WS0003": "swarmer",
+        "WS0004": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

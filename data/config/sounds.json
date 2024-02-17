@@ -42,6 +42,16 @@
 				"randomStart":false, 
 			},
 		],
+        "Renaissance":[
+			{
+                "source":"sounds/music",
+				"volume":0.2,
+				"files":[
+					"Renaissance.ogg",
+				],
+				"randomStart":false, 
+			},
+		],
 	},
 		
 		"380GunSounds":

@@ -254,7 +254,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.WAYSTATION);
         market.addIndustry(Industries.FUELPROD);
         //market.addIndustry(Industries.COMMERCE);
-		market.addIndustry(DR_industries.WHITESKYE);
+		market.addIndustry(DR_industries.DR_GENDARMERIE);
 
         // //add special items to industries WIP
 

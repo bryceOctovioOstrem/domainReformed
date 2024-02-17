@@ -1,0 +1,68 @@
+{
+  "hullName": "mig29",
+  "hullId": "mig29",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/mig29.PNG",
+  "style": "LOW_TECH",
+  "height": 69,
+  "width": 46,
+  "center": [23, 31.5],
+  "collisionRadius": 37,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 38.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5.5, 4.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5.5, -4]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0.5, 11]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0.5, -11]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    33.5, 0.5,
+    2.5, 7,
+    -16.5, 23,
+    -13.5, 7,
+    -19.5, 7,
+    -30, 15,
+    -24.5, 6,
+    -24.5, -6,
+    -30.5, -15,
+    -18.5, -7,
+    -13.5, -7,
+    -16.5, -23,
+    3, -6.5
+  ]
+}

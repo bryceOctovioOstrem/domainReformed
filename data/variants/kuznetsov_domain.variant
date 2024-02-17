@@ -4,35 +4,75 @@
   "displayName": "domain Variant",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxVents": 33,
   "quality": 0,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "hiressensors",
+    "autorepair",
+    "operations_center"
+  ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "CWIS",
+        "WS0007": "CWIS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0002": "breachpod",
-        "WS0003": "CWIS",
-        "WS0004": "breachpod",
-        "WS0005": "CWIS",
+        "WS0004": "breachpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "CWIS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0006": "gazerpod",
-        "WS0007": "CWIS",
-        "WS0008": "gazerpod",
+        "WS0008": "gazerpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0009": "swarmer_fighter",
         "WS0010": "swarmer_fighter"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "CWIS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "CWIS"
       }
     }
   ],
   "modules": [],
   "wings": [
-    "longbow_wing",
-    "hurricane_wing",
-    "claw_wing",
-    "sarissa_wing",
-    "gladius_wing",
-    "trident_wing"
+    "KA-29_wing",
+    "mig29_wing",
+    "su33_wing",
+    "su33_wing",
+    "su33_wing",
+    "su33_wing"
   ]
 }
