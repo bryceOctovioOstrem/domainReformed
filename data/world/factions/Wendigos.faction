@@ -31,6 +31,34 @@
 	"shipsWhenImporting":{
 		"tags":[],
 		"hulls":[
+			"mule",	
+			"hound",		
+
+			"dominator",	
+			#"mora",		
+			#"Moskva",
+			
+			"legion",
+			"legion_xiv",
+			"onslaught",
+			"onslaught_xiv",
+			"odyssey",
+			"prometheus",
+			"invictus",
+			"prometheus2",
+			"Richelieu",
+			"yorktown",
+			"Queen_Elizabeth",
+			"bismark",
+			"yamato",
+			"Ford",
+			"shinano",
+			"christian",
+			"kingGeorge",
+			"Iowa",
+			"Ise",
+			"starliner",
+			"paragon",
 		],
 	},
 	"knownShips":{
@@ -288,6 +316,12 @@
 			#"support_doctrine",
 		],
 	},
+		"illegalCommodities":[
+		"ai_cores",
+		"drugs",
+		"organs",
+		"lobster",
+	],
 	"internalComms":"Domain_internal",
 "portraits":{
 		"standard_male":[

@@ -1,35 +1,18 @@
 {
     "playableFaction":true,
     "corvusCompatible":true,
-    "startingFaction": false,
+    
     "rebelFleetSuffix":"Traitors",
     
     "marketSpawnWeight":2,
-    #"difficultyString":"hard",
 
-    #"startRelationships":{ 
-	"tritachyon": -0.72, 
-	"persean":-0.66,
-	"sindrian_diktat": -0.69,
-	"hegemony": 0.9,
-	"independent": -0.5,
-	#"ironshell": 0.75,
-	#"battlefleets_imperium": -0.54,
-	#"sevencorp": -0.5,
-	#"xlu": -0.75,
-
- },
-    "maxRelationships":{ "remnant":-0.51,"luddic_path":-0.7,"luddic_church": -0.35,"persean":-0.66,"sindrian_diktat": -0.69,"independent": -0.5},
-    "diplomacyPositiveChance":{ "tritachyon"1.2,
-				"hegemony"":0.8
- },
-    "diplomacyNegativeChance":{ "tritachyon":0.8,
-				"hegemony":1.2 },
+    "startRelationships":{ "tritachyon": -0.3, "persean":-0.6 },
+    "maxRelationships":{"remnant":-0.51,"luddic_path":-0.7,"luddic_church": -0.35,"persean":-0.66,"sindrian_diktat": -0.69,"independent": -0.5},
+    "diplomacyPositiveChance":{ "hegemony":0.8,"tritachyon":1.2},
+    "diplomacyNegativeChance":{ "hegemony":1.2},
     "dispositions":{
-        "persean": -66,
-        "sindrian_diktat": -69,
-        #"hegemony": 80,
-	#"tritachyon": -72,
+        "persean": -10,
+        "sindrian_diktat": -10,
     },
     
     "alignments":{
@@ -39,45 +22,39 @@
         "diplomatic":-0.5,
         "ideological":-0.5,
     },
-    "diplomacyTraits":["selfrighteous", "irredentist", "foreverwar","paranoid"],
+    "diplomacyTraits":["selfrighteous", "irredentist", "foreverwar","paranoid", "dislikes_ai","helps_allies"],
+    
     # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
-    "colonyExpeditionChance":1.2,	# baseline expansion behaviour
+    "colonyExpeditionChance":1,	# baseline expansion behaviour
     "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
     
     "groundBattleSettings":{
-        "moraleDamageTakenMult":1.3,
+        "moraleDamageTakenMult":1.1,
     },
     
     "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
     #"specialForcesFlagshipVariants":{ "paragon_Elite":1, "astral_Strike":0.5 },
     
-
-	#"startShipsSolo":[
-	  #["venture_Balanced"],
-	#],
+    "startShipsSolo":[
+	  ["Brig_domain"],
+	],
+    "startShipsCombatSmall":[
+      ["Brig_domain", "hosho_domain", "Geobukseon_domain"],
+      ["Brig_domain", "hosho_domain", "Z23_domain"]
+    ],
+    "startShipsTradeSmall":[["liberty_domain", "hosho_domain", "Virginia_domain"]],
+    "startShipsCombatLarge":[
+      ["Furious_domain", "christian_domain", "Wichita_domain"],
+      ["yorktown_domain", "wasa_domain", "indianopolis_domain"]
+    ],
+    "startShipsTradeLarge":[["christian_domain", "hosho_domain", "gearing_domain"]],
+    "startShipsExplorerLarge":[["christian_domain", "wasa_domain", "Brig_domain"]],
+    "startShipsCarrierSmall":[["hosho_domain", "wasa_domain", "atlanta_domain"]],
+    "startShipsCarrierLarge":[["Furious_domain", "Brig_domain", "hipper_domain"]],
     #"startShipsGrandFleet":[["onslaught_xiv_Elite"]],
-
-    #"startShipsSolo":[
-	  #["wasa_domain"],
-	  #["christian_domain"]
-	#],
-    #"startShipsCombatSmall":[
-      #["Brig_domain", "hosho_domain", "Geobukseon_domain"],
-      #["Brig_domain", "hosho_domain", "Z23_domain"]
-    #],
-    #"startShipsTradeSmall":[["liberty_domain", "hosho_domain", "Virginia_domain"]],
-    #"startShipsCombatLarge":[
-	#["Furious_domain", "christian_domain", "Wichita_domain"],
-	#["yorktown_domain", "wasa_domain", "indianopolis_domain"]
-	#],
-    #"startShipsTradeLarge":[["christian_domain", "hosho_domain", "gearing_domain"]],
-    #"startShipsExplorerLarge":[["christian_domain", "wasa_domain", "Brig_domain"]],
-    #"startShipsCarrierSmall":[["hosho_domain", "wasa_domain", "atlanta_domain"]],
-    #"startShipsCarrierLarge":[["Furious_domain", "Brig_domain", "hipper_domain"]],
-    #"startShipsGrandFleet":[["yamato_domain"],["Ford_domain"]],
     
     "startSpecialItems":[
-        [["DR_package"]],
+        [["DR_package", ""]],
     ],
     
     "defenceStations":[
@@ -85,31 +62,23 @@
         {"ids":["comet_Keep", "moonCastle", "DR_starFortress"], "weight":1.0},
     ],
     
-    #"industrySeeds":[
-        #{"id":""heavyindustry"", "mult":0.9},
-        #{"id":"fuelprod", "mult":0.1},
-        #{"id":"heavyindustry", "mult":0.1},
-    #],
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"DR_Whiteskye", "mult":0.1},
+		{"id":"blackFleet", "mult":0.1},
+		{"id":"Gendarmerie", "mult":0.1},
+		{"id":"DR_Wendigo", "mult":0.1},
+    ],
     
     "bonusSeeds":[
-        #{"id":"population_upsize", "count":1},
+        {"id":"population_upsize", "count":1},
         {"id":"nanoforge_corrupted", "count":1},
-        #{"id":"synchrotron", "count":1},
+        {"id":"synchrotron", "count":1},
     ],
-    "invasionStrengthBonusDefend":1.5,
-    "maxColonyDistance": 40,
-    "invasionPointMult":1.125,
-    "invasionFleetSizeMod":1.2,
-    "responseFleetSizeMod": 1.6,
-    "morality":"evil",
-
-    # Number of entries must equal number of vengeance tiers (0-3)
-    "vengeanceLevelNames":["restoration", "retribution", "extermination"],
-    "vengeanceFleetNames":["Restoration", "Retribution", "Extermination"],
-    "vengeanceFleetNamesSingle":["a Restoration fleet", "a Retribution Fleet", "an Extermination Armada"],
-    "vengeanceFleetSizeMult":2.0,
+	"invasionPointMult":1.125,
+    	"invasionFleetSizeMod":1.2,
+	"responseFleetSizeMod": 1.6,
+	"morality":"evil",
 	
-	"specialForcesSizeMult":1.2,
-	"specialForcesPointMult": 1,
-
 }

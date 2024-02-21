@@ -173,6 +173,10 @@
 		"autofitRandomizeProbability":0.25,
 	},
 	"illegalCommodities":[
+		"ai_cores",
+		"drugs",
+		"organs",
+		"lobster",
 	],
 	"internalComms":"Domain_internal",
 "portraits":{

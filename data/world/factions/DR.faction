@@ -67,12 +67,12 @@
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
-		"tags":["base_bp", "heg_aux_bp", "lowtech_bp"],
+		"tags":["heg_aux_bp", "XIV_bp", "hegemony","derelict"],
 		"hulls":[
 		],
 	},
 	"knownShips":{
-		"tags":["base_bp", "heg_aux_bp", "lowtech_bp","DR","derelict"],
+		"tags":["DR"],
 		"hulls":[
 		],
 	},
@@ -83,7 +83,7 @@
 		],
 	},
 	"knownFighters":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "hegemony","DR"],
+		"tags":["hegemony","DR"],
 		"fighters":[
 			"thunder_wing",
 			"hoplon_wing",
@@ -151,7 +151,7 @@
 		
 		"shipSize":5,
 		
-		"aggression":3,
+		"aggression":2,
 		
 		"combatFreighterProbability":0.9,      				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":1,  				# as part of the normal combat lineup
@@ -169,7 +169,8 @@
 	"illegalCommodities":[
 		"ai_cores",
 		"drugs",
-		"organs",	
+		"organs",
+		"lobster",	
 	],
 	"music":{
 		"theme":"music_DR_theme",
@@ -179,6 +180,7 @@
 		"encounter_neutral":"music_DR_theme",
 		"encounter_hostile":"music_DR_theme_hostile",
 		"encounter_friendly":"music_DR_theme",
+		"battle":"music_DR_theme_hostile",
 	},	
 	"internalComms":"Domain_internal",
 	#"tariffFraction":0.4,

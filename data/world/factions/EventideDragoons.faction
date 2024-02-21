@@ -28,7 +28,7 @@
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
-		"tags":["DR"],
+		"tags":["DR","heg_aux_bp", "XIV_bp", "hegemony"],
 		"hulls":[
 		],
 	},
@@ -78,6 +78,7 @@
 			"legion",
 			"onslaught",
 			"onslaught_xiv",
+			"Richelieu",
 
 		],
 	},
@@ -96,7 +97,7 @@
 			# need to be prioritized otherwise the Legion eats any and all carrier points
 			"condor",
 			"mora",
-			"Richelieu"
+			#"Richelieu",
 		],
 	},
 	"knownFighters":{
@@ -221,6 +222,10 @@
 		"autofitRandomizeProbability":0.25,
 	},
 	"illegalCommodities":[
+		"ai_cores",
+		"drugs",
+		"organs",
+		"lobster",
 	],
 	"internalComms":"Domain_internal",
 	"portraits":{

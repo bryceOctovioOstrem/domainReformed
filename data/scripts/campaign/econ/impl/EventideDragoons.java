@@ -45,7 +45,7 @@ public class EventideDragoons extends MilitaryBase{
 
         Random random = route.getRandom();
 
-        CampaignFleetAPI fleet = createPatrol(FAST, "EventideDragoons", route, market, null, random);// generates the fleet
+        CampaignFleetAPI fleet = createPatrol(COMBAT, "EventideDragoons", route, market, null, random);// generates the fleet
 
         if (fleet == null || fleet.isEmpty())
         {

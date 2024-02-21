@@ -88,7 +88,8 @@
 	},
 	"carrierLarge":{
 		"yorktown_domain":2,
-		"Queen_Elizabeth_domain":1.5,
+		"kuznetsov_domain":1.5,
+		"Queen_Elizabeth_domain":1,
 		"Ford_domain":1,
 		"Ise_domain":1,
 		"fallback":{"carrierMedium":1},

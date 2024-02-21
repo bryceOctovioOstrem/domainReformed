@@ -45,7 +45,7 @@ public class blackFleet extends MilitaryBase{
 
         Random random = route.getRandom();
 
-        CampaignFleetAPI fleet = createPatrol(COMBAT, "Black_Fleet", route, market, null, random);// generates the fleet
+        CampaignFleetAPI fleet = createPatrol(HEAVY, "Black_Fleet", route, market, null, random);// generates the fleet
 
         if (fleet == null || fleet.isEmpty())
         {

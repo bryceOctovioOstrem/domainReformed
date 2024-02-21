@@ -2,7 +2,7 @@
   "variantId": "kuznetsov_domain",
   "hullId": "kuznetsov",
   "displayName": "domain Variant",
-  "goalVariant": true,
+  "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 33,
   "quality": 0,

@@ -32,18 +32,18 @@
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
-		"tags":["merc"],
+		"tags":["merc","DR","derelict"],
 		"hulls":[
 		],
 	},
 	"knownShips":{
-		"tags":["derelict","DR"],
+		"tags":["derelict"],
 		"hulls":[
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
-		"tags":["derelict","DR"],
+		"tags":["derelict"],
 		"hulls":[
 
 		],
@@ -83,7 +83,7 @@
 			"pointdefenseai",
 			"nav_relay",
 			"surveying_equipment",
-			"auxiliarythrusters", # accelerated
+			"auxiliarythrusters",
 			"recovery_shuttles",
 			"reinforcedhull",
 			"hiressensors",
@@ -116,6 +116,10 @@
 		"autofitRandomizeProbability":0.25,
 	},
 	"illegalCommodities":[
+		"ai_cores",
+		"drugs",
+		"organs",
+		"lobster",
 	],
 	"internalComms":"Domain_internal",
 "portraits":{
@@ -167,13 +171,6 @@
 		],
 	},
 	"music":{
-		"theme":"music_DR_theme",
-		"market_neutral":"music_whiteskye_theme",
-		"market_hostile":"music_whiteskye_theme",
-		"market_friendly":"music_whiteskye_theme",
-		"encounter_neutral":"music_whiteskye_theme",
-		"encounter_hostile":"music_whiteskye_theme",
-		"encounter_friendly":"music_whiteskye_theme",
 	},
 	"voices":{
 		"LOW":{
@@ -194,11 +191,11 @@
 		"patrolMedium":"Data collection operation",
 		"patrolLarge":" hostile element nutralization operation",
 		
-		"mercScout":"Spy satalite deployment operation",
-		"mercBountyHunter":"Assaination operation",
-		"mercPrivateer":"Hostile Asset reqisition operation",
-		"mercPatrol":"Data aquisition operation",
-		"mercArmada":"broken maqurade",
+		#"mercScout":"Spy satalite deployment operation",
+		#"mercBountyHunter":"Assaination operation",
+		#"mercPrivateer":"Hostile Asset reqisition operation",
+		#"mercPatrol":"Data aquisition operation",
+		#"mercArmada":"broken maqurade",
 	},
 	"custom":{
 		"postsNoBounties":true,

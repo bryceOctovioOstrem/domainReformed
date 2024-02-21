@@ -45,7 +45,7 @@ public class DR_Whiteskye extends MilitaryBase{
 
         Random random = route.getRandom();
 
-        CampaignFleetAPI fleet = createPatrol(COMBAT, "Whitesky", route, market, null, random);// generates the fleet
+        CampaignFleetAPI fleet = createPatrol(HEAVY, "Whitesky", route, market, null, random);// generates the fleet
 
         if (fleet == null || fleet.isEmpty())
         {
