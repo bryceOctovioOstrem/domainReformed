@@ -32,7 +32,7 @@ import data.scripts.campaign.econ.DR_industries;
 import java.util.Random;
 
 // TODO: Contains stuff to be checked after a Starsector update is released
-public class EventideDragoons extends MilitaryBase{
+public class DR_Whiteskye extends MilitaryBase{
 	
 	
 	
@@ -45,7 +45,7 @@ public class EventideDragoons extends MilitaryBase{
 
         Random random = route.getRandom();
 
-        CampaignFleetAPI fleet = createPatrol(COMBAT, "EventideDragoons", route, market, null, random);// generates the fleet
+        CampaignFleetAPI fleet = createPatrol(HEAVY, "Whitesky", route, market, null, random);// generates the fleet
 
         if (fleet == null || fleet.isEmpty())
         {
@@ -86,15 +86,38 @@ public class EventideDragoons extends MilitaryBase{
 		 public void apply() {
 		
 		 int size = market.getSize();// gets market size 
-		 demand(Commodities.LOBSTER, 1);//increases ore demand
-		 demand(Commodities.DRUGS, size-2);//increases ore demand
-		 demand(Commodities.LUXURY_GOODS, size);// increases organics demand
-		 demand(Commodities.DOMESTIC_GOODS, size);// increases organics demand
+		 demand(Commodities.SHIPS, size-1);//increases ore demand
+		 demand(Commodities.FUEL, size-1);// increases organics demand
+		demand(Commodities.HAND_WEAPONS, size-1);// increases organics demand
 		 supply(Commodities.CREW, size-2);// increases marines production
          	supply(Commodities.MARINES, size-2);// increases marine demand
 		applyIncomeAndUpkeep(3);
 		float bonus = DEFENSE_BONUS;
 		market.getStats().getDynamic().getMod(Stats.GROUND_DEFENSES_MOD).modifyMult(getModId(), 1f + bonus, getNameForModifier());
-		market.getStability().modifyFlat("Eventide gendarmerie", IMPROVE_STABILITY_BONUS, getNameForModifier() );
+		market.getStability().modifyFlat("Whitesky Base", IMPROVE_STABILITY_BONUS, getNameForModifier() );
 	 }
+	 
+	 
+	public static void syncMercRelationshipsToPlayer()
+	{
+		FactionAPI factionId = sector.getFaction("Whitesky"); // assigns a faction variable
+		if (factionId.equals(Factions.PLAYER)) return;
+		
+		SectorAPI sector = Global.getSector();	
+		FactionAPI playerFaction = sector.getPlayerFaction();
+		FactionAPI faction = sector.getFaction(factionId);
+		//if (NexConfig.getFactionConfig(factionId).noSyncRelations)
+			//return;
+		
+		for (FactionAPI otherFaction: sector.getAllFactions())
+		{
+			if (otherFaction != playerFaction && otherFaction != faction)
+			{
+				syncPlayerRelationshipToFaction(factionId, otherFaction.getId());
+			}
+		}
+		
+		//syncFactionRelationshipsToPlayer(ExerelinConstants.PLAYER_NPC_ID);
+		//SectorManager.checkForVictory(); // already done in syncFactionRelationshipsToPlayer
+	}
 }

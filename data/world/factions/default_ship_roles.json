@@ -27,6 +27,7 @@
 		"StLouis_domain":1,
 		"Wichita_domain":1.5,
 		"indianopolis_domain":2,
+		"Dreadnaught_DR":0.5,
 		"fallback":{"combatSmall":1},
 	},
 	"combatLarge":{
@@ -35,10 +36,12 @@
 		"Wichita_domain":2,
 		"Moskva_domain":1,
 		"wasa_domain":1,
+		"Dreadnaught_DR":1,
 		"fallback":{"combatMedium":1},
 	},
 	"combatCapital":{
 		"Conte_di_Cavour_Domain":4,
+		"Dreadnaught_DR":5,
 		"wasa_domain":2,
 		"yamato_domain":1,
 		"bismark_domain":2,

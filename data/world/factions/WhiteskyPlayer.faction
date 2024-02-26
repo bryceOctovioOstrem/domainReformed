@@ -1,12 +1,12 @@
 {
-	id:"Whitesky",
+	id:"WhiteskyPlayer",
 	#"color":[227,218,201,255],
 	"color":[ 243, 238, 225,255],
-	"displayName":"Whiteskye",
+	"displayName":"WhiteskyePlayer",
 	"logo":"graphics/factions/neutral_traders.png",
-	"displayNameWithArticle":"Whiteskye",
+	"displayNameWithArticle":"WhiteskyePlayer",
 	"shipNamePrefix":"WSN",
-	"showInIntelTab":false,
+	"showInIntelTab":true,
 	"shipNameSources":{
 		"GREEK":4,
 		"BRITISH_NAVY":2,
@@ -258,6 +258,7 @@
 	},
 	"custom":{
 		"postsNoBounties":true,
+		"spawnsAsPlayer":true,
 	},
 
 },

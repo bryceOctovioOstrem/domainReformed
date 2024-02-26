@@ -64,7 +64,6 @@
     
     "industrySeeds":[
         {"id":"orbitalworks", "mult":0.1},
-        {"id":"fuelprod", "mult":0.1},
         {"id":"DR_Whiteskye", "mult":0.1},
 		{"id":"blackFleet", "mult":0.1},
 		{"id":"Gendarmerie", "mult":0.1},
@@ -76,7 +75,7 @@
         {"id":"nanoforge_corrupted", "count":1},
         {"id":"synchrotron", "count":1},
     ],
-	"invasionPointMult":1.125,
+	"invasionPointMult":1.2,
     	"invasionFleetSizeMod":1.2,
 	"responseFleetSizeMod": 1.6,
 	"morality":"evil",

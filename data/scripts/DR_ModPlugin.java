@@ -53,7 +53,7 @@ public class DR_ModPlugin extends BaseModPlugin {
     private void newTerraGen() {
         StarSystemAPI system = Global.getSector().createStarSystem("Metternich");
 
-        PlanetAPI star = system.initStar("Metternich", "star_yellow", 1000, -11150, -14500, 250);
+        PlanetAPI star = system.initStar("Metternich", "star_yellow", 1000, -7200, -16500, 250);
 
         PlanetAPI planet = system.addPlanet("newTerra", star, "New Terra", "terran", -10, 180, 4000, 120);
 

@@ -1,0 +1,49 @@
+{
+  "id": "12inMKX",
+  "specClass": "projectile",
+  "projectileSpecId": "12inMKX_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "fireSoundTwo":"plasma_cannon_fire",
+  "turretSprite": "graphics/weapons/12inMKX_turret_DR.PNG",
+  "hardpointSprite": "graphics/weapons/12inMKX_hardpoint.PNG",
+  "visualRecoil": 1,
+  "turretOffsets": [
+    46.5,
+    5,
+    46.5,
+    -4
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    62,
+    4.5,
+    62,
+    -4.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING_BURST",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 20,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      255,
+      255,
+      255
+    ]
+  }
+
+}

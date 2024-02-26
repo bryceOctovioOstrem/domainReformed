@@ -1,0 +1,242 @@
+{
+  "hullName": "Dreadnaught",
+  "hullId": "Dreadnaught",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/DR/ships/dreadnaught.PNG",
+  "style": "LOW_TECH",
+  "height": 577,
+  "width": 96,
+  "center": [48, 288.5],
+  "collisionRadius": 290,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 297,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "targetingunit",
+    "autorepair",
+    "ablative_armor"
+  ],
+  "builtInWeapons": {
+    "WS0003": "lightdualmg",
+    "WS0004": "lightdualmg",
+    "WS0005": "lightdualmg",
+    "WS0006": "lightdualmg",
+    "WS0007": "lightmg",
+    "WS0008": "lightmg",
+    "WS0009": "lightmg",
+    "WS0010": "lightmg"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [183.5, 12]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -36,
+      "locations": [192.5, -11]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 74,
+      "angle": 52.5,
+      "locations": [106, 11]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 74,
+      "angle": -45,
+      "locations": [106, -16.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 100,
+      "angle": -87.5,
+      "locations": [72, -26]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 100,
+      "angle": 90,
+      "locations": [71, 23]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 100,
+      "angle": -87.5,
+      "locations": [-4, -24.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 110,
+      "angle": 90,
+      "locations": [-3.5, 23]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 110,
+      "angle": 125,
+      "locations": [-45, 7]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 110,
+      "angle": -125,
+      "locations": [-44.5, -7]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [37.5, 30.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [38.5, -31]
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 110,
+      "angle": -90,
+      "locations": [-70.5, -0]
+    },
+    {
+      "id": "WS0014",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 301,
+      "angle": 180,
+      "locations": [-166.5, 1],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0015",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [134.5, -1],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 161,
+      "angle": 90,
+      "locations": [-193.5, 25]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 171,
+      "angle": 143.5,
+      "locations": [-214.5, 11]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 171,
+      "angle": -126.5,
+      "locations": [-214.5, -16]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-277.5, -13.5],
+      "length": 37,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-277.5, 15],
+      "length": 37,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-17, -0],
+      "length": 27,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [76.5, -1],
+      "length": 17,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    }
+  ],
+  "bounds": [
+    285, -2.5,
+    209.5, -21,
+    39.5, -45.5,
+    -171, -34.5,
+    -282.5, 1.5,
+    -169, 38,
+    37.5, 44.5,
+    209, 19
+  ]
+}
