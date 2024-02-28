@@ -4,10 +4,12 @@
   "displayName": "DR",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 25,
+  "fluxVents": 35,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "operations_center"
+  ],
   "weaponGroups": [
     {
       "autofire": false,

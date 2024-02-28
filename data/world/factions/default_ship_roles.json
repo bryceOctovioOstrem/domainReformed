@@ -28,6 +28,7 @@
 		"Wichita_domain":1.5,
 		"indianopolis_domain":2,
 		"Dreadnaught_DR":0.5,
+		"Dreadnaught_merc":0.1,
 		"fallback":{"combatSmall":1},
 	},
 	"combatLarge":{
