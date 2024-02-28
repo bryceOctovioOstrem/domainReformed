@@ -258,7 +258,6 @@
 	},
 	"custom":{
 		"postsNoBounties":true,
-		"spawnsAsPlayer":true,
 	},
 
 },

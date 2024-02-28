@@ -75,7 +75,7 @@ public class WhiteskyePlayer extends MilitaryBase{
     }
 	@Override
 	public boolean isAvailableToBuild() {
-		return true;
+		return false;
 	}
 
 	//public boolean showWhenUnavailable() {

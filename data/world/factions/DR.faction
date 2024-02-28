@@ -54,7 +54,9 @@
 		"christian_domain":100,
 		"wasa_domain":100,
 		"Iowa_domain":100,
-		"Ise_domain":100
+		"Ise_domain":100,
+		"Dreadnaught_DR":100,
+		"kuznetsov_domain":100
 },	
 	
 	# multiplier for how often hulls show up in the faction's fleets
