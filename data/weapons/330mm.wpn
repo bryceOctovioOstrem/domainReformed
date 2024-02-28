@@ -1,0 +1,60 @@
+{
+  "id": "330mm",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/330mm_turret.PNG",
+  "hardpointSprite": "graphics/weapons/330mm_hardpoint.PNG",
+  "glowColor": [
+    0, 33, 83,255
+  ],
+  "hitGlowRadius": 330,
+  "turretOffsets": [
+    61.5,
+    -11.5,
+    61.5,
+    -4.5,
+    61.5,
+    5,
+    61.5,
+    11.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    69.5,
+    -11,
+    69.5,
+    -5,
+    69.5,
+    5,
+    69.5,
+    11.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "fringeColor": [
+    207, 9, 33,255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 10,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 64,
+  "pixelsPerTexel": 10,
+  "fireSoundOne": "380GunSounds"
+}

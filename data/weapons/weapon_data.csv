@@ -48,3 +48,4 @@ Triple 305 mm model 46 ,triple320mm,3,,5000,1176,,663,,961,3,25,,,,KINETIC,1194,
 station face,StationFace,0,,40,600,,0,,16,15,3,,,,KINETIC,200,,0,4,1,,0,15,3,10,,600,,,10,,,"GROUP_ALTERNATING, FIRE_WHEN_INEFFICIENT,PD","no_sell, no_drop, no_drop_salvage",,Unknown,,General,,,,,,,,,,
 5 inch (127 mm)/L62 caliber Mk 45 Mod 4,L62,2,0.5,645,751,,42,,7,42,7,,,,KINETIC,53,,0.15,0.15,1,,,,,,,1135,,,50,,,PD,"kinetic8, DR,pirates,luddic_path, merc",,,,Anti Shield,,,,,,,,,,
 BL 12-inch Mk X,12inMKX,1,,5000,843,,142,,5,20,18,,,,ENERGY,197,,0,0.3,1,,1,10,1,5,,843,,,50,,,,"he18,DR, merc, ind,luddic_path",,,,General,,,,,,,,,,7
+30mm/50 Modèle gun,330mm,2,,3000,888,274,,,,5,16,,,,HIGH_EXPLOSIVE,,1500,1,0,4,2,0,10,5,10,1932,,,,400,,,,"he18, lowtech_bp, merc, ind",,,,Anti Armor,,,,,,,,,,8
