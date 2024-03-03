@@ -2,14 +2,14 @@
   "hullName": "Queen_Elizabeth",
   "hullId": "Queen_Elizabeth",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/DR/ships/Queen_Elizabeth.PNG",
+  "spriteName": "graphics/DR/ships/QE.PNG",
   "style": "HIGH_TECH",
-  "height": 617,
-  "width": 189,
-  "center": [94.5, 308.5],
-  "collisionRadius": 310,
-  "shieldCenter": [0, 0],
-  "shieldRadius": 316.5,
+  "height": 735,
+  "width": 207,
+  "center": [99.5, 366.5],
+  "collisionRadius": 374,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 381.5,
   "viewOffset": 0,
   "builtInMods": [
     "rugged",
@@ -23,8 +23,8 @@
       "type": "UNIVERSAL",
       "mount": "TURRET",
       "arc": 218,
-      "angle": -69.5,
-      "locations": [128, -83.5]
+      "angle": -62.5,
+      "locations": [163.5, -93.5]
     },
     {
       "id": "WS0002",
@@ -33,16 +33,16 @@
       "mount": "TURRET",
       "arc": 275,
       "angle": 49.5,
-      "locations": [147, 61.5]
+      "locations": [175.5, 71.5]
     },
     {
       "id": "WS0003",
       "size": "MEDIUM",
       "type": "UNIVERSAL",
       "mount": "TURRET",
-      "arc": 277,
-      "angle": 124.5,
-      "locations": [-257.5, 82.5]
+      "arc": 270,
+      "angle": 142.5,
+      "locations": [-293.5, 85.5]
     },
     {
       "id": "LB 1",
@@ -52,75 +52,120 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        23.5, -57.5,
-        -144, -54.5
+        -147.5, -69,
+        -125.5, -68
       ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        54, -70,
+        25.5, -70
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 85,
+      "locations": [144.5, 93.5]
     }
   ],
   "engineSlots": [
     {
-      "location": [-308, 23.5],
-      "length": 59.790001,
-      "width": 18.77,
-      "angle": 179.5,
-      "contrailSize": 18.77,
-      "style": "OMEGA"
+      "location": [-367.5, 29],
+      "length": 60,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
     },
     {
-      "location": [-299.5, 43],
-      "length": 53.54596,
-      "width": 10.065842,
-      "angle": 179.5,
-      "contrailSize": 10.065842,
-      "style": "OMEGA"
+      "location": [-367.5, -41],
+      "length": 60,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
     },
     {
-      "location": [-283, 63.5],
-      "length": 38.029999,
-      "width": 7.34,
-      "angle": 179.5,
-      "contrailSize": 128,
-      "style": "OMEGA"
+      "location": [-361, -61],
+      "length": 40,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "uk_blue_royal_Blue"
     },
     {
-      "location": [-307, -23.5],
-      "length": 62.597973,
-      "width": 21.908306,
-      "angle": 179.5,
-      "contrailSize": 21.908306,
-      "style": "OMEGA"
+      "location": [-361.5, 49.5],
+      "length": 40,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "uk_blue_royal_Blue"
     },
     {
-      "location": [-299, -43.5],
-      "length": 45.550625,
-      "width": 11.205428,
-      "angle": 179.5,
-      "contrailSize": 11.205428,
-      "style": "OMEGA"
+      "location": [-366.5, 5.5],
+      "length": 40,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "uk_RED_Lava"
     },
     {
-      "location": [-282, -63],
-      "length": 29.530001,
-      "width": 6.48,
-      "angle": 179.5,
-      "contrailSize": 128,
-      "style": "OMEGA"
+      "location": [-366.5, -16],
+      "length": 40,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "uk_RED_Lava"
+    },
+    {
+      "location": [-90, -76.5],
+      "length": 9,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [95.5, -66],
+      "length": 9.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
     }
   ],
   "bounds": [
-    297.5, -30.5,
-    297.5, 3.5,
-    305, 4.5,
-    305.5, 28.5,
-    153, 35,
-    146, 64.5,
-    113.5, 83,
-    107.5, 66.5,
-    -256.5, 76.5,
-    -287.5, 39.5,
-    -290, -32,
-    -265.5, -71.5,
-    135.5, -70.5,
-    162, -39
+    357, -34,
+    357, 4.5,
+    367, 3.5,
+    367, 39,
+    188.5, 46,
+    178, 75.5,
+    135, 98,
+    134.5, 83,
+    -345, 83,
+    -347, 58.5,
+    -360, -5,
+    -322.5, -87.5,
+    163, -85.5,
+    200.5, -46.5
   ]
 }

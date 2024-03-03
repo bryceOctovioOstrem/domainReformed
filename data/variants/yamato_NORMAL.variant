@@ -3,7 +3,7 @@
   "hullId": "yamato",
   "displayName": "New",
   "goalVariant": true,
-  "fluxCapacitors": 17,
+  "fluxCapacitors": 0,
   "fluxVents": 50,
   "quality": 0,
   "permaMods": [],
@@ -18,11 +18,10 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "hellbore",
-        "WS0004": "plasma",
-        "WS0005": "devastator",
+        "WS0002": "gauss",
+        "WS0003": "gauss",
+        "WS0004": "gauss",
         "WS0006": "vulcan",
-        "WS0007": "heavyac",
         "WS0008": "vulcan",
         "WS0015": "dualflak",
         "WS0016": "dualflak",
@@ -49,9 +48,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0002": "plasma"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
@@ -63,7 +60,9 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0005": "devastator"
+      }
     },
     {
       "autofire": false,
@@ -77,6 +76,7 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0007": "heavyac",
         "WS0010": "heavyac"
       }
     }

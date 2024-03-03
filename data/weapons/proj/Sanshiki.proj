@@ -42,7 +42,7 @@
 					"canSplitEarly":true,
 					"splitSound":"sabot_srm_split",
 					"numShots":16,
-					"damage":201,
+					"damage":346,
 					"emp": 0, # needs to match highlight in weapon_data.csv
 					"damageType":FRAGMENTATION,
 					"hitpoints":500,

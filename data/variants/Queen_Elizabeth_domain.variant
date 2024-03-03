@@ -3,7 +3,7 @@
   "hullId": "Queen_Elizabeth",
   "displayName": "New Variant",
   "goalVariant": true,
-  "fluxCapacitors": 0,
+  "fluxCapacitors": 33,
   "fluxVents": 0,
   "quality": 0,
   "permaMods": [],
@@ -17,7 +17,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "CWIS"
+        "WS0001": "CWIS",
+        "WS0004": "Oerlikon"
       }
     },
     {

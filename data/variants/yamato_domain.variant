@@ -3,8 +3,8 @@
   "hullId": "yamato",
   "displayName": "New",
   "goalVariant": true,
-  "fluxCapacitors": 7,
-  "fluxVents": 50,
+  "fluxCapacitors": 0,
+  "fluxVents": 46,
   "quality": 0,
   "permaMods": [],
   "hullMods": [
@@ -83,8 +83,5 @@
     }
   ],
   "modules": [],
-  "wings": [
-    "E8N_wing_3",
-    "E8N_wing_4"
-  ]
+  "wings": []
 }

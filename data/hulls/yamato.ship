@@ -15,7 +15,8 @@
     "targetingunit",
     "rugged",
     "distributed_fire_control",
-    "ablative_armor"
+    "ablative_armor",
+    "hbi"
   ],
   "builtInWeapons": {
     "WS0024": "fireControl1000",

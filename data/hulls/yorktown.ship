@@ -12,6 +12,7 @@
   "shieldRadius": 410.5,
   "viewOffset": 0,
   "builtInMods": [
+	"phasefield",
     "repair_gantry",
     "autorepair",
     "rugged"

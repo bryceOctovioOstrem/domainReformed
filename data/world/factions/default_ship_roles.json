@@ -49,7 +49,7 @@
 		"Richelieu_domain":3,
 		"kingGeorge_domain":3,
 		"christian_domain":.5,
-		"Iowa_domain":1,
+		"Iowa_domain":.5,
 		"Ise_domain":1,
 		"fallback":{"combatLarge":.5},
 	},
