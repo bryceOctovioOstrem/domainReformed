@@ -12,7 +12,9 @@
   "shieldRadius": 316.5,
   "viewOffset": 0,
   "builtInMods": [
-    "rugged"
+    "rugged",
+    "operations_center",
+    "hiressensors"
   ],
   "weaponSlots": [
     {

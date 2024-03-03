@@ -585,7 +585,7 @@
   "engineSlots": [
     {
       "location": [-393, 23],
-      "length": 79,
+      "length": 70,
       "width": 15,
       "angle": 180,
       "contrailSize": 15,
@@ -594,7 +594,7 @@
     },
     {
       "location": [-393, -26],
-      "length": 79,
+      "length": 70,
       "width": 15,
       "angle": 180,
       "contrailSize": 15,
@@ -609,6 +609,33 @@
       "contrailSize": 34,
       "style": "CUSTOM",
       "styleId": "CUSTOM_WHITE"
+    },
+    {
+      "location": [26, -34.5],
+      "length": 13,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [42, -34.5],
+      "length": 12,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [9.5, -34.5],
+      "length": 7.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
     }
   ],
   "bounds": [

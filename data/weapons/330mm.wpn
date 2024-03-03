@@ -1,16 +1,11 @@
 {
   "id": "330mm",
-  "specClass": "beam",
+  "specClass": "projectile",
+  "projectileSpecId": "330mm_shot",
   "type": "ENERGY",
   "size": "LARGE",
-  "collisionClass": "RAY",
-  "collisionClassByFighter": "RAY_FIGHTER",
   "turretSprite": "graphics/weapons/330mm_turret.PNG",
   "hardpointSprite": "graphics/weapons/330mm_hardpoint.PNG",
-  "glowColor": [
-    0, 33, 83,255
-  ],
-  "hitGlowRadius": 330,
   "turretOffsets": [
     61.5,
     -11.5,
@@ -43,18 +38,21 @@
     0,
     0
   ],
-  "fringeColor": [
-    207, 9, 33,255
-  ],
-  "coreColor": [
-    255,
-    255,
-    255,
-    255
-  ],
-  "width": 10,
-  "textureType": ROUGH,
-  "textureScrollSpeed": 64,
-  "pixelsPerTexel": 10,
-  "fireSoundOne": "380GunSounds"
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 20,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 10,
+    "particleColor": [
+      0,
+      33,
+      83,
+      255
+    ]
+  },
+  "fireSoundTwo": "autopulse_laser_fire"
 }

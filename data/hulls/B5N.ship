@@ -18,8 +18,8 @@
       "type": "MISSILE",
       "mount": "HIDDEN",
       "arc": 0,
-      "angle": -0,
-      "locations": [23.5, -1]
+      "angle": 0,
+      "locations": [5.5, -2]
     },
     {
       "id": "WS0002",
@@ -28,7 +28,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [23.5, 1]
+      "locations": [5.5, 3]
     },
     {
       "id": "WS0003",
@@ -37,7 +37,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [24, 1]
+      "locations": [21.5, 3]
     },
     {
       "id": "WS0004",
@@ -46,7 +46,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [24, -1]
+      "locations": [-15.5, -2]
     },
     {
       "id": "WS0005",
@@ -55,7 +55,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [24.5, 1]
+      "locations": [-15.5, 3]
     },
     {
       "id": "WS0006",
@@ -64,7 +64,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [24.5, -1]
+      "locations": [21.5, -2]
     },
     {
       "id": "WS0007",

@@ -1,0 +1,115 @@
+{
+  "variantId": "Essex_domain",
+  "hullId": "Essex",
+  "displayName": "domain",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 32,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "operations_center",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "Oerlikon",
+        "WS0002": "Oerlikon",
+        "WS0003": "Oerlikon",
+        "WS0004": "Oerlikon",
+        "WS0005": "vulcan",
+        "WS0006": "Oerlikon",
+        "WS0007": "Oerlikon",
+        "WS0008": "Oerlikon",
+        "WS0009": "Oerlikon",
+        "WS0010": "Oerlikon",
+        "WS0011": "Oerlikon",
+        "WS0012": "vulcan",
+        "WS0013": "Oerlikon",
+        "WS0014": "Oerlikon",
+        "WS0015": "Oerlikon",
+        "WS0016": "Oerlikon",
+        "WS0017": "Oerlikon",
+        "WS0031": "vulcan",
+        "WS0032": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "vulcan",
+        "WS0019": "Oerlikon",
+        "WS0020": "Oerlikon",
+        "WS0021": "Oerlikon",
+        "WS0022": "Oerlikon",
+        "WS0023": "Oerlikon",
+        "WS0024": "Oerlikon",
+        "WS0025": "Oerlikon",
+        "WS0026": "Oerlikon",
+        "WS0027": "Oerlikon",
+        "WS0028": "Oerlikon",
+        "WS0029": "Oerlikon",
+        "WS0030": "Oerlikon",
+        "WS0035": "vulcan",
+        "WS0038": "vulcan",
+        "WS0039": "vulcan",
+        "WS0040": "vulcan",
+        "WS0050": "vulcan",
+        "WS0052": "vulcan",
+        "WS0054": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0033": "flak",
+        "WS0034": "flak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0036": "5in",
+        "WS0037": "5in"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0041": "5in",
+        "WS0042": "5in"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0043": "flak",
+        "WS0044": "flak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0045": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "TBF_wing",
+    "SBD_wing",
+    "SBD_wing",
+    "TBF_wing",
+    "grummanF6FHellcat_wing",
+    "grummanF6FHellcat_wing"
+  ]
+}

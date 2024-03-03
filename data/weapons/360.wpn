@@ -7,7 +7,7 @@
   "collisionClass": "RAY",
   "collisionClassByFighter": "RAY_FIGHTER",
   "turretSprite": "graphics/weapons/380.PNG",
-  "hardpointSprite": "graphics/weapons/380.PNG",
+  "hardpointSprite": "graphics/weapons/380_hardpoint_DR.PNG",
   "glowColor": [
     237,
     41,
@@ -32,13 +32,13 @@
     0
   ],
   "hardpointOffsets": [
-    82.5,
+    64,
     11.5,
-    82.5,
+    64,
     5.5,
-    82.5,
-    -4.5,
-    82.5,
+    64,
+    -5.5,
+    64,
     -11.5
   ],
   "hardpointAngleOffsets": [

@@ -92,8 +92,8 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 164,
-      "angle": 87,
+      "arc": 115,
+      "angle": 64,
       "locations": [-19.5, 40.5],
       "renderOrderMod": 66
     },
@@ -102,8 +102,8 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 167,
-      "angle": -83.5,
+      "arc": 115,
+      "angle": -59,
       "locations": [-18.5, -41.5],
       "renderOrderMod": 66
     },
@@ -335,10 +335,10 @@
     },
     {
       "location": [-80, -0.5],
-      "length": 20,
-      "width": 11,
+      "length": 27.5,
+      "width": 15,
       "angle": 180,
-      "contrailSize": 11,
+      "contrailSize": 15,
       "style": "CUSTOM",
       "styleId": "CUSTOM_stack"
     }

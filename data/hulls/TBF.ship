@@ -19,7 +19,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [25, -1]
+      "locations": [24, -3]
     },
     {
       "id": "WS0002",
@@ -28,7 +28,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [25, 1]
+      "locations": [24, 3]
     },
     {
       "id": "WS0003",
@@ -37,7 +37,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [25, -3]
+      "locations": [-2, -3]
     },
     {
       "id": "WS0004",
@@ -46,7 +46,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [25, 3]
+      "locations": [-2, 3]
     },
     {
       "id": "WS0005",

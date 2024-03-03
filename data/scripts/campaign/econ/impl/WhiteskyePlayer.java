@@ -78,9 +78,9 @@ public class WhiteskyePlayer extends MilitaryBase{
 		return false;
 	}
 
-	//public boolean showWhenUnavailable() {
-		//return false;
-	//}
+	public boolean showWhenUnavailable() {
+		return false;
+	}
 		public static float DEFENSE_BONUS = .2f;
 		public static float IMPROVE_STABILITY_BONUS = 1f; 
 		 public void apply() {
