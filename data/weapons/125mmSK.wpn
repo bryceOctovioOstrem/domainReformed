@@ -1,7 +1,7 @@
 {
   "id": "125mmSK",
   "specClass": "projectile",
-  "projectileSpecId": "cryoflux_shot",
+  "projectileSpecId": "12SK_shot",
   "type": "ENERGY",
   "size": "SMALL",
   "everyFrameEffect": "com.fs.starfarer.api.impl.combat.CryofluxTransducerEffect",
@@ -31,5 +31,6 @@
   "animationType": "GLOW",
   "autocharge": true,
   "noImpactSounds": true,
-  "unaffectedByProjectileSpeedBonuses": true
+  "unaffectedByProjectileSpeedBonuses": true,
+  "fireSoundOne": "Flammenwerfer_chargeUp",
 }

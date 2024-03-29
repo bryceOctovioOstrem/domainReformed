@@ -63,6 +63,6 @@
 								 "blowbackDuration":0,
 								 "blowbackLength":0,
 								 "blowbackSpread":0,
-								 "particleColor":[60, 59, 110,200]}
+								 "particleColor":[255, 255, 255,200]}
 					}				    
 }

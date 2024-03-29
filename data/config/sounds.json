@@ -106,10 +106,22 @@
 	],
 		"gyrojet_large_sound":
 	[
-		{"file":"sounds/sfx_wpn_guns/GYROJET_SOUND_medium.ogg","pitch":1,"volume":.3},
+		{"file":"sounds/sfx_wpn_guns/GYROJET_SOUND_medium.ogg","pitch":1,"volume":1.0},
 	],
 		"YamatoChargeUp":
 	[
 		{"file":"sounds/sfx_wpn_guns/YamatoChargeUp.ogg","pitch":1,"volume":1.7},
+	],
+	"macron_Burst_Large":
+	[
+		{"file":"sounds/sfx_wpn_guns/macron_Burst_Large.ogg","pitch":1,"volume":.8},
+	],
+		"Flammenwerfer":
+	[
+		{"file":"sounds/sfx_wpn_guns/Flammenwerfer.ogg","pitch":1,"volume":.4},
+	],
+			"Flammenwerfer_chargeUp":
+	[
+		{"file":"sounds/sfx_wpn_guns/Flammenwerfer_chargeUp.ogg","pitch":1,"volume":.3},
 	],
 }

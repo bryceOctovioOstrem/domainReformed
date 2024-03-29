@@ -49,5 +49,5 @@
       255
     ]
   },
-  "fireSoundOne": "gauss_cannon_fire"
+  "fireSoundTwo": "mjolnir_fire",
 }

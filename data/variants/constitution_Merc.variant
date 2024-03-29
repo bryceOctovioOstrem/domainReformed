@@ -1,0 +1,72 @@
+{
+  "variantId": "constitution_Merc",
+  "hullId": "constitution",
+  "displayName": "Merc",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 30,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers",
+    "heavyarmor",
+    "solar_shielding"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "smoothBore",
+        "WS0003": "lightmortar",
+        "WS0004": "lightmortar",
+        "WS0005": "lightmortar",
+        "WS0006": "lightmortar",
+        "WS0014": "lightmortar",
+        "WS0016": "lightmortar",
+        "WS0017": "lightmortar",
+        "WS0019": "lightmortar",
+        "WS0021": "lightmortar",
+        "WS0023": "lightmortar",
+        "WS0025": "lightmortar",
+        "WS0027": "lightmortar",
+        "WS0029": "lightmortar",
+        "WS0031": "lightmortar",
+        "WS0033": "smoothBore",
+        "WS0034": "smoothBore",
+        "WS0040": "smoothBore",
+        "WS0041": "smoothBore",
+        "WS0042": "smoothBore"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "smoothBore",
+        "WS0007": "lightmortar",
+        "WS0008": "lightmortar",
+        "WS0009": "lightmortar",
+        "WS0010": "lightmortar",
+        "WS0011": "lightmortar",
+        "WS0012": "lightmortar",
+        "WS0013": "lightmortar",
+        "WS0018": "lightmortar",
+        "WS0020": "lightmortar",
+        "WS0022": "lightmortar",
+        "WS0024": "lightmortar",
+        "WS0026": "lightmortar",
+        "WS0028": "lightmortar",
+        "WS0030": "lightmortar",
+        "WS0032": "lightmortar",
+        "WS0035": "smoothBore",
+        "WS0036": "smoothBore",
+        "WS0037": "smoothBore",
+        "WS0038": "smoothBore",
+        "WS0039": "smoothBore"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

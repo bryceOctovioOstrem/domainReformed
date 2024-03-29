@@ -11,6 +11,11 @@
   "shieldCenter": [0, 0],
   "shieldRadius": 71,
   "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "targetingunit",
+    "ground_support"
+  ],
   "builtInWeapons": {
     "WS0001": "taclaser",
     "WS0002": "taclaser"

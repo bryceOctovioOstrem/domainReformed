@@ -1,20 +1,20 @@
 {
   "id": "CWIS",
   "specClass": "projectile",
-  "projectileSpecId": "shredder_shot",
+"projectileSpecId":"shredder_shot",  # projectile that will be fired
   "type": "BALLISTIC",
   "size": "MEDIUM",
-  "turretSprite": "graphics/weapons/rotary/CWIS_cannon_turret_base00.png",
-  "hardpointSprite": "graphics/weapons/rotary/CWIS_cannon_hardpoint_base00.png",
+  "turretSprite": "graphics/weapons/dr_ak630_TURRET.PNG",
+  "hardpointSprite": "graphics/weapons/ak630.PNG",
   "turretOffsets": [
-    21,
+    16.5,
     0
   ],
   "turretAngleOffsets": [
     0
   ],
   "hardpointOffsets": [
-    28.5,
+    25,
     0
   ],
   "hardpointAngleOffsets": [
@@ -22,21 +22,20 @@
   ],
   "barrelMode": "ALTERNATING",
   "animationType": "MUZZLE_FLASH",
-  "numFrames": 4,
-  "frameRate": 20,
   "muzzleFlashSpec": {
     "length": 30,
-    "spread": 5,
-    "particleSizeMin": 6,
-    "particleSizeRange": 14,
-    "particleDuration": 0.15,
-    "particleCount": 11,
+    "spread": 20,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 10,
     "particleColor": [
       255,
-      140,
-      125,
-      200
+      255,
+      255,
+      255
     ]
-  },
-  "fireSoundOne": "CIWSSound"
+},
+	"fireSoundOne":"thumper_spinup",
+	"fireSoundTwo":"thumper_fire",
 }

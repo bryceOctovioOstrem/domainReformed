@@ -41,7 +41,7 @@
 						"contrailMaxSpeedMult":.0f,
 						"contrailAngularVelocityMult":0.5f,
 						"contrailSpawnDistMult":0, # how far away from engine it starts
-						"contrailColor":[60, 59, 110,150],
+						"contrailColor":[255,255, 255,150],
 						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
 					},
 				    "width":10.0,
