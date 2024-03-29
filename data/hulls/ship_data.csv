@@ -84,4 +84,4 @@ Dreadnought,Dreadnaught,Dreadnought,DR,ammofeed,19,20730,11000,10500,11350,410,1
 Essex,Essex,Carrier,DR,ammofeed,26,30800,4000,12000,15000,130,333,6,33,15,10,3,4,30800,NONE,,360,0.7,0.6,,,450,1000,250,1814,10,20,7,320000,3,15,600,0.25,45,45,,,,,,,CARRIER,"DR, merc, ind,pirates",,0.6,2,3,,
 Zubr,zubr,Troop Transport,DR,maneuveringjets,3,555,200,500,938,30,25,,90,80,50,35,60,200,NONE,,0,0,0,,,5,100,70,40,1,40,9,3000,5,20,180,0.25,2,2,35,70,,,50,100,"CIVILIAN, LINER","DR, merc, ind,pirates",,0.5,2,2,,
 AH-64D,AH-64D,,DR,maneuveringjets,,435,25,400,,50,0,,182,200,200,60,182,40,NONE,,120,0,1,,,4,4,,,,,,,,,,,,,,,,,,,,,,0,,,,
-A Constitution,constitution,Cruiser,DR,cryoflux,11,22000,2100,11000,14000,350,130,,130,3,30,15,20,1100,NONE,,0,0.4,0.8,,,150,250,250,100,1,33,9,100000,3,12,480,0.25,13,13,,,,,,,,"DR, merc, ind,pirates",,0.5,2,3,,
+Constitution,constitution,Cruiser,DR,cryoflux,11,22000,2100,11000,14000,350,130,,130,3,30,15,20,1100,NONE,,0,0.4,0.8,,,150,250,250,100,1,33,9,100000,3,12,480,0.25,13,13,,,,,,,,"DR, merc, ind,pirates",,0.5,2,3,,
