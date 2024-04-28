@@ -14,7 +14,11 @@
   "builtInMods": [
     "rugged",
     "operations_center",
-    "hiressensors"
+    "hiressensors",
+    "fragile_subsystems"
+  ],
+  "builtInWings": [
+    "F-35_wing"
   ],
   "weaponSlots": [
     {

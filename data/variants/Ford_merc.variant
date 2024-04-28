@@ -1,0 +1,49 @@
+{
+  "variantId": "Ford_merc",
+  "hullId": "Ford",
+  "displayName": "Merc",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 1,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "autorepair",
+    "expanded_deck_crew",
+    "hiressensors",
+    "recovery_shuttles"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "swarmer_fighter",
+        "WS0002": "pilum",
+        "WS0003": "gazerpod",
+        "WS0004": "pilum",
+        "WS0005": "flak",
+        "WS0006": "heavyburst",
+        "WS0007": "flak",
+        "WS0008": "flak",
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser",
+        "WS0011": "lrpdlaser",
+        "WS0012": "lrpdlaser",
+        "WS0013": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing",
+    "broadsword_wing",
+    "trident_wing",
+    "trident_wing",
+    "trident_wing",
+    "trident_wing",
+    "trident_wing",
+    "trident_wing",
+    "trident_wing"
+  ]
+}

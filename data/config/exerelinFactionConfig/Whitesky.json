@@ -1,8 +1,7 @@
 {
     "playableFaction":false,
     #"startingFaction":true,
-    "corvusCompatible":true,
-    "spawnAsFactionId":"DR",
+    "corvusCompatible":false,
     "ngcTooltip":"Diktat start, but with high-tech ships",
     "rebelFleetSuffix":"Deserters",
     "startRelationships":{ "DR":1 },

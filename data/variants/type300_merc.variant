@@ -1,84 +1,80 @@
 {
-  "variantId": "Ford_domain",
-  "hullId": "Ford",
-  "displayName": "New Variant",
+  "variantId": "type300_merc",
+  "hullId": "type300",
+  "displayName": "Merc",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 16,
+  "fluxVents": 7,
   "quality": 0,
   "permaMods": [],
   "hullMods": [
-    "hiressensors",
-    "pointdefenseai",
-    "targetingunit"
+    "eccm",
+    "ecm",
+    "targetingunit",
+    "autorepair",
+    "armoredweapons"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0010": "lightmg",
-        "WS0011": "lightmg",
-        "WS0012": "lightmg"
+        "WS0001": "heavymg",
+        "WS0008": "breachpod"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0009": "lightmg",
-        "WS0013": "lightmg"
+        "WS0002": "flak"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "CWIS"
+        "WS0003": "heavymg"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "CWIS"
+        "WS0004": "flak"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "CWIS"
+        "WS0005": "heavymg"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "CWIS"
+        "WS0006": "pilum"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "swarmer_fighter",
-        "WS0002": "pilum",
-        "WS0003": "pilum",
-        "WS0004": "atropos_single"
+        "WS0007": "heavymg"
       }
     }
   ],
   "modules": [],
   "wings": [
-    "F-35_wing",
-    "F-35_wing",
-    "F-35_wing",
-    "F22_wing",
-    "F22_wing",
-    "hornet_wing",
-    "hornet_wing",
-    "hornet_wing",
-    "A10_wing"
+    "longbow_wing",
+    "longbow_wing",
+    "thunder_wing",
+    "trident_wing",
+    "trident_wing",
+    "trident_wing",
+    "trident_wing",
+    "trident_wing"
   ]
 }

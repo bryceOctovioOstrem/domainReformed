@@ -1,12 +1,12 @@
 {
     "playableFaction":false,
     #"startingFaction":true,
-    "corvusCompatible":false,
+    "corvusCompatible":true,
     "ngcTooltip":"Diktat start, but with high-tech ships",
-    "rebelFleetSuffix":"Deserters",
+    "rebelFleetSuffix":"March for justice",
     "startRelationships":{ "DR":1 },
     
-    "responseFleetName":"liquidation Fleet",
+    "responseFleetName":"March for justice",
     
     "morality":"Evil",
     

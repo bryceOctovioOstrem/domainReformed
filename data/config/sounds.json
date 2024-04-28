@@ -106,7 +106,7 @@
 	],
 		"gyrojet_large_sound":
 	[
-		{"file":"sounds/sfx_wpn_guns/GYROJET_SOUND_medium.ogg","pitch":1,"volume":1.0},
+		{"file":"sounds/sfx_wpn_guns/GYROJET_SOUND_medium.ogg","pitch":1,"volume":0.8},
 	],
 		"YamatoChargeUp":
 	[

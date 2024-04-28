@@ -3,14 +3,15 @@
   "hullId": "Queen_Elizabeth",
   "displayName": "New Variant",
   "goalVariant": true,
-  "fluxCapacitors": 33,
+  "fluxCapacitors": 17,
   "fluxVents": 0,
   "quality": 0,
   "permaMods": [],
   "hullMods": [
     "pointdefenseai",
     "ecm",
-    "operations_center"
+    "operations_center",
+    "nav_relay"
   ],
   "weaponGroups": [
     {
@@ -43,8 +44,7 @@
     "euroFighter_wing",
     "euroFighter_wing",
     "euroFighter_wing",
-    "F-35_wing",
-    "F-35_wing",
-    "F-35_wing"
+    "euroFighter_wing",
+    "euroFighter_wing"
   ]
 }

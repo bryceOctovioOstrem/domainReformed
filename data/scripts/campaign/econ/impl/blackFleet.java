@@ -45,14 +45,14 @@ public class blackFleet extends MilitaryBase{
 
         Random random = route.getRandom();
 
-        CampaignFleetAPI fleet = createPatrol(HEAVY, "Black_Fleet", route, market, null, random);// generates the fleet
+        CampaignFleetAPI fleet = createPatrol(COMBAT, "Black_Fleet", route, market, null, random);// generates the fleet
 
         if (fleet == null || fleet.isEmpty())
         {
             return null;
         }
 
-
+	fleet.setFaction( market.getFactionId());
         fleet.addEventListener(this);
 	
 	
@@ -75,7 +75,7 @@ public class blackFleet extends MilitaryBase{
     }
 	@Override
 	public boolean isAvailableToBuild() {
-		return false;
+		return true;
 	}
 
 	public boolean showWhenUnavailable() {
@@ -92,7 +92,7 @@ public class blackFleet extends MilitaryBase{
 		 supply(Commodities.CREW, size-2);// increases marines production
          	supply(Commodities.MARINES, size-2);// increases marine demand
 		applyIncomeAndUpkeep(3);
-		float bonus = DEFENSE_BONUS;
+		float bonus = DEFENSE_BONUS; 
 		market.getStats().getDynamic().getMod(Stats.GROUND_DEFENSES_MOD).modifyMult(getModId(), 1f + bonus, getNameForModifier());
 		market.getStability().modifyFlat("Eventide gendarmerie", IMPROVE_STABILITY_BONUS, getNameForModifier() );
 	 }

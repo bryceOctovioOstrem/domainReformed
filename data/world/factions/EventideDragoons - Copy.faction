@@ -1,0 +1,326 @@
+{
+	id:"Ronin",
+	#"color":[227,218,201,255],
+	"color":[49, 140, 231,255],
+	"displayName":"Ronin",
+	"logo":"graphics/illustrations/protest.jpg",
+	"displayNameWithArticle":"Eventide gendarmes",
+	"shipNamePrefix":"EGN",
+	"showInIntelTab":false,
+	"shipNameSources":{
+		"KNIGHTS":2,
+		"BRITISH_NAVY":1,
+		"JAPANESE":3,
+	},
+	"names":{
+		"fringe":1,
+		"modern":1,
+		"world":1,
+		"future":1,
+		"luddic":2,
+	},
+		"hullMods":[
+		"turretgyros",
+		"armoredweapons",
+		"auxiliarythrusters",
+		"blast_doors",
+		"dedicated_targeting_core",
+		"magazines",
+		"missleracks",
+		"hardened_subsystems",
+		"insulatedengine",
+		"pointdefenseai",
+		"reinforcedhull",
+		"unstable_injector",
+	],
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+		"vanguard_Outdated":5,
+		"vanguard_Outdated2":5,
+		
+		"manticore_Balanced":5,
+		"manticore_Outdated":5,
+		
+		"eradicator_Outdated":4,
+		"eradicator_Outdated2":3,
+		"eradicator_Fighter_Support":3,
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["luddic_church", "LC_bp"],
+		"hulls":[
+		"crig",
+			"cerberus",
+			"crig",
+			"ox",
+			"dram",
+			"phaeton",
+			"prometheus",
+			"shepherd",
+			"mule",
+			"yamato",
+			"Ise",
+			"shinano",
+			"venture",
+			"atlas",
+			"hermes",
+			"mudskipper",
+			"nebula",
+			"starliner",
+			"tarsus",
+			"colossus",
+		
+			"vanguard",
+			
+			"buffalo2",
+			"manticore",
+			"condor",
+			
+			"eradicator",
+			"mora",
+			
+			"retribution",
+			"invictus",
+		],
+	},
+	"knownShips":{
+		"tags":["luddic_church", "LC_bp"],
+		"hulls":[
+		"crig",
+			"cerberus",
+			"crig",
+			"ox",
+			"dram",
+			"phaeton",
+			"prometheus",
+			"shepherd",
+			"mule",
+			"venture",
+			"atlas",
+			"hermes",
+			"mudskipper",
+			"nebula",
+			"starliner",
+			"tarsus",
+			"colossus",
+			"yamato",
+			"Ise",
+			"shinano",
+			"vanguard",
+			
+			"buffalo2",
+			"manticore",
+			"condor",
+			
+			"eradicator",
+			"mora",
+			
+			"retribution",
+			"invictus",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		# capitals are all priority - this makes it so that they will get picked for the "capital" size ship
+		# without concern for matching the doctrine, i.e. a Legion will be as likely a pick as an Onslaught
+		# despite the Legion being a carrier and the carrier portion of the doctrine being low 
+		"hulls":[
+			"legion",
+			"legion_xiv",
+			"onslaught",
+			"onslaught_xiv",
+			
+			# need to be prioritized otherwise the Legion eats any and all carrier points
+			"condor",
+			"mora",
+			#"Richelieu",
+		],
+	},
+	"knownFighters":{
+		"tags":["luddic_church"],
+		"fighters":[
+			"broadsword_wing",
+			"perdition_wing",
+			"talon_wing",
+			"Zero_wing",
+			"D4Y_wing",
+			"D4Y_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+			"Zero_wing",
+			"D4Y_wing",
+			"D4Y_wing",
+		],
+	},
+"knownWeapons":{
+		"tags":["luddic_church"],
+		"weapons":[
+			"lightmg",
+			"lightdualmg",
+			"lightmortar",
+			"vulcan",
+			"lightac",
+			"lightdualac",
+			
+			"shredder",
+			"heavymortar",
+			"flak",
+			"arbalest",
+			
+			"mark9",
+			"hellbore",
+			"devastator",
+			
+			"hammer",
+			"hammer_single",
+			"swarmer",
+			"annihilator",
+			"harpoon",
+			"harpoon_single",
+			"breach",
+			"sabot",
+			"sabot_single",
+			
+			"jackhammer",
+			"harpoonpod",
+			"sabotpod",
+			"breachpod",
+			"salamanderpod",
+			"annihilatorpod",
+			"pilum",
+			
+			"pilum_large",
+			"hurricane",
+			"hammerrack",
+			
+			"mininglaser",
+			"miningblaster",
+			"type_94",
+			"356mm-45-Type41",
+		],
+	},
+	"hullmodSellFrequency":{
+		"heavyarmor":10,
+		"ballistic_rangefinder":10,
+		"converted_hangar":10,
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+			"type_94",
+			"356mm-45-Type41",
+			#"amblaster",
+			#"heavyblaster",
+			#"kineticblaster",
+			#"gigacannon",
+		],
+	},
+	"weaponSellFrequency":{
+	},
+	"fighterSellFrequency":{
+	},
+	"hullmodSellFrequency":{
+	},	
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":2,
+		"phaseShips":0,
+		
+		"officerQuality":2,
+		"shipQuality":1,
+		"numShips":4,
+		
+		"shipSize":4,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":0.25,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.25,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"crew_training",
+		],
+	},
+	"illegalCommodities":[
+		"ai_cores",
+		"drugs",
+		"organs",
+	],
+	"internalComms":"Domain_internal",
+"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_luddic00.png",
+			"graphics/portraits/portrait_luddic02.png",
+			"graphics/portraits/portrait_luddic04.png",
+			"graphics/portraits/portrait_luddic05.png",
+			"graphics/portraits/portrait_luddic06.png",
+			"graphics/portraits/portrait_luddic09.png",
+			"graphics/portraits/portrait_mercenary01.png",
+			"graphics/portraits/portrait_mercenary03.png",
+			"graphics/portraits/portrait12.png",
+			"graphics/portraits/portrait15.png",
+			"graphics/portraits/portrait17.png",
+			"graphics/portraits/portrait18.png",
+			"graphics/portraits/portrait20.png",
+			"graphics/portraits/portrait_luddic00.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_luddic01.png",
+			"graphics/portraits/portrait_luddic03.png",
+			"graphics/portraits/portrait_luddic07.png",
+			"graphics/portraits/portrait_luddic08.png",
+			"graphics/portraits/portrait_luddic10.png",
+			"graphics/portraits/portrait_luddic11.png",
+			"graphics/portraits/portrait16.png",
+			"graphics/portraits/portrait27.png",
+			"graphics/portraits/portrait28.png",
+			"graphics/portraits/portrait29.png",
+		],
+	},
+	"music":{
+		"theme":"music_luddite_market_neutral",
+		"market_neutral":"music_luddite_market_neutral",
+		"market_hostile":"music_luddite_market_hostile",
+		"market_friendly":"music_luddite_market_friendly",
+		"encounter_neutral":"music_luddite_encounter_neutral",
+		"encounter_hostile":"music_luddite_encounter_hostile",
+		"encounter_friendly":"music_luddite_encounter_friendly",
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"aristo":5,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"aristo":5,
+		},
+		"HIGH":{
+			"soldier":10,
+			"aristo":5,
+		},
+	},
+	"fleetTypeNames":{
+		"patrolSmall":"Kumi",
+		"patrolMedium":"Hatamoto",
+		"patrolLarge":"Kantai",
+	},
+	"custom":{
+		"postsNoBounties":true,
+	},
+
+},

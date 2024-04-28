@@ -152,7 +152,8 @@
       "width": 12,
       "angle": 90,
       "contrailSize": 29,
-      "style": "LOW_TECH_FIGHTER"
+      "style": "CUSTOM",
+      "styleId": "sail"
     },
     {
       "location": [16, -2.5],
@@ -160,7 +161,8 @@
       "width": 30,
       "angle": -90,
       "contrailSize": 60,
-      "style": "LOW_TECH_FIGHTER"
+      "style": "CUSTOM",
+      "styleId": "sail"
     },
     {
       "location": [-54.5, -0],
@@ -168,7 +170,8 @@
       "width": 12,
       "angle": -90,
       "contrailSize": 29,
-      "style": "LOW_TECH_FIGHTER"
+      "style": "CUSTOM",
+      "styleId": "sail"
     },
     {
       "location": [-25.5, 0.5],
@@ -176,7 +179,8 @@
       "width": 26,
       "angle": 0,
       "contrailSize": 58,
-      "style": "COBRA_BOMBER"
+      "style": "CUSTOM",
+      "styleId": "sail"
     }
   ],
   "bounds": [

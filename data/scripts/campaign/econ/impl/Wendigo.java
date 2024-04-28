@@ -45,18 +45,18 @@ public class Wendigo extends MilitaryBase{
 
         Random random = route.getRandom();
 
-        CampaignFleetAPI fleet = createPatrol(HEAVY, "Wendigos", route, market, null, random);// generates the fleet
+        CampaignFleetAPI fleet = createPatrol(COMBAT, "Wendigos", route, market, null, random);// generates the fleet
 
         if (fleet == null || fleet.isEmpty())
         {
             return null;
         }
 
-
+	fleet.setFaction( market.getFactionId());
         fleet.addEventListener(this);
 	
 	
-
+		
         market.getContainingLocation().addEntity(fleet);
         fleet.setFacing((float) Math.random() * 360f);
         // This will get overridden by the patrol assignment AI, depending on route-time elapsed etc
@@ -75,7 +75,7 @@ public class Wendigo extends MilitaryBase{
     }
 	@Override
 	public boolean isAvailableToBuild() {
-		return false;
+		return true;
 	}
 
 	public boolean showWhenUnavailable() {

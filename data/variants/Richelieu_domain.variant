@@ -109,7 +109,5 @@
     }
   ],
   "modules": [],
-  "wings": [
-    "vought_wing_4"
-  ]
+  "wings": []
 }

@@ -1,0 +1,72 @@
+{
+  "hullName": "New Hull",
+  "hullId": "J15",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/J15.PNG",
+  "style": "LOW_TECH",
+  "height": 69,
+  "width": 50,
+  "center": [25, 34.5],
+  "collisionRadius": 36.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 37.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-9.5, 18]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-8.5, -17]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [9.5, -3.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33.5, 3.5],
+      "length": 9.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-33.5, -4],
+      "length": 9.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    29.5, -0,
+    -1.5, 5.5,
+    -21.5, 24,
+    -18, 6.5,
+    -28.5, 6.5,
+    -28.5, -7,
+    -16.5, -6.5,
+    -21.5, -24,
+    -1.5, -5.5
+  ]
+}

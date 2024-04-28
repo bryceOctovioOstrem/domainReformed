@@ -89,7 +89,5 @@
     }
   ],
   "modules": [],
-  "wings": [
-    "talon_wing"
-  ]
+  "wings": []
 }

@@ -1,0 +1,42 @@
+{
+  "variantId": "Queen_Elizabeth_merc",
+  "hullId": "Queen_Elizabeth",
+  "displayName": "Merc",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "ecm",
+    "expanded_deck_crew",
+    "heavyarmor",
+    "recovery_shuttles",
+    "pointdefenseai",
+    "fluxbreakers",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymg",
+        "WS0002": "heavyburst",
+        "WS0003": "heavyburst",
+        "WS0004": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "longbow_wing",
+    "longbow_wing",
+    "gladius_wing",
+    "dagger_wing",
+    "dagger_wing",
+    "dagger_wing",
+    "dagger_wing"
+  ]
+}

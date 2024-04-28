@@ -1,18 +1,18 @@
 {
 	id:"Whitesky",
 	#"color":[227,218,201,255],
-	"color":[ 243, 238, 225,255],
+	"color":[ 10,10,10,255],
 	"displayName":"Whiteskye",
 	"logo":"graphics/factions/neutral_traders.png",
 	"displayNameWithArticle":"Whiteskye",
 	"shipNamePrefix":"WSN",
 	"showInIntelTab":false,
-	"shipNameSources":{
-		"GREEK":4,
-		"BRITISH_NAVY":2,
-		"SPACE":4,
-		"CELTIC":4,
-		"GENERAL":1,
+"shipNameSources":{
+		"GERMANIC":5,
+		"JAPANESE":4,
+		"BEASTS":3,
+		"CELTIC":1,
+		"ROMAN":2,
 	},
 	"names":{
 		"modern":1,
@@ -51,44 +51,56 @@
 		"paragon",
 		"glimmer",
 		"radiant",
-		"Wichita",
 		"bismark",
-		"Iowa",
-		"StLouis",
+		"Z23",
+		"shinano",
 		"yamato",
-		"Ford",
+		"kuznetsov",
+		"Ise",
 		],
 	},
 	"knownShips":{
 		"tags":[],
 		"hulls":[
+		"centurion",
+		"hyperion",
+		"monitor",
+		"omen",
+		"scarab",
+		"enforcer",
+		"hammerhead",
+		"manticore",
+		"champion",
+		"dominator",
+		"eradicator",
+		"heron",
+		"conquest",
+		"onslaught",
+		"paragon",
+		"glimmer",
+		"radiant",
+		"bismark",
+		"Z23",
+		"shinano",
+		"yamato",
+		"kuznetsov",
+		"Ise",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
 		"tags":[],
 		"hulls":[
-
+		"bismark"
 		],
 	},
 	"knownFighters":{
 		"tags":[],
 		"fighters":[
-		"broadsword_wing",
-		"dagger_wing",
-		"hoplon_wing",
-		"longbow_wing",
-		"perdition_wing",
-		"xyphos_wing",
-		"spark_wing",
-		"F-35_wing",
-		"euroFighter_wing",
-		"B-1_wing",
-		"F22_wing",
 		],
 	},
 	"priorityFighters":{
-		"tags":[],
+		"tags":["DR"],
 		"fighters":[
 		],
 	},
@@ -122,7 +134,6 @@
 		"squall",
 		"miningblaster",
 		"380mmSK",
-		"DR_Tomahawk",
 		"16in",
 		"type_94",
 		"125mmSK",
@@ -130,7 +141,7 @@
 		],
 	},
 	"priorityWeapons":{
-		"tags":[],
+		"tags":["DR"],
 		"weapons":[
 			#"amblaster",
 			#"heavyblaster",
@@ -155,17 +166,17 @@
 	"hullmodSellFrequency":{
 	},	
 	"factionDoctrine":{
-		"warships":4,
-		"carriers":2,
+		"warships":3,
+		"carriers":3,
 		"phaseShips":1,
 		
 		"officerQuality":5,
 		"shipQuality":5,
 		"numShips":5,
 		
-		"shipSize":2,
+		"shipSize":3,
 		
-		"aggression":3,
+		"aggression":4,
 		
 		"combatFreighterProbability":0.5,     				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":0,				# as part of the normal combat lineup
@@ -176,7 +187,6 @@
 		"ai_cores",
 		"drugs",
 		"organs",
-		"lobster",
 	],
 	"internalComms":"Domain_internal",
 "portraits":{
@@ -228,7 +238,6 @@
 		],
 	},
 	"music":{
-		"theme":"music_DR_theme",
 		"market_neutral":"music_whiteskye_theme",
 		"market_hostile":"music_whiteskye_theme",
 		"market_friendly":"music_whiteskye_theme",

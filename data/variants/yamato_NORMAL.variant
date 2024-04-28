@@ -82,8 +82,5 @@
     }
   ],
   "modules": [],
-  "wings": [
-    "E8N_wing_3",
-    "E8N_wing_4"
-  ]
+  "wings": []
 }

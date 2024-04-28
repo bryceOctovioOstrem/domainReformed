@@ -1,0 +1,180 @@
+{
+  "hullName": "type300",
+  "hullId": "type300",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/DR/ships/type-003.png",
+  "style": "LOW_TECH",
+  "height": 791,
+  "width": 206,
+  "center": [103, 395.5],
+  "collisionRadius": 398,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 405.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ballistic_rangefinder",
+    "operations_center",
+    "rugged",
+    "comp_hull"
+  ],
+  "builtInWings": [
+    "J-15_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 65.5,
+      "locations": [243.5, 50]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 65.5,
+      "locations": [217.5, 50],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -65.5,
+      "locations": [249.5, -61]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -64,
+      "locations": [223.5, -64.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -115,
+      "locations": [-301.5, -86],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": -143,
+      "locations": [-327.5, -75]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 126,
+      "locations": [-303.5, 69],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": 136.5,
+      "locations": [-331.5, 58]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        56, -76.5,
+        72.5, -74.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -169.5, -78,
+        -196, -78
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-391.5, 28.5],
+      "length": 61,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-392.5, -38],
+      "length": 60,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-396.5, -5.5],
+      "length": 70,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-62.5, -80.5],
+      "length": 16,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    }
+  ],
+  "bounds": [
+    388.5, -39.5,
+    388.5, 28,
+    205.5, 38.5,
+    171, 96,
+    91.5, 95,
+    43.5, 80,
+    -284.5, 78.5,
+    -296.5, 55,
+    -315.5, 55,
+    -320, 44,
+    -384, 38.5,
+    -384.5, -50,
+    -318, -59,
+    -314.5, -68.5,
+    -302.5, -68.5,
+    -271.5, -97.5,
+    179, -89,
+    221.5, -49.5
+  ]
+}

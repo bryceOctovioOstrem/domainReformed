@@ -13,14 +13,10 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "sabot_single_hidden",
-        "WS0002": "sabot_single_hidden",
-        "WS0003": "atropos_single_hidden",
-        "WS0004": "atropos_single_hidden",
-        "WS0005": "breach_hidden",
-        "WS0006": "breach_hidden",
-        "WS0007": "harpoon_single_hidden",
-        "WS0008": "harpoon_single_hidden"
+        "WS0003": "breach_hidden",
+        "WS0004": "swarmer",
+        "WS0007": "breach_hidden",
+        "WS0008": "swarmer"
       }
     }
   ],

@@ -57,8 +57,8 @@
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "HIDDEN",
-      "arc": 184,
-      "angle": -90,
+      "arc": 180,
+      "angle": -89,
       "locations": [38, -36]
     },
     {
@@ -66,8 +66,8 @@
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "HIDDEN",
-      "arc": 183,
-      "angle": 89,
+      "arc": 180,
+      "angle": 87.5,
       "locations": [39, 35]
     },
     {

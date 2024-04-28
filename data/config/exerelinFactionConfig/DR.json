@@ -4,12 +4,12 @@
     
     "rebelFleetSuffix":"Traitors",
     
-    "marketSpawnWeight":2,
+    "marketSpawnWeight":1,
 
     "startRelationships":{ "tritachyon": -0.3, "persean":-0.6 },
     "maxRelationships":{"remnant":-0.51,"luddic_path":-0.7,"luddic_church": -0.35,"persean":-0.66,"sindrian_diktat": -0.69,"independent": -0.5},
-    "diplomacyPositiveChance":{ "hegemony":0.8,"tritachyon":1.2},
-    "diplomacyNegativeChance":{ "hegemony":1.2},
+    "diplomacyPositiveChance":{ "hegemony":0.9,"tritachyon":1.2},
+    "diplomacyNegativeChance":{ "hegemony":1.1},
     "dispositions":{
         "persean": -10,
         "sindrian_diktat": -10,
@@ -22,12 +22,13 @@
         "diplomatic":-0.5,
         "ideological":-0.5,
     },
-    "diplomacyTraits":["selfrighteous", "irredentist", "foreverwar","paranoid", "dislikes_ai","helps_allies"],
+    "diplomacyTraits":["selfrighteous", "irredentist", "foreverwar","paranoid", "dislikes_ai","envious"],
     
     # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
-    "colonyExpeditionChance":1,	# baseline expansion behaviour
+    "colonyExpeditionChance":2,	# baseline expansion behaviour
     "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
-    
+        "maxColonyDistance": 40,	
+
     "groundBattleSettings":{
         "moraleDamageTakenMult":1.1,
     },
@@ -65,9 +66,9 @@
     "industrySeeds":[
         {"id":"orbitalworks", "mult":0.1},
         {"id":"DR_Whiteskye", "mult":0.1},
-		{"id":"blackFleet", "mult":0.1},
-		{"id":"Gendarmerie", "mult":0.1},
-		{"id":"DR_Wendigo", "mult":0.1},
+	{"id":"blackFleet", "mult":0.1},
+	{"id":"Gendarmerie", "mult":0.1},
+	{"id":"DR_Wendigo", "mult":0.1},
     ],
     
     "bonusSeeds":[

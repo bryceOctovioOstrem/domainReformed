@@ -18,6 +18,9 @@
     "operations_center",
     "fragile_subsystems"
   ],
+  "builtInWings": [
+    "B-1_wing"
+  ],
   "weaponSlots": [
     {
       "id": "LB 1",
@@ -70,7 +73,7 @@
     },
     {
       "id": "WS0004",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "MISSILE",
       "mount": "TURRET",
       "arc": 1,

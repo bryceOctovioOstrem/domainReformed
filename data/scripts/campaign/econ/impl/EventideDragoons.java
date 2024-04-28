@@ -36,22 +36,22 @@ public class EventideDragoons extends MilitaryBase{
 	
 	
 	
-// Same as vanilla except fixes http://fractalsoftworks.com/forum/index.php?topic=8558.msg258499#msg258499
     @Override
     public CampaignFleetAPI spawnFleet(RouteManager.RouteData route)
     {
         PatrolFleetData custom = (PatrolFleetData) route.getCustom();
-        FleetFactory.PatrolType type = custom.type;
+        //FleetFactory.PatrolType type = custom.type;
 
         Random random = route.getRandom();
 
-        CampaignFleetAPI fleet = createPatrol(COMBAT, "EventideDragoons", route, market, null, random);// generates the fleet
+        CampaignFleetAPI fleet = createPatrol(COMBAT, "EventideDragoons", route, market,null, random);// generates the fleet
 
         if (fleet == null || fleet.isEmpty())
         {
             return null;
         }
-
+	
+	fleet.setFaction( market.getFactionId());
 
         fleet.addEventListener(this);
 	
@@ -75,7 +75,7 @@ public class EventideDragoons extends MilitaryBase{
     }
 	@Override
 	public boolean isAvailableToBuild() {
-		return false;
+		return true;
 	}
 
 	public boolean showWhenUnavailable() {

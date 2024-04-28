@@ -32,11 +32,10 @@ import data.scripts.campaign.econ.DR_industries;
 import java.util.Random;
 
 // TODO: Contains stuff to be checked after a Starsector update is released
-public class DR_Whiteskye extends MilitaryBase{
+public class Whiteskye extends MilitaryBase{
 	
 	
 	
-// Same as vanilla except fixes http://fractalsoftworks.com/forum/index.php?topic=8558.msg258499#msg258499
     @Override
     public CampaignFleetAPI spawnFleet(RouteManager.RouteData route)
     {
@@ -45,14 +44,14 @@ public class DR_Whiteskye extends MilitaryBase{
 
         Random random = route.getRandom();
 
-        CampaignFleetAPI fleet = createPatrol(HEAVY, "Whitesky", route, market, null, random);// generates the fleet
+        CampaignFleetAPI fleet = createPatrol(COMBAT, "Whitesky", route, market, null, random);// generates the fleet
 
         if (fleet == null || fleet.isEmpty())
         {
             return null;
         }
 
-
+	fleet.setFaction( market.getFactionId());
         fleet.addEventListener(this);
 	
 	
@@ -75,7 +74,7 @@ public class DR_Whiteskye extends MilitaryBase{
     }
 	@Override
 	public boolean isAvailableToBuild() {
-		return false;
+		return true;
 	}
 
 	public boolean showWhenUnavailable() {
@@ -86,9 +85,9 @@ public class DR_Whiteskye extends MilitaryBase{
 		 public void apply() {
 		
 		 int size = market.getSize();// gets market size 
-		 demand(Commodities.SHIPS, size-1);//increases ore demand
-		 demand(Commodities.FUEL, size-1);// increases organics demand
-		demand(Commodities.HAND_WEAPONS, size-1);// increases organics demand
+		 demand(Commodities.SUPPLIES, size-1);//increases ore demand
+		demand(Commodities.HEAVY_MACHINERY, size-1);//increases ore demand
+		 demand(Commodities.DOMESTIC_GOODS, size-1);// increases organics demand
 		 supply(Commodities.CREW, size-2);// increases marines production
          	supply(Commodities.MARINES, size-2);// increases marine demand
 		applyIncomeAndUpkeep(3);

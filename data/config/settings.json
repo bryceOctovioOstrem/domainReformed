@@ -3,5 +3,14 @@
     "blueprint_packages":{
       "DR_package":"graphics/DR/icon/cargo/domain_package.png",
     },
+			"illustrations":
+		{
+			"Justinian_planet":"graphics/planets/Justinian.png",
+			"oshun_planet":"graphics/planets/oshun.png",
+			"takamori_planet":"graphics/planets/takamori.png",
+			"confucius_planet":"graphics/planets/confucius.png",
+			"illyn_planet":"graphics/planets/illyn.png",
+			"Maistre_planet":"graphics/planets/Maistre.png",
+		},
   }
 }
