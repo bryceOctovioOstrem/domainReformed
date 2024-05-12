@@ -82,7 +82,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         // BREAK
         //market.addCondition(Conditions.ORGANICS_PLENTIFUL);
         market.addCondition(Conditions.FARMLAND_BOUNTIFUL);
-        market.addCondition(Conditions.MILD_CLIMATE);
+        //market.addCondition(Conditions.MILD_CLIMATE);
         market.addCondition(Conditions.REGIONAL_CAPITAL);
         market.addCondition(Conditions.HOT);
         market.addCondition(Conditions.SOLAR_ARRAY);
@@ -401,7 +401,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addCondition(Conditions.RURAL_POLITY);
 		market.addCondition(Conditions.TECTONIC_ACTIVITY); // check first
 		market.addCondition(Conditions.INIMICAL_BIOSPHERE);
-        //market.addCondition(Conditions.FRONTIER);
+        market.addCondition(Conditions.EXTREME_WEATHER);
         //market.addCondition(Conditions.LOW_GRAVITY);
         //market.addCondition(Conditions.FARMLAND_POOR);
         //market.addCondition(Conditions.DECIVILIZED_SUBPOP);
@@ -416,7 +416,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.AQUACULTURE);
         //market.addIndustry(Industries.STARFORTRESS);
 		//market.addIndustry(DR_industries.DR_STATION3);
-        market.addIndustry(Industries.PATROLHQ );
+        market.addIndustry(Industries.PATROLHQ);
         market.addIndustry(Industries.SPACEPORT);
         //market.addIndustry(Industries.HEAVYINDUSTRY);
         //market.addIndustry(Industries.REFINING);
@@ -495,7 +495,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addCondition(Conditions.INDUSTRIAL_POLITY );
         market.addCondition(Conditions.COLD);
         market.addCondition(Conditions.AI_CORE_ADMIN);
-        //market.addCondition(Conditions.ORGANIZED_CRIME);
+        market.addCondition(Conditions.EXTREME_WEATHER);
         //market.addCondition(Conditions.POLLUTION);
 
         // industries
@@ -586,7 +586,7 @@ public class DR_ModPlugin extends BaseModPlugin {
 
         market.addCondition(Conditions.URBANIZED_POLITY);
         //market.addCondition(Conditions.COLD);
-        market.addCondition(Conditions.EXTREME_WEATHER );
+        //market.addCondition(Conditions.EXTREME_WEATHER);
         market.addCondition(Conditions.ORGANIZED_CRIME);
         market.addCondition(Conditions.POLLUTION);
 
@@ -601,7 +601,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.WAYSTATION);
         //market.addIndustry(Industries.FARMLAND_POOR);
         //market.addIndustry(Industries.COMMERCE);
-        market.addIndustry(DR_industries.DR_WENDIGO);
+        market.addIndustry(DR_industries.RONIN);
 		
 
 	    //Industry  KulugPATROLHQ = market.getIndustry(Industries.PATROLHQ);// grabs the orbital 

@@ -1,5 +1,5 @@
 {
-	id:"Ronin",
+	id:"ronin",
 	#"color":[227,218,201,255],
 	"color":[49, 140, 231,255],
 	"displayName":"Ronin",
@@ -133,14 +133,13 @@
 		# without concern for matching the doctrine, i.e. a Legion will be as likely a pick as an Onslaught
 		# despite the Legion being a carrier and the carrier portion of the doctrine being low 
 		"hulls":[
-			"legion",
-			"legion_xiv",
-			"onslaught",
-			"onslaught_xiv",
+			"yamato",
+			"Ise",
+			"shinano",
 			
 			# need to be prioritized otherwise the Legion eats any and all carrier points
-			"condor",
-			"mora",
+			#"condor",
+			#"mora",
 			#"Richelieu",
 		],
 	},
@@ -209,11 +208,6 @@
 			"type_94",
 			"356mm-45-Type41",
 		],
-	},
-	"hullmodSellFrequency":{
-		"heavyarmor":10,
-		"ballistic_rangefinder":10,
-		"converted_hangar":10,
 	},
 	"priorityWeapons":{
 		"tags":[],
