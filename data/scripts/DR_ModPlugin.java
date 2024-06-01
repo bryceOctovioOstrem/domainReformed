@@ -166,7 +166,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addCondition(Conditions.RUINS_SCATTERED);
         market.addCondition(Conditions.ORE_ULTRARICH);
         market.addCondition(Conditions.DECIVILIZED_SUBPOP);
-
+	market.addCondition(Conditions.POLLUTION);
         market.addCondition(Conditions.RARE_ORE_ULTRARICH);
         market.addCondition(Conditions.INIMICAL_BIOSPHERE);
         market.addCondition(Conditions.FRONTIER);
@@ -641,6 +641,37 @@ public class DR_ModPlugin extends BaseModPlugin {
 					system.addEntity(jumpPoint2);
 					system.autogenerateHyperspaceJumpPoints(true,false);
 					
-					system.updateAllOrbits();
+					//CustomCampaignEntityAPI station1 = system.addCustomEntity( //create station
+					//"Mirfak_station", //id
+					//"Meloni Station", //display name
+					//"station_side03", //types are found in data/config/custom_entities.json
+					//Factions.DR
+		//);
+		//station1.setCircularOrbitPointingDown( // set stations orbit
+		//	star, 
+		//	0, //Angle
+		//	6000, //orbit radius
+		//	23 //orbit period
+		//);
+		//station1.setRadius(35);// shifts ecounter radius
+		//MarketAPI market = station1.getMarket();
+		//market.setSize(3);
+		//market.addSubmarket(Submarkets.SUBMARKET_BLACK);
+		//market.addSubmarket(Submarkets.SUBMARKET_OPEN);
+		//market.addIndustry(Industries.POPULATION);
+		//market.addIndustry(Industries.SPACEPORT);
+		//Put a defensive station in orbit.
+		//market.addIndustry(Industries.ORBITALSTATION_HIGH);
+		//Make it so fleets will spawn here.
+		//market.addIndustry(Industries.PATROLHQ);
+		//Make it so that ores will be mined here.
+		//market.addIndustry(Industries.TECHMINING);
+		//market.getTariff().modifyFlat("generator", 0.15f);
+		//EconomyAPI globalEconomy = Global.getSector().getEconomy();		
+		//globalEconomy.addMarket(market, true);
+		//market.setFactionId("DR");
+
+
+		system.updateAllOrbits();
 		}
 }

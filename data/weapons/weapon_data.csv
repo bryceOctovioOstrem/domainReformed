@@ -30,7 +30,7 @@ P-1000 Vulkans,wyrm,2,,2000,2000,,8000,,15,10,12,2,,,FRAGMENTATION,0,,0,5,1,,0,0
     zimadevushka - Payload,wyrm_payload,2,,0,1000,5000,,,,20,0,,,,FRAGMENTATION,0,,0,0.75,10,0.5,,,,,1000000,,,,,,,"SYSTEM, DANGEROUS",fires_one_burst,,Unknown,,,,,,,,,,,,
 Single 152 mm/45 Model 1892 on a Canet mounting,cryo152mm,3,,900,862,,38,,2,40,12,120,6,60,FRAGMENTATION,50,,,0.05,2,0.05,0,0,0,0,,500,,,,,,,"no_sell, no_drop, no_drop_salvage",,Unknown,,General,,,,,,,,,,
 Quad BL 14-inch Mk VII,quad14in,3,0.8,7500,716,,500,,100,10,26,,,,ENERGY,500,,0,4,4,0,10,20,3,,,1066,,,500,,,"STRIKE, USE_VS_FRIGATES","energy20,ind, DR,pirates,luddic_path",,Unknown,,General,,,,,,,,,,
-Duel 356mm/45 Type 41,356mm-45-Type41,3,,7400,1185,,858,,,4,19,,,,HIGH_EXPLOSIVE,1192,,0,8,2,0,1,4,1,0,,1293,,,500,,,STRIKE,"energy20,ind, DR,pirates,luddic_path",,Unknown,,Anti Armor,,,,,,,,,,
+Duel 356mm/45 Type 41,356mm-45-Type41,3,,7400,1185,,858,,,4,20,,,,HIGH_EXPLOSIVE,1192,,0,8,2,0,1,4,1,0,,1293,,,500,,,STRIKE,"energy20,ind, DR,pirates,luddic_path",,Unknown,,Anti Armor,,,,,,,,,,
 Twin BL 14-inch Mk VII,twin14in,3,,7500,716,,500,,,20,18,,,,ENERGY,500,,0,1,1,0.33,0,5,1,0,,1066,,,500,,,USE_VS_FRIGATES,"energy20,ind, DR,pirates,luddic_path",,Unknown,,General,,,,,,,,,,
 Duel QF 5.25-inch ,duelQF,1,,1600,634,,175,,0,30,19,,,,ENERGY,175,,,0.5,,,0,2,1,0,,1066,,,,,,PD,"energy13, ind, DR,pirates,luddic_path",,Unknown,,General,,,,,,,,,,
 "12.7 cm (5"") SK C/41",125mmSK,3,,250,451,,12,,3,30,7,120,6,60,ENERGY,6,,0.976,,60,0.05,0,0,0,0,,500,,,,,,PD,"energy15,   ind, DR,pirates,luddic_path,no_sell",,Unknown,,General,,,,,,,,,,
@@ -49,3 +49,6 @@ station face,StationFace,0,,40,600,,0,,16,15,3,,,,KINETIC,200,,0,4,1,,0,15,3,10,
 5 inch (127 mm)/L62 caliber Mk 45 Mod 4,L62,2,0.5,645,751,,42,,7,42,7,,,,KINETIC,53,,0.15,0.15,1,,,,,,,1135,,,50,,,PD,"kinetic8, DR,pirates,luddic_path, merc",,,,Anti Shield,,,,,,,,,,
 BL 12-inch Mk X,12inMKX,1,,5000,843,,142,,5,20,18,,,,ENERGY,197,,0,0.3,1,,1,10,1,5,,843,,,50,,,,"he18,DR, merc, ind,luddic_path",,,,General,,,,,,,,,,7
 Quad 330mm/50 Modèle gun,330mm,2,,3000,888,,274,22,330,4,20,,,,HIGH_EXPLOSIVE,768,,0,1.125,1,0,0,10,5,10,,1932,,,400,,,,"he18, lowtech_bp, merc, ind",,,,Anti Armor,,,,,,,,,,8
+12 cm/45 10th Year Type,DR_12cm,1,,538,800,,200,,10,40,4,,,,FRAGMENTATION,50,,0,2,1,,1,12,2,10,,710,,,30,,,PD,"pd13, DR, merc, ind,luddic_path",,,,Point Defense (Area),,,,,,,,,,4
+"14 cm/50 (5.5"") 3rd Year Type",DR_14cm,3,0.3,2019,1083,,201,,20,10,12,,,,HIGH_EXPLOSIVE,201,,0,8.8,2,0.3,0,5,1,10,,949,,,30,,,,"he16,DR, merc, ind,luddic_path",,,,Anti Armor,,,,,,,,,,4.75
+ Twin 61 cm torpedo tubes,twin61cm,0,,1000,1200,,1540,,30,15,7,6,,,HIGH_EXPLOSIVE,0,,0,6.3,2,0.25,10,10,0,0,,646,40,4,350,,,"CONSERVE_FOR_ANTI_ARMOR,STRIKE","strike10,DR, merc, ind,luddic_path",,,,Torpedo,Fast,None,,,,,,,TRUE,13.75

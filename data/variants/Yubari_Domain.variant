@@ -1,0 +1,77 @@
+{
+  "variantId": "Yubari_Domain",
+  "hullId": "Yubari",
+  "displayName": "Domain",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0004": "vulcan",
+        "WS0006": "vulcan",
+        "WS0008": "vulcan",
+        "WS0011": "Oerlikon",
+        "WS0012": "Oerlikon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan",
+        "WS0005": "vulcan",
+        "WS0007": "vulcan",
+        "WS0009": "vulcan",
+        "WS0013": "Oerlikon",
+        "WS0014": "Oerlikon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "DR_12cm",
+        "WS0010": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "DR_14cm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "DR_14cm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "twin61cm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "twin61cm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

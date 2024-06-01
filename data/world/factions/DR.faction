@@ -8,8 +8,8 @@
 	"entityNamePrefix":"Domain",
 	"shipNamePrefix":"DN",
 	"shipNameSources":{
-		"BRITISH_NAVY":2,
-		"ROMAN":4,
+		"BRITISH_NAVY":4,
+		"ROMAN":2,
 		"GREEK":1,
 	},
 	"names":{
@@ -58,7 +58,8 @@
 		"Dreadnaught_DR":100,
 		"kuznetsov_domain":100,
 		"zubr_standard":100,
-		"constitution_domain":100
+		"constitution_domain":100,
+		"Yubari_Domain":100
 },	
 	
 	# multiplier for how often hulls show up in the faction's fleets
@@ -160,7 +161,7 @@
 		"combatFreighterProbability":0.9,      				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":1,  				# as part of the normal combat lineup
 		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
-		"autofitRandomizeProbability":0.01,
+		"autofitRandomizeProbability":0,
 		
 		"commanderSkillsShuffleProbability":1,
 		"commanderSkills":[

@@ -1,0 +1,49 @@
+{
+  "id": "twin61cm",
+  "specClass": "projectile",
+  "projectileSpecId": "Type93torpedo",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/DR_twin61cm_turret.png",
+  "hardpointSprite": "graphics/weapons/DR_twin61cm_hardpoint.png",
+  "turretOffsets": [
+    27,
+    3,
+    27,
+    -3
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    34,
+    3,
+    34,
+    -3
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 20,
+    "particleSizeRange": 12,
+    "cloudParticleCount": 8,
+    "cloudDuration": 2.5,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 22,
+    "blowbackSpread": 15,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ]
+  },
+  "fireSoundTwo": "hammer_fire"
+}

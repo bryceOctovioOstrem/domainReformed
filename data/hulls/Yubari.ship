@@ -1,0 +1,235 @@
+{
+  "hullName": "Yubari",
+  "hullId": "Yubari",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/DR/ships/Yubari.PNG",
+  "style": "LOW_TECH",
+  "height": 489,
+  "width": 62,
+  "center": [31, 244.5],
+  "collisionRadius": 247,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 254,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "rugged",
+    "autorepair",
+    "escort_package"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [174.5, 10]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [174.5, -9]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": 0,
+      "locations": [157.5, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [96.5, 17],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [97.5, -18],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 90,
+      "locations": [-59.5, 15],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -90,
+      "locations": [-63.5, -15],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 90,
+      "locations": [-107.5, 14],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -90,
+      "locations": [-108.5, -14],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 180,
+      "locations": [-163.5, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 90,
+      "locations": [-182.5, 9],
+      "renderOrderMod": 50
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-200.5, 8]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-200.5, -7]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -90,
+      "locations": [-182.5, -9],
+      "renderOrderMod": 50
+    },
+    {
+      "id": "WS0015",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 0,
+      "locations": [126.5, 0.5],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0016",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 180,
+      "locations": [-133.5, -0],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0017",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 90,
+      "locations": [-83.5, -1]
+    },
+    {
+      "id": "WS0018",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": -90,
+      "locations": [-33.5, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [13.5, -0],
+      "length": 30,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [-245.5, 22],
+      "length": 37,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-245.5, -22],
+      "length": 37,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    241, -0,
+    174.5, 14.5,
+    96.5, 19.5,
+    -107, 18,
+    -184.5, 15,
+    -237.5, -0,
+    -182, -17,
+    -108.5, -18.5,
+    97.5, -21.5,
+    176, -16
+  ]
+}

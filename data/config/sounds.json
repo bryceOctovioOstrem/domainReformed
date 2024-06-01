@@ -120,8 +120,8 @@
 	[
 		{"file":"sounds/sfx_wpn_guns/Flammenwerfer.ogg","pitch":1,"volume":.4},
 	],
-			"Flammenwerfer_chargeUp":
+			"duelCruiserGunsBallistic":
 	[
-		{"file":"sounds/sfx_wpn_guns/Flammenwerfer_chargeUp.ogg","pitch":1,"volume":.3},
+		{"file":"sounds/sfx_wpn_guns/14cm.ogg","pitch":1,"volume":.5},
 	],
 }

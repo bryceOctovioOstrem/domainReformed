@@ -1,0 +1,48 @@
+{
+  "id": "DR_14cm",
+  "specClass": "projectile",
+  "projectileSpecId": "DR_14cm_shell",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/DR_14cm3rdYearType_Hardpoint.png",
+  "turretGunSprite": "graphics/weapons/DR_14cm3rdYearType_Hardpoint.png",
+  "hardpointSprite": "graphics/weapons/DR_14cm3rdYearType_turret.png",
+  "hardpointGunSprite": "graphics/weapons/DR_14cm3rdYearType_turret.png",
+  "turretOffsets": [
+    36,
+    2,
+    36,
+    -2
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    39,
+    2,
+    39,
+    -2
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING_BURST",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 57,
+    "spread": 10,
+    "particleSizeMin": 12,
+    "particleSizeRange": 14,
+    "particleDuration": 0.5,
+    "particleCount": 24,
+    "particleColor": [
+      188,
+      0,
+      45,
+      200
+    ]
+  },
+  "fireSoundOne": "duelCruiserGunsBallistic"
+}
