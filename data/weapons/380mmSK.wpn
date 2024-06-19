@@ -28,14 +28,15 @@
     0
   ],
   "barrelMode": "ALTERNATING",
+  "autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {
     "length": 136,
     "spread": 10,
     "particleSizeMin": 18,
-    "particleSizeRange": 24,
-    "particleDuration": 0.12,
-    "particleCount": 12,
+    "particleSizeRange": 52,
+    "particleDuration": 0.22,
+    "particleCount": 16,
     "particleColor": [
       221,
       0,
@@ -43,5 +44,6 @@
       215
     ]
   },
+"fireSoundOne": "32cmChargeUp",
   "fireSoundTwo": "380SK"
 }

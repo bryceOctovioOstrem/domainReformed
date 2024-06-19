@@ -17,6 +17,10 @@
     "autorepair",
     "distributed_fire_control"
   ],
+  "builtInWeapons": {
+    "WS0012": "depthCharge",
+    "WS0013": "depthCharge"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -116,6 +120,24 @@
       "arc": 250,
       "angle": 180,
       "locations": [-43.5, -0.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-169, 8.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-169, -8.5]
     }
   ],
   "engineSlots": [

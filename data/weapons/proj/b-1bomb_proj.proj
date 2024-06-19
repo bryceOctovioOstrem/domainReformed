@@ -4,7 +4,7 @@
 	"missileType":"BOMB",
 	#"missileType":"BOMB_WITH_SLOW",
 	#"missileType":"ROCKET",
-	"sprite":"graphics/missiles/missile_annihilator.png",
+	"sprite":"graphics/missiles/missile_harpoon.png",
 	"size":[12,16],	
 	"center":[6,8],
 	"collisionRadius":16,

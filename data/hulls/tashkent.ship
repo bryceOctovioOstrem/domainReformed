@@ -19,6 +19,9 @@
     "insulatedengine",
     "nav_relay"
   ],
+  "builtInWeapons": {
+    "WS0017": "depthCharge"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -163,6 +166,15 @@
       "arc": 286,
       "angle": 180,
       "locations": [-139, -0]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-198.5, -0]
     }
   ],
   "engineSlots": [

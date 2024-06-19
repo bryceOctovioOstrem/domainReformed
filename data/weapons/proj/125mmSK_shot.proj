@@ -10,8 +10,8 @@
 	"width":20.0,
 	"hitGlowRadius":0,
 	"fadeTime":0.25,
-	"fringeColor":[255,183,11,100],
-	"coreColor":[221, 0, 0,200],
+	"fringeColor":[148,0,211,80],
+	"coreColor":[75,0,130,200],
 	#"coreColor":[255,255,255,50],
 	"textureType":"SMOOTH",  # only needed for BEAM spawnType
 	"textureScrollSpeed":-256,

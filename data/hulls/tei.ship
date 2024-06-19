@@ -1,0 +1,70 @@
+{
+  "hullName": "tei",
+  "hullId": "tei",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/DR/ships/Soukou-Tei.PNG",
+  "style": "LOW_TECH",
+  "height": 148,
+  "width": 35,
+  "center": [17.5, 74],
+  "collisionRadius": 75,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 77,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "autorepair",
+    "rugged",
+    "fluxbreakers"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [55, 0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [30, 0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 322,
+      "angle": 180,
+      "locations": [-30, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-75, -1],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "JAPAN_RED"
+    }
+  ],
+  "bounds": [
+    72.5, -0,
+    61, 10.5,
+    37.5, 15.5,
+    -63.5, 12.5,
+    -72.5, -0.5,
+    -62, -12.5,
+    38.5, -15.5,
+    62.5, -10
+  ]
+}

@@ -3,7 +3,7 @@
   "hullId": "yamato",
   "displayName": "New",
   "goalVariant": true,
-  "fluxCapacitors": 0,
+  "fluxCapacitors": 20,
   "fluxVents": 46,
   "quality": 0,
   "permaMods": [],

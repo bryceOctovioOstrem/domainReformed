@@ -13,10 +13,15 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "breach_hidden",
-        "WS0004": "swarmer",
-        "WS0007": "breach_hidden",
-        "WS0008": "swarmer"
+        "WS0001": "Meteor",
+        "WS0002": "Meteor",
+        "WS0003": "hiddenBombSmall",
+        "WS0004": "hiddenBombSmall",
+        "WS0005": "hiddenBombSmall",
+        "WS0006": "hiddenBombSmall",
+        "WS0007": "ASRAAM",
+        "WS0008": "ASRAAM",
+        "WS0009": "lrpdlaser"
       }
     }
   ],

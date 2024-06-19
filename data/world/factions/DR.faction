@@ -59,7 +59,8 @@
 		"kuznetsov_domain":100,
 		"zubr_standard":100,
 		"constitution_domain":100,
-		"Yubari_Domain":100
+		"Yubari_Domain":100,
+		"tei_domain":100
 },	
 	
 	# multiplier for how often hulls show up in the faction's fleets
@@ -161,7 +162,7 @@
 		"combatFreighterProbability":0.9,      				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":1,  				# as part of the normal combat lineup
 		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
-		"autofitRandomizeProbability":0,
+		"autofitRandomizeProbability":0, # preseve the knowlege of the acients
 		
 		"commanderSkillsShuffleProbability":1,
 		"commanderSkills":[
@@ -243,7 +244,7 @@
 	"voices":{
 		"LOW":{
 			"soldier":10,
-			"faithful":5,		
+			"faithful":1,		
 			"spacer":5,
 		},
 		"MEDIUM":{

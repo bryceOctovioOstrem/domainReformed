@@ -1,0 +1,40 @@
+{
+  "variantId": "tei_domain",
+  "hullId": "tei",
+  "displayName": "domain",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "ballistic_rangefinder",
+    "defensive_targeting_array"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "type90"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "type90"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "type90"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

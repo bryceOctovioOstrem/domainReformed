@@ -457,7 +457,7 @@ public class DR_ModPlugin extends BaseModPlugin {
 	private void Oshun() {
         StarSystemAPI system = Global.getSector().getStarSystem("Khomeini");
         SectorEntityToken star = system.getStar();
-        PlanetAPI planet = system.addPlanet("oshun", star, "Oshun","tundra", 300,220, 6500, 150);
+        PlanetAPI planet = system.addPlanet("oshun", star, "Oshun","tundra", 300,220, 6300, 150);
         MarketAPI market = Global.getFactory().createMarket(
                 "oshun_market", //market id
                 planet.getName(), //market display name, usually the planet's name

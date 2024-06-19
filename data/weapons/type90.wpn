@@ -1,0 +1,28 @@
+{
+	"id":"type90",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":400,
+	"turretSprite":"graphics/weapons/DR_Type_90_57_hardpoint.png",
+	"turretGunSprite":"graphics/weapons/DR_Type_90_57_hardpoint.png",
+	"hardpointSprite":"graphics/weapons/DR_Type_90_57_hardpoint.png",
+	"hardpointGunSprite":"graphics/weapons/DR_Type_90_57_hardpoint.png",	
+	"visualRecoil":0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[10, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[15, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":50.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":17.0,
+					   "particleSizeRange":10.0,
+					   "particleSizeMin":7.0,
+					   "particleDuration":0.35,
+					   "particleCount":12,
+					  "particleColor":[188, 0, 45,185]},
+	"projectileSpecId":"lightag_shot",  # projectile that will be fired
+	"fireSoundTwo":"hellbore_fire",	
+}

@@ -1,0 +1,104 @@
+{
+  "variantId": "Ise_Merc",
+  "hullId": "Ise",
+  "displayName": "Domain",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 46,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "flak",
+        "WS0007": "mininglaser",
+        "WS0010": "mininglaser",
+        "WS0013": "ionbeam",
+        "WS0014": "mininglaser",
+        "WS0015": "mininglaser",
+        "WS0016": "mininglaser",
+        "WS0017": "mininglaser",
+        "WS0021": "lightdualmg",
+        "WS0025": "heatseeker",
+        "WS0034": "mininglaser",
+        "WS0035": "mininglaser",
+        "WS0036": "mininglaser",
+        "WS0037": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "flak",
+        "WS0008": "mininglaser",
+        "WS0009": "mininglaser",
+        "WS0022": "lightdualmg",
+        "WS0026": "mininglaser",
+        "WS0027": "mininglaser",
+        "WS0028": "mininglaser",
+        "WS0029": "mininglaser",
+        "WS0030": "mininglaser",
+        "WS0031": "mininglaser",
+        "WS0032": "mininglaser",
+        "WS0033": "mininglaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ionbeam",
+        "WS0003": "gravitonbeam",
+        "WS0004": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "gauss",
+        "WS0012": "gauss",
+        "WS0039": "fireControl1000",
+        "WS0040": "fireControl1000"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "heatseeker",
+        "WS0019": "swarmer",
+        "WS0020": "swarmer",
+        "WS0023": "swarmer",
+        "WS0024": "swarmer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0038": "hellbore"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "D4Y_wing",
+    "D4Y_wing",
+    "D4Y_wing",
+    "Zero_wing"
+  ]
+}

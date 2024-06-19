@@ -19,7 +19,15 @@
       "weapons": {
         "WS0004": "Oerlikon",
         "WS0007": "130mm",
-        "WS0008": "Oerlikon"
+        "WS0008": "Oerlikon",
+        "WS0010": "sabot_fighter",
+        "WS0011": "sabot_fighter",
+        "WS0014": "sabot_fighter",
+        "WS0016": "sabot_fighter",
+        "WS0017": "sabot_fighter",
+        "WS0018": "sabot_fighter",
+        "WS0019": "sabot_fighter",
+        "WS0021": "sabot_fighter"
       }
     },
     {
@@ -52,16 +60,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0010": "sabot_single_hidden",
-        "WS0011": "sabot_single_hidden",
-        "WS0014": "sabot_single_hidden",
-        "WS0016": "sabot_single_hidden",
-        "WS0017": "sabot_single_hidden",
-        "WS0018": "sabot_single_hidden",
-        "WS0019": "sabot_single_hidden",
-        "WS0021": "sabot_single_hidden"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,

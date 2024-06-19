@@ -23,10 +23,13 @@
     0
   ],
   "hardpointOffsets": [
-    40,
-    0
+    58,
+    -3.5,
+    58,
+    5
   ],
   "hardpointAngleOffsets": [
+    0,
     0
   ],
   "barrelMode": "ALTERNATING",
@@ -46,5 +49,6 @@
       255
     ]
   },
+  "fireSoundOne": "TwinBL14",
   "fireSoundTwo": "plasma_cannon_fire"
 }

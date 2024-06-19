@@ -15,6 +15,9 @@
     "targetingunit",
     "rugged"
   ],
+  "builtInWeapons": {
+    "WS0014": "depthCharge"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -134,6 +137,15 @@
       "arc": 270,
       "angle": 180,
       "locations": [-150.5, -0]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-206.5, -0]
     }
   ],
   "engineSlots": [

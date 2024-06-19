@@ -18,7 +18,8 @@
     "targetingunit"
   ],
   "builtInWeapons": {
-    "WS0003": "5in"
+    "WS0014": "Lulu",
+    "WS0015": "Lulu"
   },
   "weaponSlots": [
     {
@@ -121,7 +122,8 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 90,
-      "locations": [-156, 9.5]
+      "locations": [-156, 9.5],
+      "renderOrderMod": 100
     },
     {
       "id": "WS0012",
@@ -130,7 +132,8 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 180,
-      "locations": [-169, -0.5]
+      "locations": [-169, -0.5],
+      "renderOrderMod": 100
     },
     {
       "id": "WS0013",
@@ -139,7 +142,26 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -90,
-      "locations": [-157, -9.5]
+      "locations": [-157, -9.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-178, 11]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-179, -11]
     }
   ],
   "engineSlots": [

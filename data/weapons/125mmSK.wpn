@@ -32,5 +32,5 @@
   "autocharge": true,
   "noImpactSounds": true,
   "unaffectedByProjectileSpeedBonuses": true,
-  "fireSoundOne": "Flammenwerfer_chargeUp",
+  #"fireSoundOne": "Flammenwerfer_chargeUp",
 }

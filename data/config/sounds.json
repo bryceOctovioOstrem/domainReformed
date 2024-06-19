@@ -92,7 +92,7 @@
 	],
 		"powder_cannon":
 	[
-		{"file":"sounds/sfx_wpn_guns/powder_cannon.ogg","pitch":1,"volume":.2},
+		{"file":"sounds/sfx_wpn_guns/powder_cannon.ogg","pitch":.9,"volume":.2},
 	],
 		
 		"gyrojet_small_sound":
@@ -123,5 +123,26 @@
 			"duelCruiserGunsBallistic":
 	[
 		{"file":"sounds/sfx_wpn_guns/14cm.ogg","pitch":1,"volume":.5},
+	],
+			"32cmChargeUp":
+	[
+		{"file":"sounds/sfx_wpn_guns/38cm.ogg","pitch":1,"volume":.6},
+	],
+			"16in":
+	[
+		{"file":"sounds/sfx_wpn_guns/16in.ogg","pitch":1,"volume":.6},
+	],
+			"Quad14in":
+	[
+		{"file":"sounds/sfx_wpn_guns/Quad14in.ogg","pitch":.9,"volume":.6},
+	],
+	"Mark12":[
+            {"file":"sounds/sfx_wpn_guns/MK12#1.ogg","pitch":1,"volume":0.2},
+            {"file":"sounds/sfx_wpn_guns/MK12#2.ogg","pitch":1,"volume":0.2},
+            {"file":"sounds/sfx_wpn_guns/MK12#3.ogg","pitch":1,"volume":0.2},
+    ],
+			"305mm":
+	[
+		{"file":"sounds/sfx_wpn_guns/305mm.ogg","pitch":1,"volume":.5},
 	],
 }

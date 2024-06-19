@@ -47,17 +47,18 @@
     "particleSizeRange": 6,
     "cloudParticleCount": 13,
     "cloudDuration": 1.5,
-    "cloudRadius": 13,
+    "cloudRadius": 7,
     "blowbackParticleCount": 4,
     "blowbackDuration": 2,
     "blowbackLength": -22,
     "blowbackSpread": 13,
     "particleColor": [
-      60,
-      59,
-      110,
+      200,
+      200,
+      200,
       200
     ]
   },
+	"fireSoundOne": "Mark12",
   "fireSoundTwo": "gyrojet_medium_sound"
 }

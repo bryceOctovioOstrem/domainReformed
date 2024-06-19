@@ -61,5 +61,6 @@
       255
     ]
   },
+	"fireSoundOne": "Quad14in",
   "fireSoundTwo": "plasma_cannon_fire"
 }
