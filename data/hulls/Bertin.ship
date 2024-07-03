@@ -1,0 +1,176 @@
+{
+  "hullName": "Bertin",
+  "hullId": "Bertin",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/DR/ships/Bertin.PNG",
+  "style": "LOW_TECH",
+  "height": 499,
+  "width": 62,
+  "center": [30.5, 249.5],
+  "collisionRadius": 251,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 257,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "rugged",
+    "repair_gantry",
+    "autorepair"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": 0,
+      "locations": [153, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [127, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [-12.5, 16.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [-13.5, -16.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 180,
+      "locations": [-115.5, -0.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 180,
+      "locations": [-173, 0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 177,
+      "angle": 100.5,
+      "locations": [-213.5, 9]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -100.5,
+      "locations": [-213.5, -11.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -46.5, 6,
+        7, 6
+      ]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 80,
+      "locations": [179.5, 12.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -80,
+      "locations": [179.5, -12]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [38.5, 0],
+      "length": 22,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [-74.5, 0],
+      "length": 14.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [-249.5, 21.5],
+      "length": 25,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    },
+    {
+      "location": [-249.5, -22.5],
+      "length": 25,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    247.5, -1,
+    226, 9.5,
+    180, 16.5,
+    133.5, 19.5,
+    -149.5, 20,
+    -226, 16,
+    -244.5, 0,
+    -225, -18,
+    -150, -20,
+    136.5, -20,
+    179.5, -18,
+    225.5, -10.5
+  ]
+}

@@ -17,6 +17,9 @@
     "autorepair",
     "fluxbreakers"
   ],
+  "builtInWings": [
+    "A4N_wing"
+  ],
   "builtInWeapons": {
     "WS0011": "kamikaze"
   },

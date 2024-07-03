@@ -1,71 +1,69 @@
 {
-  "variantId": "hosho_domain",
-  "hullId": "hosho",
-  "displayName": "New Variant",
+  "variantId": "Bertin_dr",
+  "hullId": "Bertin",
+  "displayName": "DR",
   "goalVariant": true,
-  "fluxCapacitors": 20,
-  "fluxVents": 0,
+  "fluxCapacitors": 30,
+  "fluxVents": 4,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "armoredweapons"
+    "operations_center"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "vulcan",
-        "WS0003": "vulcan",
-        "WS0004": "vulcan",
-        "WS0011": "kamikaze"
+        "WS0007": "lightdualmg",
+        "WS0009": "lightdualmg"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "vulcan",
-        "WS0005": "vulcan",
-        "WS0006": "vulcan"
+        "WS0008": "lightdualmg",
+        "WS0010": "lightdualmg"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "taclaser"
+        "WS0003": "breach"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "taclaser"
+        "WS0005": "100mm"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0009": "flak"
+        "WS0006": "Triple_152mm"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0010": "flak"
+        "WS0001": "Triple_152mm",
+        "WS0002": "Triple_152mm"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0004": "breach"
+      }
     }
   ],
   "modules": [],
-  "wings": [
-    "B4Y_Jean_wing"
-  ]
+  "wings": []
 }

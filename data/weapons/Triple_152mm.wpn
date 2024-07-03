@@ -1,0 +1,59 @@
+{
+  "id": "Triple_152mm",
+  "specClass": "projectile",
+  "projectileSpecId": "157mm_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/DR_152mm_triple_turret.PNG",
+  "hardpointSprite": "graphics/weapons/DR_152mm_triple_hardpoint.PNG",
+  "turretOffsets": [
+    61.5,
+    -11.5,
+    61.5,
+    -4.5,
+    61.5,
+    5,
+    61.5,
+    11.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    69.5,
+    -11,
+    69.5,
+    -5,
+    69.5,
+    5,
+    69.5,
+    11.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 20,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 30,
+    "particleColor": [
+      0,
+      33,
+      83,
+      255
+    ]
+  },
+  "fireSoundTwo": "macron_Burst_medium",
+  "fireSoundOne": "DR_152mm_sound"
+}

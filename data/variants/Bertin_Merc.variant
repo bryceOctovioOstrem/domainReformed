@@ -1,62 +1,62 @@
 {
-  "variantId": "hosho_domain",
-  "hullId": "hosho",
-  "displayName": "New Variant",
+  "variantId": "Bertin_Merc",
+  "hullId": "Bertin",
+  "displayName": "Merc",
   "goalVariant": true,
-  "fluxCapacitors": 20,
-  "fluxVents": 0,
+  "fluxCapacitors": 23,
+  "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "armoredweapons"
+    "fluxbreakers",
+    "armoredweapons",
+    "pointdefenseai"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "vulcan",
-        "WS0003": "vulcan",
-        "WS0004": "vulcan",
-        "WS0011": "kamikaze"
+        "WS0005": "lrpdlaser",
+        "WS0006": "pulselaser",
+        "WS0007": "lightdualmg",
+        "WS0009": "vulcan"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "vulcan",
-        "WS0005": "vulcan",
-        "WS0006": "vulcan"
+        "WS0008": "lightdualmg",
+        "WS0010": "vulcan"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "taclaser"
+        "WS0001": "gravitonbeam"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "taclaser"
+        "WS0002": "ionbeam"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0009": "flak"
+        "WS0003": "breach",
+        "WS0004": "breach"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0010": "flak"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
@@ -65,7 +65,5 @@
     }
   ],
   "modules": [],
-  "wings": [
-    "B4Y_Jean_wing"
-  ]
+  "wings": []
 }

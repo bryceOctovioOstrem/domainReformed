@@ -4,7 +4,7 @@
   "displayName": "New Variant",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxVents": 10,
   "quality": 0,
   "permaMods": [],
   "hullMods": [],
@@ -112,7 +112,6 @@
     "D4Y_wing",
     "B5N_wing",
     "B5N_wing",
-    "Zero_wing",
     "Zero_wing",
     "Zero_wing"
   ]

@@ -52,6 +52,10 @@ public class DR_ModPlugin extends BaseModPlugin {
 		Oshun();
 		kulug();
 		Mirfak();
+		wangMangGen();
+		Diocletian();
+		wangMangTwo();
+		
     }
     private void newTerraGen() {
         StarSystemAPI system = Global.getSector().createStarSystem("Metternich");
@@ -166,7 +170,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addCondition(Conditions.RUINS_SCATTERED);
         market.addCondition(Conditions.ORE_ULTRARICH);
         market.addCondition(Conditions.DECIVILIZED_SUBPOP);
-	market.addCondition(Conditions.POLLUTION);
+		market.addCondition(Conditions.POLLUTION);
         market.addCondition(Conditions.RARE_ORE_ULTRARICH);
         market.addCondition(Conditions.INIMICAL_BIOSPHERE);
         market.addCondition(Conditions.FRONTIER);
@@ -241,7 +245,6 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addCondition(Conditions.COLD);
         market.addCondition(Conditions.RUINS_SCATTERED);
         market.addCondition(Conditions.ORE_SPARSE);
-		market.addCondition(Conditions.DISSIDENT);
         market.addCondition(Conditions.LARGE_REFUGEE_POPULATION);
         market.addCondition(Conditions.INDUSTRIAL_POLITY);
         //market.addCondition(Conditions.LOW_GRAVITY);
@@ -253,14 +256,14 @@ public class DR_ModPlugin extends BaseModPlugin {
         // industries
         market.addIndustry(Industries.MEGAPORT);
         //market.addIndustry(Industries.STARFORTRESS);
-	market.addIndustry(DR_industries.DR_STATION3);
+		market.addIndustry(DR_industries.DR_STATION3);
         market.addIndustry(Industries.PATROLHQ);
         market.addIndustry(Industries.HEAVYBATTERIES);
         market.addIndustry(Industries.ORBITALWORKS);
         market.addIndustry(Industries.REFINING);
         market.addIndustry(Industries.WAYSTATION);
-        market.addIndustry(Industries.FUELPROD);
-        //market.addIndustry(Industries.COMMERCE);
+        //market.addIndustry(Industries.FUELPROD);
+        market.addIndustry(Industries.COMMERCE);
 		market.addIndustry(DR_industries.DR_GENDARMERIE);
 
         // //add special items to industries WIP
@@ -370,7 +373,7 @@ public class DR_ModPlugin extends BaseModPlugin {
 		private void TakamoriGen() {
         StarSystemAPI system = Global.getSector().createStarSystem("Khomeini");
 
-        PlanetAPI star = system.initStar("Khomeini", "star_white", 400, -6000, -17500, 200);
+        PlanetAPI star = system.initStar("Khomeini", "star_white", 400, -5800, -17500, 200);
 		
 		PlanetAPI planet = system.addPlanet("takamori", star, "Takamori", "water", 120, 100, 4000, 100);
 		
@@ -629,9 +632,13 @@ public class DR_ModPlugin extends BaseModPlugin {
         StarSystemAPI system = Global.getSector().createStarSystem("Alpha Persei");
 
         PlanetAPI star = system.initStar("Alpha Persei", "star_yellow",4000, -6000,12000,4000); 
-		//PlanetAPI planet = system.addPlanet("TianChuán", star, "Tian Chuán", "barren_castiron", -10, 180, 6700, 120);
-		//SectorEntityToken relay = system.addCustomEntity("Persei_relay",null, "comm_relay_makeshift","DR");
-		//relay.setCircularOrbitPointingDown(star, 230, 15000, 265f);
+		//SectorEntityToken LouisStation = system.addCustomEntity("Louis_station", "Louis XVIII station", "station_side06", "DR");
+		//LouisStation.setCustomDescriptionId("station_kantas_den");
+		//LouisStation.setInteractionImage("illustrations", "pirate_station");
+		//LouisStation.setCircularOrbitWithSpin(star, 220, 7250, 160, 3, 5);
+		
+
+		//LouisStation.setMarket(market);
 					// jump points
 					JumpPointAPI jumpPoint = Global.getFactory().createJumpPoint("Persei_jump", "Alpha Persei Jump-point"); // add new jump point
 					jumpPoint.setCircularOrbit( system.getEntityById("Alpha Persei"), 270 + 60, 8000, 225);
@@ -641,37 +648,204 @@ public class DR_ModPlugin extends BaseModPlugin {
 					system.addEntity(jumpPoint2);
 					system.autogenerateHyperspaceJumpPoints(true,false);
 					
-					//CustomCampaignEntityAPI station1 = system.addCustomEntity( //create station
-					//"Mirfak_station", //id
-					//"Meloni Station", //display name
-					//"station_side03", //types are found in data/config/custom_entities.json
-					//Factions.DR
-		//);
-		//station1.setCircularOrbitPointingDown( // set stations orbit
-		//	star, 
-		//	0, //Angle
-		//	6000, //orbit radius
-		//	23 //orbit period
-		//);
-		//station1.setRadius(35);// shifts ecounter radius
-		//MarketAPI market = station1.getMarket();
-		//market.setSize(3);
-		//market.addSubmarket(Submarkets.SUBMARKET_BLACK);
-		//market.addSubmarket(Submarkets.SUBMARKET_OPEN);
-		//market.addIndustry(Industries.POPULATION);
-		//market.addIndustry(Industries.SPACEPORT);
-		//Put a defensive station in orbit.
-		//market.addIndustry(Industries.ORBITALSTATION_HIGH);
-		//Make it so fleets will spawn here.
-		//market.addIndustry(Industries.PATROLHQ);
-		//Make it so that ores will be mined here.
-		//market.addIndustry(Industries.TECHMINING);
-		//market.getTariff().modifyFlat("generator", 0.15f);
-		//EconomyAPI globalEconomy = Global.getSector().getEconomy();		
-		//globalEconomy.addMarket(market, true);
-		//market.setFactionId("DR");
+					
+		// planet.setFaction("DR");
+        // MarketAPI market = Global.getFactory().createMarket(
+                // "louisStation", //market id
+                // LouisStation.getName(), //market display name, usually the planet's name
+                // 3 //market size
+        // );
+		
+		// planet.setMarket(market);
+        // Market global property settings
+        // market.setPrimaryEntity(planet);
 
+        // market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
 
-		system.updateAllOrbits();
+        // planet.setFaction("DR");
+        // planet.setCustomDescriptionId("DR_planet_new_terra");
+        // market.setPlanetConditionMarketOnly(false); //We are going to turn this into a proper colony and not just a "surface only".
+        // market.setFactionId("DR");
+        // market.addIndustry(Industries.POPULATION);
+        // market.addCondition(Conditions.POPULATION_1);
+        // market.setSize(4);
+        // market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
+        // market.addSubmarket(Submarkets.SUBMARKET_BLACK);
+        // market.addSubmarket(Submarkets.SUBMARKET_OPEN);
+        // market.addCondition(Conditions.ORGANICS_TRACE);
+		// market.addCondition(Conditions.ORE_SPARSE);
+        // market.addCondition(Conditions.HOT);
+		// market.addCondition(Conditions.LOW_GRAVITY);
+        // market.addCondition(Conditions.RUINS_SCATTERED);
+		// market.addCondition(Conditions.POLLUTION);
+        // market.addCondition(Conditions.FRONTIER);
+
+        
+
+        // industries
+        // market.addIndustry(Industries.MEGAPORT);
+		// market.addIndustry(DR_industries.DR_STATION3);
+        // market.addIndustry(Industries.PATROLHQ);
+        // market.addIndustry(Industries.HEAVYBATTERIES);
+        // market.addIndustry(Industries.FUELPROD);
+        // market.addIndustry(Industries.HEAVYINDUSTRY);
+		// market.addIndustry(DR_industries.WHITESKYE);
+		
+		
+		// Industry DiocletianOrbitalWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
+        // DiocletianOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+    
+	    // Those rascally Tritachyon have set their tariffs to 15%!
+        // market.getTariff().modifyFlat("generator", 0.15f);
+        // planet.setMarket(market);
+        // EconomyAPI globalEconomy = Global.getSector().getEconomy();
+        // globalEconomy.addMarket(
+                // market, //The market to add obviously!
+                // true //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
+        // );
+        // Those rascally Tritachyon have set their tariffs to 15%!
+        // market.getTariff().modifyFlat("generator", 0.15f);
+
+        system.updateAllOrbits();	
 		}
+
+    private void wangMangGen() {
+        StarSystemAPI system = Global.getSector().createStarSystem("wang mang");
+        PlanetAPI star = system.initStar("Wang Mang", "star_red_dwarf", 200, -21000, -6900, 200);
+		system.autogenerateHyperspaceJumpPoints(true,true);
+	}
+	private void Diocletian() {
+        StarSystemAPI system = Global.getSector().getStarSystem("wang mang");
+        SectorEntityToken star = system.getStar();
+		PlanetAPI planet = system.addPlanet("diocletian", star,"Diocletian","rocky_metallic", 60,60, 700, 120);
+		
+		planet.setFaction("DR");
+        MarketAPI market = Global.getFactory().createMarket(
+                "Diocletian", //market id
+                planet.getName(), //market display name, usually the planet's name
+                3 //market size
+        );
+		
+		planet.setMarket(market);
+        //Market global property settings
+        market.setPrimaryEntity(planet);
+
+        market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
+
+        planet.setFaction("DR");
+        //planet.setCustomDescriptionId("DR_planet_new_terra");
+        market.setPlanetConditionMarketOnly(false); //We are going to turn this into a proper colony and not just a "surface only".
+        market.setFactionId("DR");
+        market.addIndustry(Industries.POPULATION);
+        market.addCondition(Conditions.POPULATION_4);
+        market.setSize(4);
+        market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
+        market.addSubmarket(Submarkets.SUBMARKET_BLACK);
+        market.addSubmarket(Submarkets.SUBMARKET_OPEN);
+        market.addCondition(Conditions.ORGANICS_TRACE);
+		market.addCondition(Conditions.ORE_SPARSE);
+        market.addCondition(Conditions.HOT);
+		market.addCondition(Conditions.LOW_GRAVITY);
+        market.addCondition(Conditions.RUINS_SCATTERED);
+		market.addCondition(Conditions.POLLUTION);
+        market.addCondition(Conditions.FRONTIER);
+        market.addCondition(Conditions.NO_ATMOSPHERE);        
+        market.addCondition(Conditions.INDUSTRIAL_POLITY);
+		
+        // industries
+        market.addIndustry(Industries.MEGAPORT);
+		market.addIndustry(DR_industries.DR_STATION3);
+        market.addIndustry(Industries.PATROLHQ);
+        market.addIndustry(Industries.HEAVYBATTERIES);
+        market.addIndustry(Industries.FUELPROD);
+        market.addIndustry(Industries.HEAVYINDUSTRY);
+		market.addIndustry(DR_industries.WHITESKYE);
+		
+		
+		Industry DiocletianOrbitalWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
+        DiocletianOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+		// adds catylatic fuel
+		Industry DiocletianFUELPROD = market.getIndustry(Industries.FUELPROD);// grabs the fuel production 
+        DiocletianFUELPROD.setSpecialItem(new SpecialItemData(Items.SYNCHROTRON, null));// adds a SYNCHROTRON 
+    
+	    //Those rascally Tritachyon have set their tariffs to 15%!
+        market.getTariff().modifyFlat("generator", 0.15f);
+        //planet.setMarket(market);
+        EconomyAPI globalEconomy = Global.getSector().getEconomy();
+        globalEconomy.addMarket(
+                market, //The market to add obviously!
+                true //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
+        );
+        //Those rascally Tritachyon have set their tariffs to 15%!
+        market.getTariff().modifyFlat("generator", 0.15f);
+        planet.setCustomDescriptionId("DiocletianDescription"); // adds planet description
+		planet.setInteractionImage("illustrations", "vacuum_colony");//adds illustration
+        system.updateAllOrbits();	
+}
+	private void wangMangTwo() {
+        StarSystemAPI system = Global.getSector().getStarSystem("wang mang");
+        SectorEntityToken star = system.getStar();
+		PlanetAPI planet = system.addPlanet("wangMangII", star,"Wang Mang II","jungle", 70,70, 1600, 100);
+		
+		planet.setFaction("persean");
+        MarketAPI market = Global.getFactory().createMarket(
+                "wangMangTwo", //market id
+                planet.getName(), //market display name, usually the planet's name
+                5 //market size
+        );
+		
+		planet.setMarket(market);
+        //Market global property settings
+        market.setPrimaryEntity(planet);
+
+        market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
+
+        planet.setFaction("independent");
+        //planet.setCustomDescriptionId("DR_planet_new_terra");
+        market.setPlanetConditionMarketOnly(false); //We are going to turn this into a proper colony and not just a "surface only".
+        market.setFactionId("independent");
+        market.addIndustry(Industries.POPULATION);
+        market.addCondition(Conditions.POPULATION_5);
+        market.setSize(5);
+        market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
+        market.addSubmarket(Submarkets.SUBMARKET_BLACK);
+        market.addSubmarket(Submarkets.SUBMARKET_OPEN);
+        market.addCondition(Conditions.FARMLAND_ADEQUATE);
+		market.addCondition(Conditions.ORE_SPARSE);
+        market.addCondition(Conditions.VERY_HOT);
+		market.addCondition(Conditions.LOW_GRAVITY);
+        market.addCondition(Conditions.VOLATILES_DIFFUSE);
+        market.addCondition(Conditions.FRONTIER);
+		market.addCondition(Conditions.ORGANICS_COMMON);
+		market.addCondition(Conditions.RURAL_POLITY);
+        
+
+        // industries
+        market.addIndustry(Industries.MEGAPORT);
+		//market.addIndustry(DR_industries.DR_STATION3);
+        market.addIndustry(Industries.MILITARYBASE);
+        market.addIndustry(Industries.GROUNDDEFENSES);
+        market.addIndustry(Industries.MINING);
+        market.addIndustry(Industries.FARMING);
+		//market.addIndustry(DR_industries.WHITESKYE);
+		market.addIndustry(Industries.BATTLESTATION_MID);
+		
+         Industry wangMangBase = market.getIndustry(Industries.MILITARYBASE);// grabs the orbital 
+         wangMangBase.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
+    
+	    //Those rascally Tritachyon have set their tariffs to 15%!
+        market.getTariff().modifyFlat("generator", 0.15f);
+        //planet.setMarket(market);
+        EconomyAPI globalEconomy = Global.getSector().getEconomy();
+        globalEconomy.addMarket(
+                market, //The market to add obviously!
+                true //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
+        );
+        //Those rascally Tritachyon have set their tariffs to 15%!
+        market.getTariff().modifyFlat("generator", 0.15f);
+        planet.setCustomDescriptionId("mang2desctiption"); // adds planet description
+		//planet.setInteractionImage("illustrations", "diocletian_planet");//adds illustration
+        system.updateAllOrbits();	
+	
+}
 }

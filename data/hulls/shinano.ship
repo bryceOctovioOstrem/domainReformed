@@ -19,6 +19,9 @@
     "ablative_armor",
     "fragile_subsystems"
   ],
+  "builtInWings": [
+    "B5N_wing"
+  ],
   "builtInWeapons": {
     "WS0053": "kamikaze",
     "WS0054": "kamikaze"

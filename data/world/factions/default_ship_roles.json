@@ -2,10 +2,10 @@
 	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
 	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
 	"combatSmallForSmallFleet":{
-		"Virginia_domain":2,
+		"Virginia_domain":1,
 		"petya_domain":2,
 		"Brig_domain":1,
-		"tei_Merc":5,
+		"tei_Merc":2,
 		"tei_domain":1,
 		"fallback":{"combatSmall":1},
 	},
@@ -23,6 +23,8 @@
 		"Yubari_merc":5,
 		"Yubari_Domain":1,
 		"kiev_domain":1,
+		"Bertin_dr":1,
+		"Bertin_Merc":2,
 		"fallback":{"combatMedium":0.5},
 	},
 	"combatMedium":{
@@ -32,6 +34,10 @@
 		"Geobukseon_domain":1,
 		"town_domain":3,
 		"atlanta_domain":3,
+
+		"Bertin_dr":2,
+		"Bertin_Merc":3,
+
 		"StLouis_domain":1,
 		"Wichita_domain":1.5,
 		"indianopolis_domain":2,
@@ -40,7 +46,7 @@
 		"fallback":{"combatSmall":1},
 	},
 	"combatLarge":{
-		"indianopolis_domain":2,
+		"indianopolis_domain":1,
 		"StLouis_domain":1,
 		"Wichita_domain":2,
 		"Moskva_domain":1,
@@ -73,7 +79,7 @@
 	"combatFreighterMedium":{
 		"Brig_domain":2,
 		"constitution_domain":2,
-		"constitution_Merc":5,
+		"constitution_Merc":1,
 		"fallback":{"combatFreighterSmall":1},
 	},
 	"combatFreighterLarge":{
@@ -143,7 +149,7 @@
 		"yorktown_domain":1,
 		"fallback":{"tankerSmall":0.5},
 	},
-	"tankerLarge":{
+	"tankerLarge":{		
 		"yorktown_domain":2,
 		"Queen_Elizabeth_domain":1.5,
 		"Ford_domain":1,

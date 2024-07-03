@@ -4,7 +4,7 @@
   "displayName": "Domain",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 15,
+  "fluxVents": 18,
   "quality": 0,
   "permaMods": [],
   "hullMods": [],
@@ -95,8 +95,7 @@
   "modules": [],
   "wings": [
     "D4Y_wing",
-    "D4Y_wing",
-    "D4Y_wing",
-    "Zero_wing"
+    "Zero_wing",
+    "B5N_wing"
   ]
 }

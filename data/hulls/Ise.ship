@@ -18,6 +18,9 @@
     "repair_gantry",
     "autorepair"
   ],
+  "builtInWings": [
+    "D4Y_wing"
+  ],
   "builtInWeapons": {
     "WS0039": "fireControl1000",
     "WS0040": "fireControl1000",
