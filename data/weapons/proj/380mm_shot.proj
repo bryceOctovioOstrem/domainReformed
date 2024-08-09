@@ -16,7 +16,7 @@
 	"length":962g.0,
 	"hitGlowRadius":288,
         "explosionColor":[221, 0, 0],
-	"width":8.0,
+	"width":16.0,
 	"fadeTime":0.175,
 	"fringeColor":[255, 255, 255, 100],
 	"coreColor":[0, 0, 0, 255],

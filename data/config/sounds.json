@@ -157,4 +157,8 @@
 	[
 		{"file":"sounds/sfx_wpn_guns/152mm.ogg","pitch":.9,"volume":.4},
 	],
+			"DR_15cmSK_charge_sound":
+	[
+		{"file":"sounds/sfx_wpn_guns/DR_15cmSK.ogg","pitch":1,"volume":.4},
+	],
 }

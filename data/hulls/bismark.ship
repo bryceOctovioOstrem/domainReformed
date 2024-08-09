@@ -15,8 +15,7 @@
     "targetingunit",
     "rugged",
     "ablative_armor",
-    "hbi",
-    "damaged_mounts"
+    "hbi"
   ],
   "builtInWeapons": {
     "WS0005": "fireControl1000",

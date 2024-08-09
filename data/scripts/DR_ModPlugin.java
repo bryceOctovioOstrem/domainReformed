@@ -59,8 +59,8 @@ public class DR_ModPlugin extends BaseModPlugin {
     }
     private void newTerraGen() {
         StarSystemAPI system = Global.getSector().createStarSystem("Metternich");
-        PlanetAPI star = system.initStar("Metternich", "star_yellow", 1000, 5900, -4500, 250);
-        //PlanetAPI star = system.initStar("Metternich", "star_yellow", 1000, -7200, -16500, 250);
+        PlanetAPI star = system.initStar("Metternich", "star_yellow", 1000, 7600, -4500, 250);
+        //PlanetAPI star = system.initStar("Metternich", "star_yellow", 1000, -6200, -16500, 250);
 
         PlanetAPI planet = system.addPlanet("newTerra", star, "Confucius", "terran", -10, 180, 4000, 120);
 
@@ -128,7 +128,10 @@ public class DR_ModPlugin extends BaseModPlugin {
         );
 
         //make asteroid belt surround it
-        system.addAsteroidBelt(star, 2400, 4800f, 600f, 1200, 365, Terrain.ASTEROID_BELT, "Astroid Belt");
+        system.addAsteroidBelt(star, 2000, 4800f, 600f, 1200, 365, Terrain.ASTEROID_BELT, "Astroid Belt");
+		system.addAsteroidBelt(star, 700, 2000f, 600f, 1200, 365, Terrain.ASTEROID_BELT, "Astroid Belt");
+		system.addAsteroidBelt(star, 1000, 6900f, 600f, 1200, 365, Terrain.ASTEROID_BELT, "Astroid Belt");
+		system.addAsteroidBelt(star, 700, 9000f, 600f, 1200, 365, Terrain.ASTEROID_BELT, "Astroid Belt");
         system.autogenerateHyperspaceJumpPoints(true, true);
 
         planet.setInteractionImage("illustrations", "confucius_planet");//adds illustration
@@ -342,7 +345,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         //market.addIndustry(Industries.REFINING);
         market.addIndustry(Industries.WAYSTATION);
         market.addIndustry(Industries.FARMING);
-        //market.addIndustry(Industries.COMMERCE);
+        market.addIndustry(Industries.COMMERCE);
 	//market.addIndustry(DR_industries.DR_WENDIGO);
         market.addIndustry(DR_industries.WHITESKYE);
 
@@ -631,80 +634,80 @@ public class DR_ModPlugin extends BaseModPlugin {
 	    private void Mirfak() {
         StarSystemAPI system = Global.getSector().createStarSystem("Alpha Persei");
 
-        PlanetAPI star = system.initStar("Alpha Persei", "star_yellow",4000, -6000,12000,4000); 
-		//SectorEntityToken LouisStation = system.addCustomEntity("Louis_station", "Louis XVIII station", "station_side06", "DR");
-		//LouisStation.setCustomDescriptionId("station_kantas_den");
-		//LouisStation.setInteractionImage("illustrations", "pirate_station");
-		//LouisStation.setCircularOrbitWithSpin(star, 220, 7250, 160, 3, 5);
+        PlanetAPI star = system.initStar("Alpha_Persei", "star_yellow",4000, -6000,12000,4000); 
+		star.setCustomDescriptionId("alpha_persai");
+		SectorEntityToken LouisStation = system.addCustomEntity("Louis_station", "Louis XVIII station", "station_hightech3", "DR");
+		LouisStation.setCustomDescriptionId("LouisStation");
+		LouisStation.setInteractionImage("illustrations", "Louis_lab");
+		LouisStation.setCircularOrbitWithSpin(star, 220, 7400, 160, 3, 5);
 		
-
-		//LouisStation.setMarket(market);
-					// jump points
-					JumpPointAPI jumpPoint = Global.getFactory().createJumpPoint("Persei_jump", "Alpha Persei Jump-point"); // add new jump point
-					jumpPoint.setCircularOrbit( system.getEntityById("Alpha Persei"), 270 + 60, 8000, 225);
-					system.addEntity(jumpPoint);
-					JumpPointAPI jumpPoint2 = Global.getFactory().createJumpPoint("fringe_Persei_jump", "fringe Alpha Persei Jump-point");
-					jumpPoint2.setCircularOrbit( system.getEntityById("Alpha Persei"), 270 + 60, 20000, 360);
-					system.addEntity(jumpPoint2);
-					system.autogenerateHyperspaceJumpPoints(true,false);
-					
-					
-		// planet.setFaction("DR");
-        // MarketAPI market = Global.getFactory().createMarket(
-                // "louisStation", //market id
-                // LouisStation.getName(), //market display name, usually the planet's name
-                // 3 //market size
-        // );
+		 JumpPointAPI jumpPointOne = Global.getFactory().createJumpPoint("jumpOne", "Alpha Jump-point"); // add new jump point
+		 jumpPointOne.setCircularOrbit( system.getEntityById("Alpha_Persei"), 240 , 10000, 100);
+		 system.addEntity(jumpPointOne);
+		system.autogenerateHyperspaceJumpPoints(false,false);
+		system.updateAllOrbits();
 		
-		// planet.setMarket(market);
-        // Market global property settings
-        // market.setPrimaryEntity(planet);
+		
+		LouisStation.setFaction("persean");
+        MarketAPI market = Global.getFactory().createMarket(
+                "Louis_station", //market id
+                LouisStation.getName(), //market display name, usually the planet's name
+                5 //market size
+        );
+		
+		LouisStation.setMarket(market);
+        //Market global property settings
+        market.setPrimaryEntity(LouisStation);
 
-        // market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
+        market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
 
-        // planet.setFaction("DR");
-        // planet.setCustomDescriptionId("DR_planet_new_terra");
-        // market.setPlanetConditionMarketOnly(false); //We are going to turn this into a proper colony and not just a "surface only".
-        // market.setFactionId("DR");
-        // market.addIndustry(Industries.POPULATION);
-        // market.addCondition(Conditions.POPULATION_1);
-        // market.setSize(4);
-        // market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
-        // market.addSubmarket(Submarkets.SUBMARKET_BLACK);
-        // market.addSubmarket(Submarkets.SUBMARKET_OPEN);
-        // market.addCondition(Conditions.ORGANICS_TRACE);
-		// market.addCondition(Conditions.ORE_SPARSE);
-        // market.addCondition(Conditions.HOT);
-		// market.addCondition(Conditions.LOW_GRAVITY);
-        // market.addCondition(Conditions.RUINS_SCATTERED);
-		// market.addCondition(Conditions.POLLUTION);
-        // market.addCondition(Conditions.FRONTIER);
-
+        LouisStation.setFaction("DR");
+        //planet.setCustomDescriptionId("DR_planet_new_terra");
+        market.setPlanetConditionMarketOnly(false); //We are going to turn this into a proper colony and not just a "surface only".
+        market.setFactionId("DR");
+        market.addIndustry(Industries.POPULATION);
+        market.addCondition(Conditions.POPULATION_1);
+        market.setSize(4);
+        market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
+        market.addSubmarket(Submarkets.SUBMARKET_BLACK);
+        market.addSubmarket(Submarkets.SUBMARKET_OPEN);
+        //market.addCondition(Conditions.FARMLAND_ADEQUATE);
+		//market.addCondition(Conditions.ORE_SPARSE);
+        //market.addCondition(Conditions.VERY_HOT);
+		//market.addCondition(Conditions.LOW_GRAVITY);
+        //market.addCondition(Conditions.VOLATILES_DIFFUSE);
+        market.addCondition(Conditions.FRONTIER);
+		//market.addCondition(Conditions.ORGANICS_COMMON);
+		//market.addCondition(Conditions.RURAL_POLITY);
         
 
         // industries
-        // market.addIndustry(Industries.MEGAPORT);
-		// market.addIndustry(DR_industries.DR_STATION3);
-        // market.addIndustry(Industries.PATROLHQ);
-        // market.addIndustry(Industries.HEAVYBATTERIES);
-        // market.addIndustry(Industries.FUELPROD);
-        // market.addIndustry(Industries.HEAVYINDUSTRY);
-		// market.addIndustry(DR_industries.WHITESKYE);
+        market.addIndustry(Industries.SPACEPORT);
+		//market.addIndustry(DR_industries.DR_STATION3);
+        market.addIndustry(Industries.MILITARYBASE);
+        market.addIndustry(Industries.HEAVYBATTERIES);
+        market.addIndustry(Industries.TECHMINING);
+        //market.addIndustry(Industries.FARMING);
+		market.addIndustry(DR_industries.WHITESKYE);
+		market.addIndustry(Industries.STARFORTRESS_HIGH);
 		
-		
-		// Industry DiocletianOrbitalWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
-        // DiocletianOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+        Industry LouisBase = market.getIndustry(Industries.MILITARYBASE);// grabs the orbital 
+        LouisBase.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
+		 
+		Industry LouisHEAVYBATTERIES = market.getIndustry(Industries.HEAVYBATTERIES);// grabs the heavy batteries
+        LouisHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
     
-	    // Those rascally Tritachyon have set their tariffs to 15%!
-        // market.getTariff().modifyFlat("generator", 0.15f);
-        // planet.setMarket(market);
-        // EconomyAPI globalEconomy = Global.getSector().getEconomy();
-        // globalEconomy.addMarket(
-                // market, //The market to add obviously!
-                // true //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
-        // );
-        // Those rascally Tritachyon have set their tariffs to 15%!
-        // market.getTariff().modifyFlat("generator", 0.15f);
+	    //Those rascally Tritachyon have set their tariffs to 15%!
+        market.getTariff().modifyFlat("generator", 0.15f);
+        //planet.setMarket(market);
+        EconomyAPI globalEconomy = Global.getSector().getEconomy();
+        globalEconomy.addMarket(
+                market, //The market to add obviously!
+                true //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
+        );
+        //Those rascally Tritachyon have set their tariffs to 15%!
+        market.getTariff().modifyFlat("generator", 0.15f);
+        LouisStation.setCustomDescriptionId("mang2desctiption"); // adds planet description
 
         system.updateAllOrbits();	
 		}

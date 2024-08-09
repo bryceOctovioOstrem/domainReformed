@@ -1,0 +1,97 @@
+{
+  "variantId": "bismark_merc",
+  "hullId": "bismark",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 22,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "autorepair",
+    "fluxbreakers",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightdualmg",
+        "WS0014": "lightdualmg",
+        "WS0018": "heavymg",
+        "WS0020": "mininglaser",
+        "WS0021": "mininglaser",
+        "WS0025": "heavymg",
+        "WS0028": "mininglaser",
+        "WS0030": "mininglaser",
+        "WS0032": "heavymg",
+        "WS0033": "mininglaser",
+        "WS0034": "mininglaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightdualmg",
+        "WS0015": "lightdualmg",
+        "WS0017": "heavymg",
+        "WS0019": "mininglaser",
+        "WS0022": "mininglaser",
+        "WS0023": "mininglaser",
+        "WS0024": "mininglaser",
+        "WS0026": "heavymg",
+        "WS0027": "mininglaser",
+        "WS0029": "mininglaser",
+        "WS0031": "heavymg",
+        "WS0035": "mininglaser",
+        "WS0036": "mininglaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mark9",
+        "WS0002": "mjolnir"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "heavyac",
+        "WS0009": "heavyac",
+        "WS0012": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "heavyac",
+        "WS0010": "heavyac",
+        "WS0011": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "gauss"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "gauss"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sarissa_wing"
+  ]
+}

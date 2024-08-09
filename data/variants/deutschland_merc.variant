@@ -1,0 +1,70 @@
+{
+  "variantId": "deutschland_merc",
+  "hullId": "deutschland",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0004": "lrpdlaser",
+        "WS0007": "lrpdlaser",
+        "WS0010": "lrpdlaser",
+        "WS0012": "lrpdlaser",
+        "WS0017": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pdlaser",
+        "WS0003": "lrpdlaser",
+        "WS0008": "lrpdlaser",
+        "WS0009": "lrpdlaser",
+        "WS0011": "lrpdlaser",
+        "WS0018": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyac",
+        "WS0006": "heavyac",
+        "WS0019": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "hil"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "gazerpod",
+        "WS0016": "gazerpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "gravitonbeam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

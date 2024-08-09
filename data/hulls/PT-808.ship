@@ -1,0 +1,142 @@
+{
+  "hullName": "PT-808",
+  "hullId": "PT-808",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/DR/ships/PT-808.PNG",
+  "style": "LOW_TECH",
+  "height": 208,
+  "width": 56,
+  "center": [28, 104],
+  "collisionRadius": 105,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 107.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "targetingunit",
+    "rugged"
+  ],
+  "builtInWeapons": {
+    "WS0005": "type54",
+    "WS0006": "type54",
+    "WS0007": "type54",
+    "WS0008": "type54"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 3,
+      "angle": 0,
+      "locations": [70.5, -8]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 3,
+      "angle": 0,
+      "locations": [70.5, 9]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 295,
+      "angle": 0,
+      "locations": [51, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 180,
+      "locations": [-38.5, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 15.5,
+      "locations": [-19.5, 15]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 4,
+      "locations": [17, 15]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": -12,
+      "locations": [-16.5, -16]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": -4,
+      "locations": [21.5, -15]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-105, 16.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    },
+    {
+      "location": [-105, -16],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    },
+    {
+      "location": [-52, 0.5],
+      "length": 7.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    }
+  ],
+  "bounds": [
+    102, 1,
+    75.5, 15.5,
+    34, 19,
+    -73, 17.5,
+    -82, 27.5,
+    -104, 17,
+    -103.5, -17,
+    -84, -26.5,
+    -72, -17.5,
+    34.5, -18.5,
+    76, -16
+  ]
+}

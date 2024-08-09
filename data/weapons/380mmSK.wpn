@@ -27,7 +27,7 @@
     0,
     0
   ],
-  "barrelMode": "ALTERNATING",
+  "barrelMode": "ALTERNATING_BURST",
   "autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {

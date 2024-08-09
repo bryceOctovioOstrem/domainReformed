@@ -1,0 +1,44 @@
+{
+  "id": "G7a",
+  "specClass": "projectile",
+  "projectileSpecId": "resonatormrm_shot",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/G7a.PNG",
+  "hardpointSprite": "graphics/weapons/G7a.png",
+  "turretOffsets": [
+    17.5,
+    4,
+    16.5,
+    1,
+    16.5,
+    -2,
+    17.5,
+    -4.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    28.5,
+    5,
+    28.5,
+    2,
+    28.5,
+    -2,
+    28.5,
+    -5.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "NONE",
+  "fireSoundTwo": "resonator_fire"
+}

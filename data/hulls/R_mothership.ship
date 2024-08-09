@@ -11,6 +11,9 @@
   "shieldCenter": [0, 0],
   "shieldRadius": 314,
   "viewOffset": 0,
+  "builtInWings": [
+    "talon_wing"
+  ],
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -20,6 +23,85 @@
       "arc": 360,
       "angle": 0,
       "locations": [148, 102.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [103, 181]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [267, -79]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [246, 61]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [-194, 156]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [-158, -161]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [105, -154]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -26, -157,
+        71, -130.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        4.5, 145.5,
+        -95.5, 140,
+        -50, 113
+      ]
     }
   ],
   "engineSlots": [
