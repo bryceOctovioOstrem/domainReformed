@@ -15,7 +15,8 @@
     "autorepair",
     "targetingunit",
     "rugged",
-    "hbi"
+    "hbi",
+    "ablative_armor"
   ],
   "builtInWeapons": {
     "WS0053": "fireControl1000",

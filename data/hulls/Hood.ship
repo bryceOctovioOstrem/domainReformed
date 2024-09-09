@@ -15,7 +15,8 @@
     "targetingunit",
     "repair_gantry",
     "rugged",
-    "autorepair"
+    "autorepair",
+    "ablative_armor"
   ],
   "weaponSlots": [
     {
@@ -239,9 +240,9 @@
     {
       "location": [-443, -16],
       "length": 64,
-      "width": 15,
+      "width": 12,
       "angle": 180,
-      "contrailSize": 15,
+      "contrailSize": 12,
       "style": "CUSTOM",
       "styleId": "uk_RED_Lava"
     },
