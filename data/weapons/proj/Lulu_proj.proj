@@ -4,8 +4,8 @@
 	"missileType":"BOMB_WITH_SLOW",
 	#"sprite":"graphics/missiles/lulu.png",
 	"sprite":"graphics/missiles/lulu.png",
-	"size":[8,26],	
-	"center":[4,13],
+	"size":[10,26],	
+	"center":[5,13],
 	"collisionRadius":22,
 	"collisionClass":"MISSILE_NO_FF",
 	"explosionColor":[44, 250, 31,200],  # purely visual, will get a white additively blended core on top of this color
@@ -34,7 +34,7 @@
 									 "sound":"mine_explosion"},
 					},
 	"engineSpec":{"turnAcc":100,
-				  "turnRate":10,
+				  "turnRate":0,
 				  "acc":100,
 				  "dec":100}
 }

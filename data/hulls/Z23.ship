@@ -16,6 +16,10 @@
     "targetingunit",
     "hardened_subsystems"
   ],
+  "builtInWeapons": {
+    "WS0014": "depthCharge",
+    "WS0015": "depthCharge"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -135,7 +139,26 @@
       "mount": "TURRET",
       "arc": 290,
       "angle": 180,
-      "locations": [-159.5, -1]
+      "locations": [-159.5, -1],
+      "renderOrderMod": 50
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-198, 7]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-198, -8]
     }
   ],
   "engineSlots": [

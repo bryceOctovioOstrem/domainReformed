@@ -4,7 +4,7 @@
   "displayName": "New Variant",
   "goalVariant": true,
   "fluxCapacitors": 20,
-  "fluxVents": 2,
+  "fluxVents": 1,
   "quality": 0,
   "permaMods": [],
   "hullMods": [
@@ -18,7 +18,9 @@
       "weapons": {
         "WS0003": "Oerlikon",
         "WS0006": "vulcan",
-        "WS0007": "Oerlikon"
+        "WS0007": "Oerlikon",
+        "WS0014": "depthCharge",
+        "WS0015": "depthCharge"
       }
     },
     {

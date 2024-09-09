@@ -1,0 +1,47 @@
+{
+  "id": "twin15inBL",
+  "specClass": "projectile",
+  "projectileSpecId": "15inBL_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 600,
+  "turretSprite": "graphics/weapons/DR_BL15in_turret.PNG",
+  "hardpointSprite": "graphics/weapons/DR_BL15in_hardpoint.png",
+  #"visualRecoil": 10,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "turretOffsets": [
+    44.5,
+    4,
+    44.5,
+    -4
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    52,
+    4,
+    52,
+    -4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 75,
+    "spread": 12,
+    "particleSizeMin": 10,
+    "particleSizeRange": 35,
+    "particleDuration": 0.75,
+    "particleCount": 60,
+    "particleColor": [1, 33, 105,245]
+  },
+  "fireSoundOne": "15in_BL_chargeup",
+  "fireSoundTwo": "15in_BL_Fire"
+}

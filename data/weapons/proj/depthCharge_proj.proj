@@ -4,11 +4,11 @@
 	"missileType":"BOMB_WITH_SLOW",
 	#"sprite":"graphics/missiles/bomblet0.png",
 	"sprite":"graphics/missiles/heavy_mine.png",
-	"size":[18,22],	
-	"center":[9,11],
+	"size":[16,23],	
+	"center":[7,8],
 	"collisionRadius":22,
 	"collisionClass":"MISSILE_NO_FF",
-	"explosionColor":[ 	203,53,61,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionColor":[203,53,61,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":200, # purely visual
 	"flameoutTime":0.05, # total time from flameout to full fadeout
 	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered

@@ -23,6 +23,6 @@
 				 "blowbackLength":22.0,
 				 "blowbackSpread":15.0,
 				 "particleColor":[125,75,25,105]},					 
-	"projectileSpecId":"atropos_torp",
+	"projectileSpecId":"tomahawk_torp",
 	"fireSoundTwo":"atropos_fire",
 }

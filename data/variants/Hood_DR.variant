@@ -1,0 +1,79 @@
+{
+  "variantId": "Hood_DR",
+  "hullId": "Hood",
+  "displayName": "New",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 16,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "nav_relay",
+    "ballistic_rangefinder",
+    "operations_center",
+    "hardened_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0002": "lightdualmg",
+        "WS0003": "lightdualmg",
+        "WS0004": "lightdualmg",
+        "WS0005": "UP",
+        "WS0006": "lightdualmg",
+        "WS0007": "lightdualmg",
+        "WS0008": "UP",
+        "WS0009": "lightdualmg",
+        "WS0010": "vulcan",
+        "WS0011": "vulcan",
+        "WS0012": "vulcan",
+        "WS0014": "lightdualmg",
+        "WS0015": "lightdualmg",
+        "WS0016": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "twin15inBL",
+        "WS0018": "twin15inBL"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "twin15inBL",
+        "WS0020": "twin15inBL"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

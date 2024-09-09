@@ -6,22 +6,22 @@
   "size": "SMALL",
   "displayArcRadius": 300,
   "turretSprite": "graphics/weapons/5in.png",
-  "hardpointSprite": "graphics/weapons/5in.png",
+  "hardpointSprite": "graphics/weapons/DR_5in_hardpoint.PNG",
   "turretOffsets": [
-    17.5,
+    14,
     3,
-    17.5,
-    -4
+    14,
+    -2
   ],
   "turretAngleOffsets": [
     0,
     0
   ],
   "hardpointOffsets": [
-    26.5,
-    -4,
-    26.5,
-    3
+    16,
+    -2.5,
+    16,
+    2.5
   ],
   "hardpointAngleOffsets": [
     0,

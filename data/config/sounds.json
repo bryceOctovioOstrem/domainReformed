@@ -161,4 +161,20 @@
 	[
 		{"file":"sounds/sfx_wpn_guns/DR_15cmSK.ogg","pitch":1,"volume":.4},
 	],
+			"DR_30.5SK_sound_one":
+	[
+		{"file":"sounds/sfx_wpn_guns/DR_30.5SKSoundOne.ogg","pitch":.9,"volume":.7},
+	],
+			"30.5_2":
+	[
+		{"file":"sounds/sfx_wpn_guns/30.5_2.ogg","pitch":1,"volume":.7},
+	],
+			"15in_BL_chargeup":
+	[
+		{"file":"sounds/sfx_wpn_guns/BL15inCharge.ogg","pitch":1,"volume":.6},
+	],
+			"15in_BL_Fire":
+	[
+		{"file":"sounds/sfx_wpn_guns/DR_Bl15in_fire.ogg","pitch":1,"volume":1},
+	],
 }

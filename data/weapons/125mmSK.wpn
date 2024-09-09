@@ -14,14 +14,14 @@
     255
   ],
   "turretOffsets": [
-    29,
-    0
+    24,
+    0.5
   ],
   "turretAngleOffsets": [
     0
   ],
   "hardpointOffsets": [
-    15,
+    25,
     0
   ],
   "hardpointAngleOffsets": [
@@ -31,6 +31,5 @@
   "animationType": "GLOW",
   "autocharge": true,
   "noImpactSounds": true,
-  "unaffectedByProjectileSpeedBonuses": true,
-  #"fireSoundOne": "Flammenwerfer_chargeUp",
+  "unaffectedByProjectileSpeedBonuses": true
 }

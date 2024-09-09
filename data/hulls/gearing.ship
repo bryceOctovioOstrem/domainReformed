@@ -149,19 +149,19 @@
       "id": "WS0014",
       "size": "SMALL",
       "type": "BUILT_IN",
-      "mount": "HIDDEN",
+      "mount": "HARDPOINT",
       "arc": 0,
       "angle": 180,
-      "locations": [-178, 11]
+      "locations": [-180, 11]
     },
     {
       "id": "WS0015",
       "size": "SMALL",
       "type": "BUILT_IN",
-      "mount": "HIDDEN",
+      "mount": "HARDPOINT",
       "arc": 0,
       "angle": 180,
-      "locations": [-179, -11]
+      "locations": [-180, -11]
     }
   ],
   "engineSlots": [

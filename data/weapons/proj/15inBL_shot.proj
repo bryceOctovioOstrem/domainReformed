@@ -1,0 +1,23 @@
+{
+	"id":"15inBL_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":1017.0,
+	"hitGlowRadius":197,
+	"width":7.0,
+	"fadeTime":0.5,
+	"fringeColor":[200, 16, 46,200],
+	#"coreColor":[255,225,175,225],
+	"coreColor":[1, 33, 105,200],
+	"glowColor":[200, 16, 46,155],
+	"glowRadius":61,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"bulletSprite":"graphics/missiles/shell_medium_red.png"
+	#"bulletSprite":"graphics/missiles/shell_medium_red.png"
+}
