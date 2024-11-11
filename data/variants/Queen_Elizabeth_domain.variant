@@ -3,8 +3,8 @@
   "hullId": "Queen_Elizabeth",
   "displayName": "New Variant",
   "goalVariant": true,
-  "fluxCapacitors": 17,
-  "fluxVents": 0,
+  "fluxCapacitors": 23,
+  "fluxVents": 22,
   "quality": 0,
   "permaMods": [],
   "hullMods": [
@@ -18,23 +18,21 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "CWIS",
+        "WS0001": "DR_phalanx",
+        "WS0002": "DR_phalanx",
+        "WS0003": "DR_phalanx",
         "WS0004": "Oerlikon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0002": "CWIS"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0003": "CWIS"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

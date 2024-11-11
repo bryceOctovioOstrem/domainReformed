@@ -76,11 +76,11 @@
 		
 		"380GunSounds":
 	[
-		{"file":"sounds/sfx_wpn_guns/380SoundEffect.ogg","pitch":1,"volume":1},
+		{"file":"sounds/sfx_wpn_guns/380SoundEffect.ogg","pitch":1,"volume":.9},
 	],
 			"49GunSounds":
 	[
-		{"file":"sounds/sfx_wpn_guns/49gun.ogg","pitch":1,"volume":1.8},
+		{"file":"sounds/sfx_wpn_guns/49gun.ogg","pitch":1,"volume":1.6},
 	],
 		"CIWSSound":
 	[
@@ -88,7 +88,7 @@
 	],
 		"380SK":
 	[
-		{"file":"sounds/sfx_wpn_guns/380SK.ogg","pitch":1,"volume":.7},
+		{"file":"sounds/sfx_wpn_guns/380SK.ogg","pitch":1,"volume":.6},
 	],
 		"powder_cannon":
 	[
@@ -106,11 +106,11 @@
 	],
 		"gyrojet_large_sound":
 	[
-		{"file":"sounds/sfx_wpn_guns/GYROJET_SOUND_medium.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/GYROJET_SOUND_medium.ogg","pitch":1,"volume":0.6},
 	],
 		"YamatoChargeUp":
 	[
-		{"file":"sounds/sfx_wpn_guns/YamatoChargeUp.ogg","pitch":1,"volume":1.7},
+		{"file":"sounds/sfx_wpn_guns/YamatoChargeUp.ogg","pitch":1,"volume":1.5},
 	],
 	"macron_Burst_medium":
 	[
@@ -118,11 +118,11 @@
 	],
 	"macron_Burst_Large":
 	[
-		{"file":"sounds/sfx_wpn_guns/macron_Burst_Large.ogg","pitch":1,"volume":.8},
+		{"file":"sounds/sfx_wpn_guns/macron_Burst_Large.ogg","pitch":1,"volume":.7},
 	],
 		"Flammenwerfer":
 	[
-		{"file":"sounds/sfx_wpn_guns/Flammenwerfer.ogg","pitch":1,"volume":.4},
+		{"file":"sounds/sfx_wpn_guns/Flammenwerfer.ogg","pitch":1,"volume":.3},
 	],
 			"duelCruiserGunsBallistic":
 	[
@@ -163,18 +163,18 @@
 	],
 			"DR_30.5SK_sound_one":
 	[
-		{"file":"sounds/sfx_wpn_guns/DR_30.5SKSoundOne.ogg","pitch":.9,"volume":.7},
+		{"file":"sounds/sfx_wpn_guns/DR_30.5SKSoundOne.ogg","pitch":.9,"volume":.6},
 	],
 			"30.5_2":
 	[
-		{"file":"sounds/sfx_wpn_guns/30.5_2.ogg","pitch":1,"volume":.7},
+		{"file":"sounds/sfx_wpn_guns/30.5_2.ogg","pitch":1,"volume":.6},
 	],
 			"15in_BL_chargeup":
 	[
-		{"file":"sounds/sfx_wpn_guns/BL15inCharge.ogg","pitch":1,"volume":.6},
+		{"file":"sounds/sfx_wpn_guns/BL15inCharge.ogg","pitch":1,"volume":.5},
 	],
 			"15in_BL_Fire":
 	[
-		{"file":"sounds/sfx_wpn_guns/DR_Bl15in_fire.ogg","pitch":1,"volume":1},
+		{"file":"sounds/sfx_wpn_guns/DR_Bl15in_fire.ogg","pitch":1,"volume":.9},
 	],
 }

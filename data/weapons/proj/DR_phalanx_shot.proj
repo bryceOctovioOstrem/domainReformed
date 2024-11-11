@@ -1,0 +1,30 @@
+{
+	"id":"DR_phalanx_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"mountTypeOverride":"COMPOSITE",
+	#"length":150.0,
+	#"width":5,
+	#"hitGlowRadius":25,
+	#"fadeTime":0.15,
+	#"fringeColor":[255,255,255,255],
+	#"coreColor":[255,255,255,155],	
+	#"textureScrollSpeed":64.0,
+	#"pixelsPerTexel":5.0,
+	#"bulletSprite":"graphics/missiles/flechette_med.png"
+	
+	"length":150.0,
+	"width":3.5,
+	"hitGlowRadius":25,
+	"fadeTime":0.15,
+	#"fringeColor":[255,155,125,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[179, 25, 66,255],
+	"coreColor":[200, 16, 46,155],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/missile_vlrm_stage1.png"
+}
+

@@ -42,7 +42,7 @@ public class DR_Relations implements SectorGeneratorPlugin {
         DR.setRelationship("junk_pirates", -0.55f);  
         DR.setRelationship("ORA", -0.90f);          
         DR.setRelationship("shadow_industry", -0.95f);	
-        DR.setRelationship("vic", 0.47f);     
+        DR.setRelationship("vic", 0.25f);     
         DR.setRelationship("interstellarimperium", -0.65f);     
         DR.setRelationship("prv", 0.42f);   
         DR.setRelationship("new_galactic_order", -0.6f);	

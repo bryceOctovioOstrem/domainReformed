@@ -1,0 +1,34 @@
+{
+  "variantId": "DR_mothership_pod_m_left_Standard",
+  "hullId": "derelict_mothership_pod_m_left",
+  "displayName": "domain",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 5,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 016": "DR_type_1130",
+        "WS 017": "125mmSK",
+        "WS 018": "100mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

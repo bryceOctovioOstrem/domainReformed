@@ -1,0 +1,44 @@
+{
+  "id": "DR_smoothbore_canister",
+  "specClass": "projectile",
+  "projectileSpecId": "DR_canisterShot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/smoothBore.png",
+  "hardpointSprite": "graphics/weapons/smoothBoreHardpoint.png",
+  "visualRecoil":10.0,
+  "turretOffsets": [
+    14,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    16.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 6,
+    "particleSizeRange": 9,
+    "cloudParticleCount": 68,
+    "cloudDuration": 10,
+    "cloudRadius": 4,
+    "blowbackParticleCount": 10,
+    "blowbackDuration": 20,
+    "blowbackLength": -10,
+    "blowbackSpread": 20,
+    "particleColor": [
+      255,
+      255,
+      255,
+      0
+    ]
+  },
+  "fireSoundTwo": "powder_cannon"
+}

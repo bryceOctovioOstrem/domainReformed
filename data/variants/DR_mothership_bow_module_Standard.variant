@@ -1,0 +1,23 @@
+{
+  "variantId": "DR_mothership_bow_module_Standard",
+  "hullId": "derelict_mothership_bow_module",
+  "displayName": "domain",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 2,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "100mm",
+        "WS 008": "100mm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

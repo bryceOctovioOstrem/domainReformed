@@ -4,7 +4,7 @@
   "displayName": "New Variant",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 30,
+  "fluxVents": 24,
   "quality": 0,
   "permaMods": [],
   "hullMods": [],
@@ -23,24 +23,17 @@
         "WS0008": "smoothBore",
         "WS0009": "smoothBore",
         "WS0010": "smoothBore",
-        "WS0011": "smoothBore",
         "WS0012": "smoothBore",
         "WS0013": "smoothBore",
         "WS0027": "smoothBore",
-        "WS0028": "smoothBore",
         "WS0029": "smoothBore",
-        "WS0030": "smoothBore",
         "WS0031": "smoothBore",
         "WS0032": "smoothBore",
-        "WS0033": "smoothBore",
         "WS0034": "smoothBore",
-        "WS0035": "smoothBore",
         "WS0036": "smoothBore",
         "WS0037": "smoothBore",
         "WS0039": "smoothBore",
-        "WS0040": "smoothBore",
         "WS0056": "smoothBore",
-        "WS0058": "smoothBore",
         "WS0063": "smoothBore",
         "WS0065": "smoothBore"
       }
@@ -60,29 +53,46 @@
         "WS0022": "smoothBore",
         "WS0023": "smoothBore",
         "WS0024": "smoothBore",
-        "WS0025": "smoothBore",
         "WS0026": "smoothBore",
-        "WS0041": "smoothBore",
         "WS0042": "smoothBore",
-        "WS0043": "smoothBore",
         "WS0044": "smoothBore",
         "WS0045": "smoothBore",
         "WS0046": "smoothBore",
-        "WS0047": "smoothBore",
         "WS0048": "smoothBore",
-        "WS0049": "smoothBore",
         "WS0050": "smoothBore",
         "WS0051": "smoothBore",
         "WS0052": "smoothBore",
-        "WS0053": "smoothBore",
         "WS0057": "smoothBore",
-        "WS0059": "smoothBore",
         "WS0062": "smoothBore",
         "WS0066": "smoothBore"
       }
     },
     {
       "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "DR_smoothbore_canister",
+        "WS0025": "DR_smoothbore_canister",
+        "WS0028": "DR_smoothbore_canister",
+        "WS0030": "DR_smoothbore_canister",
+        "WS0033": "DR_smoothbore_canister",
+        "WS0035": "DR_smoothbore_canister",
+        "WS0040": "DR_smoothbore_canister",
+        "WS0041": "DR_smoothbore_canister",
+        "WS0043": "DR_smoothbore_canister",
+        "WS0047": "DR_smoothbore_canister",
+        "WS0049": "DR_smoothbore_canister",
+        "WS0053": "DR_smoothbore_canister",
+        "WS0058": "DR_smoothbore_canister",
+        "WS0059": "DR_smoothbore_canister",
+        "WS0060": "DR_smoothbore_canister",
+        "WS0061": "DR_smoothbore_canister",
+        "WS0067": "DR_smoothbore_canister",
+        "WS0068": "DR_smoothbore_canister"
+      }
+    },
+    {
+      "autofire": false,
       "mode": "LINKED",
       "weapons": {
         "WS0054": "smoothBore",
@@ -98,14 +108,6 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {}
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0060": "smoothBore",
-        "WS0061": "smoothBore"
-      }
     },
     {
       "autofire": false,

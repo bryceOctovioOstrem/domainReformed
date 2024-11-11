@@ -14,8 +14,8 @@
   "builtInMods": [
     "ablative_armor",
     "advancedcore",
-    "eccm",
-    "ecm"
+    "rugged",
+    "autorepair"
   ],
   "weaponSlots": [
     {

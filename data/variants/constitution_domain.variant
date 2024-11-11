@@ -13,10 +13,9 @@
   ],
   "weaponGroups": [
     {
-      "autofire": false,
-      "mode": "LINKED",
+      "autofire": true,
+      "mode": "ALTERNATING",
       "weapons": {
-        "WS0002": "smoothBore",
         "WS0003": "smoothBore",
         "WS0004": "smoothBore",
         "WS0005": "smoothBore",
@@ -31,19 +30,13 @@
         "WS0025": "smoothBore",
         "WS0027": "smoothBore",
         "WS0029": "smoothBore",
-        "WS0031": "smoothBore",
-        "WS0033": "smoothBore",
-        "WS0034": "smoothBore",
-        "WS0040": "smoothBore",
-        "WS0041": "smoothBore",
-        "WS0042": "smoothBore"
+        "WS0031": "smoothBore"
       }
     },
     {
-      "autofire": false,
-      "mode": "LINKED",
+      "autofire": true,
+      "mode": "ALTERNATING",
       "weapons": {
-        "WS0001": "smoothBore",
         "WS0007": "smoothBore",
         "WS0008": "smoothBore",
         "WS0009": "smoothBore",
@@ -58,13 +51,43 @@
         "WS0026": "smoothBore",
         "WS0028": "smoothBore",
         "WS0030": "smoothBore",
-        "WS0032": "smoothBore",
-        "WS0035": "smoothBore",
-        "WS0036": "smoothBore",
-        "WS0037": "smoothBore",
-        "WS0038": "smoothBore",
-        "WS0039": "smoothBore"
+        "WS0032": "smoothBore"
       }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "DR_smoothbore_canister",
+        "WS0002": "DR_smoothbore_canister",
+        "WS0033": "DR_smoothbore_canister",
+        "WS0034": "DR_smoothbore_canister",
+        "WS0035": "DR_smoothbore_canister",
+        "WS0036": "DR_smoothbore_canister",
+        "WS0037": "DR_smoothbore_canister",
+        "WS0038": "DR_smoothbore_canister",
+        "WS0039": "DR_smoothbore_canister",
+        "WS0040": "DR_smoothbore_canister",
+        "WS0041": "DR_smoothbore_canister",
+        "WS0042": "DR_smoothbore_canister",
+        "WS0043": "DR_smoothbore_canister",
+        "WS0044": "DR_smoothbore_canister"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
     },
     {
       "autofire": false,

@@ -1,0 +1,41 @@
+{
+  "id": "DR_type_1130",
+  "specClass": "projectile",
+  "projectileSpecId": "DR_type_1130_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/DR_type_1130_turret.png",
+  "hardpointSprite": "graphics/weapons/DR_type_1130_hardpoint.png",
+  "turretOffsets": [
+    22.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    25,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 15,
+    "spread": 2.5,
+    "particleSizeMin": 15,
+    "particleSizeRange": 20,
+    "particleDuration": 0.12,
+    "particleCount": 4,
+    "particleColor": [
+      255,
+      255,
+      0,
+      255
+    ]
+  },
+  "fireSoundTwo": "pulse_laser_fire"
+}

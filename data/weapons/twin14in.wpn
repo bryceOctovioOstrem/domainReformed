@@ -49,6 +49,6 @@
       255
     ]
   },
-  "fireSoundOne": "TwinBL14",
+  #"fireSoundOne": "TwinBL14",
   "fireSoundTwo": "plasma_cannon_fire"
 }

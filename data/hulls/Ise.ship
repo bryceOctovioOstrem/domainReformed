@@ -14,7 +14,6 @@
   "builtInMods": [
     "targetingunit",
     "rugged",
-    "fluxbreakers",
     "repair_gantry",
     "autorepair"
   ],
@@ -115,7 +114,7 @@
       "renderOrderMod": 300
     },
     {
-      "id": "WS0010",
+      "id": "WS0010`",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
@@ -193,7 +192,7 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 180,
+      "arc": 95,
       "angle": 180,
       "locations": [-329.5, 12]
     },
@@ -202,7 +201,7 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 180,
+      "arc": 95,
       "angle": 180,
       "locations": [-329.5, -14]
     },

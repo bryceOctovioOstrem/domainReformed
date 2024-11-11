@@ -22,45 +22,49 @@
 	
 	# variantOverrides restricts hulls to listed variants and adjusts their probability
 	"variantOverrides":{
-		"R_mothership_domain":100,
-		"Conte_di_Cavour_Domain":100,
-		"bismark_domain":100,
-		"StLouis_domain":100,
-		"popov_domain":100,
-		"Trireme_domain":100,
-		"Wichita_domain":100,
-		"petya_domain":100,
-		"Furious_domain":100,
-		"independence_domain":100,
-		"indianopolis_domain":100,
-		"Queen_Elizabeth_domain":100,
-		"Virginia_domain":100,
-		"yorktown_domain":100,
-		"Moskva_domain":100,
-		"hosho_domain":100,
-		"Geobukseon_domain":100,
-		"town_domain":100,
-		"yamato_domain":100,
-		"Ford_domain":100,
-		"liberty_domain":100,
-		"atlanta_domain":100,
-		"tiger_domain":100,
-		"benson_domain":100,
-		"Brig_domain":100,
-		"kingGeorge_domain":100,
-		"gearing_domain":100,
-		"hipper_domain":100,
-		"shinano_domain":100,
-		"christian_domain":100,
-		"wasa_domain":100,
-		"Iowa_domain":100,
-		"Ise_domain":100,
-		"Dreadnaught_DR":100,
-		"kuznetsov_domain":100,
-		"zubr_standard":100,
-		"constitution_domain":100,
-		"Yubari_Domain":100,
-		"tei_domain":100
+		"R_mothership_domain":400,
+		"Conte_di_Cavour_Domain":400,
+		"bismark_domain":400,
+		"StLouis_domain":400,
+		"popov_domain":400,
+		"Trireme_domain":400,
+		"Wichita_domain":400,
+		"petya_domain":400,
+		"Furious_domain":400,
+		"independence_domain":400,
+		"indianopolis_domain":400,
+		"Queen_Elizabeth_domain":400,
+		"Virginia_domain":400,
+		"yorktown_domain":400,
+		"Moskva_domain":400,
+		"hosho_domain":400,
+		"Geobukseon_domain":400,
+		"town_domain":400,
+		"yamato_domain":400,
+		"Ford_domain":400,
+		"liberty_domain":400,
+		"atlanta_domain":400,
+		"tiger_domain":400,
+		"benson_domain":400,
+		"Brig_domain":400,
+		"kingGeorge_domain":400,
+		"gearing_domain":400,
+		"hipper_domain":400,
+		"shinano_domain":400,
+		"christian_domain":400,
+		"wasa_domain":400,
+		"Iowa_domain":400,
+		"Ise_domain":400,
+		"Dreadnaught_DR":400,
+		"kuznetsov_domain":400,
+		"zubr_standard":400,
+		"constitution_domain":400,
+		"Yubari_Domain":400,
+		"tei_domain":400,
+		"Hood_DR":400,
+		"I-56_domain":400,
+		"U-69_domain":400,
+		"mitscher_Domain":400
 },	
 	
 	# multiplier for how often hulls show up in the faction's fleets
@@ -80,12 +84,14 @@
 	"knownShips":{
 		"tags":["DR"],
 		"hulls":[
+			#"DR_mothership",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
 		"tags":["DR"],
 		"hulls":[
+		#"DR_mothership",
 		],
 	},
 	"knownFighters":{
@@ -159,7 +165,7 @@
 		
 		"aggression":4,
 		
-		"combatFreighterProbability":0.9,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterProbability":1,      				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":1,  				# as part of the normal combat lineup
 		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
 		"autofitRandomizeProbability":0, # preseve the knowlege of the acients

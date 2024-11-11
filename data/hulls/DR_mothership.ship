@@ -1,0 +1,202 @@
+{
+  "hullName": "DR_mothership",
+  "hullId": "DR_mothership",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/DR/ships/DR_mothership_battle.png",
+  "style": "LOW_TECH",
+  "height": 512,
+  "width": 512,
+  "center": [257, 256],
+  "collisionRadius": 330,
+  "shieldCenter": [1, 1],
+  "shieldRadius": 330,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reinforcedhull",
+    "automated",
+    "surveying_equipment",
+    "shared_flux_sink",
+    "targetingunit"
+  ],
+  "builtInWeapons": {
+    "WS0003": "hellbore"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 0,
+      "locations": [246, 61]
+    },
+    {
+      "id": "WS 002",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 0,
+      "locations": [-194, 156]
+    },
+    {
+      "id": "WS 003",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 0,
+      "locations": [105, -154]
+    },
+    {
+      "id": "WS 004",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 0,
+      "locations": [-158, -161]
+    },
+    {
+      "id": "WS 005",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 0,
+      "locations": [267, -79]
+    },
+    {
+      "id": "WS 006",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 0,
+      "locations": [103, 181]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 21.5,
+      "locations": [149, 104]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": 14,
+      "locations": [-86, -22],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-128, -31],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        110, 39.5,
+        132.5, 43
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": 8,
+      "locations": [-41.5, -17]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-252.5, 83],
+      "length": 25.5,
+      "width": 29,
+      "angle": 180,
+      "contrailSize": 29,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-256, -83],
+      "length": 25.5,
+      "width": 29,
+      "angle": 180,
+      "contrailSize": 29,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-253.5, -148.5],
+      "length": 12,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-254, 118.5],
+      "length": 12,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    248, 118,
+    185, 144,
+    143, 154,
+    125, 157,
+    122, 172,
+    107, 177,
+    69, 189,
+    54, 160,
+    26, 178,
+    8, 164,
+    -21, 179,
+    -17, 153,
+    -75, 152,
+    -88, 144,
+    -111, 154,
+    -170, 174,
+    -236, 163,
+    -247, 119,
+    -244, -163,
+    -175, -174,
+    -140, -157,
+    -83, -152,
+    -75, -142,
+    -26, -153,
+    32, -137,
+    57, -147,
+    45, -163,
+    72, -164,
+    87, -159,
+    98, -178,
+    114, -143,
+    169, -136,
+    246, -91,
+    246, -30,
+    230, 4,
+    249, 26
+  ]
+}

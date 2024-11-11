@@ -29,6 +29,15 @@
       "arc": 0,
       "angle": 0,
       "locations": [11, -12]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [0.5, 2.5]
     }
   ],
   "engineSlots": [],

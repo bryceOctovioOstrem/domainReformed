@@ -4,7 +4,7 @@
   "displayName": "domain Variant",
   "goalVariant": false,
   "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxVents": 21,
   "quality": 0,
   "permaMods": [],
   "hullMods": [
@@ -72,7 +72,7 @@
     "mig29_wing",
     "su33_wing",
     "su33_wing",
-    "su33_wing",
-    "su33_wing"
+    "KA-29_wing",
+    "KA-29_wing"
   ]
 }

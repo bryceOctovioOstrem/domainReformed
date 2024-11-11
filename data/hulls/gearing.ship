@@ -14,8 +14,8 @@
   "builtInMods": [
     "autorepair",
     "rugged",
-    "hiressensors",
-    "targetingunit"
+    "targetingunit",
+    "ground_support"
   ],
   "builtInWeapons": {
     "WS0014": "Lulu",
@@ -117,7 +117,7 @@
     },
     {
       "id": "WS0011",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 180,
@@ -127,7 +127,7 @@
     },
     {
       "id": "WS0012",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 180,
@@ -137,7 +137,7 @@
     },
     {
       "id": "WS0013",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 180,
@@ -162,6 +162,78 @@
       "arc": 0,
       "angle": 180,
       "locations": [-180, -11]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [166, 0.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 180,
+      "locations": [-79, -0]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-7, -16]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-6.5, 12.5]
+    },
+    {
+      "id": "WS0020",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 71.5,
+      "locations": [169, 11.5]
+    },
+    {
+      "id": "WS0021",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": -71.5,
+      "locations": [169, -11.5]
+    },
+    {
+      "id": "WS0022",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 71.5,
+      "locations": [91, 18.5]
+    },
+    {
+      "id": "WS0023",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": -71.5,
+      "locations": [91, -18.5]
     }
   ],
   "engineSlots": [
@@ -227,6 +299,150 @@
       "contrailSize": 7,
       "style": "CUSTOM",
       "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [128, 22.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": 90,
+      "contrailSize": 180,
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
+    },
+    {
+      "location": [128, -22.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": -90,
+      "contrailSize": 180,
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
+    },
+    {
+      "location": [114, 22.5],
+      "length": 14.5,
+      "width": 7,
+      "angle": 90,
+      "contrailSize": 180,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    },
+    {
+      "location": [114, -22.5],
+      "length": 14.5,
+      "width": 7,
+      "angle": -90,
+      "contrailSize": 180,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    },
+    {
+      "location": [100, 22.5],
+      "length": 15.5,
+      "width": 7,
+      "angle": 90,
+      "contrailSize": 180,
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
+    },
+    {
+      "location": [100, -22.5],
+      "length": 15.5,
+      "width": 7,
+      "angle": -90,
+      "contrailSize": 180,
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
+    },
+    {
+      "location": [-140, 22.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": 90,
+      "contrailSize": 180,
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
+    },
+    {
+      "location": [-140, -22.5],
+      "length": 12.5,
+      "width": 6,
+      "angle": -90,
+      "contrailSize": 180,
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
+    },
+    {
+      "location": [-154, 22.5],
+      "length": 14.5,
+      "width": 7,
+      "angle": 90,
+      "contrailSize": 180,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    },
+    {
+      "location": [-154, -22.5],
+      "length": 14.5,
+      "width": 7,
+      "angle": -90,
+      "contrailSize": 180,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    },
+    {
+      "location": [-168, 22.5],
+      "length": 15.5,
+      "width": 7,
+      "angle": 90,
+      "contrailSize": 180,
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
+    },
+    {
+      "location": [-168, -22.5],
+      "length": 15.5,
+      "width": 7,
+      "angle": -90,
+      "contrailSize": 180,
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
+    },
+    {
+      "location": [178.5, 17],
+      "length": 8.5,
+      "width": 5,
+      "angle": 90,
+      "contrailSize": 180,
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
+    },
+    {
+      "location": [178.5, -17],
+      "length": 8.5,
+      "width": 5,
+      "angle": -90,
+      "contrailSize": 180,
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
+    },
+    {
+      "location": [167.5, 17.5],
+      "length": 8.5,
+      "width": 5,
+      "angle": 90,
+      "contrailSize": 180,
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
+    },
+    {
+      "location": [167.5, -17.5],
+      "length": 8.5,
+      "width": 5,
+      "angle": -90,
+      "contrailSize": 180,
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
     }
   ],
   "bounds": [

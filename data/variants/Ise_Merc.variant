@@ -4,7 +4,7 @@
   "displayName": "Domain",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 46,
+  "fluxVents": 29,
   "quality": 0,
   "permaMods": [],
   "hullMods": [
@@ -17,7 +17,7 @@
       "weapons": {
         "WS0006": "flak",
         "WS0007": "mininglaser",
-        "WS0010": "mininglaser",
+        "WS0010`": "mininglaser",
         "WS0013": "ionbeam",
         "WS0014": "mininglaser",
         "WS0015": "mininglaser",

@@ -83,6 +83,15 @@
       "arc": 0,
       "angle": -0,
       "locations": [1, -6]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-18, -0]
     }
   ],
   "engineSlots": [

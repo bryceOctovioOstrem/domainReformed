@@ -1,0 +1,56 @@
+{
+  "variantId": "Lion_test",
+  "hullId": "Lion",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 2,
+  "fluxVents": 38,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "lightdualmg",
+        "WS0004": "lightdualmg",
+        "WS0005": "dualflak",
+        "WS0006": "mark9",
+        "WS0007": "mark9",
+        "WS0008": "lightdualmg",
+        "WS0009": "lightdualmg",
+        "WS0010": "lightdualmg",
+        "WS0011": "lightdualmg",
+        "WS0012": "swarmer",
+        "WS0013": "swarmer",
+        "WS0014": "heavymauler",
+        "WS0015": "swarmer",
+        "WS0016": "vulcan",
+        "WS0017": "vulcan",
+        "WS0018": "harpoonpod",
+        "WS0019": "hephag",
+        "WS0020": "vulcan",
+        "WS0021": "vulcan",
+        "WS0022": "vulcan",
+        "WS0023": "vulcan",
+        "WS0024": "vulcan",
+        "WS0025": "vulcan",
+        "WS0026": "vulcan",
+        "WS0027": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "hoplon_wing",
+    "hoplon_wing",
+    "hoplon_wing",
+    "broadsword_wing"
+  ]
+}

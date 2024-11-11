@@ -1,0 +1,35 @@
+{
+  "variantId": "mitscher_Merc",
+  "hullId": "mitscher",
+  "displayName": "Domain",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0002": "railgun",
+        "WS0003": "breach",
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser",
+        "WS0006": "atropos",
+        "WS0007": "taclaser",
+        "WS0008": "gazer",
+        "WS0009": "lrpdlaser",
+        "WS0010": "lrpdlaser",
+        "WS0011": "Lulu"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,27 @@
+{
+	"id":"DR_type_1130_shot",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":45.0,
+	"width":5.0,
+	"fadeTime":0.25,
+  "fringeColor": [
+    238,
+    28,
+    37,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    0,
+    219
+  ],
+	#"coreColor":[175,175,175,255],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0	
+}

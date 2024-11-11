@@ -1,15 +1,16 @@
 {
 	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
 	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
-	"combatSmallForSmallFleet":{
+	"combatSmallForSmallFleet":{ # frigates
 		"Virginia_domain":1,
 		"petya_domain":2,
 		"Brig_domain":1,
 		"tei_Merc":2,
 		"tei_domain":1,
+		"U-69_domain":3,
 		"fallback":{"combatSmall":1},
 	},
-	"combatSmall":{
+	"combatSmall":{ # FRIGATES AND DESTROYERS
 		"Brig_domain":1,
 		"tei_Merc":1,
 		"tei_domain":1,
@@ -25,10 +26,13 @@
 		"kiev_domain":1,
 		"Bertin_dr":1,
 		"Bertin_Merc":2,
+		"mitscher_Domain":2,
+		"mitscher_Merc":4,
 		"fallback":{"combatMedium":0.5},
 	},
-	"combatMedium":{
+	"combatMedium":{ # DESTROYERS and light cruisers
 		#"popov_domain":1,
+		"mitscher_Domain":1,
 		"Yubari_merc":1,
 		"Yubari_Domain":1,
 		"Geobukseon_domain":1,
@@ -37,7 +41,8 @@
 
 		"Bertin_dr":2,
 		"Bertin_Merc":3,
-
+		"I-56_domain":1,
+		
 		"StLouis_domain":1,
 		"Wichita_domain":1.5,
 		"indianopolis_domain":2,
@@ -45,8 +50,9 @@
 		"Dreadnaught_merc":5,
 		"fallback":{"combatSmall":1},
 	},
-	"combatLarge":{
+	"combatLarge":{ # cruisers and small capitals
 		"indianopolis_domain":1,
+		"I-56_domain":2,
 		"StLouis_domain":1,
 		"Wichita_domain":2,
 		"Moskva_domain":1,
@@ -54,7 +60,7 @@
 		"Dreadnaught_DR":1,
 		"fallback":{"combatMedium":1},
 	},
-	"combatCapital":{
+	"combatCapital":{ # capitals
 		"Conte_di_Cavour_Domain":4,
 		"Dreadnaught_DR":5,
 		"wasa_domain":2,
@@ -66,6 +72,8 @@
 		"Iowa_domain":.5,
 		"Ise_domain":1,
 		"Ise_Merc":4,
+		"Hood_DR":1,
+		"Hood_Merc":3,
 		"fallback":{"combatLarge":.5},
 	},
 	
@@ -105,6 +113,7 @@
 		"yorktown_domain":1,
 		"Essex_domain":4,
 		"Essex_Merc":5,
+		"I-56_domain":1,
 		"fallback":{"carrierSmall":1},
 		"fallback2":{"carrierLarge":0.5},
 	},
@@ -134,7 +143,7 @@
 		"fallback2":{"freighterLarge":0.5},
 	},
 	"freighterLarge":{
-		"R_mothership_domain":1,
+		#"DR_mothership_domain":1,
 		"fallback":{"freighterMedium":1},
 		"fallback2":{"freighterSmall":1},
 	},

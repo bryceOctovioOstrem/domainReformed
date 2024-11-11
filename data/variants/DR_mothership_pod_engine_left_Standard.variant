@@ -1,0 +1,29 @@
+{
+  "variantId": "DR_mothership_pod_engine_left_Standard",
+  "hullId": "derelict_mothership_pod_engine_left",
+  "displayName": "domain",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 1,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 013": "DR_phalanx",
+        "WS 014": "100mm",
+        "WS 015": "100mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

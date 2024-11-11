@@ -128,10 +128,14 @@ public class DR_ModPlugin extends BaseModPlugin {
         );
 
         //make asteroid belt surround it
-        system.addAsteroidBelt(star, 2000, 4800f, 600f, 1200, 365, Terrain.ASTEROID_BELT, "Astroid Belt");
-		system.addAsteroidBelt(star, 700, 2000f, 600f, 1200, 365, Terrain.ASTEROID_BELT, "Astroid Belt");
-		system.addAsteroidBelt(star, 1000, 6900f, 600f, 1200, 365, Terrain.ASTEROID_BELT, "Astroid Belt");
-		system.addAsteroidBelt(star, 700, 9000f, 600f, 1200, 365, Terrain.ASTEROID_BELT, "Astroid Belt");
+        system.addAsteroidBelt(star, 150, 4800f, 250f, 1200, 250, Terrain.ASTEROID_BELT, "Astroid Belt");
+		system.addRingBand(star, "misc", "rings_asteroids0", 256f, 0, Color.white, 256f, 4800f, 226f, null, null);
+		system.addAsteroidBelt(star, 100, 2000f, 250f, 1200, 250, Terrain.ASTEROID_BELT, "Astroid Belt");
+		system.addRingBand(star, "misc", "rings_asteroids0", 256f, 0, Color.white, 256f, 2000f, 226f, null, null);
+		system.addAsteroidBelt(star, 150, 6900f, 250f, 1200, 250, Terrain.ASTEROID_BELT, "Astroid Belt");
+		system.addRingBand(star, "misc", "rings_asteroids0", 256f, 0, Color.white, 256f, 6900f, 226f, null, null);
+		system.addAsteroidBelt(star, 100, 9000f, 250f, 1200, 250, Terrain.ASTEROID_BELT, "Astroid Belt");
+		system.addRingBand(star, "misc", "rings_asteroids0", 256f, 0, Color.white, 256f, 9000f, 226f, null, null);
         system.autogenerateHyperspaceJumpPoints(true, true);
 
         planet.setInteractionImage("illustrations", "confucius_planet");//adds illustration
@@ -184,13 +188,13 @@ public class DR_ModPlugin extends BaseModPlugin {
         // industries
         market.addIndustry(Industries.MEGAPORT);
         //market.addIndustry(Industries.STARFORTRESS);
-	market.addIndustry(DR_industries.DR_STATION3);
+	    market.addIndustry(DR_industries.DR_STATION3);
         market.addIndustry(Industries.PATROLHQ);
         market.addIndustry(Industries.HEAVYBATTERIES);
         market.addIndustry(Industries.MINING);
         market.addIndustry(Industries.HEAVYINDUSTRY);
 		//market.addIndustry(DR_industries.WHITESKYE);
-	market.addIndustry(DR_industries.DR_WENDIGO);
+	    market.addIndustry(DR_industries.DR_WENDIGO);
 
 
         Industry MaistrePATROLHQ = market.getIndustry(Industries.PATROLHQ);// grabs the orbital 
@@ -238,8 +242,8 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.setPlanetConditionMarketOnly(false); //We are going to turn this into a proper colony and not just a "surface only".
         market.setFactionId("DR");
         market.addIndustry(Industries.POPULATION);
-        market.addCondition(Conditions.POPULATION_5);
-        market.setSize(5);
+        market.addCondition(Conditions.POPULATION_4);
+        market.setSize(4);
         market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
         market.addSubmarket(Submarkets.SUBMARKET_BLACK);
         market.addSubmarket(Submarkets.SUBMARKET_OPEN);
@@ -248,7 +252,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addCondition(Conditions.COLD);
         market.addCondition(Conditions.RUINS_SCATTERED);
         market.addCondition(Conditions.ORE_SPARSE);
-        market.addCondition(Conditions.LARGE_REFUGEE_POPULATION);
+        //market.addCondition(Conditions.LARGE_REFUGEE_POPULATION);
         market.addCondition(Conditions.INDUSTRIAL_POLITY);
         //market.addCondition(Conditions.LOW_GRAVITY);
         market.addCondition(Conditions.ORGANIZED_CRIME);
@@ -260,19 +264,22 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.MEGAPORT);
         //market.addIndustry(Industries.STARFORTRESS);
 		market.addIndustry(DR_industries.DR_STATION3);
-        market.addIndustry(Industries.PATROLHQ);
+        market.addIndustry(Industries.MILITARYBASE);
         market.addIndustry(Industries.HEAVYBATTERIES);
         market.addIndustry(Industries.ORBITALWORKS);
-        market.addIndustry(Industries.REFINING);
+        //market.addIndustry(Industries.REFINING);
         market.addIndustry(Industries.WAYSTATION);
         //market.addIndustry(Industries.FUELPROD);
-        market.addIndustry(Industries.COMMERCE);
+        //market.addIndustry(Industries.COMMERCE);
 		market.addIndustry(DR_industries.DR_GENDARMERIE);
 
         // //add special items to industries WIP
 
         Industry ilynOrbitalWorks = market.getIndustry(Industries.ORBITALWORKS);// grabs the orbital 
         ilynOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+
+        Industry IllyinPATROLHQ = market.getIndustry(Industries.MILITARYBASE);// grabs the orbital 
+        IllyinPATROLHQ.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
 
         Industry ilynHEAVYBATTERIES = market.getIndustry(Industries.HEAVYBATTERIES);// grabs the heavy batteries
         ilynHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
@@ -314,8 +321,8 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.setPlanetConditionMarketOnly(false); //We are going to turn this into a proper colony and not just a "surface only".
         market.setFactionId("DR");
         market.addIndustry(Industries.POPULATION);
-        market.addCondition(Conditions.POPULATION_4);
-        market.setSize(4);
+        market.addCondition(Conditions.POPULATION_3);
+        market.setSize(3);
         market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
         market.addSubmarket(Submarkets.SUBMARKET_BLACK);
         market.addSubmarket(Submarkets.SUBMARKET_OPEN);
@@ -327,7 +334,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         //market.addCondition(Conditions.DECIVILIZED_SUBPOP);
         market.addCondition(Conditions.HOT);
         market.addCondition(Conditions.RURAL_POLITY);
-		market.addCondition(Conditions.DISSIDENT);
+		//market.addCondition(Conditions.DISSIDENT);
 
         market.addCondition(Conditions.LARGE_REFUGEE_POPULATION);
         //market.addCondition(Conditions.INDUSTRIAL_POLITY);
@@ -339,19 +346,19 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.MEGAPORT);
         //market.addIndustry(Industries.STARFORTRESS);
 		market.addIndustry(DR_industries.DR_STATION3);
-        market.addIndustry(Industries.PATROLHQ);
+        market.addIndustry(Industries.MILITARYBASE );
         market.addIndustry(Industries.HEAVYBATTERIES);
         market.addIndustry(Industries.HEAVYINDUSTRY);
         //market.addIndustry(Industries.REFINING);
         market.addIndustry(Industries.WAYSTATION);
         market.addIndustry(Industries.FARMING);
-        market.addIndustry(Industries.COMMERCE);
+        //market.addIndustry(Industries.COMMERCE);
 	//market.addIndustry(DR_industries.DR_WENDIGO);
         market.addIndustry(DR_industries.WHITESKYE);
 
         Industry BurkeOrbitalWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
         BurkeOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
-        Industry BurkePATROLHQ = market.getIndustry(Industries.PATROLHQ);// grabs the orbital 
+        Industry BurkePATROLHQ = market.getIndustry(Industries.MILITARYBASE);// grabs the orbital 
         BurkePATROLHQ.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
 
         Industry BurkeHEAVYBATTERIES = market.getIndustry(Industries.HEAVYBATTERIES);// grabs the heavy batteries
@@ -574,8 +581,8 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.setPlanetConditionMarketOnly(false); //We are going to turn this into a proper colony and not just a "surface only".
         market.setFactionId("DR");
         market.addIndustry(Industries.POPULATION);
-        market.addCondition(Conditions.POPULATION_4);
-        market.setSize(4);
+        market.addCondition(Conditions.POPULATION_3);
+        market.setSize(3);
         market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
         market.addSubmarket(Submarkets.SUBMARKET_BLACK);
         market.addSubmarket(Submarkets.SUBMARKET_OPEN);
@@ -600,7 +607,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.MEGAPORT);
         //market.addIndustry(Industries.STARFORTRESS);
 		market.addIndustry(DR_industries.DR_STATION2);
-        market.addIndustry(Industries.PATROLHQ);
+        market.addIndustry(Industries.MILITARYBASE);
         market.addIndustry(Industries.HEAVYBATTERIES);
         market.addIndustry(Industries.HEAVYINDUSTRY);
         market.addIndustry(Industries.MINING);
@@ -613,7 +620,7 @@ public class DR_ModPlugin extends BaseModPlugin {
 	    //Industry  KulugPATROLHQ = market.getIndustry(Industries.PATROLHQ);// grabs the orbital 
          Industry KulugOrbitalWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
          KulugOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
-         Industry KulugPATROLHQ = market.getIndustry(Industries.PATROLHQ);// grabs the orbital 
+         Industry KulugPATROLHQ = market.getIndustry(Industries.MILITARYBASE);// grabs the orbital 
          KulugPATROLHQ.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
 
         Industry KulugHEAVYBATTERIES = market.getIndustry(Industries.HEAVYBATTERIES);// grabs the heavy batteries
@@ -639,7 +646,7 @@ public class DR_ModPlugin extends BaseModPlugin {
 		SectorEntityToken LouisStation = system.addCustomEntity("Louis_station", "Louis XVIII station", "station_hightech3", "DR");
 		LouisStation.setCustomDescriptionId("LouisStation");
 		LouisStation.setInteractionImage("illustrations", "Louis_lab");
-		LouisStation.setCircularOrbitWithSpin(star, 220, 7400, 160, 3, 5);
+		LouisStation.setCircularOrbitWithSpin(star, 220, 8000, 160, 3, 5);
 		
 		 JumpPointAPI jumpPointOne = Global.getFactory().createJumpPoint("jumpOne", "Alpha Jump-point"); // add new jump point
 		 jumpPointOne.setCircularOrbit( system.getEntityById("Alpha_Persei"), 240 , 10000, 100);
@@ -647,7 +654,10 @@ public class DR_ModPlugin extends BaseModPlugin {
 		system.autogenerateHyperspaceJumpPoints(false,false);
 		system.updateAllOrbits();
 		
-		
+        SectorEntityToken relay = system.addCustomEntity("wangMang_relay",null, "comm_relay_makeshift","DR");// creates relay
+        relay.setCircularOrbitPointingDown(star, 230, 10500, 265f); // sets relays orbit
+
+
 		LouisStation.setFaction("persean");
         MarketAPI market = Global.getFactory().createMarket(
                 "Louis_station", //market id
@@ -667,7 +677,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.setFactionId("DR");
         market.addIndustry(Industries.POPULATION);
         market.addCondition(Conditions.POPULATION_1);
-        market.setSize(4);
+        market.setSize(1);
         market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
         market.addSubmarket(Submarkets.SUBMARKET_BLACK);
         market.addSubmarket(Submarkets.SUBMARKET_OPEN);
@@ -707,7 +717,6 @@ public class DR_ModPlugin extends BaseModPlugin {
         );
         //Those rascally Tritachyon have set their tariffs to 15%!
         market.getTariff().modifyFlat("generator", 0.15f);
-        LouisStation.setCustomDescriptionId("mang2desctiption"); // adds planet description
 
         system.updateAllOrbits();	
 		}
@@ -716,6 +725,8 @@ public class DR_ModPlugin extends BaseModPlugin {
         StarSystemAPI system = Global.getSector().createStarSystem("wang mang");
         PlanetAPI star = system.initStar("Wang Mang", "star_red_dwarf", 200, -21000, -6900, 200);
 		system.autogenerateHyperspaceJumpPoints(true,true);
+        SectorEntityToken relay = system.addCustomEntity("wangMang_relay",null, "comm_relay_makeshift","DR");// creates relay
+        relay.setCircularOrbitPointingDown(star, 230, 6500, 265f); // sets relays orbit
 	}
 	private void Diocletian() {
         StarSystemAPI system = Global.getSector().getStarSystem("wang mang");
@@ -740,8 +751,8 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.setPlanetConditionMarketOnly(false); //We are going to turn this into a proper colony and not just a "surface only".
         market.setFactionId("DR");
         market.addIndustry(Industries.POPULATION);
-        market.addCondition(Conditions.POPULATION_4);
-        market.setSize(4);
+        market.addCondition(Conditions.POPULATION_2);
+        market.setSize(2);
         market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
         market.addSubmarket(Submarkets.SUBMARKET_BLACK);
         market.addSubmarket(Submarkets.SUBMARKET_OPEN);
@@ -758,7 +769,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         // industries
         market.addIndustry(Industries.MEGAPORT);
 		market.addIndustry(DR_industries.DR_STATION3);
-        market.addIndustry(Industries.PATROLHQ);
+        market.addIndustry(Industries.MILITARYBASE);
         market.addIndustry(Industries.HEAVYBATTERIES);
         market.addIndustry(Industries.FUELPROD);
         market.addIndustry(Industries.HEAVYINDUSTRY);

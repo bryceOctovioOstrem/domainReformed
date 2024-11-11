@@ -1,0 +1,35 @@
+{
+  "variantId": "DR_mothership_sensor_mast_Standard",
+  "hullId": "derelict_mothership_sensor_mast",
+  "displayName": "domain",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "DR_type_1130",
+        "WS 010": "100mm",
+        "WS 011": "100mm",
+        "WS 012": "100mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

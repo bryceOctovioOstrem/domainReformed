@@ -1,0 +1,29 @@
+{
+  "variantId": "I-56_merc",
+  "hullId": "I-56",
+  "displayName": "domain ",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 17,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0002": "shredder",
+        "WS0003": "shredder",
+        "WS0004": "phaseTorp19"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing"
+  ]
+}

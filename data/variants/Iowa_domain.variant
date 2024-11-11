@@ -1,17 +1,17 @@
 {
   "variantId": "Iowa_domain",
   "hullId": "Iowa",
-  "displayName": "Domain",
+  "displayName": "domain",
   "goalVariant": true,
-  "fluxCapacitors": 13,
+  "fluxCapacitors": 28,
   "fluxVents": 50,
   "quality": 0,
   "permaMods": [],
   "hullMods": [
-    "reinforcedhull",
-    "autorepair",
-    "hiressensors",
-    "missleracks",
+    "eccm",
+    "ecm",
+    "magazines",
+    "operations_center"
   ],
   "weaponGroups": [
     {
@@ -19,63 +19,25 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "Oerlikon",
-        "WS0002": "5in",
-        "WS0003": "5in",
-        "WS0006": "CWIS",
-        "WS0019": "vulcan"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0007": "CWIS",
-        "WS0012": "Oerlikon",
-        "WS0013": "5in",
-        "WS0015": "5in",
-        "WS0018": "vulcan"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
+        "WS0002": "vulcan",
+        "WS0003": "lightmg",
         "WS0004": "DR_Tomahawk",
-        "WS0009": "swarmer"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
         "WS0005": "DR_Tomahawk",
-        "WS0008": "swarmer"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0014": "16in"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0016": "16in",
-        "WS0017": "16in"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
+        "WS0006": "DR_phalanx",
+        "WS0007": "DR_phalanx",
         "WS0010": "DR_Tomahawk",
-        "WS0011": "DR_Tomahawk"
+        "WS0011": "DR_Tomahawk",
+        "WS0012": "Oerlikon",
+        "WS0013": "vulcan",
+        "WS0014": "16in",
+        "WS0015": "lightmg",
+        "WS0016": "16in",
+        "WS0017": "16in",
+        "WS0018": "lightdualmg",
+        "WS0019": "lightdualmg"
       }
     }
   ],
   "modules": [],
-  "wings": [vought_wing_3]
+  "wings": []
 }

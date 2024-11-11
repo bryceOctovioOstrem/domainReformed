@@ -3,7 +3,7 @@
   "hullId": "gearing",
   "displayName": "New Variant",
   "goalVariant": true,
-  "fluxCapacitors": 7,
+  "fluxCapacitors": 9,
   "fluxVents": 22,
   "quality": 0,
   "permaMods": [],
@@ -20,7 +20,11 @@
         "WS0007": "vulcan",
         "WS0009": "annihilator",
         "WS0010": "annihilator",
-        "WS0011": "Oerlikon"
+        "WS0011": "Oerlikon",
+        "WS0012": "Oerlikon",
+        "WS0013": "Oerlikon",
+        "WS0014": "Lulu",
+        "WS0015": "Lulu"
       }
     },
     {
@@ -28,8 +32,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0005": "vulcan",
-        "WS0008": "vulcan",
-        "WS0013": "Oerlikon"
+        "WS0008": "vulcan"
       }
     },
     {
@@ -60,9 +63,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0012": "Oerlikon"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

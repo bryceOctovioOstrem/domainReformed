@@ -8,6 +8,7 @@
   "turretSprite": "graphics/weapons/DR_BL15in_turret.PNG",
   "hardpointSprite": "graphics/weapons/DR_BL15in_hardpoint.png",
   #"visualRecoil": 10,
+   #"turretOffsets":[3, 0],
   "renderHints": [
     "RENDER_BARREL_BELOW"
   ],

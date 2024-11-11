@@ -1,0 +1,26 @@
+{
+  "variantId": "U-69_merc",
+  "hullId": "U-69",
+  "displayName": "U-69 merc",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "phase_anchor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "phaseTorp14",
+        "WS0002": "shredder",
+        "WS0003": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

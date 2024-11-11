@@ -2,7 +2,6 @@
 	"id":"12SK_shot",
 	"specClass":"projectile",
 	"onHitEffect":"com.fs.starfarer.api.impl.combat.CryofluxTransducerEffect",
-	
 	"spawnType":"BALLISTIC_AS_BEAM",
 	"collisionClass":"RAY",
 	"collisionClassByFighter":"RAY_FIGHTER",
@@ -10,8 +9,8 @@
 	"width":45.0,
 	"hitGlowRadius":0,
 	"fadeTime":0.25,
-	"fringeColor":[221, 0, 0,40],
-	"coreColor":[254, 222, 23,35],
+	"fringeColor":[255, 0, 0,30],
+	"coreColor":[255, 204, 0,35],
 	#"coreColor":[255,255,255,50],
 	"textureType":"SMOOTH",  # only needed for BEAM spawnType
 	"textureScrollSpeed":-256,

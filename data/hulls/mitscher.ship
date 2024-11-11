@@ -1,0 +1,193 @@
+{
+  "hullName": "Mitscher",
+  "hullId": "mitscher",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/DR/ships/Mitscher-class.PNG",
+  "style": "LOW_TECH",
+  "height": 465,
+  "width": 80,
+  "center": [40, 232.5],
+  "collisionRadius": 233.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 235,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "targetingunit",
+    "rugged"
+  ],
+  "builtInWeapons": {
+    "WS0011": "Lulu"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 305,
+      "angle": 0,
+      "locations": [153.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": 0,
+      "locations": [118.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 202,
+      "angle": 0,
+      "locations": [95.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 80.5,
+      "locations": [84.5, 16.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -79.5,
+      "locations": [83.5, -15.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 180,
+      "locations": [-92, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 295,
+      "angle": 180,
+      "locations": [-114.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 305,
+      "angle": 180,
+      "locations": [-145.5, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 126,
+      "locations": [-181.5, 11]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -126,
+      "locations": [-181.5, -10]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-207.5, 4.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-227.5, 28],
+      "length": 33,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    },
+    {
+      "location": [-233.5, 13],
+      "length": 33,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
+    },
+    {
+      "location": [-233.5, -13],
+      "length": 33,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
+    },
+    {
+      "location": [-227.5, -28],
+      "length": 33,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    },
+    {
+      "location": [-24.5, -0],
+      "length": 14,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [13.5, -0],
+      "length": 14,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    }
+  ],
+  "bounds": [
+    230, -0,
+    209.5, 7,
+    103, 19.5,
+    -127.5, 19.5,
+    -192.5, 16.5,
+    -216, 39.5,
+    -228.5, 0.5,
+    -217.5, -38,
+    -191, -17.5,
+    -128.5, -19.5,
+    103, -20,
+    209.5, -6
+  ]
+}

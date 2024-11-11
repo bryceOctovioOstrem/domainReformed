@@ -143,9 +143,9 @@
       "locations": [-101, -19]
     },
     {
-      "id": "WS0015",
+      "id": "WS0015y",
       "size": "MEDIUM",
-      "type": "SYNERGY",
+      "type": "COMPOSITE",
       "mount": "TURRET",
       "arc": 246,
       "angle": 180,
@@ -190,7 +190,7 @@
     {
       "id": "WS0018",
       "size": "MEDIUM",
-      "type": "SYNERGY",
+      "type": "COMPOSITE",
       "mount": "TURRET",
       "arc": 278,
       "angle": 0,
@@ -199,7 +199,7 @@
     {
       "id": "WS0019",
       "size": "MEDIUM",
-      "type": "SYNERGY",
+      "type": "COMPOSITE",
       "mount": "TURRET",
       "arc": 248,
       "angle": 0,

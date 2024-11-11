@@ -1,0 +1,96 @@
+{
+  "hullName": "U-69",
+  "hullId": "U-69",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/DR/ships/U69.png",
+  "style": "LOW_TECH",
+  "height": 380,
+  "width": 35,
+  "center": [17.5, 190],
+  "collisionRadius": 190,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 191,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "rugged",
+    "armoredweapons"
+  ],
+  "builtInWeapons": {
+    "WS0001": "phaseTorp14"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [183, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 310,
+      "angle": 0,
+      "locations": [49, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-6, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-158.5, 8.5],
+      "length": 12.160763,
+      "width": 4.523644,
+      "angle": 176.5,
+      "contrailSize": 4.523644,
+      "style": "CUSTOM",
+      "styleId": "black"
+    },
+    {
+      "location": [-158.5, -8.5],
+      "length": 12.160763,
+      "width": 4.523644,
+      "angle": -176.5,
+      "contrailSize": 4.523644,
+      "style": "CUSTOM",
+      "styleId": "black"
+    },
+    {
+      "location": [-188, 7],
+      "length": 14,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-188, -7],
+      "length": 14,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    189, -0,
+    145, 8,
+    -41, 16.5,
+    -184, 6.5,
+    -184, -8.5,
+    -37.5, -16.5,
+    144.5, -8.5
+  ]
+}

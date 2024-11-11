@@ -1,0 +1,19 @@
+{
+	"id":"DR_canisterShot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"onFireEffect":"com.fs.starfarer.api.impl.combat.CryoblasterEffect",
+	"length":2.0,
+	"hitGlowRadius":15,
+	"width":2.0,
+	"fadeTime":0.2,
+	"fringeColor":[255, 255, 255,255],
+	#"coreColor":[255,200,200,150],
+	#"fringeColor":[255,150,70,235],
+	#"coreColor":[255,255,255,170],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_round_sml.png"
+}
