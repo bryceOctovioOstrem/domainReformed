@@ -12,11 +12,7 @@
   "shieldRadius": 187,
   "viewOffset": 0,
   "builtInMods": [
-"armoredweapons",
-"missleracks",
-"pointdefenseai",
-"reduced_explosion",
-"blast_doors",
+    "reduced_explosion",
     "autorepair",
     "rugged",
     "supercomputer",

@@ -20,7 +20,8 @@
   ],
   "builtInWeapons": {
     "WS0024": "fireControl1000",
-    "WS0025": "fireControl1000"
+    "WS0025": "fireControl1000",
+    "WS0026": "kamikaze"
   },
   "weaponSlots": [
     {
@@ -186,7 +187,7 @@
       "type": "HYBRID",
       "mount": "TURRET",
       "arc": 95,
-      "angle": 77.5,
+      "angle": 60.5,
       "locations": [-2, 25],
       "renderOrderMod": 33
     },
@@ -214,7 +215,7 @@
       "type": "HYBRID",
       "mount": "TURRET",
       "arc": 95,
-      "angle": -71,
+      "angle": -57.5,
       "locations": [-2.5, -26],
       "renderOrderMod": 33
     },
@@ -277,6 +278,15 @@
       "arc": 1,
       "angle": -94,
       "locations": [-13.5, -10]
+    },
+    {
+      "id": "WS0026",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 5.5,
+      "locations": [-367.5, 3.5]
     }
   ],
   "engineSlots": [

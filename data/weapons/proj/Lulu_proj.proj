@@ -4,8 +4,8 @@
 	"missileType":"BOMB_WITH_SLOW",
 	#"sprite":"graphics/missiles/lulu.png",
 	"sprite":"graphics/missiles/lulu.png",
-	"size":[10,26],	
-	"center":[5,13],
+	"size":[5,13],	
+	"center":[2,6],
 	"collisionRadius":22,
 	"collisionClass":"MISSILE_NO_FF",
 	"explosionColor":[44, 250, 31,200],  # purely visual, will get a white additively blended core on top of this color
@@ -14,16 +14,16 @@
 	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
 	"fadeTime":0.05, # fadeout duration		
 	"explosionSpec":{"duration":0.1f, # not visual
-					 "radius":535,
-					 "coreRadius":500, # full damage within core radius
+					 "radius":600,
+					 "coreRadius":200, # full damage within core radius
 					 "collisionClass":MISSILE_FF,
 					 "collisionClassByFighter":MISSILE_FF},
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
 					"slowToMaxSpeed":true,
-					"range":100,
+					"range":200,
 					"explosionSpec":{"duration":0.5f,
-									 "radius":535,
-									 "coreRadius":150, # full damage within core radius
+									 "radius":600,
+									 "coreRadius":200, # full damage within core radius
 									 "collisionClass":PROJECTILE_FF,
 									 "collisionClassByFighter":PROJECTILE_FIGHTER,
 									 "particleSizeMin":3.0,

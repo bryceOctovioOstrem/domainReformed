@@ -33,3 +33,12 @@ The Wendigos do not allow any outsider to see them eat, and the higher-ups refus
 ",,
 WhiteskyePlayer,Whiteskye base ,2,40,,20,,,"grounddefenses, tactical_bombardment, structure, unraidable",,graphics/illustrations/raid_destroy.jpg,data.scripts.campaign.econ.impl.WhiteskyePlayer,"A mercenary outpost of the Whiteskye Mercenary Company, allowing for the stationing of independent mercenary fleets. No private military company is more infamous than the Whiteskye company. Whiteskye is feared throughout the sector due to their practices of mutilating corpses, mass bombardment, torture, assassination, weapons testing, forced cyberization, prisoner recruitment, terror tactics, disregard for civilian casualties, and posting images of themselves to social media with mutilated bodies… etc. Despite multiple protests from the Persean League and demands from the hegemony to cease operations the Whiteskye company continues to find employment across the sector. The owner of Whiteskye Mikhail Gusinsky always makes sure his men are equipped with the best equipment money can buy, and some it can’t.",,
 ronin,Ronin Toride,10,10,,10,,,"grounddefenses, tactical_bombardment, structure, unraidable",,graphics/planets/ronin.png,data.scripts.campaign.econ.impl.ronin,The Ronin private military company hires exclusively from apostate knights of Ludd. They are a support group as much as a band of mercenaries. They now profit from oppressing the very people they once called brothers and sisters.  They still fight in the same way as they did when they served the church due to a sense of familiarity. Despite a recent hostile takeover from their founder High Admiral Dux Saigo the Ronin PMC remains a very profitable and effective company.,,
+,,,,,,,,,,,,,,
+DR_quasarCitadel,Domain Quasar Citadel,400,400,,6,DR_starFortress,,"station, quasarCitadel, unraidable, structure","{
+radius:80,
+variant:DR_starFortress_domain,
+fleetName:quasar Citadel
+}",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.impl.DR_orbitalStationUpgradeChecker,"The ultimate in reconstructionist defenses . A quasar citadel is an immense fortification requiring the most powerful of fleets to overcome. 
+
+It must be reduced before invasions or bombardment can be attempted.
+",,

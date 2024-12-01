@@ -3,7 +3,7 @@
   "hullId": "kingGeorge",
   "displayName": "New Variant",
   "goalVariant": true,
-  "fluxCapacitors": 12,
+  "fluxCapacitors": 0,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
@@ -22,7 +22,9 @@
         "WS0009": "vulcan",
         "WS0010": "Oerlikon",
         "WS0025": "Oerlikon",
-        "WS0027": "Oerlikon"
+        "WS0027": "Oerlikon",
+        "WS0030": "fireControl800",
+        "WS0031": "fireControl800"
       }
     },
     {

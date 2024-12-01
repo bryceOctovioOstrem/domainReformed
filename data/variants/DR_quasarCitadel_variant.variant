@@ -1,0 +1,48 @@
+{
+  "variantId": "DR_quasarCitadel_variant",
+  "hullId": "DR_quasarCitadel",
+  "displayName": "Domain Quasar Citadel",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 32,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [
+    {
+      "WS0001": "DR_north_quasar_citadel_variant"
+    },
+    {
+      "WS0002": "DR_east_quasar_citadel_variant"
+    },
+    {
+      "WS0003": "DR_south_quasar_citadel_variant"
+    },
+    {
+      "WS0004": "DR_west_quasar_citadel_variant"
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,91 @@
+{
+  "variantId": "DR_south_quasar_citadel_variant",
+  "hullId": "DR_south_quasar_citadel",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 48,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "dualflak",
+        "WS0007": "dualflak",
+        "WS0011": "Oerlikon",
+        "WS0014": "vulcan",
+        "WS0017": "Oerlikon",
+        "WS0018": "vulcan",
+        "WS0019": "vulcan",
+        "WS0021": "Oerlikon",
+        "WS0027": "DR_15cmSK",
+        "WS0029": "Oerlikon",
+        "WS0031": "vulcan",
+        "WS0034": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "dualflak",
+        "WS0012": "Oerlikon",
+        "WS0013": "vulcan",
+        "WS0015": "Oerlikon",
+        "WS0016": "vulcan",
+        "WS0020": "vulcan",
+        "WS0022": "Oerlikon",
+        "WS0028": "dualflak",
+        "WS0030": "Oerlikon",
+        "WS0032": "vulcan",
+        "WS0033": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "DR_15cmSK",
+        "WS0002": "DR_15cmSK",
+        "WS0003": "DR_15cmSK",
+        "WS0004": "DR_15cmSK",
+        "WS0006": "DR_15cmSK",
+        "WS0009": "DR_15cmSK",
+        "WS0010": "DR_15cmSK"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0026": "380mmSK"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0023": "380mmSK"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0024": "380mmSK"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0025": "380mmSK"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -110,9 +110,6 @@
 			"starliner",
 			"tarsus",
 			"colossus",
-			"yamato",
-			"Ise",
-			"shinano",
 			"vanguard",
 			
 			"buffalo2",
@@ -124,6 +121,11 @@
 			
 			"retribution",
 			"invictus",
+			
+			#DR ships
+			"yamato",
+			"Ise",
+			"shinano",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available

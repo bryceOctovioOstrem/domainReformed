@@ -1,0 +1,39 @@
+{
+  "id": "DR_J-45",
+  "specClass": "projectile",
+  "projectileSpecId": "DR_j-45_shot",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/DR_J-45_turret.png",
+  "hardpointSprite": "graphics/weapons/DR_J-45_hardpoint.png",
+  "turretOffsets": [
+    42,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    39,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "requiresFullCharge": false,
+  "muzzleFlashSpec": {
+    "length": 23,
+    "spread": 5,
+    "particleSizeMin": 10,
+    "particleSizeRange": 12,
+    "particleDuration": 0.12,
+    "particleCount": 12,
+    "particleColor": [
+      255, 255, 0,205
+    ]
+  },
+  "fireSoundTwo": "ir_pulse_laser_fire"
+}

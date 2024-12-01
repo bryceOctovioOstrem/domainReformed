@@ -1,0 +1,128 @@
+{
+  "hullName": "DR_quasarCitadel",
+  "hullId": "DR_quasarCitadel",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/DR/ships/DR_station_base.png",
+  "style": "LOW_TECH",
+  "height": 512,
+  "width": 512,
+  "center": [256, 256],
+  "collisionRadius": 191.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 199.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation",
+    "vastbulk",
+    "supercomputer",
+    "comp_storage",
+    "shared_flux_sink"
+  ],
+  "builtInWings": [
+    "su33_wing",
+    "su33_wing",
+    "su33_wing",
+    "su33_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [5, 482]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [538, -0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-2, -549]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-591, -4.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        117.5, -119,
+        -117.5, -118
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        118.5, 120,
+        -116, 117.5
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    0.5, 171,
+    85.5, 140.5,
+    64, 112.5,
+    82.5, 96.5,
+    110, 126,
+    124.5, 108.5,
+    97, 81.5,
+    108, 68.5,
+    147.5, 77,
+    171.5, -0.5,
+    147, -79,
+    109.5, -64.5,
+    95, -82.5,
+    126, -113,
+    110, -128.5,
+    82.5, -97.5,
+    70, -108.5,
+    77.5, -146.5,
+    -1.5, -171.5,
+    -77.5, -146.5,
+    -64, -111.5,
+    -81.5, -98.5,
+    -111, -128.5,
+    -127.5, -114.5,
+    -96.5, -85,
+    -111, -67.5,
+    -147.5, -77.5,
+    -171, 0.5,
+    -146.5, 76.5,
+    -111.5, 65.5,
+    -96.5, 84,
+    -128, 113,
+    -112.5, 127,
+    -82.5, 97,
+    -64, 113.5,
+    -79, 146.5
+  ]
+}

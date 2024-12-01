@@ -11,19 +11,14 @@
   "shieldCenter": [0, 0],
   "shieldRadius": 230,
   "viewOffset": 0,
-"builtInMods":[
-"armoredweapons",
-"missleracks",
-"pointdefenseai",
-"reduced_explosion",
-"blast_doors",
+  "builtInMods": [
+    "armoredweapons",
     "autorepair",
     "rugged",
     "supercomputer",
     "do_not_fire_through",
-    "always_detaches",
-    "ballistic_rangefinder"
-],
+    "always_detaches"
+  ],
   "weaponSlots": [
     {
       "id": "WS0001",

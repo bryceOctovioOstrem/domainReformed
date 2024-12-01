@@ -82,14 +82,14 @@
 		],
 	},
 	"knownShips":{
-		"tags":["DR"],
+		"tags":["DR","derelict"],
 		"hulls":[
 			#"DR_mothership",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
-		"tags":["DR"],
+		"tags":["DR","derelict"],
 		"hulls":[
 		#"DR_mothership",
 		],

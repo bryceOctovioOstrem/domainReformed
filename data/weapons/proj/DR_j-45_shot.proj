@@ -1,0 +1,16 @@
+{
+	"id":"DR_j-45_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":70.0,
+	"width":11.0,
+	"fadeTime":0.25,
+	"fringeColor":[255,255,0,100],
+	"coreColor":[238,28,37,155],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	#"textureType":["graphics/fx/emp_arcs.png","graphics/fx/emp_arcs.png"],
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

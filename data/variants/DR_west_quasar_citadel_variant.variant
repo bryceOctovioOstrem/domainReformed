@@ -1,76 +1,74 @@
 {
-  "variantId": "Iowa_domain",
-  "hullId": "Iowa",
-  "displayName": "domain",
+  "variantId": "DR_west_quasar_citadel_variant",
+  "hullId": "DR_west_quasar_citadel",
+  "displayName": "New Variant",
   "goalVariant": true,
-  "fluxCapacitors": 28,
+  "fluxCapacitors": 50,
   "fluxVents": 50,
-  "quality": 0,
+  "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "eccm",
-    "ecm",
-    "magazines",
-    "operations_center"
+    "heavyarmor"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "Oerlikon",
+        "WS0001": "vulcan",
+        "WS0004": "Oerlikon",
+        "WS0005": "Oerlikon",
+        "WS0007": "DR_phalanx"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0002": "vulcan",
-        "WS0003": "lightmg",
-        "WS0006": "DR_phalanx",
-        "WS0019": "lightdualmg"
+        "WS0003": "Oerlikon",
+        "WS0006": "Oerlikon",
+        "WS0008": "DR_phalanx"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "DR_phalanx",
-        "WS0012": "Oerlikon",
-        "WS0013": "vulcan",
-        "WS0015": "lightmg",
-        "WS0018": "lightdualmg"
+        "WS0009": "DR_Tomahawk",
+        "WS0010": "DR_Tomahawk",
+        "WS0013": "DR_Tomahawk",
+        "WS0014": "DR_Tomahawk"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0010": "DR_Tomahawk"
+        "WS0011": "swarmer",
+        "WS0012": "swarmer"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "DR_Tomahawk",
-        "WS0014": "16in"
+        "WS0015": "16in"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0016": "16in",
+        "WS0016": "16in"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0017": "16in"
       }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0005": "DR_Tomahawk",
-        "WS0011": "DR_Tomahawk"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {}
     }
   ],
   "modules": [],
