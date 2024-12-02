@@ -37,7 +37,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [0.5, -14.5]
+      "locations": [-0.5, -19]
     },
     {
       "id": "WS0004",
@@ -46,7 +46,25 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [0.5, 14.5]
+      "locations": [-0.5, 19]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [2.5, 11.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2.5, -11.5]
     }
   ],
   "engineSlots": [

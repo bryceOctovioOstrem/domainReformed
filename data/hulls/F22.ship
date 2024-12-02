@@ -20,7 +20,7 @@
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "HIDDEN",
-      "arc": 0,
+      "arc": 360,
       "angle": 0,
       "locations": [16.5, 3.5]
     },
@@ -29,7 +29,7 @@
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "HIDDEN",
-      "arc": 0,
+      "arc": 360,
       "angle": -0,
       "locations": [16.5, -3.5]
     },

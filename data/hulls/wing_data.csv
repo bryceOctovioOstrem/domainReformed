@@ -13,7 +13,7 @@ hurricane_wing,hurricane_domain,"fighter2, interceptor,DR, merc, pirate",1,,6,15
 J-15_wing,J15,"fighter3, interceptor, DR, merc, pirate, ind",3,,7,18,V,4000,500,900,1,FIGHTER,Fighter,15,9000,,,,,,,,,,,,,12,,,,,,,,,,,,,,,,,,,,,
 F-35_wing,F-35_domain,"fighter4, fighter,DR",4,,10,18,V,5000,500,600,1,FIGHTER,Heavy Fighter,10,13000,,,,,,,,,,,,,11,,,,,,,,,,,,,,,,,,,,,
 B4Y_Jean_wing,B4Y_Jean_domain,"bomber3, bomber,DR, merc, pirate",0,,3,20,V,4000,2000,700,3,BOMBER,Bomber,15,7000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-A10_wing,A10_domain,"bomber3, bomber,DR, merc, pirate",0,,4,12,V,4000,2000,600,1,BOMBER,Bomber,15,4000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+A10_wing,A10_domain,"bomber3, bomber,DR, merc, pirate",0,,4,4,V,4000,2000,600,1,BOMBER,Bomber,15,4000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 euroFighter_wing,euroFighter_domain,"bomber4, bomber,DR, merc, pirate",4,,5,20,V,4000,1000,600,1,FIGHTER,Heavy Fighter,18,1100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 E8N_wing_4,E8N_domain,,0,,3,20,V,4000,1500,700,4,INTERCEPTOR,Interceptor,15,4000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 E8N_wing_3,E8N_domain,,0,,3,21,V,4000,1500,700,3,INTERCEPTOR,Interceptor,15,3000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0

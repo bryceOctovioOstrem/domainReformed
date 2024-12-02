@@ -47,8 +47,7 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "DR_Tomahawk",
-        "WS0014": "16in"
+        "WS0004": "DR_Tomahawk"
       }
     },
     {
@@ -70,7 +69,9 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0014": "16in"
+      }
     }
   ],
   "modules": [],

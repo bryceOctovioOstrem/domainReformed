@@ -76,8 +76,8 @@
         {"id":"nanoforge_corrupted", "count":1},
         {"id":"synchrotron", "count":1},
     ],
-	"invasionPointMult":1.2,
-    	"invasionFleetSizeMod":1.2,
+	"invasionPointMult":1.4,
+    	"invasionFleetSizeMod":.8,
 	"responseFleetSizeMod": 1.6,
 	"morality":"evil",
 	

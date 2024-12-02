@@ -19,7 +19,9 @@
         "WS0001": "lightneedler",
         "WS0002": "lightneedler",
         "WS0003": "harpoon_hidden",
-        "WS0004": "harpoon_hidden"
+        "WS0004": "harpoon_hidden",
+        "WS0005": "ASRAAM",
+        "WS0006": "ASRAAM"
       }
     }
   ],
