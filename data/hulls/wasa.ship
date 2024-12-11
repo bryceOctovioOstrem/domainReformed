@@ -16,7 +16,8 @@
     "targetingunit",
     "distributed_fire_control",
     "rugged",
-    "fragile_subsystems"
+    "fragile_subsystems",
+    "ablative_armor"
   ],
   "builtInWeapons": {
     "WS0038": "wasa_dec",

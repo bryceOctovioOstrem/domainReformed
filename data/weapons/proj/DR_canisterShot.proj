@@ -4,7 +4,7 @@
 	"spawnType":"BALLISTIC",
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
-	"onFireEffect":"com.fs.starfarer.api.impl.combat.CryoblasterEffect",
+	#"onFireEffect":"com.fs.starfarer.api.impl.combat.CryoblasterEffect",
 	"length":2.0,
 	"hitGlowRadius":15,
 	"width":2.0,

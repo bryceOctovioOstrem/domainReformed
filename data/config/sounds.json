@@ -102,7 +102,7 @@
 
 		"gyrojet_medium_sound":
 	[
-		{"file":"sounds/sfx_wpn_guns/GYROJET_SOUND_LARGE.ogg","pitch":1,"volume":.2},
+		{"file":"sounds/sfx_wpn_guns/GYROJET_SOUND_LARGE.ogg","pitch":1,"volume":.1},
 	],
 		"gyrojet_large_sound":
 	[

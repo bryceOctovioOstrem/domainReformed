@@ -14,7 +14,8 @@
   "builtInMods": [
     "targetingunit",
     "rugged",
-    "shielded_holds"
+    "shielded_holds",
+    "ablative_armor"
   ],
   "builtInWeapons": {
     "WS0001": "DR_smoothbore_canister",

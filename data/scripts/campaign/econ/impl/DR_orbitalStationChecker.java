@@ -20,12 +20,12 @@ public class DR_orbitalStationChecker extends OrbitalStation {
             FactionAPI player = sector.getFaction(Factions.PLAYER);
             FactionAPI DR = sector.getFaction("DR");
         
-            boolean canBuild = false;
+            boolean canBuild = true;
             for (Industry ind : market.getIndustries()) {
             	if (ind == this) continue;
             	if (!ind.isFunctional()) continue;
             	if ((ind.getSpec().hasTag(Industries.TAG_SPACEPORT)) && (Global.getSector().getPlayerFaction().knowsIndustry(getId()))) {
-			canBuild = true;
+			canBuild = false;
 			break;
             	}
             }
