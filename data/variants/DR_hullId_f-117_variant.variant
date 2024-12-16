@@ -1,0 +1,23 @@
+{
+  "variantId": "DR_hullId_f-117_variant",
+  "hullId": "DR_hullId_f-117",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hiddenBombLarge",
+        "WS0002": "hiddenBombLarge"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

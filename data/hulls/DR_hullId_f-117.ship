@@ -1,0 +1,59 @@
+{
+  "hullName": "DR_f-117",
+  "hullId": "DR_hullId_f-117",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/DR_f-117.PNG",
+  "style": "LOW_TECH",
+  "height": 62,
+  "width": 40,
+  "center": [20, 31],
+  "collisionRadius": 31.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 32.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phase_anchor",
+    "insulatedengine"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [18, 6]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [18, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17, 5.5],
+      "length": 8.5,
+      "width": 5,
+      "angle": 166,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "black"
+    },
+    {
+      "location": [-17, -5.5],
+      "length": 6,
+      "width": 4,
+      "angle": -157,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "black"
+    }
+  ],
+  "bounds": []
+}

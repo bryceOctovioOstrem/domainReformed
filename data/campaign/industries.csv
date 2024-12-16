@@ -1,12 +1,12 @@
 id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
-comet_Keep,Domain Comet Keep ,45,80,,3,,moonCastle,"station, sub_item, unraidable, structure","{
+comet_Keep,Comet Keep ,45,80,,3,,moonCastle,"station, sub_item, unraidable, structure","{
 radius:80,
 variant:comet_Keep_domain,
 fleetName:Orbital Station,
 }",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A small Reconstructionist space station made of decommissioned warships and a universal center module made into the image of the domain crest. While not particularly powerful It can be built quickly.
 
 Must be reduced before invasions or bombardment can be attempted.",,
-moonCastle,Domain Moon Castle,100,120,,4,comet_Keep,DR_starFortress,"station, battlestation, unraidable, structure","{
+moonCastle,Moon Castle,100,120,,4,comet_Keep,DR_starFortress,"station, battlestation, unraidable, structure","{
 radius:80,
 variant:moonCastle_domain,
 fleetName:Battlestation,
@@ -16,7 +16,7 @@ It must be reduced before invasions or bombardment can be attempted.
 
 
 ",,
-DR_starFortress,Domain Star Fortress ,200,200,,5,moonCastle,DR_quasarCitadel,"station, starfortress, unraidable, structure","{
+DR_starFortress,Star Fortress ,200,200,,5,moonCastle,DR_quasarCitadel,"station, starfortress, unraidable, structure","{
 radius:80,
 variant:DR_starFortress_domain,
 fleetName:Star Fortress
@@ -34,9 +34,8 @@ The Wendigos do not allow any outsider to see them eat, and the higher-ups refus
 WhiteskyePlayer,Whiteskye base ,2,40,,20,,,"grounddefenses, tactical_bombardment, structure, unraidable",,graphics/illustrations/raid_destroy.jpg,data.scripts.campaign.econ.impl.WhiteskyePlayer,"A mercenary outpost of the Whiteskye Mercenary Company, allowing for the stationing of independent mercenary fleets. No private military company is more infamous than the Whiteskye company. Whiteskye is feared throughout the sector due to their practices of mutilating corpses, mass bombardment, torture, assassination, weapons testing, forced cyberization, prisoner recruitment, terror tactics, disregard for civilian casualties, and posting images of themselves to social media with mutilated bodies… etc. Despite multiple protests from the Persean League and demands from the hegemony to cease operations the Whiteskye company continues to find employment across the sector. The owner of Whiteskye Mikhail Gusinsky always makes sure his men are equipped with the best equipment money can buy, and some it can’t.",,
 ronin,Ronin Toride,10,10,,10,,,"grounddefenses, tactical_bombardment, structure, unraidable",,graphics/planets/ronin.png,data.scripts.campaign.econ.impl.ronin,The Ronin private military company hires exclusively from apostate knights of Ludd. They are a support group as much as a band of mercenaries. They now profit from oppressing the very people they once called brothers and sisters.  They still fight in the same way as they did when they served the church due to a sense of familiarity. Despite a recent hostile takeover from their founder High Admiral Dux Saigo the Ronin PMC remains a very profitable and effective company.,,
 ,,,,,,,,,,,,,,
-DR_quasarCitadel,Domain Quasar Citadel,400,400,,6,DR_starFortress,,"station, quasarCitadel, unraidable, structure","{
-Radius:90,
-variant:DR_starFortress_domain,
+DR_quasarCitadel,Quasar Citadel,800,400,,6,DR_starFortress,,"station, quasarCitadel, unraidable, structure","{
+radius:90,variant:DR_quasarCitadel_variant,
 fleetName:quasar Citadel
 }",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"The ultimate in reconstructionist defenses . A quasar citadel is an immense fortification requiring the most powerful of fleets to overcome. 
 

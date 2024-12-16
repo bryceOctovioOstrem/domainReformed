@@ -11,6 +11,9 @@
   "shieldCenter": [0, -0],
   "shieldRadius": 32,
   "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
   "weaponSlots": [
     {
       "id": "WS0001",
