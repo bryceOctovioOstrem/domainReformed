@@ -27,4 +27,5 @@ SBD_wing,SBD_domain,"bomber3, bomber, DR, merc, pirate, ind",2,,3,12,V,4000,1000
 hornet_wing,hornet_domain,"bomber4, bomber,DR, merc, pirate",4,,5,26,V,6000,2000,600,1,BOMBER,Bomber,18,8100,,,,,,,,,,,,,6,,,,,,,,,,,,,,,,,,,,,
 AH-64D_wing,AH-64D_domain,"bomber4, bomber, DR, merc, pirate, ind",2,,6,27,CLAW,4000,2000,600,1,BOMBER,Bomber,10,9000,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,
 B-1_wing,B-1_domain,"bomber4, bomber, DR, merc, pirate",4,,5,30,CLAW,8000,2500,800,1,BOMBER,Bomber,15,13000,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,
-f-117_wing,DR_hullId_f-117_variant,"bomber3, bomber, DR, merc, pirate, ind",1,,5,13,CLAW,4000,2500,300,1,BOMBER,Bomber,15,7000,,,,,,,,,,,,,12,,,,,,,,,,,,,,,,,,,,,
+f-117_wing,DR_hullId_f-117_variant,"bomber4, bomber, DR, merc, pirate, ind",4,,5,13,CLAW,4000,2500,300,1,BOMBER,Bomber,15,7000,,,,,,,,,,,,,12,,,,,,,,,,,,,,,,,,,,,
+B-25_wing,DR_B-25ID_domain,"bomber3, bomber, DR, merc, pirate, ind",3,,5,14,CLAW,4000,2500,300,1,BOMBER,Bomber,15,7000,,,,,,,,,,,,,12,,,,,,,,,,,,,,,,,,,,,

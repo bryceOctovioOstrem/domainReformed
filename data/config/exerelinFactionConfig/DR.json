@@ -55,7 +55,7 @@
     #"startShipsGrandFleet":[["onslaught_xiv_Elite"]],
     
     "startSpecialItems":[
-        [["DR_package", ""]],
+        [["DR_package",""]],
     ],
     
     "defenceStations":[
