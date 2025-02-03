@@ -1,15 +1,15 @@
 {
-	"id":"atropos_torp",
+	"id":"DR_YJ-6_torp",
 	"specClass":"missile",
 	"missileType":"MISSILE",
 	#"missileType":"MISSILE_TWO_STAGE_SECOND_UNGUIDED",
-	"sprite":"graphics/missiles/torpedo_guided2.png",
+	"sprite":"graphics/missiles/missile_LRM.png",
 	"size":[10,21],	
 	"center":[5,10.5],
 	"collisionRadius":15,
 	"collisionClass":"MISSILE_NO_FF",
-	"explosionColor":[255,155,100,255],  # purely visual, will get a white additively blended core on top of this color
-	"explosionRadius":250, # purely visual
+	"explosionColor":[238,28,37,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":222, # purely visual
 	"explosionSpec":{"duration":0.1f, # not visual
 					 "radius":125,
 					 "coreRadius":75, # full damage within core radius
@@ -19,7 +19,7 @@
 					 "particleSizeRange":3.0,
 					 "particleDuration":1,
 					 "particleCount":150,
-					 "particleColor":[255,185,155,255]},
+					 "particleColor":[255, 255, 0,255]},
 	"armingTime":0.5,
 	"engineSpec":{"turnAcc":500,
 				  "turnRate":75,
@@ -33,7 +33,7 @@
 						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
 						"engineColor":[255,150,100,255],
 						"glowSizeMult":2.0,
-						"glowAlternateColor":[255,200,0,255],
+						"glowAlternateColor":[255,255,0,255],
 						"contrailDuration":2,
 						"contrailWidthMult":1,
 						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end

@@ -1,7 +1,7 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
 Phase Torpedo,waterTorp,0,,0,1000,,1275,,600,10,0,1,,,HIGH_EXPLOSIVE,10,,0,5,1,0.1,3,12,3,0,,130,110,35,130,,,"STRIKE,USE_LESS_VS_SHIELDS",no_sell,,Unknown,,Torpedo,Slow,None,,,,,,,TRUE,
     zimadevushka - Payload,wyrm_payload,2,,0,1000,5000,,,,20,0,,,,FRAGMENTATION,0,,0,0.75,10,0.5,,,,,1000000,,,,,,,"SYSTEM, DANGEROUS",fires_one_burst,,Unknown,,,,,,,,,,,,
-YJ-83,atropos_single_hidden,2,0.5,300,1200,,1000,,40,10,1,1,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,400,150,4,300,,,"GUIDED_POOR,SYSTEM","he0, no_sell, no_drop, no_drop_salvage",,Unknown,,Torpedo,Fast,Good,,,,,,,TRUE,
+YJ-83,atropos_single_hidden,2,0.5,300,1567,,1000,794,40,10,1,1,,,ENERGY,0,,0,1,1,,0,0,0,0,,400,150,4,300,,,"GUIDED_POOR,SYSTEM","he0, no_sell, no_drop, no_drop_salvage",,Unknown,,Torpedo,Fast,Good,,,,,,,TRUE,
 Sabot (Single) hidden,sabot_single_hidden,0,,100,1200,,100,,15,30,1,1,,,KINETIC,0,,0,1,1,,0,0,0,0,,150,50,8,300,,,"GUIDED_POOR, SYSTEM","missile6, strike0, no_sell, no_drop, no_drop_salvage",,Unknown,,Anti Shield,Slow,Poor,,,"Submunition hits on hull or armor have a %s chance to arc to weapons and engines, dealing %s EMP damage.",25% | 200,,,TRUE,
 Naval Mine,depthCharge,0,,100,500,,4000,,50,0,1,,,,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,0,,50,20,600,915,,,"DO_NOT_AIM,DO_NOT_CONSERVE,FIRE_WHEN_INEFFICIENT","he0, no_sell, no_drop, no_drop_salvage",,,,Anti Fighter,,,,,,,,,,
 Mk 101 Lulu,Lulu,0,,100,500,,5000,177600,5000,0,1,,,,HIGH_EXPLOSIVE,0,,1,13,1,,0,0,0,0,,50,20,600,915,,,"DO_NOT_AIM, DO_NOT_CONSERVE, FIRE_WHEN_INEFFICIENT","he0, no_sell, no_drop, no_drop_salvage",,,,Anti Fighter,,,,,,,,,TRUE,
@@ -16,8 +16,8 @@ prince_dec_left,prince_dec,0,,40,600,,0,,16,15,3,,,,KINETIC,200,,3,4,1,,0,15,3,1
 prince_dec_right,prince_dec_right,0,,40,600,,0,,16,15,3,,,,KINETIC,200,,4,4,1,,0,15,3,10,,600,,,10,,,"GROUP_ALTERNATING, FIRE_WHEN_INEFFICIENT,PD","no_sell, no_drop, no_drop_salvage",,Unknown,,General,,,,,,,,,,
 Ise_crane,IseCrane,0,,40,600,,0,,16,15,3,,,,KINETIC,1,,5,4,1,,0,15,3,10,,600,,,10,,,"GROUP_ALTERNATING, FIRE_WHEN_INEFFICIENT,PD,SYSTEM","no_sell, no_drop, no_drop_salvage",,Unknown,,General,,,,,,,,,,
 station face,StationFace,0,,40,600,,0,,16,15,3,,,,KINETIC,200,,6,4,1,,0,15,3,10,,600,,,10,,,"GROUP_ALTERNATING, FIRE_WHEN_INEFFICIENT,PD","no_sell, no_drop, no_drop_salvage",,Unknown,,General,,,,,,,,,,
-ASRAAM,ASRAAM,1,,297,802,,142,,43,50,3,28,,,HIGH_EXPLOSIVE,0,,4,1,4,0.2,0,0,0,0,,383,122,4,60,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, no_sell, no_drop, no_drop_salvage",,,,Anti Small Craft,Fast,Excellent,,,,,,,,
-Meteor (BVRAAM),Meteor,2,,297,4000,,878,,84,50,3,14,,,FRAGMENTATION,0,,8,2,2,0.2,0,0,0,0,,410,84,8,60,,,"ANTI_FTR, DO_NOT_AIM","utility8, no_sell, no_drop, no_drop_salvage",,,,Anti Small Craft,Fast,Excellent,,,,,,,,
+ASRAAM,ASRAAM,1,,297,802,,389,,43,50,3,20,,,HIGH_EXPLOSIVE,0,,4,1,1,0.2,0,0,0,0,,383,122,4,160,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE,PD,ANTI_FTR","utility8, no_sell, no_drop, no_drop_salvage",,,,Anti Small Craft,Fast,Excellent,,,,,,,,
+Meteor (BVRAAM),Meteor,2,,297,4000,,878,,84,50,3,14,,,FRAGMENTATION,0,,8,2,2,0.2,0,0,0,0,,410,84,8,60,,,"ANTI_FTR, DO_NOT_AIM,PD,ANTI_FTR","utility8, no_sell, no_drop, no_drop_salvage",,,,Anti Small Craft,Fast,Excellent,,,,,,,,
 Triple AGM-65 Maverick,harpoon_hidden,1,,200,2500,,750,,15,30,4,3,,,HIGH_EXPLOSIVE,0,,9,1,1,,4,0,0,,,300,100,12.5,150,,,DO_NOT_AIM,"he0, no_sell, no_drop, no_drop_salvage",,Unknown,,Finisher,Medium,Medium,,,,,,,TRUE,
 large Bomb ,hiddenBombLarge,1,,200,700,,3000,,500,15,4,1,,,HIGH_EXPLOSIVE,0,,10,1,1,,0,0,0,0,,170,20,25,400,,,"STRIKE, BOMB,SYSTEM","he0, no_sell, no_drop, no_drop_salvage",,Unknown,,Strike,,,,,,,,,TRUE,
 Duel 5-inch/38-caliber,5in,0,,700,700,,120,,12,50,4,,,,FRAGMENTATION,90,,0.3,0.7,2,0.3,0,12,4,5,,1021,435,2,150,,,"PD,GROUP_ALTERNATING","he11,ind, DR,pirates,luddic_path",,Unknown,,Point Defense,Fast,Poor,,,,,,,,
@@ -26,7 +26,7 @@ medium bomb,hiddenBombMedium,1,,200,700,,2000,,100,15,4,1,,,HIGH_EXPLOSIVE,0,,13
 12 cm/45 10th Year Type,DR_12cm,1,,538,800,,200,,10,40,4,,,,FRAGMENTATION,50,,14,2,1,,1,12,2,10,,710,,,30,,,PD,"pd13, DR, merc, ind,luddic_path",,,,Point Defense (Area),,,,,,,,,,
 Type 90 57 mm,type90,1,,350,757,,20,20,4,57,5,,,,ENERGY,50,,15,0.25,1,,0,5,1,10,,1019,,,30,,,,"he6,DR, merc, ind,luddic_path",,,,General,,,,,,,,,,
 Duel 130 mm/50 B13 Pattern 1936,130mm,2,,250,600,,320,,25,25,7,,,,FRAGMENTATION,120,,0,1,1,,0,4,4,,,547,,,,,,,"energy8, ind, DR,pirates,luddic_path, no_sell",,Unknown,,General,,,,,,,,,,
-"Duel 100 mm/45 (3.9"") Model 1930",100mm,2,,500,673,250,,,10,40,5,8,0.5,,KINETIC,,250,0,0.1,1,0.2,,,,,1562,,,,,,,PD,"pd15, beam10, rare_bp,ind",,Unknown,,Point Defense,,,,,,,,,,
+"Duel 100 mm/45 (3.9"") Model 1930",100mm,2,,500,673,250,,,10,40,5,8,0.5,,KINETIC,,250,0,0.1,0.5,0.2,,,,,1562,,,,,,,PD,"pd15, beam10, rare_bp,ind",,Unknown,,Point Defense,,,,,,,,,,
 "12.7 cm (5"") SK C/41",125mmSK,3,,250,451,,12,,3,30,7,120,6,60,ENERGY,6,,0,1,60,0.05,0,0,0,0,,500,,,,,,PD,"energy15,   ind, DR,pirates,luddic_path,no_sell",,Unknown,,General,,,,,,,,,,
 5 inch (127 mm)/L62 caliber Mk 45 Mod 4,L62,2,0.5,645,751,,42,,7,42,7,,,,KINETIC,53,,0,0.15,1,,,,,,,1135,,,50,,,PD,"kinetic8, DR,pirates,luddic_path, merc",,,,Anti Shield,,,,,,,,,,
  Twin 61 cm torpedo tubes,twin61cm,0,,1000,1200,,1540,,30,15,7,6,,,HIGH_EXPLOSIVE,0,,0,6.3,2,0.25,10,10,0,0,,646,40,4,350,,,"CONSERVE_FOR_ANTI_ARMOR,STRIKE","strike10,DR, merc, ind,luddic_path",,,,Torpedo,Fast,None,,,,,,,TRUE,
@@ -42,7 +42,7 @@ BGM-109 Tomahawk cruise missiles,DR_Tomahawk,2,0.5,700,1776,,1000,,40,10,10,8,,,
 AK-630,CWIS,0,,700,450,,10,,1,50,11,152,38,38,FRAGMENTATION,30,,0,0.55,76,0.02,0,7,1,20,,1100,,,30,,,,"kinetic8, ind, DR,pirates,luddic_path",,Unknown,,General,,,,,,,,,,
 "14 cm/50 (5.5"") 3rd Year Type",DR_14cm,3,0.5,984,949,,362,,20,7,11,,,,HIGH_EXPLOSIVE,238,,0,3.5,2,0.4,0,5,1,10,,949,,,30,,,,"he16,DR, merc, ind,luddic_path",,,,Anti Armor,,,,,,,,,,
 Triple 152 mm (6.0 in)/55,Triple_152mm,2,0.4,900,922,,256,,13,8,11,,,,KINETIC,160,,0,3.6,3,,0,15,5,10,,911,,,30,,,,"kinetic12, DR, merc, ind,luddic_path",,,,Anti Shield,,,,,,,,,,
-B-1 Bomb Bay,b-1Bomb,3,,1000,1300,,3360,,50,15,12,84,,,HIGH_EXPLOSIVE,0,,0,1,84,,5,300,3,0,,170,20,33,150,,,"STRIKE, BOMB,SYSTEM","he0, no_sell, no_drop, no_drop_salvage",,Unknown,,Strike,,,,,,,,,TRUE,
+B-1 Bomb Bay,b-1Bomb,3,,1000,1300,,400,,50,15,12,84,,,HIGH_EXPLOSIVE,0,,0,1,84,,5,200,3,0,,170,20,33,50,,,"STRIKE, BOMB,SYSTEM","he0, no_sell, no_drop, no_drop_salvage",,Unknown,,Strike,,,,,,,,,TRUE,
 P-1000 Vulkans,wyrm,2,,2000,2000,,8000,,15,10,12,2,,,FRAGMENTATION,0,,0,5,1,,0,0,0,0,,150,0,12,600,,,"GUIDED_POOR, STRIKE","missile6, ind, DR,pirates,luddic_path",,Unknown,,Torpedo,Slow,Good,,,"The missile fires a high-powered laser when it gets near the target, dealing approximately %s fragmentation damage in a short burst. This damage is affected by missile damage modifiers and not energy weapon ones.",4000,,,TRUE,
 Single 152 mm/45 Model 1892 on a Canet mounting,cryo152mm,3,,900,862,,38,,2,40,12,120,6,60,FRAGMENTATION,50,,,0.05,2,0.05,0,0,0,0,,500,,,,,,,"no_sell, no_drop, no_drop_salvage",,Unknown,,General,,,,,,,,,,
 Ato ,G7a,3,,1935,2500,,555,,30,10,12,4,0.4,4,KINETIC,100,,0,2.5,4,0.25,0,0,0,,,440,200,10,250,,, DO_NOT_CONSERVE,"missile15, strike11, omega, restricted",,Unknown,,Anti Shield,Fast,Excellent,,,,,,,,
@@ -52,8 +52,8 @@ Twin BL 14-inch Mk VII,twin14in,3,,7500,716,,500,,,20,18,,,,ENERGY,400,,0,1,1,0.
 BL 12-inch Mk X,12inMKX,1,,5000,843,,122,,5,20,18,,,,ENERGY,122,,0,0.3,1,,1,10,1,5,,843,,,50,,,,"he18,DR, merc, ind,luddic_path",,,,General,,,,,,,,,,
 Duel 356mm/45 Type 41,356mm-45-Type41,3,,7400,1185,,949,,,4,20,,,,HIGH_EXPLOSIVE,1192,,0,8,2,0,1,4,1,0,,1293,,,500,,,STRIKE,"energy20,ind, DR,pirates,luddic_path",,Unknown,,Anti Armor,,,,,,,,,,
 Quad 330mm/50 Modle gun,330mm,2,,3000,888,,274,418,330,3,20,,,,HIGH_EXPLOSIVE,768,,0,1.7,1,0,0,10,5,10,,1932,,,400,,,,"he18, lowtech_bp, merc, ind",,,,Anti Armor,,,,,,,,,,
-Twin 30.5 cm SK L/50 gun,30.5SK,2,,3600,983,534,,,0,5,19,,,,ENERGY,,496,0,0.25,0.3,,0,3,1,0,3675,,,,,,,,"energy11, beam10,ind, DR,pirates,luddic_path",,Unknown,,General,,,,,,,,,,29.1
-Twin 305 mm model 46 ,twin308,1,,4000,961,,193,,961,6,21,,,,HIGH_EXPLOSIVE,75,,0,4,12,0.1,5,30,5,5,,774,,,106,,,"PD,PD_ALSO","he16, pd17,ind, DR,pirates,luddic_path",,,,Anti Fighter (Area),,,,,"Each shell has a fuse set to explode at a random distance, resulting in a barrage that's increasingly more deadly at closer ranges.
+Twin 30.5 cm SK L/50 gun,30.5SK,3,,3500,918,,1914,1871,0,3,17,,,,ENERGY,1745,,0,9,2,0.01,,,,,,10000,,,,,25,PD,"pd14, omega, restricted",,Unknown,,Strike,,,,Perfect,Fires an EMP arc at the nearest target close to the weapon's current facing. The arc always hits.,,,,,19.25
+Twin 305 mm model 46 ,twin308,1,,4000,961,,193,,961,6,21,,,,HIGH_EXPLOSIVE,75,,0,4,12,0.1,5,30,5,5,,774,,,106,,,,"he16, pd17,ind, DR,pirates,luddic_path",,,,Anti Fighter (Area),,,,,"Each shell has a fuse set to explode at a random distance, resulting in a barrage that's increasingly more deadly at closer ranges.
 
 Will target missiles if no other targets are in range.",,,,,
 Quadruple 380 mm/45 Modele ,360,3,0.5,8000,987,1624,,605.5,100,3,24,,,,HIGH_EXPLOSIVE,,1793,0.5,1.5,1,6.5,,,,,1939,,,,,,,FIRE_WHEN_INEFFICIENT,"energy20, beam15,ind, DR,pirates,luddic_path",,Unknown,,Suppression,,,,,"Hits on hull or armor frequently arc to weapons and engines, dealing extra EMP and energy damage. Hits on shields have a chance to generate a shield-penetrating arc based on the target's hard flux level.",,,,,
@@ -65,12 +65,18 @@ Type 94,type_94,3,0.3,19400,1274,,2020,,2020,1.5,29,,,,FRAGMENTATION,1945,,2,18,
 38 cm SK C/34 ,380mmSK,2,0.1,7200,1291,,1945,,357,2,30,,,,ENERGY,1972,,0,6,1,0.001,0,5,1,10,,820,,,75,,,GROUP_ALTERNATING,"energy18, he17, kinetic17,DR,no_sell",,Unknown,,Strike,,,,,,,,,,
 5-inch/54-caliber Mark 42,DR_5in_mark42,1,,435,700,,50,,6,25,5,,,,KINETIC,50,,0,0.4,1,,0,8,2,5,,807,435,2,50,,,,"kinetic8,ind, DR,pirates,luddic_path",,,,Anti Shield,,,,,,,,,,
 Phase Torpedo (14),phaseTorp14,0,,0,2000,,1275,,600,10,0,14,,,HIGH_EXPLOSIVE,10,,0,8,4,0.4,3,12,12,0,,130,110,35,130,,,"STRIKE,USE_LESS_VS_SHIELDS,SYSTEM","no_sell, no_drop, no_drop_salvage",,,,Unknown,Slow,None,,,,,,,TRUE,
-Phalanx CIWS,DR_phalanx,3,0.4,1300,500,,16,,10,50,13,120,20,60,ENERGY,5,,0,0.025,1,,1,10,0.5,5,,1300,,,20,,,PD,"kinetic19,ind, DR,pirates,luddic_path",,,,Point Defense,,,,,,,,,,8.5
+Phalanx CIWS,DR_phalanx,3,0.4,1300,500,,16,,10,50,13,120,20,60,ENERGY,5,,0,0.025,1,,0,5,0.25,5,,1300,,,20,,,PD,"kinetic19,ind, DR,pirates,luddic_path",,,,Point Defense,,,,,,,,,,8.5
 Phase Torpedo (19),phaseTorp19,0,,0,2000,,1275,,600,10,0,19,,,HIGH_EXPLOSIVE,10,,0,12,6,0.4,3,11,1.4,0,,130,110,35,130,,,"STRIKE,USE_LESS_VS_SHIELDS,SYSTEM","no_sell, no_drop, no_drop_salvage",,,,Unknown,Slow,None,,,,,,,TRUE,
-24-pound Cannon (canister shot),DR_smoothbore_canister,0,2,40,500,,200,,16,15,3,,,,KINETIC,40,,0,5,6,,0,12,2.4,10,,1000,,,10,,,"GROUP_ALTERNATING, FIRE_WHEN_INEFFICIENT,PD","kinetic6,ind, DR,pirates,luddic_path",,Unknown,,Anti Shield,,,,,,,,,,
+24-pound Cannon (canister shot),DR_smoothbore_canister,0,2,40,500,,100,,16,15,3,,,,KINETIC,40,,0,5,12,,0,12,2.4,10,,1000,,,10,,,"GROUP_ALTERNATING, FIRE_WHEN_INEFFICIENT,PD","kinetic6,ind, DR,pirates,luddic_path",,Unknown,,Anti Shield,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AGM-114 Hellfire,DR_AGM-114_hellfire,0,,100,2435,,435,,15,32,2,1,,,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,,,435,100,12.5,130,,,"DO_NOT_AIM,SYSTEM","missile6,  no_sell, no_drop, no_drop_salvage",,Unknown,,Finisher,Medium,good,,,,,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-30 mm Type 1130 close-in weapon system,DR_type_1130,1,,1211,485,,13,2,1,40,10,,,,ENERGY,6,,0.033333,0,,,1,10,0.5,5,,1150,,,,,,,"energy13, merc, ind",,,,General,,,,,,,,,,22
+30 mm Type 1130 close-in weapon system,DR_type_1130,1,,1211,485,,13,2,1,40,10,,,,ENERGY,6,,0.033333,0,,,0,5,0.25,5,,1150,,,,,,,"energy13, merc, ind",,,,General,,,,,,,,,,22
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 H/PJ-45 130mm,DR_J-45,2,,266,997,,25,125,0,43,6,,,,ENERGY,33,,0.3,0,,,0,6,0.6,,,779,,,,,,,"energy8,ind, DR,pirates,luddic_path",,,,General,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+YJ-6,DR_YJ-6,2,0.5,626,1274,,841,479,33,10,3,2,,,ENERGY,0,,0,1,1,,0,0,0,0,,420,150,4,313,,,"GUIDED_POOR,SYSTEM","strike9, ind, DR,pirates,luddic_path",,,,Torpedo,Fast,Good,,,,,,,TRUE,9.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20-mm rotary cannon,DR_20mmRC,0,,700,700,,25,,1,25,7,60,5,20,FRAGMENTATION,25,,0,0.55,20,0.05,0,7,1,20,,800,,,30,,,,"kinetic8, no_sell, no_drop, no_drop_salvage",,,,General,,,,,,,,,,3.8
+105-mm Howitzer,DR_105mmH,3,0.3,2000,1000,,272,,10,20,12,,,,HIGH_EXPLOSIVE,200,,0,6,3,0.3,0,5,1,10,,1550,,,30,,,,"he16, no_sell, no_drop, no_drop_salvage",,,,Anti Armor,,,,,,,,,,4.75
+40-mm Bofors,DR_40mmBofors,0,,125,700,,50,,3,20,4,,,,KINETIC,40,,0,0.5,1,,0,8,2,15,,800,,,20,,,,"kinetic6, no_sell, no_drop, no_drop_salvage",,,,Anti Shield,,,,,,,,,,2

@@ -1,0 +1,114 @@
+{
+  "hullName": "DR_j36",
+  "hullId": "DR_j36",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/DR_J-36.PNG",
+  "style": "LOW_TECH",
+  "height": 55,
+  "width": 50,
+  "center": [25, 27.5],
+  "collisionRadius": 32,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 34,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [27.5, 0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [23.5, 2.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [23.5, -2]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [4.5, 5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [4.5, -5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-1, 7]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-1, -7]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27.5, 3.5],
+      "length": 15,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-27.5, -0],
+      "length": 13,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-27.5, -3.5],
+      "length": 15,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    27.5, 0.5,
+    4.5, -10,
+    -18, -25,
+    -26.5, -5,
+    -26.5, 5,
+    -18.5, 25,
+    5.5, 10
+  ]
+}

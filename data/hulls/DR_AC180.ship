@@ -1,0 +1,77 @@
+{
+  "hullName": "DR_AC180",
+  "hullId": "DR_AC180",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/DR_AC130_sprite.PNG",
+  "style": "LOW_TECH",
+  "height": 70,
+  "width": 95,
+  "center": [47.5, 35],
+  "collisionRadius": 48,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 49,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [18.5, 8.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [16.5, 8.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-5.5, 19.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-1, 47.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    34.5, -1.5,
+    34.5, 1.5,
+    25, 5.5,
+    9, 5.5,
+    6, 7,
+    6, 47.5,
+    0, 47.5,
+    -6, 4.5,
+    -22, 4.5,
+    -27, 18.5,
+    -32.5, -0,
+    -27.5, -18.5,
+    -22, -4.5,
+    -6, -4.5,
+    0, -47,
+    5.5, -47,
+    6, -8,
+    9.5, -5.5,
+    25.5, -5.5
+  ]
+}

@@ -64,7 +64,8 @@
 		"Hood_DR":400,
 		"I-56_domain":400,
 		"U-69_domain":400,
-		"mitscher_Domain":400
+		"mitscher_Domain":400,
+		"DR_la_real_domain":400
 },	
 	
 	# multiplier for how often hulls show up in the faction's fleets

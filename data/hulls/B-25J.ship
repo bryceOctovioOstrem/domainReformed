@@ -1,0 +1,119 @@
+{
+  "hullName": "B-25J",
+  "hullId": "B-25J",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/DR/ships/DR_BJ-25.PNG",
+  "style": "LOW_TECH",
+  "height": 73,
+  "width": 90,
+  "center": [45, 36.5],
+  "collisionRadius": 46,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 48,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [26.5, 3.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [26.5, -3.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [33.5, -1]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 180,
+      "locations": [12.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 175,
+      "angle": 90,
+      "locations": [-9, 4]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 175,
+      "angle": -90,
+      "locations": [-6.5, -4]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-36.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [34.5, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [33.5, 2]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [32.5, -2.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    33.5, -0,
+    4.5, 44.5,
+    -4.5, 2.5,
+    -24, 2,
+    -28.5, 15,
+    -36.5, -0,
+    -29.5, -15,
+    -24, -2.5,
+    -4, -3,
+    5, -45
+  ]
+}

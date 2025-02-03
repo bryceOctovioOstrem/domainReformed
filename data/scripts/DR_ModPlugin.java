@@ -756,7 +756,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
         market.addSubmarket(Submarkets.SUBMARKET_BLACK);
         market.addSubmarket(Submarkets.SUBMARKET_OPEN);
-        market.addCondition(Conditions.ORGANICS_TRACE);
+        //market.addCondition(Conditions.ORGANICS_TRACE);
 		market.addCondition(Conditions.ORE_SPARSE);
         market.addCondition(Conditions.HOT);
 		market.addCondition(Conditions.LOW_GRAVITY);

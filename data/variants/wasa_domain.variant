@@ -3,8 +3,8 @@
   "hullId": "wasa",
   "displayName": "New Variant",
   "goalVariant": true,
-  "fluxCapacitors": 0,
-  "fluxVents": 24,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
   "quality": 0,
   "permaMods": [],
   "hullMods": [],
@@ -32,10 +32,10 @@
         "WS0034": "smoothBore",
         "WS0036": "smoothBore",
         "WS0037": "smoothBore",
-        "WS0039": "smoothBore",
+        "WS0039": "DR_smoothbore_canister",
         "WS0056": "smoothBore",
         "WS0063": "smoothBore",
-        "WS0065": "smoothBore"
+        "WS0065": "DR_smoothbore_canister"
       }
     },
     {
@@ -62,9 +62,9 @@
         "WS0050": "smoothBore",
         "WS0051": "smoothBore",
         "WS0052": "smoothBore",
-        "WS0057": "smoothBore",
-        "WS0062": "smoothBore",
-        "WS0066": "smoothBore"
+        "WS0057": "DR_smoothbore_canister",
+        "WS0062": "DR_smoothbore_canister",
+        "WS0066": "DR_smoothbore_canister"
       }
     },
     {

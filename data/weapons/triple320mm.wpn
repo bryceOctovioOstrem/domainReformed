@@ -49,6 +49,6 @@
       255
     ]
   },
-  "fireSoundOne": "305mm",
-  "fireSoundTwo": "mjolnir_fire",
+  "fireSoundOne": "DR_30.5_loading",
+  "fireSoundTwo": "DR_30.5_shot",
 }

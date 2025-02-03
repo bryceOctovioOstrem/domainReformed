@@ -75,6 +75,8 @@
 		"Ise_Merc":4,
 		"Hood_DR":1,
 		"Hood_Merc":3,
+		"DR_la_real_domain":1,
+		"DR_la_real_merc":4,
 		"fallback":{"combatLarge":.5},
 	},
 	
@@ -92,9 +94,11 @@
 		"fallback":{"combatFreighterSmall":1},
 	},
 	"combatFreighterLarge":{
-		"liberty_domain":1,
+		#"liberty_domain":1,
 		"wasa_domain":2,
 		"christian_domain":1,
+	        "DR_la_real_domain":1,
+		"DR_la_real_merc":4,
 		"fallback":{"combatFreighterMedium":1},
 	},
 	

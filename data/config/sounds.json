@@ -114,7 +114,7 @@
 	],
 	"macron_Burst_medium":
 	[
-		{"file":"sounds/sfx_wpn_guns/macron_Burst_Large.ogg","pitch":1.3,"volume":.6},
+		{"file":"sounds/sfx_wpn_guns/macron_Burst_Large.ogg","pitch":1.3,"volume":.4},
 	],
 	"macron_Burst_Large":
 	[
@@ -151,23 +151,23 @@
 	],
 			"DR_14cm_sound":
 	[
-		{"file":"sounds/sfx_wpn_guns/DR_14cm_sound.ogg","pitch":1,"volume":.4},
+		{"file":"sounds/sfx_wpn_guns/DR_14cm_sound.ogg","pitch":1,"volume":.3},
 	],
 			"DR_152mm_sound":
 	[
-		{"file":"sounds/sfx_wpn_guns/152mm.ogg","pitch":.9,"volume":.4},
+		{"file":"sounds/sfx_wpn_guns/152mm.ogg","pitch":.9,"volume":.3},
 	],
 			"DR_15cmSK_charge_sound":
 	[
 		{"file":"sounds/sfx_wpn_guns/DR_15cmSK.ogg","pitch":1,"volume":.4},
 	],
-			"DR_30.5SK_sound_one":
+			"DR_30.5_shot":
 	[
-		{"file":"sounds/sfx_wpn_guns/DR_30.5SKSoundOne.ogg","pitch":.9,"volume":.6},
+		{"file":"sounds/sfx_wpn_guns/DR_30.5_shot.ogg","pitch":.9,"volume":.4},
 	],
-			"30.5_2":
+			"DR_30.5_loading":
 	[
-		{"file":"sounds/sfx_wpn_guns/30.5_2.ogg","pitch":1,"volume":.6},
+		{"file":"sounds/sfx_wpn_guns/DR_30.5_loading.ogg","pitch":1,"volume":.3},
 	],
 			"15in_BL_chargeup":
 	[

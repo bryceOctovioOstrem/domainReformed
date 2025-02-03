@@ -5,8 +5,8 @@
 	#"missileType":"BOMB_WITH_SLOW",
 	#"missileType":"ROCKET",
 	"sprite":"graphics/missiles/missile_harpoon.png",
-	"size":[12,16],	
-	"center":[6,8],
+	"size":[10,16],	
+	"center":[5,8],
 	"collisionRadius":16,
 	"collisionClass":"MISSILE_FF",
 	"explosionColor":[255,225,50,255],  # purely visual, will get a white additively blended core on top of this color

@@ -12,10 +12,9 @@
   "shieldRadius": 375.5,
   "viewOffset": 0,
   "builtInMods": [
-    "advancedcore",
     "distributed_fire_control",
-    "shielded_holds",
-    "rugged"
+    "rugged",
+    "targetingunit"
   ],
   "builtInWeapons": {
     "WS0034": "DR_smoothbore_canister",

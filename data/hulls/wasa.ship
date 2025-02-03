@@ -15,7 +15,6 @@
     "shielded_holds",
     "targetingunit",
     "distributed_fire_control",
-    "rugged",
     "fragile_subsystems"
   ],
   "builtInWeapons": {
@@ -678,6 +677,15 @@
       "width": 50,
       "angle": 180,
       "contrailSize": 116,
+      "style": "CUSTOM",
+      "styleId": "sail"
+    },
+    {
+      "location": [155.5, -2],
+      "length": 0.5,
+      "width": 85,
+      "angle": 180,
+      "contrailSize": 85,
       "style": "CUSTOM",
       "styleId": "sail"
     }
