@@ -31,3 +31,5 @@ B-1_wing,B-1_domain,"bomber4, bomber, DR, merc, pirate",4,,5,30,CLAW,8000,2500,8
 B25J_wing,B-25J_domain,"bomber3, bomber, DR, merc, pirate,ind",1,,6,13,CLAW,5000,2500,300,1,BOMBER,Bomber,15,7000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 DR_j36_wing,DR_j36_domain,"fighter3, fighter,DR, merc, pirate,ind",1,,8,21,CLAW,6000,500,400,1,FIGHTER,Heavy Fighter,10,9000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DR_AC130_wing,DR_AC180_domain,"bomber5, bomber,  fighter,DR, merc, pirate,ind",2,,6,19,V,7000,2000,600,1,BOMBER,Bomber,20,13000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
