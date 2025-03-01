@@ -177,4 +177,8 @@
 	[
 		{"file":"sounds/sfx_wpn_guns/DR_Bl15in_fire.ogg","pitch":1,"volume":.9},
 	],
+		"DR_tomahawk_Fire_sound":
+	[
+		{"file":"sounds/sfx_wpn_guns/DR__tomahawk-missile-rocket-launch.ogg","pitch":1,"volume":.2},
+	],
 }

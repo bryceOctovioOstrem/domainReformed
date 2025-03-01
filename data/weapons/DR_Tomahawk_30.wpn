@@ -1,0 +1,43 @@
+{
+  "id": "DR_Tomahawk_30",
+  "specClass": "projectile",
+  "projectileSpecId": "tomahawk_torp",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/ships/munitions_load.png",
+  "hardpointSprite": "graphics/ships/munitions_load.png",
+  "turretOffsets": [
+    21.5,
+    -6.5,
+    21.5,
+    6.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    17.5,
+    -6.5,
+    18,
+    6
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+"autocharge": true,
+	"smokeSpec":{"particleSizeMin":10.0,
+				 "particleSizeRange":24.0,
+				 "cloudParticleCount":10,
+				 "cloudDuration":2.5,
+				 "cloudRadius":12.0,
+				 "blowbackParticleCount":8,
+				 "blowbackDuration":2.0,
+				 "blowbackLength":18.0,
+				 "blowbackSpread":10.0,
+				 "particleColor":[179, 25, 66,120]},
+  "fireSoundTwo": "DR_tomahawk_Fire_sound"
+}

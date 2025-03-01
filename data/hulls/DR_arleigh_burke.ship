@@ -1,0 +1,196 @@
+{
+  "hullName": "DR_arleigh_burke",
+  "hullId": "DR_arleigh_burke",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/DR/ships/DR_arleigh_burke_sprite.png",
+  "style": "LOW_TECH",
+  "height": 411,
+  "width": 58,
+  "center": [29, 205.5],
+  "collisionRadius": 205.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 207,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "targetingunit",
+    "hiressensors",
+    "ecm",
+    "eccm",
+    "rugged"
+  ],
+  "builtInWings": [
+    "AH-64D_wing"
+  ],
+  "builtInWeapons": {
+    "WS0004": "DR_Tomahawk_30",
+    "WS0005": "DR_Tomahawk_30",
+    "WS0006": "DR_Tomahawk_30"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 0,
+      "locations": [135.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [91.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 180,
+      "locations": [-65.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [112.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-84, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-95.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -149, -0,
+        -157.5, 0.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-201, 16],
+      "length": 20.790001,
+      "width": 4.97,
+      "angle": 153.5,
+      "contrailSize": 4.97,
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
+    },
+    {
+      "location": [-201, -14],
+      "length": 20.790001,
+      "width": 4.97,
+      "angle": -157,
+      "contrailSize": 4.97,
+      "style": "CUSTOM",
+      "styleId": "oldGloryRed"
+    },
+    {
+      "location": [-205.5, 11],
+      "length": 26.6,
+      "width": 8.11,
+      "angle": 153.5,
+      "contrailSize": 8.11,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    },
+    {
+      "location": [-205, -8.5],
+      "length": 26.6,
+      "width": 8.11,
+      "angle": -156,
+      "contrailSize": 8.11,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_WHITE"
+    },
+    {
+      "location": [-206.5, 1],
+      "length": 62,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "oldGloryBlue"
+    },
+    {
+      "location": [-24, 1],
+      "length": 19,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [-14, 1],
+      "length": 19,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [18.5, -0],
+      "length": 19,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [30.5, -1.5],
+      "length": 19,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    }
+  ],
+  "bounds": [
+    205, 0,
+    205, -0,
+    185.5, 8.5,
+    109.5, 25.5,
+    -101.5, 24.5,
+    -185, 12.5,
+    -197.5, 17,
+    -205, 1.5,
+    -198.5, -15.5,
+    -185.5, -11,
+    -101.5, -24,
+    111, -25.5,
+    188, -8
+  ]
+}
