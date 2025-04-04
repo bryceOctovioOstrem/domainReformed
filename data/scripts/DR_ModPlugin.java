@@ -561,7 +561,13 @@ public class DR_ModPlugin extends BaseModPlugin {
     }
 	private void kulug() {
         StarSystemAPI system = Global.getSector().getStarSystem("Khomeini");
-        SectorEntityToken star = system.getStar();								
+        SectorEntityToken star = system.getStar();
+	system.addAsteroidBelt(star, 100, 2000f, 250f, 1200, 250, Terrain.ASTEROID_BELT, "Astroid Belt");
+	system.addRingBand(star, "misc", "rings_asteroids0", 256f, 0, Color.white, 256f, 2000f, 226f, null, null);
+	system.addAsteroidBelt(star, 150, 6900f, 250f, 1200, 250, Terrain.ASTEROID_BELT, "Astroid Belt");
+	system.addRingBand(star, "misc", "rings_asteroids0", 256f, 0, Color.white, 256f, 6900f, 226f, null, null);
+	system.addAsteroidBelt(star, 100, 9000f, 250f, 1200, 250, Terrain.ASTEROID_BELT, "Astroid Belt");
+	system.addRingBand(star, "misc", "rings_asteroids0", 256f, 0, Color.white, 256f, 9000f, 226f, null, null);								
         PlanetAPI planet = system.addPlanet("kulug", star,"Justinian","desert", 100,180, 2000, 50);
         MarketAPI market = Global.getFactory().createMarket(
                 "kulug_market", //market id
@@ -727,6 +733,10 @@ public class DR_ModPlugin extends BaseModPlugin {
 		system.autogenerateHyperspaceJumpPoints(true,true);
         SectorEntityToken relay = system.addCustomEntity("wangMang_relay",null, "comm_relay_makeshift","DR");// creates relay
         relay.setCircularOrbitPointingDown(star, 230, 6500, 265f); // sets relays orbit
+		system.addAsteroidBelt(star, 150, 6900f, 250f, 1200, 250, Terrain.ASTEROID_BELT, "Astroid Belt");
+		system.addRingBand(star, "misc", "rings_asteroids0", 256f, 0, Color.white, 256f, 6900f, 226f, null, null);
+		system.addAsteroidBelt(star, 100, 9000f, 250f, 1200, 250, Terrain.ASTEROID_BELT, "Astroid Belt");
+		system.addRingBand(star, "misc", "rings_asteroids0", 256f, 0, Color.white, 256f, 9000f, 226f, null, null);
 	}
 	private void Diocletian() {
         StarSystemAPI system = Global.getSector().getStarSystem("wang mang");

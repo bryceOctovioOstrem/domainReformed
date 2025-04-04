@@ -1,6 +1,7 @@
 {
   "id": "330mm",
   "specClass": "projectile",
+"mountTypeOverride":"HYBRID",
   "projectileSpecId": "330mm_shot",
   "type": "ENERGY",
   "size": "LARGE",

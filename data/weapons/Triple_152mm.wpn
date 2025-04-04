@@ -2,6 +2,7 @@
   "id": "Triple_152mm",
   "specClass": "projectile",
   "projectileSpecId": "157mm_shot",
+"mountTypeOverride":"HYBRID",
   "type": "ENERGY",
   "size": "MEDIUM",
   "turretSprite": "graphics/weapons/DR_152mm_triple_turret.PNG",

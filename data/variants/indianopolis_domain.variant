@@ -3,7 +3,7 @@
   "hullId": "indianopolis",
   "displayName": "New Variant",
   "goalVariant": true,
-  "fluxCapacitors": 6,
+  "fluxCapacitors": 8,
   "fluxVents": 30,
   "quality": 0,
   "permaMods": [],

@@ -4,7 +4,7 @@
   "displayName": "New Variant",
   "goalVariant": true,
   "fluxCapacitors": 15,
-  "fluxVents": 14,
+  "fluxVents": 30,
   "quality": 0,
   "permaMods": [],
   "hullMods": [

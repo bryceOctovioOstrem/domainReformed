@@ -2,6 +2,7 @@
   "id": "100mm",
   "specClass": "beam",
   "type": "ENERGY",
+"mountTypeOverride":"HYBRID",
   "size": "SMALL",
   "collisionClass": "RAY",
   "collisionClassByFighter": "RAY_FIGHTER",

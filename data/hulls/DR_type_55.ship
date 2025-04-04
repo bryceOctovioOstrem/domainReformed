@@ -1,0 +1,191 @@
+{
+  "hullName": "DR_type_55",
+  "hullId": "DR_type_55",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/DR/ships/DR_type55_sprite.PNG",
+  "style": "LOW_TECH",
+  "height": 417,
+  "width": 47,
+  "center": [23.5, 208.5],
+  "collisionRadius": 209.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 213,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ecm",
+    "eccm",
+    "rugged",
+    "targetingunit"
+  ],
+  "builtInWeapons": {
+    "WS0008": "DR_GJB_5860-2006_VLS",
+    "WS0009": "DR_GJB_5860-2006_VLS",
+    "WS0010": "phaseTorp14",
+    "WS0011": "phaseTorp14"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 0,
+      "locations": [88.5, -0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 310,
+      "angle": 0,
+      "locations": [144.5, -0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 263,
+      "angle": 180,
+      "locations": [-121.5, -0.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 90,
+      "locations": [-97, 18.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 90,
+      "locations": [-114, 18.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -90,
+      "locations": [-97, -18.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -90,
+      "locations": [-115, -18.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -90,
+      "locations": [-67, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [113.5, -1]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-92.5, 23.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-92.5, -23.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-209.5, 11],
+      "length": 67.5,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-209.5, -13],
+      "length": 67.5,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-3, 4],
+      "length": 14.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [-3, -4],
+      "length": 14.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [-29, -4],
+      "length": 14.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    },
+    {
+      "location": [-29, 4],
+      "length": 14.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "CUSTOM_stack"
+    }
+  ],
+  "bounds": [
+    208.5, -0,
+    154, 16,
+    95.5, 22,
+    -204, 22,
+    -204, -23,
+    95.5, -22.5,
+    95.5, -22.5,
+    155, -15.5
+  ]
+}

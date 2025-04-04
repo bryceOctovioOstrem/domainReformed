@@ -1,0 +1,32 @@
+{
+  "variantId": "DR_type_55_domain",
+  "hullId": "DR_type_55",
+  "displayName": "Domain",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "hiressensors",
+    "insulatedengine",
+    "nav_relay"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "DR_type_1130",
+        "WS0002": "DR_J-45",
+        "WS0003": "DR_HQ-10",
+        "WS0008": "DR_GJB_5860-2006_VLS",
+        "WS0009": "DR_GJB_5860-2006_VLS",
+        "WS0010": "phaseTorp14",
+        "WS0011": "phaseTorp14"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

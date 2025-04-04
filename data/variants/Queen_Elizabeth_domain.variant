@@ -4,14 +4,15 @@
   "displayName": "New Variant",
   "goalVariant": true,
   "fluxCapacitors": 23,
-  "fluxVents": 22,
+  "fluxVents": 27,
   "quality": 0,
   "permaMods": [],
   "hullMods": [
     "pointdefenseai",
     "ecm",
     "operations_center",
-    "nav_relay"
+    "nav_relay",
+    "expanded_cargo_holds"
   ],
   "weaponGroups": [
     {

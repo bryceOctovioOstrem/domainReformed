@@ -4,7 +4,7 @@
   "displayName": "Domain",
   "goalVariant": true,
   "fluxCapacitors": 6,
-  "fluxVents": 20,
+  "fluxVents": 22,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -20,7 +20,9 @@
         "WS0006": "vulcan",
         "WS0008": "vulcan",
         "WS0011": "Oerlikon",
-        "WS0012": "Oerlikon"
+        "WS0012": "Oerlikon",
+        "WS0019": "depthCharge",
+        "WS0020": "depthCharge"
       }
     },
     {

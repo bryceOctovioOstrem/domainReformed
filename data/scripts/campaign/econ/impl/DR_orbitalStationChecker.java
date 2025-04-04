@@ -24,7 +24,7 @@ public class DR_orbitalStationChecker extends OrbitalStation {
             for (Industry ind : market.getIndustries()) {
             	if (ind == this) continue;
             	if (!ind.isFunctional()) continue;
-            	if ((ind.getSpec().hasTag(Industries.TAG_SPACEPORT)) && (Global.getSector().getPlayerFaction().knowsIndustry(getId()))) {
+            	if ((ind.getSpec().hasTag(Industries.TAG_SPACEPORT))) {
 			canBuild = true;
 			break;
             	}

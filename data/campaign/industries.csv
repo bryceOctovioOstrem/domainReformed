@@ -16,7 +16,7 @@ It must be reduced before invasions or bombardment can be attempted.
 
 
 ",,
-DR_starFortress,Domain Star Fortress ,200,200,,5,moonCastle,,"station, starfortress, unraidable, structure","{
+DR_starFortress,Domain Star Fortress ,200,200,,5,moonCastle,DR_quasarCitadel,"station, starfortress, unraidable, structure","{
 radius:80,
 variant:DR_starFortress_domain,
 fleetName:Star Fortress
@@ -36,7 +36,7 @@ ronin,Ronin Toride,10,10,,10,,,"grounddefenses, tactical_bombardment, structure,
 ,,,,,,,,,,,,,,
 DR_quasarCitadel,Domain Quasar Citadel,400,400,,6,DR_starFortress,,"station, quasarCitadel, unraidable, structure","{
 radius:80,
-variant:DR_starFortress_domain,
+variant:DR_quasarCitadel_variant,
 fleetName:quasar Citadel
 }",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.impl.DR_orbitalStationUpgradeChecker,"The ultimate in reconstructionist defenses . A quasar citadel is an immense fortification requiring the most powerful of fleets to overcome. 
 

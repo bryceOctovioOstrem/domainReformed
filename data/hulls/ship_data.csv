@@ -1,7 +1,7 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
 Ise,Ise,Battlecarrier,DR,drone_strike,28,40444,3300,12000,12500,362,316,4,24.5,13,15,6,6,20222,NONE,,180,0.4,1,,,700,1500,646,300,15,20,7,370000,3,12,720,0.2,40,40,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT",DR,,0.4,2,4,,
 Lion,Lion,Battlecarrier,,burndrive,28,19000,1944,12750,12500,677.5,320,4,30,20,15,12,6,9000,OMNI,,180,0.4,1,,,700,1500,300,300,15,20,7,975000,3,12,720,0.2,40,40,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT",rare_bp,,0.4,2,4,,
-Prinds Christian Frederik,christian,Battlecruiser,DR,damper,24,23450,5500,18040,11000,550,342,,75,10,35,4,4,13450,NONE,,210,0.4,0.8,,,200,300,1540,150,2,38,10,210000,4,12,480,0.2,30,30,,,,,,,,DR,,0.9,4,5,,
+Prinds Christian Frederik,christian,Battlecruiser,DR,damper,24,23450,5500,18040,11000,550,339,,75,10,35,4,4,13450,NONE,,210,0.4,0.8,,,200,300,1540,150,2,38,10,210000,4,12,480,0.2,30,30,,,,,,,,DR,,0.9,4,5,,
 Admiral,Hood,Battlecruiser,DR,burndrive,24,46680,12000,17240,30000,200,297,1,32,15,15,4,4,23340,NONE,,90,0.4,1.4,,,400,500,300,300,10,30,8,250000,3,15,600,0.25,40,40,,,,,,,,DR,,0.5,2,4,,
 Reactivated Mothership,R_mothership,Battlecruiser,DR,burndrive,30,40000,1600,17000,2500,180,146,2,30,20,20,8,2,21000,NONE,damper,0,0,1,,,94,150,210,210,1,40,6,400000,4,10,180,0.2,40,40,,,,,,,,no_sell,,0.5,2,4,,
 Reactivated Domain Mothership,DR_mothership,Battleship,DR,burndrive,30,40000,1600,1000,2500,100,150,2,36,26,20,8,2,21000,NONE,damper,0,0,1,,,0,0,2100,2100,1,40,6,400000,4,10,180,0.2,30,30,,,,,,,,"DR,no_sell",,0.5,2,4,,
@@ -116,3 +116,4 @@ B-25J Mitchell,B-25J,,DR,,,1000,175,600,,100,0,,150,100,100,20,30,90,NONE,,0,0,0
 Chengdu J-36,DR_j36,,DR,flarelauncher_fighter,,755,208,200,,73,0,,300,60,75,50,100,40,PHASE,phasecloak,90,,,0.05,0.05,1,1,,,,,,,,,,,,,,,,,,,,,,0,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AC 130,DR_AC180,,DR,,,1000,125,400,,50,0,,160,200,200,15,30,40,NONE,,120,0,1,,,4,4,,,,,,,,,,,,,,,,,,,,,,0,,,,118
+Type 55,DR_type_55,Destroyer,DR,flarelauncher,10,11000,1000,4200,4167,250,86,1,90,60,40,30,60,400,FRONT,,300,0.4,0.8,,,50,100,100,60,2,30,9,40000,5,12,360,0.25,10,10,,,,,,,,"midline_bp, merc, ind",,0.5,2,3,,300
