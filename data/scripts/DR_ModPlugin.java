@@ -76,7 +76,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         //Market global property settings
         market.setPrimaryEntity(planet);
         market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
-        market.getTariff().modifyFlat("generator", 0.3f);
+        market.getTariff().modifyFlat("generator", 0.4f);
         //Planet surface/market conditions
         market.setPlanetConditionMarketOnly(false);
         market.addCondition(Conditions.HABITABLE);
@@ -206,15 +206,13 @@ public class DR_ModPlugin extends BaseModPlugin {
         MaistreWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
 
         //Those rascally Tritachyon have set their tariffs to 15%!
-        market.getTariff().modifyFlat("generator", 0.15f);
+        market.getTariff().modifyFlat("generator", 0.4f);
         //planet.setMarket(market);
         EconomyAPI globalEconomy = Global.getSector().getEconomy();
         globalEconomy.addMarket(
                 market, //The market to add obviously!
                 true //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
         );
-        //Those rascally Tritachyon have set their tariffs to 15%!
-        market.getTariff().modifyFlat("generator", 0.15f);
         planet.setCustomDescriptionId("DR_planet_Maistre"); // adds planet description
 		planet.setInteractionImage("illustrations", "Maistre_planet");//adds illustration
         //system.updateAllOrbits();
@@ -285,15 +283,13 @@ public class DR_ModPlugin extends BaseModPlugin {
         ilynHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
 
         //Those rascally Tritachyon have set their tariffs to 15%!
-        market.getTariff().modifyFlat("generator", 0.15f);
+        market.getTariff().modifyFlat("generator", 0.4f);
         //planet.setMarket(market);
         EconomyAPI globalEconomy = Global.getSector().getEconomy();
         globalEconomy.addMarket(
                 market, //The market to add obviously!
                 true //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
         );
-        //Those rascally Tritachyon have set their tariffs to 15%!
-        market.getTariff().modifyFlat("generator", 0.15f);
         planet.setCustomDescriptionId("DR_planet_Ilyin"); // adds planet description
 		planet.setInteractionImage("illustrations", "illyn_planet");//adds illustration
         system.updateAllOrbits();
@@ -364,7 +360,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         Industry BurkeHEAVYBATTERIES = market.getIndustry(Industries.HEAVYBATTERIES);// grabs the heavy batteries
         BurkeHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
         //Those rascally Tritachyon have set their tariffs to 15%!
-        market.getTariff().modifyFlat("generator", 0.08f);
+        market.getTariff().modifyFlat("generator", 0.4f);
         //planet.setMarket(market);
         EconomyAPI globalEconomy = Global.getSector().getEconomy();
 		planet.setInteractionImage("illustrations", "bombard_tactical_result");//adds illustration
@@ -455,7 +451,7 @@ public class DR_ModPlugin extends BaseModPlugin {
 		
 		system.autogenerateHyperspaceJumpPoints(false, true);
 		EconomyAPI globalEconomy = Global.getSector().getEconomy();
-		market.getTariff().modifyFlat("generator", 0.20f);
+		market.getTariff().modifyFlat("generator", 0.3f);
         globalEconomy.addMarket(
                 market, //The market to add obviously!
                 false //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
@@ -547,7 +543,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         // Industry BurkeHEAVYBATTERIES = market.getIndustry(Industries.HEAVYBATTERIES);// grabs the heavy batteries
         // BurkeHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
         //Those rascally Tritachyon have set their tariffs to 15%!
-        market.getTariff().modifyFlat("generator", 0.15f);
+        market.getTariff().modifyFlat("generator", 0.4f);
         //planet.setMarket(market);
         EconomyAPI globalEconomy = Global.getSector().getEconomy();
         globalEconomy.addMarket(
@@ -632,7 +628,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         Industry KulugHEAVYBATTERIES = market.getIndustry(Industries.HEAVYBATTERIES);// grabs the heavy batteries
         KulugHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
         //Those rascally Tritachyon have set their tariffs to 15%!
-        market.getTariff().modifyFlat("generator", 0.15f);
+        market.getTariff().modifyFlat("generator", 0.3f);
         //planet.setMarket(market);
         EconomyAPI globalEconomy = Global.getSector().getEconomy();
         globalEconomy.addMarket(
@@ -714,15 +710,13 @@ public class DR_ModPlugin extends BaseModPlugin {
         LouisHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
     
 	    //Those rascally Tritachyon have set their tariffs to 15%!
-        market.getTariff().modifyFlat("generator", 0.15f);
+        market.getTariff().modifyFlat("generator", 0.4f);
         //planet.setMarket(market);
         EconomyAPI globalEconomy = Global.getSector().getEconomy();
         globalEconomy.addMarket(
                 market, //The market to add obviously!
                 true //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
         );
-        //Those rascally Tritachyon have set their tariffs to 15%!
-        market.getTariff().modifyFlat("generator", 0.15f);
 
         system.updateAllOrbits();	
 		}
@@ -793,7 +787,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         DiocletianFUELPROD.setSpecialItem(new SpecialItemData(Items.SYNCHROTRON, null));// adds a SYNCHROTRON 
     
 	    //Those rascally Tritachyon have set their tariffs to 15%!
-        market.getTariff().modifyFlat("generator", 0.15f);
+        market.getTariff().modifyFlat("generator", 0.4f);
         //planet.setMarket(market);
         EconomyAPI globalEconomy = Global.getSector().getEconomy();
         globalEconomy.addMarket(
@@ -858,15 +852,13 @@ public class DR_ModPlugin extends BaseModPlugin {
          wangMangBase.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
     
 	    //Those rascally Tritachyon have set their tariffs to 15%!
-        market.getTariff().modifyFlat("generator", 0.15f);
+        market.getTariff().modifyFlat("generator", 0.3f);
         //planet.setMarket(market);
         EconomyAPI globalEconomy = Global.getSector().getEconomy();
         globalEconomy.addMarket(
                 market, //The market to add obviously!
                 true //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
         );
-        //Those rascally Tritachyon have set their tariffs to 15%!
-        market.getTariff().modifyFlat("generator", 0.15f);
         planet.setCustomDescriptionId("mang2desctiption"); // adds planet description
 		//planet.setInteractionImage("illustrations", "diocletian_planet");//adds illustration
         system.updateAllOrbits();	

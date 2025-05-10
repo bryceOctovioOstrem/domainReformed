@@ -110,7 +110,7 @@
 	],
 		"YamatoChargeUp":
 	[
-		{"file":"sounds/sfx_wpn_guns/YamatoChargeUp.ogg","pitch":1,"volume":1},
+		{"file":"sounds/sfx_wpn_guns/YamatoChargeUp.ogg","pitch":1,"volume":.7},
 	],
 	"macron_Burst_medium":
 	[
@@ -130,11 +130,11 @@
 	],
 			"32cmChargeUp":
 	[
-		{"file":"sounds/sfx_wpn_guns/38cm.ogg","pitch":1,"volume":.6},
+		{"file":"sounds/sfx_wpn_guns/38cm.ogg","pitch":1,"volume":.5},
 	],
 			"16in":
 	[
-		{"file":"sounds/sfx_wpn_guns/16in.ogg","pitch":1,"volume":.6},
+		{"file":"sounds/sfx_wpn_guns/16in.ogg","pitch":1,"volume":.5},
 	],
 			"Quad14in":
 	[
