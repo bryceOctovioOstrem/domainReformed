@@ -1,0 +1,3 @@
+3/2025
+I reduced the hull break probability on all ships to increase immersion
+added asome descriptions

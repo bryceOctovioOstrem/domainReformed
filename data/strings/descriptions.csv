@@ -200,3 +200,5 @@ This heavy reliance on missile systems has made the Type 055-class a subject of 
 DR_GJB_5860-2006_VLS,WEAPON,“ The GJB 5860-2006 VLS is a vertical launch missile system firing proton missiles effective against both shields and armour. The outdated vertical launch system generates unnecessary amounts of heat inside the hull endangering the crew. Recommend no sabotage operations.” - Classified report to the High Hegemon ,,,
 DR_HQ-10,WEAPON,“The Hong Qi-10 is a point defence proton missile pod. The small missile generates a large number of hyper agitated protons that are released upon impact. The missiles deployed by this system are quite weak and the system is very large for what it does. Recommend no sabotage operations.” - Classified report to the High Hegemon ,,,
 Benson,SHIP,,,,
+DR_20mmRC,WEAPON,"“A basic small sized rotary cannon using solid state propelent . Its designed for hull busting and acts as a mini thumper.-No sabotage operation recommended"" - Classified report to the High Hegemon ",,,
+breach_hidden,WEAPON,"“My silence isn’t forgiveness, It's loading.""",,,
