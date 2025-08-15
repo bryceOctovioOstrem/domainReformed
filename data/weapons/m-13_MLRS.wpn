@@ -1,0 +1,82 @@
+{
+  "id": "m-13_MLRS",
+  "specClass": "projectile",
+  "projectileSpecId": "DR_BM-13",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/DR_m13MLRS_turret.png",
+  "hardpointSprite": "graphics/weapons/DR_m13MLRS_hardpoint.png",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "turretOffsets": [
+    -6.5,
+    -9.5,
+    -6.5,
+    3,
+    -6.5,
+    -3,
+    -6.5,
+    9.5,
+    -6.5,
+    6,
+    -6.5,
+    0,
+    -6.5,
+    -6
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    -5,
+    -9.5,
+    -5,
+    -2.5,
+    -5,
+    3,
+    -5,
+    9.5,
+    -5,
+    6,
+    -5,
+    0,
+    -5,
+    -6
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 14,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1.5,
+    "cloudRadius": 12,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 0.45,
+    "blowbackLength": 20,
+    "blowbackSpread": 6,
+    "particleColor": [
+      190,
+      180,
+      160,
+      95
+    ]
+  },
+  "fireSoundTwo": "annihilator_fire"
+}

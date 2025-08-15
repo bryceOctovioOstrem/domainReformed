@@ -134,7 +134,7 @@
 	],
 			"16in":
 	[
-		{"file":"sounds/sfx_wpn_guns/16in.ogg","pitch":1,"volume":.5},
+		{"file":"sounds/sfx_wpn_guns/16in.ogg","pitch":1,"volume":.3},
 	],
 			"Quad14in":
 	[

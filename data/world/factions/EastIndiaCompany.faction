@@ -1,0 +1,218 @@
+{
+	id:"EastIndiaCompany",
+	#"color":[227,218,201,255],
+	"color":[ 10,10,10,255],
+	"displayName":"East India Company",
+	"logo":"graphics/factions/neutral_traders.png",
+	"displayNameWithArticle":"Whiteskye",
+	"shipNamePrefix":"EIC",
+	"showInIntelTab":false,
+	"shipNameSources":{
+		"BRITISH_NAVY":4,
+		"CELTIC":4,
+	},
+	"names":{
+		"modern":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp"],
+		"hulls":[
+		"Geobukseon",
+		"constitution",
+		"cutter",
+		"Geobukseon",
+		"DR_la_real",
+		"Trireme",
+		"wasa",
+		"DR_la_real",
+		
+		],
+	},
+	"knownShips":{
+		"tags":["base_bp"],
+		"hulls":[
+		"Geobukseon",
+		"constitution",
+		"cutter",
+		"Geobukseon",
+		"DR_la_real",
+		"Trireme",
+		"wasa",
+		"DR_la_real",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		"Geobukseon",
+		"constitution",
+		"cutter",
+		"Geobukseon",
+		"DR_la_real",
+		"Trireme",
+		"wasa",
+		"DR_la_real",
+		],
+	},
+	"knownFighters":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp","DR"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":["DR"],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp","DR"],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":["DR"],
+		"weapons":[
+			#"amblaster",
+			#"heavyblaster",
+			#"kineticblaster",
+			#"gigacannon",
+		],
+	},
+	"knownHullMods":{
+		"tags":[],
+		"hullMods":[
+			"advancedoptics",
+			"augmentedengines",
+			"eccm",
+			"ecm",
+			"insulatedengine",
+			"pointdefenseai",
+			"nav_relay",
+			"surveying_equipment",
+			"auxiliarythrusters",
+			"recovery_shuttles",
+			"reinforcedhull",
+			"hiressensors",
+			"ground_support",
+			"shielded_holds",
+		],
+	},
+	"weaponSellFrequency":{
+	},
+	"fighterSellFrequency":{
+	},
+	"hullmodSellFrequency":{
+	},	
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":1,
+		"phaseShips":1,
+		
+		"officerQuality":5,
+		"shipQuality":5,
+		"numShips":5,
+		
+		"shipSize":5,
+		
+		"aggression":4,
+		
+		"combatFreighterProbability":0.9,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":1,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+	},
+	"illegalCommodities":[
+	],
+	"internalComms":"Domain_internal",
+"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_mercenary01.png",
+			"graphics/portraits/portrait_mercenary03.png",
+			"graphics/portraits/portrait_mercenary04.png",
+			"graphics/portraits/portrait_mercenary06.png",
+			"graphics/portraits/portrait_mercenary08.png",
+			"graphics/portraits/portrait12.png",
+			"graphics/portraits/portrait13.png",
+			"graphics/portraits/portrait15.png",
+			"graphics/portraits/portrait17.png",
+			"graphics/portraits/portrait18.png",
+			"graphics/portraits/portrait20.png",
+			"graphics/portraits/portrait25.png",
+			"graphics/portraits/portrait26.png",
+			"graphics/portraits/portrait30.png",
+			"graphics/portraits/portrait31.png",
+			"graphics/portraits/portrait33.png",
+			"graphics/portraits/portrait35.png",
+			"graphics/portraits/portrait36.png",
+			"graphics/portraits/portrait40.png",
+			"graphics/portraits/portrait43.png",	
+			"graphics/portraits/portrait44.png",
+			"graphics/portraits/portrait47.png",	
+			"graphics/portraits/portrait48.png",
+			"graphics/portraits/portrait_pirate15.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_mercenary02.png",
+			"graphics/portraits/portrait_mercenary05.png",
+			"graphics/portraits/portrait_mercenary07.png",
+			"graphics/portraits/portrait14.png",
+			"graphics/portraits/portrait16.png",
+			"graphics/portraits/portrait21.png",
+			"graphics/portraits/portrait22.png",
+			"graphics/portraits/portrait27.png",
+			"graphics/portraits/portrait28.png",
+			"graphics/portraits/portrait29.png",
+			"graphics/portraits/portrait32.png",
+			"graphics/portraits/portrait34.png",
+			"graphics/portraits/portrait37.png",
+			"graphics/portraits/portrait39.png",
+			"graphics/portraits/portrait41.png",		
+			"graphics/portraits/portrait42.png",	
+			"graphics/portraits/portrait45.png",	
+			"graphics/portraits/portrait46.png",	
+		],
+	},
+	"music":{
+	},
+	"voices":{
+		"LOW":{
+			"business":10,
+		},
+		"MEDIUM":{,
+			"business":10,
+		},
+		"HIGH":{
+			"business":10,
+		},
+	},
+	"fleetTypeNames":{
+		"patrolSmall":"Anti piracy operation ",
+		"patrolMedium":"Cargo protection mission",
+		"patrolLarge":"Shipping route occupation fleet",
+		
+		#"mercScout":"Spy satalite deployment operation",
+		#"mercBountyHunter":"Assaination operation",
+		#"mercPrivateer":"Hostile Asset reqisition operation",
+		#"mercPatrol":"Data aquisition operation",
+		#"mercArmada":"broken maqurade",
+	},
+	"custom":{
+		"postsNoBounties":true,
+	},
+
+},

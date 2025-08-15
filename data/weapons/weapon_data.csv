@@ -20,7 +20,7 @@ ASRAAM,ASRAAM,1,,297,802,,389,,43,50,3,20,,,HIGH_EXPLOSIVE,0,,4,1,1,0.2,0,0,0,0,
 Meteor (BVRAAM),Meteor,2,,297,4000,,878,,84,50,3,14,,,FRAGMENTATION,0,,8,2,2,0.2,0,0,0,0,,410,84,8,60,,,"ANTI_FTR, DO_NOT_AIM,PD,ANTI_FTR","utility8, no_sell, no_drop, no_drop_salvage",,,,Anti Small Craft,Fast,Excellent,,,,,,,,
 Triple AGM-65 Maverick,harpoon_hidden,1,,200,2500,,750,,15,30,4,3,,,HIGH_EXPLOSIVE,0,,9,1,1,,4,0,0,,,300,100,12.5,150,,,DO_NOT_AIM,"he0, no_sell, no_drop, no_drop_salvage",,Unknown,,Finisher,Medium,Medium,,,,,,,TRUE,
 large Bomb ,hiddenBombLarge,1,,200,700,,3000,,500,15,4,1,,,HIGH_EXPLOSIVE,0,,10,1,1,,0,0,0,0,,170,20,25,400,,,"STRIKE, BOMB,SYSTEM","he0, no_sell, no_drop, no_drop_salvage",,Unknown,,Strike,,,,,,,,,TRUE,
-Duel 5-inch/38-caliber,5in,0,,700,700,,120,,12,50,4,,,,FRAGMENTATION,90,,0.3,0.7,2,0.3,0,12,4,5,,1021,435,2,150,,,"PD,GROUP_ALTERNATING","he11,ind, DR,pirates,luddic_path",,DR,,Point Defense,Fast,Poor,,,,,,,,
+Duel 5-inch/38-caliber,5in,0,,700,700,,240,,12,50,4,,,,FRAGMENTATION,90,,0.3,0.7,2,0.3,0,12,4,5,,1021,435,2,150,,,"PD,GROUP_ALTERNATING","he11,ind, DR,pirates,luddic_path",,DR,,Point Defense,Fast,Poor,,,,,,,,
 small bomb,hiddenBombSmall,1,,200,700,,1000,,50,15,4,1,,,HIGH_EXPLOSIVE,0,,12,1,1,,0,0,0,0,,170,20,25,200,,,"STRIKE, BOMB,CONSERVE_FOR_ANTI_ARMOR","he0, no_sell, no_drop, no_drop_salvage",,Unknown,,Strike,,,,,,,,,TRUE,
 medium bomb,hiddenBombMedium,1,,200,700,,2000,,100,15,4,1,,,HIGH_EXPLOSIVE,0,,13,1,1,,0,0,0,0,,170,20,25,300,,,"STRIKE, BOMB,CONSERVE_FOR_ANTI_ARMOR","he0, no_sell, no_drop, no_drop_salvage",,Unknown,,Strike,,,,,,,,,TRUE,
 12 cm/45 10th Year Type,DR_12cm,1,,538,800,,200,,10,40,4,,,,FRAGMENTATION,50,,14,2,1,,1,12,2,10,,710,,,30,,,PD,"pd13, DR,  ind, DR,pirates,luddic_path,merc",,DR,,Point Defense (Area),,,,,,,,,,
@@ -84,3 +84,6 @@ BGM-109 Tomahawk vertical launch system (30),DR_Tomahawk_30,2,,700,1865,,1776,,4
 single 5in/38cal ,DR_long_flak,1,,900,600,,175,,10,35,8,,,,FRAGMENTATION,50,,0,1,1,,0,10,2,10,,700,,,30,,,PD,"pd13, SR, lowtech_bp, merc, ind",,,,Point Defense (Area),,,,,,,,,,
 GJB 5860-2006 VLS,DR_GJB_5860-2006_VLS,2,,700,1081,,1363,,40,50,10,56,,,ENERGY,0,,0,1,1,,0,0,0,0,,350,100,5,100,,,"GUIDED_POOR,DO_NOT_AIM,CONSERVE_FOR_ANTI_ARMOR,SYSTEM","strike9, no_sell, no_drop, no_drop_salvage",,,,Finisher,Fast,Good,,,,,,,TRUE,
 Hong Qi-10,DR_HQ-10,1,,250,907,,105,,15,40,3,8,1,,ENERGY,50,,0,0.25,1,0.25,0,0,0,0,,300,100,5,50,,,"DO_NOT_CONSERVE,PD","utility8, missile0, missile_bp, merc, ind",,,,Anti Small Craft,Fast,Excellent,,,,,,,,
+76 mm F-34,DR_76mm,1,,100,800,,300,,50,10,4,,,,FRAGMENTATION,150,,0,1,,,0,3,1,0.5,,680,,,,,,,"energy15,ind, DR,pirates,luddic_path",,DR,,General,,,,,,,,,,22.25
+"Katyusha rocket launcher
+",m-13_MLRS,0,,150,1500,,862,,15,15,10,7,0.25,1,FRAGMENTATION,0,,0,0,7,0.3,0,0,0,0,,350,50,3.75,50,,,"CONSERVE_FOR_ANTI_ARMOR,STRIKE","rocket7,DR",,DR,,Anti Armor,Fast,None,,,,,,,,11

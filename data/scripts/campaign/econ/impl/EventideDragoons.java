@@ -201,11 +201,11 @@ public class EventideDragoons extends MilitaryBase{
 
         // Ground defense mod
         //float bonus = DEFENSE_BONUS;
-	    float DEFENSE_BONUS = .2f;
-		float IMPROVE_STABILITY_BONUS = 1f;
-		float bonus = DEFENSE_BONUS;
-		market.getStats().getDynamic().getMod(Stats.GROUND_DEFENSES_MOD).modifyMult(getModId(), 1f + bonus, getNameForModifier());
-		market.getStability().modifyFlat("Eventide gendarmerie", IMPROVE_STABILITY_BONUS, getNameForModifier() );
+	    // float DEFENSE_BONUS = .2f;
+		// float IMPROVE_STABILITY_BONUS = 1f;
+		// float bonus = DEFENSE_BONUS;
+		// market.getStats().getDynamic().getMod(Stats.GROUND_DEFENSES_MOD).modifyMult(getModId(), 1f + bonus, getNameForModifier());
+		// market.getStability().modifyFlat("Eventide gendarmerie", IMPROVE_STABILITY_BONUS, getNameForModifier() );
 
         MemoryAPI memory = market.getMemoryWithoutUpdate();
         Misc.setFlagWithReason(memory, MemFlags.MARKET_PATROL, getModId(), true, -1);

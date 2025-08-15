@@ -2,7 +2,6 @@
   "id": "DR_type_1130",
   "specClass": "projectile",
   "projectileSpecId": "DR_type_1130_shot",
-"mountTypeOverride":"HYBRID",
   "type": "ENERGY",
   "size": "MEDIUM",
   "turretSprite": "graphics/weapons/DR_type_1130_turret.png",

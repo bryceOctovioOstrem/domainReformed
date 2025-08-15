@@ -6,6 +6,8 @@
     
     "marketSpawnWeight":1,
 
+     
+
     "startRelationships":{ "tritachyon": -0.3, "persean":-0.6 },
     "maxRelationships":{"remnant":-0.51,"luddic_path":-0.7,"luddic_church": -0.35,"persean":-0.66,"sindrian_diktat": -0.69,"independent": -0.5},
     "diplomacyPositiveChance":{ "hegemony":0.9,"tritachyon":1.2},
@@ -80,5 +82,7 @@
     	"invasionFleetSizeMod":.8,
 	"responseFleetSizeMod": 1.6,
 	"morality":"evil",
+	"specialForcesMaxFleets":4,
+	"invasionStrengthBonusDefend":1.2,
 	
 }

@@ -127,7 +127,7 @@
 		],
 	},
 	"priorityWeapons":{
-		"tags":[DR],
+		"tags":["DR"],
 		"weapons":[
 		],
 	},
@@ -165,7 +165,7 @@
 		
 		"shipSize":5,
 		
-		"aggression":4,
+		"aggression":1,
 		
 		"combatFreighterProbability":1,      				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":1,  				# as part of the normal combat lineup

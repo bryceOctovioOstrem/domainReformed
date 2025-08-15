@@ -81,8 +81,8 @@ public class blackFleet extends MilitaryBase{
 	public boolean showWhenUnavailable() {
 		return false;
 	}
-		public static float DEFENSE_BONUS = .2f;
-		public static float IMPROVE_STABILITY_BONUS = 1f; 
+		//public static float DEFENSE_BONUS = .2f;
+		//public static float IMPROVE_STABILITY_BONUS = 1f; 
 		 public void apply() {
 		
 		 int size = market.getSize();// gets market size 
@@ -90,10 +90,10 @@ public class blackFleet extends MilitaryBase{
 		demand(Commodities.HEAVY_MACHINERY, size-1);//increases ore demand
 		 demand(Commodities.DOMESTIC_GOODS, size-1);// increases organics demand
 		 supply(Commodities.CREW, size-2);// increases marines production
-         	supply(Commodities.MARINES, size-2);// increases marine demand
+        supply(Commodities.MARINES, size-2);// increases marine demand
 		applyIncomeAndUpkeep(3);
-		float bonus = DEFENSE_BONUS; 
-		market.getStats().getDynamic().getMod(Stats.GROUND_DEFENSES_MOD).modifyMult(getModId(), 1f + bonus, getNameForModifier());
-		market.getStability().modifyFlat("Eventide gendarmerie", IMPROVE_STABILITY_BONUS, getNameForModifier() );
+		//float bonus = DEFENSE_BONUS; 
+		//market.getStats().getDynamic().getMod(Stats.GROUND_DEFENSES_MOD).modifyMult(getModId(), 1f + bonus, getNameForModifier());
+		//market.getStability().modifyFlat("Eventide gendarmerie", IMPROVE_STABILITY_BONUS, getNameForModifier() );
 	 }
 }

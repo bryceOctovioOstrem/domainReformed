@@ -1,0 +1,36 @@
+{
+  "variantId": "DR_Pr1124MLRS_variant",
+  "hullId": "DR_Pr1124MLRS_hull",
+  "displayName": "Domain",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "DR_76mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "m-13_MLRS"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

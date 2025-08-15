@@ -16,10 +16,6 @@
     "dedicated_targeting_core",
     "glitched_sensors"
   ],
-  "builtInWeapons": {
-    "WS0002": "twin308",
-    "WS0004": "twin308"
-  },
   "weaponSlots": [
     {
       "id": "WS0001",
