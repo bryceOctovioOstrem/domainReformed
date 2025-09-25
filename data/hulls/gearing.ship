@@ -2,7 +2,7 @@
   "hullName": "gearing",
   "hullId": "gearing",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/DR/ships/gearing.PNG",
+  "spriteName": "graphics/DR/ships/gearing.png",
   "style": "LOW_TECH",
   "height": 414,
   "width": 43,

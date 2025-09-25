@@ -4,8 +4,8 @@
 "projectileSpecId":"shredder_shot",  # projectile that will be fired
   "type": "BALLISTIC",
   "size": "MEDIUM",
-  "turretSprite": "graphics/weapons/dr_ak630_TURRET.PNG",
-  "hardpointSprite": "graphics/weapons/ak630.PNG",
+  "turretSprite": "graphics/weapons/dr_ak630_TURRET.png",
+  "hardpointSprite": "graphics/weapons/ak630.png",
   "turretOffsets": [
     16.5,
     0

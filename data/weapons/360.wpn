@@ -6,8 +6,8 @@
   "beamEffect": "com.fs.starfarer.api.impl.combat.IonBeamEffect",
   "collisionClass": "RAY",
   "collisionClassByFighter": "RAY_FIGHTER",
-  "turretSprite": "graphics/weapons/380.PNG",
-  "hardpointSprite": "graphics/weapons/380_hardpoint_DR.PNG",
+  "turretSprite": "graphics/weapons/380.png",
+  "hardpointSprite": "graphics/weapons/380_hardpoint_DR.png",
   "glowColor": [
     237,
     41,

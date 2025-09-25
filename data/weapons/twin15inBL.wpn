@@ -5,7 +5,7 @@
   "type": "BALLISTIC",
   "size": "LARGE",
   "displayArcRadius": 600,
-  "turretSprite": "graphics/weapons/DR_BL15in_turret.PNG",
+  "turretSprite": "graphics/weapons/DR_BL15in_turret.png",
   "hardpointSprite": "graphics/weapons/DR_BL15in_hardpoint.png",
   #"visualRecoil": 10,
    #"turretOffsets":[3, 0],

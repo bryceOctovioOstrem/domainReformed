@@ -5,8 +5,8 @@
   "type": "ENERGY",
   "size": "LARGE",
   "fireSoundTwo":"plasma_cannon_fire",
-  "turretSprite": "graphics/weapons/12inMKX_turret_DR.PNG",
-  "hardpointSprite": "graphics/weapons/12inMKX_hardpoint.PNG",
+  "turretSprite": "graphics/weapons/12inMKX_turret_DR.png",
+  "hardpointSprite": "graphics/weapons/12inMKX_hardpoint.png",
   "visualRecoil": 1,
   "turretOffsets": [
     46.5,

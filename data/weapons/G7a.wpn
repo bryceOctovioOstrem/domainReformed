@@ -4,7 +4,7 @@
   "projectileSpecId": "resonatormrm_shot",
   "type": "MISSILE",
   "size": "MEDIUM",
-  "turretSprite": "graphics/weapons/G7a.PNG",
+  "turretSprite": "graphics/weapons/G7a.png",
   "hardpointSprite": "graphics/weapons/G7a.png",
   "turretOffsets": [
     17.5,

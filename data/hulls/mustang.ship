@@ -2,7 +2,7 @@
   "hullName": "mustang",
   "hullId": "mustang",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/mustang.PNG",
+  "spriteName": "graphics/DR/ships/mustang.png",
   "style": "LOW_TECH",
   "height": 57,
   "width": 75,

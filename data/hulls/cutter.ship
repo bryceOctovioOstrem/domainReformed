@@ -2,7 +2,7 @@
   "hullName": "cutter",
   "hullId": "cutter",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/DR/ships/CUTTER.PNG",
+  "spriteName": "graphics/DR/ships/CUTTER.png",
   "style": "LOW_TECH",
   "height": 278,
   "width": 92,

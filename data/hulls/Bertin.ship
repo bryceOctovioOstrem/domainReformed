@@ -2,7 +2,7 @@
   "hullName": "Bertin",
   "hullId": "Bertin",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/DR/ships/Bertin.PNG",
+  "spriteName": "graphics/DR/ships/Bertin.png",
   "style": "LOW_TECH",
   "height": 499,
   "width": 62,

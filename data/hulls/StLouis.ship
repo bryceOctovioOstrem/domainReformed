@@ -2,7 +2,7 @@
   "hullName": "StLouis",
   "hullId": "StLouis",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/DR/ships/St_Louis.PNG",
+  "spriteName": "graphics/DR/ships/St_Louis.png",
   "style": "LOW_TECH",
   "height": 446,
   "width": 96,

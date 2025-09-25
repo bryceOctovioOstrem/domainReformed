@@ -2,7 +2,7 @@
   "hullName": "hurricane",
   "hullId": "hurricane",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/hurricane.PNG",
+  "spriteName": "graphics/DR/ships/hurricane.png",
   "style": "LOW_TECH",
   "height": 50,
   "width": 64,

@@ -2,7 +2,7 @@
   "hullName": "Barracuda",
   "hullId": "Barracuda",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/Barracuda.PNG",
+  "spriteName": "graphics/DR/ships/Barracuda.png",
   "style": "LOW_TECH",
   "height": 55,
   "width": 68,

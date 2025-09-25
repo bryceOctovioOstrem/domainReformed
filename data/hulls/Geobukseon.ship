@@ -2,7 +2,7 @@
   "hullName": "Geobukseon",
   "hullId": "Geobukseon",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/DR/ships/Geobukseon.PNG",
+  "spriteName": "graphics/DR/ships/Geobukseon.png",
   "style": "LOW_TECH",
   "height": 227,
   "width": 70,

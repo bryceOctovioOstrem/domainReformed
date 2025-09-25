@@ -2,7 +2,7 @@
   "hullName": "zubr",
   "hullId": "zubr",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/DR/ships/zubr.PNG",
+  "spriteName": "graphics/DR/ships/zubr.png",
   "style": "LOW_TECH",
   "height": 130,
   "width": 70,

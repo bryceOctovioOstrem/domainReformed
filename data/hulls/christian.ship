@@ -2,7 +2,7 @@
   "hullName": "christian",
   "hullId": "christian",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/DR/ships/prince.PNG",
+  "spriteName": "graphics/DR/ships/prince.png",
   "style": "LOW_TECH",
   "height": 745,
   "width": 370,

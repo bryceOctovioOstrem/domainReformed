@@ -6,7 +6,7 @@
   "size": "LARGE",
   "displayArcRadius": 450,
   "turretSprite": "graphics/weapons/380mmSK.png",
-  "hardpointSprite": "graphics/weapons/380mmSK_hardpoint.PNG",
+  "hardpointSprite": "graphics/weapons/380mmSK_hardpoint.png",
   "turretOffsets": [
     57.5,
     5.5,

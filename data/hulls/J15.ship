@@ -2,7 +2,7 @@
   "hullName": "New Hull",
   "hullId": "J15",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/J15.PNG",
+  "spriteName": "graphics/DR/ships/J15.png",
   "style": "LOW_TECH",
   "height": 69,
   "width": 50,

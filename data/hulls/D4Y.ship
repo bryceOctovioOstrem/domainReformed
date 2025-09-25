@@ -2,7 +2,7 @@
   "hullName": "D4Y",
   "hullId": "D4Y",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/D4Y.PNG",
+  "spriteName": "graphics/DR/ships/D4Y.png",
   "style": "LOW_TECH",
   "height": 56,
   "width": 60,

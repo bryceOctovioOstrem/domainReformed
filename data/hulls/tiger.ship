@@ -2,7 +2,7 @@
   "hullName": "tiger",
   "hullId": "tiger",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/DR/ships/tiger.PNG",
+  "spriteName": "graphics/DR/ships/tiger.png",
   "style": "LOW_TECH",
   "height": 496,
   "width": 60,

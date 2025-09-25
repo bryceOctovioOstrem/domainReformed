@@ -2,7 +2,7 @@
   "hullName": "B5N",
   "hullId": "B5N",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/B5N.PNG",
+  "spriteName": "graphics/DR/ships/B5N.png",
   "style": "LOW_TECH",
   "height": 47,
   "width": 68,

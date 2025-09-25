@@ -2,7 +2,7 @@
   "hullName": "Zero",
   "hullId": "Zero",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/Zero.PNG",
+  "spriteName": "graphics/DR/ships/Zero.png",
   "style": "LOW_TECH",
   "height": 48,
   "width": 62,

@@ -2,7 +2,7 @@
   "hullName": "B-25J",
   "hullId": "B-25J",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/DR_BJ-25.PNG",
+  "spriteName": "graphics/DR/ships/DR_BJ-25.png",
   "style": "LOW_TECH",
   "height": 73,
   "width": 90,

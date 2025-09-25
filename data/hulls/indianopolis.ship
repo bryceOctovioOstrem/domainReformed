@@ -2,7 +2,7 @@
   "hullName": "indianopolis",
   "hullId": "indianopolis",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/DR/ships/indianopolis.PNG",
+  "spriteName": "graphics/DR/ships/indianopolis.png",
   "style": "LOW_TECH",
   "height": 470,
   "width": 55,

@@ -2,7 +2,7 @@
   "hullName": "kingGeorge",
   "hullId": "kingGeorge",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/DR/ships/kingGeorge.PNG",
+  "spriteName": "graphics/DR/ships/kingGeorge.png",
   "style": "LOW_TECH",
   "height": 718,
   "width": 106,

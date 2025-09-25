@@ -2,7 +2,7 @@
   "hullName": "petya",
   "hullId": "petya",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/DR/ships/petya.PNG",
+  "spriteName": "graphics/DR/ships/petya.png",
   "style": "LOW_TECH",
   "height": 437,
   "width": 55,

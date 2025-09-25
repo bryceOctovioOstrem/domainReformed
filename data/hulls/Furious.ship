@@ -2,7 +2,7 @@
   "hullName": "Furious",
   "hullId": "Furious",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/DR/ships/Furious.PNG",
+  "spriteName": "graphics/DR/ships/Furious.png",
   "style": "LOW_TECH",
   "height": 451,
   "width": 65,

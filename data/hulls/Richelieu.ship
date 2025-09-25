@@ -2,7 +2,7 @@
   "hullName": "Richelieu",
   "hullId": "Richelieu",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/DR/ships/Richelieu.PNG",
+  "spriteName": "graphics/DR/ships/Richelieu.png",
   "style": "LOW_TECH",
   "height": 838,
   "width": 170,

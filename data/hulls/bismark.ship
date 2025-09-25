@@ -2,7 +2,7 @@
   "hullName": "bismark",
   "hullId": "bismark",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/DR/ships/bismark.PNG",
+  "spriteName": "graphics/DR/ships/bismark.png",
   "style": "LOW_TECH",
   "height": 888,
   "width": 170,

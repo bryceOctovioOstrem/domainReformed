@@ -5,8 +5,8 @@
   "projectileSpecId": "330mm_shot",
   "type": "ENERGY",
   "size": "LARGE",
-  "turretSprite": "graphics/weapons/330mm_turret.PNG",
-  "hardpointSprite": "graphics/weapons/330mm_hardpoint.PNG",
+  "turretSprite": "graphics/weapons/330mm_turret.png",
+  "hardpointSprite": "graphics/weapons/330mm_hardpoint.png",
   "turretOffsets": [
     61.5,
     -11.5,

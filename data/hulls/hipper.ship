@@ -2,7 +2,7 @@
   "hullName": "hipper",
   "hullId": "hipper",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/DR/ships/AdmiralHipper.PNG",
+  "spriteName": "graphics/DR/ships/AdmiralHipper.png",
   "style": "LOW_TECH",
   "height": 594,
   "width": 73,

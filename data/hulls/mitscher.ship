@@ -2,7 +2,7 @@
   "hullName": "Mitscher",
   "hullId": "mitscher",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/DR/ships/Mitscher-class.PNG",
+  "spriteName": "graphics/DR/ships/Mitscher-class.png",
   "style": "LOW_TECH",
   "height": 465,
   "width": 80,

@@ -2,7 +2,7 @@
   "hullName": "loire",
   "hullId": "loire",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/Loire.PNG",
+  "spriteName": "graphics/DR/ships/Loire.png",
   "style": "LOW_TECH",
   "height": 52,
   "width": 73,

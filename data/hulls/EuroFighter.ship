@@ -2,7 +2,7 @@
   "hullName": "euroFighter",
   "hullId": "euroFighter",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/EuroFighter.PNG",
+  "spriteName": "graphics/DR/ships/EuroFighter.png",
   "style": "HIGH_TECH",
   "height": 68,
   "width": 46,

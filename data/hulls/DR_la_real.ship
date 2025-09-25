@@ -2,7 +2,7 @@
   "hullName": "DR_la_real",
   "hullId": "DR_la_real",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/DR/ships/DR_la_real_sprite.PNG",
+  "spriteName": "graphics/DR/ships/DR_la_real_sprite.png",
   "style": "LOW_TECH",
   "height": 1307,
   "width": 524,

@@ -5,8 +5,8 @@
   "type": "MISSILE",
   "size": "SMALL",
   "displayArcRadius": 500,
-  "turretSprite": "graphics/weapons/UP_DR_turret_hardpoint.PNG",
-  "hardpointSprite": "graphics/weapons/UP_DR_turret_hardpoint.PNG",
+  "turretSprite": "graphics/weapons/UP_DR_turret_hardpoint.png",
+  "hardpointSprite": "graphics/weapons/UP_DR_turret_hardpoint.png",
   "turretOffsets": [
     3.5,
     -1.5,

@@ -2,7 +2,7 @@
   "hullName": "constitution",
   "hullId": "constitution",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/DR/ships/Constitution.PNG",
+  "spriteName": "graphics/DR/ships/Constitution.png",
   "style": "LOW_TECH",
   "height": 461,
   "width": 150,

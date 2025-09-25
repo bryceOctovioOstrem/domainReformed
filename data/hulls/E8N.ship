@@ -2,7 +2,7 @@
   "hullName": "E8N",
   "hullId": "E8N",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/NakajimaE8N.PNG",
+  "spriteName": "graphics/DR/ships/NakajimaE8N.png",
   "style": "LOW_TECH",
   "height": 50,
   "width": 62,

@@ -4,8 +4,8 @@
   "projectileSpecId": "type54Proj",
   "type": "MISSILE",
   "size": "SMALL",
-  "turretSprite": "graphics/weapons/DR_singleType54.PNG",
-  "hardpointSprite": "graphics/weapons/DR_singleType54.PNG",
+  "turretSprite": "graphics/weapons/DR_singleType54.png",
+  "hardpointSprite": "graphics/weapons/DR_singleType54.png",
   "turretOffsets": [
     30,
     1

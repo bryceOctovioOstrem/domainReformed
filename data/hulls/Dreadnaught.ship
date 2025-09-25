@@ -2,7 +2,7 @@
   "hullName": "Dreadnaught",
   "hullId": "Dreadnaught",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/DR/ships/dreadnaught.PNG",
+  "spriteName": "graphics/DR/ships/dreadnaught.png",
   "style": "LOW_TECH",
   "height": 577,
   "width": 96,

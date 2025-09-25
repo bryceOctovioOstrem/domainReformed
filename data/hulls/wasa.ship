@@ -2,7 +2,7 @@
   "hullName": "wasa",
   "hullId": "wasa",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/DR/ships/wasa.PNG",
+  "spriteName": "graphics/DR/ships/wasa.png",
   "style": "LOW_TECH",
   "height": 440,
   "width": 152,

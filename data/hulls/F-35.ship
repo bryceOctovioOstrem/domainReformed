@@ -2,7 +2,7 @@
   "hullName": "F-35",
   "hullId": "F-35",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/F35.PNG",
+  "spriteName": "graphics/DR/ships/F35.png",
   "style": "LOW_TECH",
   "height": 58,
   "width": 49,

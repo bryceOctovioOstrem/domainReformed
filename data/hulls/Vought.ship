@@ -2,7 +2,7 @@
   "hullName": "Vought",
   "hullId": "Vought",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/Vought_OS2U-1.PNG",
+  "spriteName": "graphics/DR/ships/Vought_OS2U-1.png",
   "style": "LOW_TECH",
   "height": 57,
   "width": 60,

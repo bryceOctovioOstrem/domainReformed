@@ -2,7 +2,7 @@
   "hullName": "Tashkent",
   "hullId": "tashkent",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/DR/ships/Tashkent.PNG",
+  "spriteName": "graphics/DR/ships/Tashkent.png",
   "style": "LOW_TECH",
   "height": 420,
   "width": 60,

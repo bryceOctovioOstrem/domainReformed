@@ -2,7 +2,7 @@
   "hullName": "Brig",
   "hullId": "Brig",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/DR/ships/Brig.PNG",
+  "spriteName": "graphics/DR/ships/Brig.png",
   "style": "LOW_TECH",
   "height": 334,
   "width": 132,

@@ -2,7 +2,7 @@
   "hullName": "liberty",
   "hullId": "liberty",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/DR/ships/Liberty.PNG",
+  "spriteName": "graphics/DR/ships/Liberty.png",
   "style": "LOW_TECH",
   "height": 448,
   "width": 74,

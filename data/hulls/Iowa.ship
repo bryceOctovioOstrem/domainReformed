@@ -2,7 +2,7 @@
   "hullName": "Iowa",
   "hullId": "Iowa",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/DR/ships/USSIowa.PNG",
+  "spriteName": "graphics/DR/ships/USSIowa.png",
   "style": "LOW_TECH",
   "height": 881,
   "width": 109,

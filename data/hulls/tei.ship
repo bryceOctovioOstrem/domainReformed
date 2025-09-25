@@ -2,7 +2,7 @@
   "hullName": "tei",
   "hullId": "tei",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/DR/ships/Soukou-Tei.PNG",
+  "spriteName": "graphics/DR/ships/Soukou-Tei.png",
   "style": "LOW_TECH",
   "height": 148,
   "width": 35,

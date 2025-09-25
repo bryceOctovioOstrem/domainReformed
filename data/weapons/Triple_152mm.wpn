@@ -5,8 +5,8 @@
 "mountTypeOverride":"HYBRID",
   "type": "ENERGY",
   "size": "MEDIUM",
-  "turretSprite": "graphics/weapons/DR_152mm_triple_turret.PNG",
-  "hardpointSprite": "graphics/weapons/DR_152mm_triple_hardpoint.PNG",
+  "turretSprite": "graphics/weapons/DR_152mm_triple_turret.png",
+  "hardpointSprite": "graphics/weapons/DR_152mm_triple_hardpoint.png",
   "turretOffsets": [
     61.5,
     -11.5,

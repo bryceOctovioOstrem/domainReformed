@@ -2,7 +2,7 @@
   "hullName": "KA-29",
   "hullId": "KA-29",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/Ka-29.PNG",
+  "spriteName": "graphics/DR/ships/Ka-29.png",
   "style": "LOW_TECH",
   "height": 76,
   "width": 42,

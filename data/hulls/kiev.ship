@@ -2,7 +2,7 @@
   "hullName": "kiev",
   "hullId": "kiev",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/DR/ships/Kiev.PNG",
+  "spriteName": "graphics/DR/ships/Kiev.png",
   "style": "LOW_TECH",
   "height": 455,
   "width": 44,

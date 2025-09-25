@@ -2,7 +2,7 @@
   "hullName": "hornet",
   "hullId": "hornet",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/hornet.PNG",
+  "spriteName": "graphics/DR/ships/hornet.png",
   "style": "LOW_TECH",
   "height": 70,
   "width": 46,

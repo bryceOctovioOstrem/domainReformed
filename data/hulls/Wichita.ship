@@ -2,7 +2,7 @@
   "hullName": "Wichita",
   "hullId": "Wichita",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/DR/ships/Wichita.PNG",
+  "spriteName": "graphics/DR/ships/Wichita.png",
   "style": "LOW_TECH",
   "height": 569,
   "width": 60,

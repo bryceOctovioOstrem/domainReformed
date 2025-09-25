@@ -4,9 +4,9 @@
   "projectileSpecId": "railgun_shot",
   "type": "BALLISTIC",
   "size": "SMALL",
-  "turretSprite": "graphics/weapons/Yi_gun_DR.PNG",
-  "turretGunSprite": "graphics/weapons/Yi_gun_DR.PNG",
-  "hardpointSprite": "graphics/weapons/Yi_gun_DR_hardpoint.PNG",
+  "turretSprite": "graphics/weapons/Yi_gun_DR.png",
+  "turretGunSprite": "graphics/weapons/Yi_gun_DR.png",
+  "hardpointSprite": "graphics/weapons/Yi_gun_DR_hardpoint.png",
   "turretOffsets": [
     38,
     0

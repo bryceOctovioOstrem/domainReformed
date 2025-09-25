@@ -2,7 +2,7 @@
   "hullName": "Yubari",
   "hullId": "Yubari",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/DR/ships/Yubari.PNG",
+  "spriteName": "graphics/DR/ships/Yubari.png",
   "style": "LOW_TECH",
   "height": 489,
   "width": 62,

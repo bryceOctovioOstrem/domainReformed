@@ -2,7 +2,7 @@
   "hullName": "Hood",
   "hullId": "Hood",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/DR/ships/Hood.PNG",
+  "spriteName": "graphics/DR/ships/Hood.png",
   "style": "LOW_TECH",
   "height": 900,
   "width": 123,

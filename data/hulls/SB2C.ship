@@ -2,7 +2,7 @@
   "hullName": "SB2C",
   "hullId": "SB2C",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/SB2C.PNG",
+  "spriteName": "graphics/DR/ships/SB2C.png",
   "style": "LOW_TECH",
   "height": 55,
   "width": 64,

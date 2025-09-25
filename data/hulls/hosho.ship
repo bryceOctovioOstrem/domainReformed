@@ -2,7 +2,7 @@
   "hullName": "hosho",
   "hullId": "hosho",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/DR/ships/hosho.PNG",
+  "spriteName": "graphics/DR/ships/hosho.png",
   "style": "LOW_TECH",
   "height": 376,
   "width": 93,

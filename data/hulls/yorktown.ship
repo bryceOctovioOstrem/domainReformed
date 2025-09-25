@@ -2,7 +2,7 @@
   "hullName": "yorktown",
   "hullId": "yorktown",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/DR/ships/yorktown.PNG",
+  "spriteName": "graphics/DR/ships/yorktown.png",
   "style": "LOW_TECH",
   "height": 794,
   "width": 123,

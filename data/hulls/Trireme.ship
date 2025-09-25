@@ -2,7 +2,7 @@
   "hullName": "Trireme",
   "hullId": "Trireme",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/DR/ships/Tireme.PNG",
+  "spriteName": "graphics/DR/ships/Tireme.png",
   "style": "LOW_TECH",
   "height": 197,
   "width": 191,

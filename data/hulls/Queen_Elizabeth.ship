@@ -2,7 +2,7 @@
   "hullName": "Queen_Elizabeth",
   "hullId": "Queen_Elizabeth",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/DR/ships/QE.PNG",
+  "spriteName": "graphics/DR/ships/QE.png",
   "style": "HIGH_TECH",
   "height": 735,
   "width": 207,

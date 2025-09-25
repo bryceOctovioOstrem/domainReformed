@@ -5,8 +5,8 @@
   "type": "BALLISTIC",
   "mountTypeOverride":"COMPOSITE",
   "size": "MEDIUM",
-  "turretSprite": "graphics/weapons/DR_phalanx_turret.PNG",
-  "hardpointSprite": "graphics/weapons/DR_phalanx_hardpoint.PNG",
+  "turretSprite": "graphics/weapons/DR_phalanx_turret.png",
+  "hardpointSprite": "graphics/weapons/DR_phalanx_hardpoint.png",
   "specialWeaponGlowHeight": 30,
   "specialWeaponGlowWidth": 10,
   "renderHints": [

@@ -2,7 +2,7 @@
   "hullName": "A4N",
   "hullId": "A4N",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/A4N.PNG",
+  "spriteName": "graphics/DR/ships/A4N.png",
   "style": "LOW_TECH",
   "height": 37,
   "width": 58,

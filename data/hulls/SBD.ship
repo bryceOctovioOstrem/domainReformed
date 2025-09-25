@@ -2,7 +2,7 @@
   "hullName": "SBD",
   "hullId": "SBD",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/SBD.PNG",
+  "spriteName": "graphics/DR/ships/SBD.png",
   "style": "LOW_TECH",
   "height": 48,
   "width": 62,

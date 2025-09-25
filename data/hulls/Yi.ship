@@ -2,7 +2,7 @@
   "hullName": "Yi",
   "hullId": "Yi",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/DR/ships/Yi.PNG",
+  "spriteName": "graphics/DR/ships/Yi.png",
   "style": "LOW_TECH",
   "height": 508,
   "width": 72,

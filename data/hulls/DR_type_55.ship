@@ -2,7 +2,7 @@
   "hullName": "DR_type_55",
   "hullId": "DR_type_55",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/DR/ships/DR_type55_sprite.PNG",
+  "spriteName": "graphics/DR/ships/DR_type55_sprite.png",
   "style": "LOW_TECH",
   "height": 417,
   "width": 47,

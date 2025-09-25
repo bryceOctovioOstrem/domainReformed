@@ -2,7 +2,7 @@
   "hullName": "DR_AC180",
   "hullId": "DR_AC180",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/DR_AC130_sprite.PNG",
+  "spriteName": "graphics/DR/ships/DR_AC130_sprite.png",
   "style": "LOW_TECH",
   "height": 70,
   "width": 95,

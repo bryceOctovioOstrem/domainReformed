@@ -2,7 +2,7 @@
   "hullName": "TBF",
   "hullId": "TBF",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/DR/ships/TBF.PNG",
+  "spriteName": "graphics/DR/ships/TBF.png",
   "style": "LOW_TECH",
   "height": 50,
   "width": 68,

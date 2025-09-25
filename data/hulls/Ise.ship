@@ -2,7 +2,7 @@
   "hullName": "Ise",
   "hullId": "Ise",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/DR/ships/Ise.PNG",
+  "spriteName": "graphics/DR/ships/Ise.png",
   "style": "LOW_TECH",
   "height": 719,
   "width": 128,
