@@ -1,6 +1,5 @@
 package data.scripts;
 import java.awt.Color;
-import java.util.List;
 
 
 import com.fs.starfarer.api.campaign.*;
@@ -19,7 +18,6 @@ import com.fs.starfarer.api.campaign.StarSystemAPI;
 // import com.fs.starfarer.api.impl.campaign.econ.impl.InstallableItemEffect;
 // import com.fs.starfarer.api.impl.campaign.econ.impl.ItemEffectsRepo;
 import com.fs.starfarer.api.campaign.econ.EconomyAPI;
-import com.fs.starfarer.api.campaign.econ.Industry;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 // import com.fs.starfarer.api.campaign.econ.MarketConditionAPI;
 // import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
@@ -31,7 +29,6 @@ import com.fs.starfarer.api.impl.campaign.econ.impl.InstallableItemEffect;
 import com.fs.starfarer.api.impl.campaign.econ.impl.ItemEffectsRepo;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.impl.campaign.ids.Items;
-import com.fs.starfarer.api.campaign.SectorAPI;
 //import com.fs.starfarer.api.impl.campaign.ids.Factions;
 //import data.strings.descriptions;
 import data.scripts.relations.DR_Relations;
@@ -102,9 +99,13 @@ public class DR_ModPlugin extends BaseModPlugin {
 
 
         Industry newTerraPATROLHQ = market.getIndustry(Industries.HIGHCOMMAND);// grabs the orbital 
-        newTerraPATROLHQ.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
+        if (newTerraPATROLHQ != null) {
+            newTerraPATROLHQ.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
+        }
         Industry newTerraHEAVYBATTERIES = market.getIndustry(Industries.HEAVYBATTERIES);// grabs the heavy batteries
-        newTerraHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
+        if (newTerraHEAVYBATTERIES != null) {
+            newTerraHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
+        }
 
 
         //MY INDUSTRIES
@@ -181,7 +182,6 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addCondition(Conditions.RARE_ORE_ULTRARICH);
         market.addCondition(Conditions.INIMICAL_BIOSPHERE);
         market.addCondition(Conditions.FRONTIER);
-        market.addCondition(Conditions.RARE_ORE_ULTRARICH);
 
         
 
@@ -198,12 +198,18 @@ public class DR_ModPlugin extends BaseModPlugin {
 
 
         Industry MaistrePATROLHQ = market.getIndustry(Industries.PATROLHQ);// grabs the orbital 
-        MaistrePATROLHQ.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
+        if (MaistrePATROLHQ != null) {
+            MaistrePATROLHQ.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
+        }
         Industry MaistreHEAVYBATTERIES = market.getIndustry(Industries.HEAVYBATTERIES);// grabs the heavy batteries
-        MaistreHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
+        if (MaistreHEAVYBATTERIES != null) {
+            MaistreHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
+        }
 
         Industry MaistreWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
-        MaistreWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+        if (MaistreWorks != null) {
+            MaistreWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+        }
 
         //Those rascally Tritachyon have set their tariffs to 15%!
         market.getTariff().modifyFlat("generator", 0.4f);
@@ -255,7 +261,6 @@ public class DR_ModPlugin extends BaseModPlugin {
         //market.addCondition(Conditions.LOW_GRAVITY);
         market.addCondition(Conditions.ORGANIZED_CRIME);
         market.addCondition(Conditions.POLLUTION);
-        market.addCondition(Conditions.INDUSTRIAL_POLITY);
 		//market.addCondition(Conditions.DISSIDENT );
 
         // industries
@@ -274,13 +279,19 @@ public class DR_ModPlugin extends BaseModPlugin {
         // //add special items to industries WIP
 
         Industry ilynOrbitalWorks = market.getIndustry(Industries.ORBITALWORKS);// grabs the orbital 
-        ilynOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+        if (ilynOrbitalWorks != null) {
+            ilynOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+        }
 
         Industry IllyinPATROLHQ = market.getIndustry(Industries.MILITARYBASE);// grabs the orbital 
-        IllyinPATROLHQ.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
+        if (IllyinPATROLHQ != null) {
+            IllyinPATROLHQ.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
+        }
 
         Industry ilynHEAVYBATTERIES = market.getIndustry(Industries.HEAVYBATTERIES);// grabs the heavy batteries
-        ilynHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
+        if (ilynHEAVYBATTERIES != null) {
+            ilynHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
+        }
 
         //Those rascally Tritachyon have set their tariffs to 15%!
         market.getTariff().modifyFlat("generator", 0.4f);
@@ -353,12 +364,18 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addIndustry(DR_industries.WHITESKYE);
 
         Industry BurkeOrbitalWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
-        BurkeOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+        if (BurkeOrbitalWorks != null) {
+            BurkeOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+        }
         Industry BurkePATROLHQ = market.getIndustry(Industries.MILITARYBASE);// grabs the orbital 
-        BurkePATROLHQ.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
+        if (BurkePATROLHQ != null) {
+            BurkePATROLHQ.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
+        }
 
         Industry BurkeHEAVYBATTERIES = market.getIndustry(Industries.HEAVYBATTERIES);// grabs the heavy batteries
-        BurkeHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
+        if (BurkeHEAVYBATTERIES != null) {
+            BurkeHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
+        }
         //Those rascally Tritachyon have set their tariffs to 15%!
         market.getTariff().modifyFlat("generator", 0.4f);
         //planet.setMarket(market);
@@ -397,7 +414,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.setFactionId("luddic_path");
         market.addIndustry(Industries.POPULATION);
         market.addCondition(Conditions.POPULATION_4);
-        market.setSize(3);
+        market.setSize(4);
         market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
         market.addSubmarket(Submarkets.SUBMARKET_BLACK);
         market.addSubmarket(Submarkets.SUBMARKET_OPEN);
@@ -456,7 +473,7 @@ public class DR_ModPlugin extends BaseModPlugin {
                 market, //The market to add obviously!
                 false //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
         );
-		SectorEntityToken relay = system.addCustomEntity("Metternich_relay",null, "comm_relay_makeshift","DR");
+        SectorEntityToken relay = system.addCustomEntity("Khomeini_relay",null, "comm_relay_makeshift","DR");
         relay.setCircularOrbitPointingDown(star, 230, 7500, 265f);
 		
 		planet.setCustomDescriptionId("Takamori"); // adds planet description
@@ -496,7 +513,6 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addCondition(Conditions.RARE_ORE_SPARSE);
         market.addCondition(Conditions.FARMLAND_POOR);
         market.addCondition(Conditions.FREE_PORT);
-        market.addCondition(Conditions.FARMLAND_POOR );
         market.addCondition(Conditions.ORE_ULTRARICH);
 		market.addCondition(Conditions.IRRADIATED);
 		market.addCondition(Conditions.ORGANICS_TRACE);
@@ -621,12 +637,18 @@ public class DR_ModPlugin extends BaseModPlugin {
 
 	    //Industry  KulugPATROLHQ = market.getIndustry(Industries.PATROLHQ);// grabs the orbital 
          Industry KulugOrbitalWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
-         KulugOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+         if (KulugOrbitalWorks != null) {
+             KulugOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+         }
          Industry KulugPATROLHQ = market.getIndustry(Industries.MILITARYBASE);// grabs the orbital 
-         KulugPATROLHQ.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
+         if (KulugPATROLHQ != null) {
+             KulugPATROLHQ.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
+         }
 
         Industry KulugHEAVYBATTERIES = market.getIndustry(Industries.HEAVYBATTERIES);// grabs the heavy batteries
-        KulugHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
+        if (KulugHEAVYBATTERIES != null) {
+            KulugHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
+        }
         //Those rascally Tritachyon have set their tariffs to 15%!
         market.getTariff().modifyFlat("generator", 0.3f);
         //planet.setMarket(market);
@@ -660,7 +682,6 @@ public class DR_ModPlugin extends BaseModPlugin {
         relay.setCircularOrbitPointingDown(star, 230, 10500, 265f); // sets relays orbit
 
 
-		LouisStation.setFaction("persean");
         MarketAPI market = Global.getFactory().createMarket(
                 "Louis_station", //market id
                 LouisStation.getName(), //market display name, usually the planet's name
@@ -704,10 +725,14 @@ public class DR_ModPlugin extends BaseModPlugin {
 		market.addIndustry(Industries.STARFORTRESS_HIGH);
 		
         Industry LouisBase = market.getIndustry(Industries.MILITARYBASE);// grabs the orbital 
-        LouisBase.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
+        if (LouisBase != null) {
+            LouisBase.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
+        }
 		 
 		Industry LouisHEAVYBATTERIES = market.getIndustry(Industries.HEAVYBATTERIES);// grabs the heavy batteries
-        LouisHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
+        if (LouisHEAVYBATTERIES != null) {
+            LouisHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
+        }
     
 	    //Those rascally Tritachyon have set their tariffs to 15%!
         market.getTariff().modifyFlat("generator", 0.4f);
@@ -781,21 +806,23 @@ public class DR_ModPlugin extends BaseModPlugin {
 		
 		
 		Industry DiocletianOrbitalWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
-        DiocletianOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+        if (DiocletianOrbitalWorks != null) {
+            DiocletianOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+        }
 		// adds catylatic fuel
 		Industry DiocletianFUELPROD = market.getIndustry(Industries.FUELPROD);// grabs the fuel production 
-        DiocletianFUELPROD.setSpecialItem(new SpecialItemData(Items.SYNCHROTRON, null));// adds a SYNCHROTRON 
+        if (DiocletianFUELPROD != null) {
+            DiocletianFUELPROD.setSpecialItem(new SpecialItemData(Items.SYNCHROTRON, null));// adds a SYNCHROTRON
+        } 
     
 	    //Those rascally Tritachyon have set their tariffs to 15%!
-        market.getTariff().modifyFlat("generator", 0.4f);
+        market.getTariff().modifyFlat("generator", 0.15f);
         //planet.setMarket(market);
         EconomyAPI globalEconomy = Global.getSector().getEconomy();
         globalEconomy.addMarket(
                 market, //The market to add obviously!
                 true //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
         );
-        //Those rascally Tritachyon have set their tariffs to 15%!
-        market.getTariff().modifyFlat("generator", 0.15f);
         planet.setCustomDescriptionId("DiocletianDescription"); // adds planet description
 		planet.setInteractionImage("illustrations", "vacuum_colony");//adds illustration
         system.updateAllOrbits();	
@@ -805,7 +832,6 @@ public class DR_ModPlugin extends BaseModPlugin {
         SectorEntityToken star = system.getStar();
 		PlanetAPI planet = system.addPlanet("wangMangII", star,"Wang Mang II","jungle", 70,70, 1600, 100);
 		
-		planet.setFaction("persean");
         MarketAPI market = Global.getFactory().createMarket(
                 "wangMangTwo", //market id
                 planet.getName(), //market display name, usually the planet's name
@@ -849,7 +875,9 @@ public class DR_ModPlugin extends BaseModPlugin {
 		market.addIndustry(Industries.BATTLESTATION_MID);
 		
          Industry wangMangBase = market.getIndustry(Industries.MILITARYBASE);// grabs the orbital 
-         wangMangBase.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
+         if (wangMangBase != null) {
+             wangMangBase.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
+         }
     
 	    //Those rascally Tritachyon have set their tariffs to 15%!
         market.getTariff().modifyFlat("generator", 0.3f);

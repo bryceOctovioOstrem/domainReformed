@@ -1,6 +1,8 @@
 {
     "playableFaction":true,
+    "startingFaction":true,
     "corvusCompatible":true,
+    "ngcTooltip":"Start as a member of The Domain Reformed faction",
     
     "rebelFleetSuffix":"Traitors",
     

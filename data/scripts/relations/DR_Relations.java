@@ -8,9 +8,11 @@ import  data.scripts.DR_ModPlugin;
 import com.fs.starfarer.api.impl.campaign.shared.SharedData;
 
 public class DR_Relations implements SectorGeneratorPlugin {
-    @Override
     public static void generate(SectorAPI sector) {
         FactionAPI DR = sector.getFaction("DR"); // assigns a faction variable
+        if (DR == null) {
+            return; // Faction doesn't exist, skip relation setup
+        }
         SharedData.getData().getPersonBountyEventData().addParticipatingFaction("DR");
         DR.setRelationship(Factions.LUDDIC_CHURCH, -0.65f);
 	//DR.setRelationship(Factions.independent, -0.45f);
