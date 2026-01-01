@@ -22,7 +22,7 @@
 	
 	# variantOverrides restricts hulls to listed variants and adjusts their probability
 	"variantOverrides":{
-		"R_mothership_domain":400,
+"R_mothership_domain":400,
 		"Conte_di_Cavour_Domain":400,
 		"bismark_domain":400,
 		"StLouis_domain":400,
@@ -64,9 +64,7 @@
 		"Hood_DR":400,
 		"I-56_domain":400,
 		"U-69_domain":400,
-		"mitscher_Domain":400,
-		"DR_arleigh_burke_domain":400,
-		"DR_la_real_domain":400
+		"mitscher_Domain":400
 },	
 	
 	# multiplier for how often hulls show up in the faction's fleets
@@ -127,7 +125,7 @@
 		],
 	},
 	"priorityWeapons":{
-		"tags":["DR"],
+		"tags":[DR],
 		"weapons":[
 		],
 	},
@@ -155,8 +153,8 @@
 		],
 	},
 	"factionDoctrine":{
-		"warships":4,
-		"carriers":4,
+		"warships":5,
+		"carriers":1,
 		"phaseShips":0,
 		
 		"officerQuality":0,
@@ -165,7 +163,7 @@
 		
 		"shipSize":5,
 		
-		"aggression":1,
+		"aggression":4,
 		
 		"combatFreighterProbability":1,      				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":1,  				# as part of the normal combat lineup
@@ -265,6 +263,9 @@
 			"aristo":3,
 		},
 	},
+	"weaponSellFrequency":{
+		"DR":100,
+	},
 	"custom":{
 		"offersCommissions":true,
 		"engagesInHostilities":true,
@@ -280,7 +281,10 @@
 			"canBombard":true,
 			"territorial":true,
 		},
+		"simulatorData":{
+			"showInSimulator":true,
+		},
 	},	
-	
+
 	
 },

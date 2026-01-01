@@ -227,7 +227,7 @@ public class ronin extends MilitaryBase{
 
         Random random = route.getRandom();
 
-        CampaignFleetAPI fleet = createPatrol(type, "Wendigos", route, market, null, random);// generates the fleet
+        CampaignFleetAPI fleet = createPatrol(type, "ronin", route, market, null, random);// generates the fleet
 
         if (fleet == null || fleet.isEmpty())
         {

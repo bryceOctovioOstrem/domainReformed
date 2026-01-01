@@ -32,7 +32,7 @@
       "size": "LARGE",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 290,
+      "arc": 270,
       "angle": 0,
       "locations": [210.5, -1]
     },
@@ -128,8 +128,8 @@
       "size": "LARGE",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 65,
-      "angle": -100,
+      "arc": 200,
+      "angle": 180,
       "locations": [-22.5, -1],
       "renderOrderMod": 200
     },
@@ -138,8 +138,8 @@
       "size": "LARGE",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 60,
-      "angle": 74.5,
+      "arc": 250,
+      "angle": 180,
       "locations": [-63.5, -1]
     },
     {
@@ -282,7 +282,7 @@
       "size": "LARGE",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 240,
+      "arc": 230,
       "angle": 0,
       "locations": [169.5, -2],
       "renderOrderMod": 100

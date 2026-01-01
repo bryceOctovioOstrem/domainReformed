@@ -80,7 +80,7 @@
 	],
 			"49GunSounds":
 	[
-		{"file":"sounds/sfx_wpn_guns/49gun.ogg","pitch":1,"volume":1.6},
+		{"file":"sounds/sfx_wpn_guns/49gun.ogg","pitch":1,"volume":1},
 	],
 		"CIWSSound":
 	[
@@ -102,15 +102,15 @@
 
 		"gyrojet_medium_sound":
 	[
-		{"file":"sounds/sfx_wpn_guns/GYROJET_SOUND_LARGE.ogg","pitch":1,"volume":.2},
+		{"file":"sounds/sfx_wpn_guns/GYROJET_SOUND_LARGE.ogg","pitch":1,"volume":.1},
 	],
 		"gyrojet_large_sound":
 	[
-		{"file":"sounds/sfx_wpn_guns/GYROJET_SOUND_medium.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/sfx_wpn_guns/GYROJET_SOUND_medium.ogg","pitch":1,"volume":0.3},
 	],
 		"YamatoChargeUp":
 	[
-		{"file":"sounds/sfx_wpn_guns/YamatoChargeUp.ogg","pitch":1,"volume":.7},
+		{"file":"sounds/sfx_wpn_guns/YamatoChargeUp.ogg","pitch":1,"volume":.4},
 	],
 	"macron_Burst_medium":
 	[
@@ -134,7 +134,7 @@
 	],
 			"16in":
 	[
-		{"file":"sounds/sfx_wpn_guns/16in.ogg","pitch":1,"volume":.3},
+		{"file":"sounds/sfx_wpn_guns/16in.ogg","pitch":1,"volume":.1},
 	],
 			"Quad14in":
 	[
@@ -151,7 +151,7 @@
 	],
 			"DR_14cm_sound":
 	[
-		{"file":"sounds/sfx_wpn_guns/DR_14cm_sound.ogg","pitch":1,"volume":.3},
+		{"file":"sounds/sfx_wpn_guns/DR_14cm_sound.ogg","pitch":1,"volume":.2},
 	],
 			"DR_152mm_sound":
 	[
@@ -163,19 +163,19 @@
 	],
 			"DR_30.5_shot":
 	[
-		{"file":"sounds/sfx_wpn_guns/DR_30.5_shot.ogg","pitch":.9,"volume":.4},
+		{"file":"sounds/sfx_wpn_guns/DR_30.5_shot.ogg","pitch":.9,"volume":.3},
 	],
 			"DR_30.5_loading":
 	[
-		{"file":"sounds/sfx_wpn_guns/DR_30.5_loading.ogg","pitch":1,"volume":.3},
+		{"file":"sounds/sfx_wpn_guns/DR_30.5_loading.ogg","pitch":1,"volume":.1},
 	],
 			"15in_BL_chargeup":
 	[
-		{"file":"sounds/sfx_wpn_guns/BL15inCharge.ogg","pitch":1,"volume":.5},
+		{"file":"sounds/sfx_wpn_guns/BL15inCharge.ogg","pitch":1,"volume":.3},
 	],
 			"15in_BL_Fire":
 	[
-		{"file":"sounds/sfx_wpn_guns/DR_Bl15in_fire.ogg","pitch":1,"volume":.7},
+		{"file":"sounds/sfx_wpn_guns/DR_Bl15in_fire.ogg","pitch":1,"volume":.6},
 	],
 		"DR_tomahawk_Fire_sound":
 	[

@@ -63,8 +63,8 @@
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "HARDPOINT",
-      "arc": 1,
-      "angle": 90,
+      "arc": 240,
+      "angle": 0,
       "locations": [21.5, -1]
     },
     {
@@ -107,20 +107,21 @@
       "id": "WS0010",
       "size": "SMALL",
       "type": "MISSILE",
-      "mount": "HARDPOINT",
-      "arc": 1,
-      "angle": -90,
-      "locations": [-59.5, -0]
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 180,
+      "locations": [-57.5, -0],
+      "renderOrderMod": 400
     },
     {
       "id": "WS0011",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 90,
-      "angle": 90,
+      "arc": 240,
+      "angle": 180,
       "locations": [-92.5, -1],
-      "renderOrderMod": 100
+      "renderOrderMod": 300
     },
     {
       "id": "WS0012",

@@ -55,6 +55,8 @@ public class DR_ModPlugin extends BaseModPlugin {
 		wangMangGen();
 		Diocletian();
 		wangMangTwo();
+        BonaldGen();
+        EvolaGen();
 		
     }
     private void newTerraGen() {
@@ -62,7 +64,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         PlanetAPI star = system.initStar("Metternich", "star_yellow", 1000, 7600, -4500, 250);
         //PlanetAPI star = system.initStar("Metternich", "star_yellow", 1000, -6200, -16500, 250);
 
-        PlanetAPI planet = system.addPlanet("newTerra", star, "Confucius", "terran", -10, 180, 4000, 120);
+        PlanetAPI planet = system.addPlanet("newTerra", star, "Confucius", "terran", -10, 180, 7000, 120);
 
         planet.setFaction("DR");
         MarketAPI market = Global.getFactory().createMarket(
@@ -82,11 +84,10 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addCondition(Conditions.HABITABLE);
         market.addCondition(Conditions.POPULATION_2);
         market.addCondition(Conditions.RUINS_VAST);
-        //market.addCondition(Conditions.PATHER_CELLS);
         // BREAK
         //market.addCondition(Conditions.ORGANICS_PLENTIFUL);
         market.addCondition(Conditions.FARMLAND_BOUNTIFUL);
-        //market.addCondition(Conditions.MILD_CLIMATE);
+        market.addCondition(Conditions.MILD_CLIMATE);
         market.addCondition(Conditions.REGIONAL_CAPITAL);
         market.addCondition(Conditions.HOT);
         market.addCondition(Conditions.SOLAR_ARRAY);
@@ -182,7 +183,6 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addCondition(Conditions.INIMICAL_BIOSPHERE);
         market.addCondition(Conditions.FRONTIER);
         market.addCondition(Conditions.RARE_ORE_ULTRARICH);
-
         
 
         // industries
@@ -192,7 +192,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.PATROLHQ);
         market.addIndustry(Industries.HEAVYBATTERIES);
         market.addIndustry(Industries.MINING);
-        market.addIndustry(Industries.HEAVYINDUSTRY);
+        //market.addIndustry(Industries.HEAVYINDUSTRY);
 		//market.addIndustry(DR_industries.WHITESKYE);
 	    market.addIndustry(DR_industries.DR_WENDIGO);
 
@@ -202,8 +202,8 @@ public class DR_ModPlugin extends BaseModPlugin {
         Industry MaistreHEAVYBATTERIES = market.getIndustry(Industries.HEAVYBATTERIES);// grabs the heavy batteries
         MaistreHEAVYBATTERIES.setSpecialItem(new SpecialItemData(Items.DRONE_REPLICATOR , null));// adds a drone replicator
 
-        Industry MaistreWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
-        MaistreWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+        //Industry MaistreWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
+        //MaistreWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
 
         //Those rascally Tritachyon have set their tariffs to 15%!
         market.getTariff().modifyFlat("generator", 0.4f);
@@ -252,7 +252,6 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addCondition(Conditions.ORE_SPARSE);
         //market.addCondition(Conditions.LARGE_REFUGEE_POPULATION);
         market.addCondition(Conditions.INDUSTRIAL_POLITY);
-        //market.addCondition(Conditions.LOW_GRAVITY);
         market.addCondition(Conditions.ORGANIZED_CRIME);
         market.addCondition(Conditions.POLLUTION);
         market.addCondition(Conditions.INDUSTRIAL_POLITY);
@@ -327,7 +326,6 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addCondition(Conditions.FRONTIER);
         market.addCondition(Conditions.RUINS_WIDESPREAD);
         market.addCondition(Conditions.FARMLAND_POOR);
-        //market.addCondition(Conditions.DECIVILIZED_SUBPOP);
         market.addCondition(Conditions.HOT);
         market.addCondition(Conditions.RURAL_POLITY);
 		//market.addCondition(Conditions.DISSIDENT);
@@ -344,7 +342,7 @@ public class DR_ModPlugin extends BaseModPlugin {
 		market.addIndustry(DR_industries.DR_STATION3);
         market.addIndustry(Industries.MILITARYBASE );
         market.addIndustry(Industries.HEAVYBATTERIES);
-        market.addIndustry(Industries.HEAVYINDUSTRY);
+       // market.addIndustry(Industries.HEAVYINDUSTRY);
         //market.addIndustry(Industries.REFINING);
         market.addIndustry(Industries.WAYSTATION);
         market.addIndustry(Industries.FARMING);
@@ -352,8 +350,8 @@ public class DR_ModPlugin extends BaseModPlugin {
 	//market.addIndustry(DR_industries.DR_WENDIGO);
         market.addIndustry(DR_industries.WHITESKYE);
 
-        Industry BurkeOrbitalWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
-        BurkeOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+        //Industry BurkeOrbitalWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
+        //BurkeOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
         Industry BurkePATROLHQ = market.getIndustry(Industries.MILITARYBASE);// grabs the orbital 
         BurkePATROLHQ.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
 
@@ -564,7 +562,7 @@ public class DR_ModPlugin extends BaseModPlugin {
 	system.addRingBand(star, "misc", "rings_asteroids0", 256f, 0, Color.white, 256f, 6900f, 226f, null, null);
 	system.addAsteroidBelt(star, 100, 9000f, 250f, 1200, 250, Terrain.ASTEROID_BELT, "Astroid Belt");
 	system.addRingBand(star, "misc", "rings_asteroids0", 256f, 0, Color.white, 256f, 9000f, 226f, null, null);								
-        PlanetAPI planet = system.addPlanet("kulug", star,"Justinian","desert", 100,180, 2000, 50);
+        PlanetAPI planet = system.addPlanet("kulug", star,"Justinian","desert", 100,180, 3000, 50);
         MarketAPI market = Global.getFactory().createMarket(
                 "kulug_market", //market id
                 planet.getName(), //market display name, usually the planet's name
@@ -591,7 +589,6 @@ public class DR_ModPlugin extends BaseModPlugin {
 
         market.addCondition(Conditions.HABITABLE);
         market.addCondition(Conditions.FRONTIER);
-        //market.addCondition(Conditions.RUINS_WIDESPREAD);
         market.addCondition(Conditions.RUINS_SCATTERED);
         market.addCondition(Conditions.VOLATILES_PLENTIFUL);
 		market.addCondition(Conditions.ORGANICS_TRACE);
@@ -611,17 +608,13 @@ public class DR_ModPlugin extends BaseModPlugin {
 		market.addIndustry(DR_industries.DR_STATION2);
         market.addIndustry(Industries.MILITARYBASE);
         market.addIndustry(Industries.HEAVYBATTERIES);
-        market.addIndustry(Industries.HEAVYINDUSTRY);
+
         market.addIndustry(Industries.MINING);
         market.addIndustry(Industries.WAYSTATION);
-        //market.addIndustry(Industries.FARMLAND_POOR);
-        //market.addIndustry(Industries.COMMERCE);
+
         market.addIndustry(DR_industries.RONIN);
 		
 
-	    //Industry  KulugPATROLHQ = market.getIndustry(Industries.PATROLHQ);// grabs the orbital 
-         Industry KulugOrbitalWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
-         KulugOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
          Industry KulugPATROLHQ = market.getIndustry(Industries.MILITARYBASE);// grabs the orbital 
          KulugPATROLHQ.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
 
@@ -660,7 +653,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         relay.setCircularOrbitPointingDown(star, 230, 10500, 265f); // sets relays orbit
 
 
-		LouisStation.setFaction("persean");
+		LouisStation.setFaction("DR");
         MarketAPI market = Global.getFactory().createMarket(
                 "Louis_station", //market id
                 LouisStation.getName(), //market display name, usually the planet's name
@@ -683,14 +676,7 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
         market.addSubmarket(Submarkets.SUBMARKET_BLACK);
         market.addSubmarket(Submarkets.SUBMARKET_OPEN);
-        //market.addCondition(Conditions.FARMLAND_ADEQUATE);
-		//market.addCondition(Conditions.ORE_SPARSE);
-        //market.addCondition(Conditions.VERY_HOT);
-		//market.addCondition(Conditions.LOW_GRAVITY);
-        //market.addCondition(Conditions.VOLATILES_DIFFUSE);
         market.addCondition(Conditions.FRONTIER);
-		//market.addCondition(Conditions.ORGANICS_COMMON);
-		//market.addCondition(Conditions.RURAL_POLITY);
         
 
         // industries
@@ -763,7 +749,6 @@ public class DR_ModPlugin extends BaseModPlugin {
         //market.addCondition(Conditions.ORGANICS_TRACE);
 		market.addCondition(Conditions.ORE_SPARSE);
         market.addCondition(Conditions.HOT);
-		market.addCondition(Conditions.LOW_GRAVITY);
         market.addCondition(Conditions.RUINS_SCATTERED);
 		market.addCondition(Conditions.POLLUTION);
         market.addCondition(Conditions.FRONTIER);
@@ -776,12 +761,12 @@ public class DR_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.MILITARYBASE);
         market.addIndustry(Industries.HEAVYBATTERIES);
         market.addIndustry(Industries.FUELPROD);
-        market.addIndustry(Industries.HEAVYINDUSTRY);
+       // market.addIndustry(Industries.HEAVYINDUSTRY);
 		market.addIndustry(DR_industries.WHITESKYE);
 		
 		
-		Industry DiocletianOrbitalWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
-        DiocletianOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
+		//Industry DiocletianOrbitalWorks = market.getIndustry(Industries.HEAVYINDUSTRY);// grabs the orbital 
+       // DiocletianOrbitalWorks.setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));// adds a corrupted nano forge
 		// adds catylatic fuel
 		Industry DiocletianFUELPROD = market.getIndustry(Industries.FUELPROD);// grabs the fuel production 
         DiocletianFUELPROD.setSpecialItem(new SpecialItemData(Items.SYNCHROTRON, null));// adds a SYNCHROTRON 
@@ -861,7 +846,42 @@ public class DR_ModPlugin extends BaseModPlugin {
         );
         planet.setCustomDescriptionId("mang2desctiption"); // adds planet description
 		//planet.setInteractionImage("illustrations", "diocletian_planet");//adds illustration
-        system.updateAllOrbits();	
+        system.updateAllOrbits();
+        
+        
 	
 }
+        private void BonaldGen() {
+        StarSystemAPI system = Global.getSector().getStarSystem("wang mang");
+        SectorEntityToken star = system.getStar();
+		//There are many star systems, though, and they are retrieved using their id, which happens to often be their name.
+        PlanetAPI planet = system.addPlanet("Bonald", star, "Bonald", "frozen", 350, 200, 7000, 120);	
+        MarketAPI market = Global.getFactory().createMarket(
+			"Bonald", //market id
+			planet.getName(), //market display name, usually the planet's name
+			0 //market size
+		);
+        //planet.setFaction("DR");
+        market.addCondition(Conditions.VOLATILES_DIFFUSE);
+        market.addCondition(Conditions.VERY_COLD);
+		//Misc.initConditionMarket(planet);	
+        system.updateAllOrbits();
+    }
+
+        private void EvolaGen() {
+        StarSystemAPI system = Global.getSector().getStarSystem("Khomeini");
+        SectorEntityToken star = system.getStar();
+		//There are many star systems, though, and they are retrieved using their id, which happens to often be their name.
+        PlanetAPI planet = system.addPlanet("evola", star, "Evola", "frozen", 350, 200, 8000, 120);	
+        MarketAPI market = Global.getFactory().createMarket(
+			"Evola_market", //market id
+			planet.getName(), //market display name, usually the planet's name
+			0 //market size
+		);
+        //planet.setFaction("DR");
+        market.addCondition(Conditions.VOLATILES_DIFFUSE);
+        market.addCondition(Conditions.VERY_COLD);
+		//Misc.initConditionMarket(planet);	
+        system.updateAllOrbits();
+    }
 }

@@ -141,8 +141,8 @@
       "size": "LARGE",
       "type": "HYBRID",
       "mount": "HARDPOINT",
-      "arc": 110,
-      "angle": -90,
+      "arc": 280,
+      "angle": 180,
       "locations": [-70.5, -0]
     },
     {

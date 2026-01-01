@@ -24,7 +24,7 @@
         "diplomatic":-0.5,
         "ideological":-0.5,
     },
-    "diplomacyTraits":["selfrighteous", "irredentist", "foreverwar","paranoid", "dislikes_ai","envious"],
+    "diplomacyTraits":["selfrighteous", "irredentist", "foreverwar","paranoid", "dislikes_ai","envious",],
     
     # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
     "colonyExpeditionChance":2,	# baseline expansion behaviour
@@ -66,8 +66,8 @@
     ],
     
     "industrySeeds":[
-        {"id":"orbitalworks", "mult":0.1},
-        {"id":"DR_Whiteskye", "mult":0.1},
+    {"id":"orbitalworks", "mult":0.1},
+    {"id":"DR_Whiteskye", "mult":0.1},
 	{"id":"blackFleet", "mult":0.1},
 	{"id":"Gendarmerie", "mult":0.1},
 	{"id":"DR_Wendigo", "mult":0.1},
@@ -83,6 +83,6 @@
 	"responseFleetSizeMod": 1.6,
 	"morality":"evil",
 	"specialForcesMaxFleets":4,
-	"invasionStrengthBonusDefend":1.2,
+	"invasionStrengthBonusDefend":1.4,
 	
 }
