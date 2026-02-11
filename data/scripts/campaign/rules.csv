@@ -1,0 +1,5 @@
+id,trigger,conditions,script,text,options
+DR_TM_FLEET_POP,BeginFleetEncounter,,DR_TM_BlockadeFleetCmd populate,,
+DR_TM_FLEET_SEL,DialogOptionSelected,,DR_TM_BlockadeFleetCmd selected,,
+DR_TM_LEADER_POP,PopulateOptions,,DR_TM_LeaderCmd populate,,
+DR_TM_LEADER_SEL,DialogOptionSelected,,DR_TM_LeaderCmd selected,,

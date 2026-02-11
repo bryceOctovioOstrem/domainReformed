@@ -36,9 +36,23 @@ import com.fs.starfarer.api.campaign.SectorAPI;
 //import data.strings.descriptions;
 import data.scripts.relations.DR_Relations;
 import data.scripts.campaign.econ.DR_industries;
+import com.fs.starfarer.api.impl.campaign.intel.events.HostileActivityEventIntel;
+import com.fs.starfarer.api.campaign.SpecialItemData;
+import com.fs.starfarer.api.characters.PersonAPI;
+import data.scripts.campaign.crisis.DR_TechMiningBlockadeManager;
+import data.scripts.campaign.crisis.DR_TechMiningHostileActivityFactor;
+import data.scripts.campaign.rules.DR_TM_LeaderCmd;
+
+
 //import 
 
 public class DR_ModPlugin extends BaseModPlugin {
+
+    @Override
+public void onGameLoad(boolean newGame) {
+    // Make sure the tech-mining crisis is registered for both new games and loaded saves
+    DR_registerTechMiningCrisis();
+}
 
     @Override
 
@@ -59,6 +73,37 @@ public class DR_ModPlugin extends BaseModPlugin {
         EvolaGen();
 		
     }
+
+private void DR_registerTechMiningCrisis() {
+    HostileActivityEventIntel intel = HostileActivityEventIntel.get();
+
+    // Correct Java null check (==, not ===)
+    if (intel == null) return;
+
+    // Factor registration temporarily disabled for debugging
+    // if (intel.getActivityOfClass(DR_TechMiningHostileActivityFactor.class) == null) {
+    //     intel.addFactor(new DR_TechMiningHostileActivityFactor(intel));
+    // }
+
+    if (!Global.getSector().getMemoryWithoutUpdate()
+            .getBoolean(DR_TechMiningBlockadeManager.DR_MEMKEY_MANAGER_ADDED)) {
+
+        Global.getSector().addScript(new DR_TechMiningBlockadeManager());
+
+        Global.getSector().getMemoryWithoutUpdate()
+                .set(DR_TechMiningBlockadeManager.DR_MEMKEY_MANAGER_ADDED, true);
+    }
+
+    try {
+        PersonAPI p = Global.getSector().getImportantPeople().getPerson("baikal_daud");
+        if (p != null) {
+            p.getMemoryWithoutUpdate().set(DR_TM_LeaderCmd.LEADER_FLAG, true);
+        }
+    } catch (Exception ignored) {
+    }
+}
+
+
     private void newTerraGen() {
         StarSystemAPI system = Global.getSector().createStarSystem("Metternich");
         PlanetAPI star = system.initStar("Metternich", "star_yellow", 1000, 7600, -4500, 250);
