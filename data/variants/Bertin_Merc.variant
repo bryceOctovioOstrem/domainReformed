@@ -3,14 +3,15 @@
   "hullId": "Bertin",
   "displayName": "Merc",
   "goalVariant": true,
-  "fluxCapacitors": 23,
-  "fluxVents": 30,
+  "fluxCapacitors": 20,
+  "fluxVents": 18,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "fluxbreakers",
     "armoredweapons",
-    "pointdefenseai"
+    "pointdefenseai",
+    "heavyarmor"
   ],
   "weaponGroups": [
     {

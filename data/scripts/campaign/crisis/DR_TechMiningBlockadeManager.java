@@ -254,4 +254,167 @@ public class DR_TechMiningBlockadeManager implements EveryFrameScript {
         }
         activeFleets.clear();
     }
+        private StarSystemAPI pickTargetSystem() {
+        // Chooses which star system the blockade should target.
+
+        Object bestObj = null;
+        // Will store the best MarketAPI candidate found so far (kept as Object to avoid Janino generic issues).
+
+        List markets = Global.getSector().getEconomy().getMarketsCopy();
+        // Get a copy of all markets in the economy (raw List to avoid foreach+generics issues).
+
+        for (int i = 0; i < markets.size(); i++) {
+            // Iterate by index to avoid enhanced-for generic type problems in Janino.
+
+            Object obj = markets.get(i);
+            // Get the current list element.
+
+            if (!(obj instanceof com.fs.starfarer.api.campaign.econ.MarketAPI)) continue;
+            // If this element is not a MarketAPI, skip it.
+
+            com.fs.starfarer.api.campaign.econ.MarketAPI m =
+                    (com.fs.starfarer.api.campaign.econ.MarketAPI) obj;
+            // Cast the element to MarketAPI.
+
+            if (m == null || !m.isPlayerOwned()) continue;
+            // Only player-owned colonies can be targeted.
+
+            if (m.isHidden()) continue;
+            // Skip hidden/internal markets.
+
+            if (m.getPrimaryEntity() == null) continue;
+            // Must have a primary entity to be a real colony.
+
+            if (m.getStarSystem() == null) continue;
+            // Must be inside a star system.
+
+            if (!DR_TechMiningLogic.marketHasFunctionalTechMining(m)) continue;
+            // Only markets with functional tech-mining qualify.
+
+            if (bestObj == null) {
+                // If we have no best candidate yet...
+
+                bestObj = m;
+                // Set this market as the best candidate.
+            } else {
+                // Otherwise compare against the current best.
+
+                com.fs.starfarer.api.campaign.econ.MarketAPI best =
+                        (com.fs.starfarer.api.campaign.econ.MarketAPI) bestObj;
+                // Cast bestObj back to MarketAPI.
+
+                if (m.getSize() > best.getSize()) bestObj = m;
+                // Prefer the largest tech-mining market (simple “most important” rule).
+            }
+        }
+
+        if (bestObj == null) return null;
+        // If we found no valid candidate, return null.
+
+        com.fs.starfarer.api.campaign.econ.MarketAPI best =
+                (com.fs.starfarer.api.campaign.econ.MarketAPI) bestObj;
+        // Cast the best candidate back to MarketAPI.
+
+        return best.getStarSystem();
+        // Return the star system that contains the chosen market.
+    }
+
+    private CampaignFleetAPI spawnBlockadeFleetInHyperspace(StarSystemAPI targetSystem) {
+        // Spawns a blockade fleet in hyperspace and assigns it to travel toward the target system.
+
+        SectorEntityToken hyperAnchor = targetSystem.getHyperspaceAnchor();
+        // The hyperspace anchor is the hyperspace-side “entrance” reference for the system.
+
+        if (hyperAnchor == null) return null;
+        // If the system has no hyperspace anchor (rare), we cannot do hyperspace travel.
+
+        float fp = Misc.random.nextFloat() * (DR_FLEET_FP_MAX - DR_FLEET_FP_MIN) + DR_FLEET_FP_MIN;
+        // Choose a random fleet strength between min and max.
+
+        FleetParamsV3 params = new FleetParamsV3(
+                null,
+                // No source market; this is a generic task force spawn.
+
+                hyperAnchor.getLocation(),
+                // Use the anchor location as the fleet “spawn context” location.
+
+                DR_FACTION_ID,
+                // Faction that owns this blockade fleet.
+
+                null,
+                // Optional quality override; null lets vanilla choose defaults.
+
+                FleetTypes.TASK_FORCE,
+                // Fleet type; task force is a good “blockade patrol” style fleet.
+
+                fp, 0f, 0f, 0f, 0f, 0f, 0f
+                // Combat points + six more buckets; your Starsector version expects 7 floats total.
+        );
+        // Construct the fleet generation parameters.
+
+        CampaignFleetAPI fleet = FleetFactoryV3.createFleet(params);
+        // Actually create the fleet using vanilla fleet generator.
+
+        if (fleet == null) return null;
+        // If fleet generation failed, abort.
+
+        LocationAPI hyper = Global.getSector().getHyperspace();
+        // Get hyperspace location object.
+
+        hyper.addEntity(fleet);
+        // Add the fleet entity to hyperspace.
+
+        float dist = DR_SPAWN_DISTANCE_MIN +
+                Misc.random.nextFloat() * (DR_SPAWN_DISTANCE_MAX - DR_SPAWN_DISTANCE_MIN);
+        // Choose a spawn distance away from the hyperspace anchor.
+
+        float angle = Misc.random.nextFloat() * 360f;
+        // Choose a random angle around the anchor to spawn from.
+
+        float x = hyperAnchor.getLocation().x + (float) Math.cos(Math.toRadians(angle)) * dist;
+        // Compute spawn x coordinate.
+
+        float y = hyperAnchor.getLocation().y + (float) Math.sin(Math.toRadians(angle)) * dist;
+        // Compute spawn y coordinate.
+
+        fleet.setLocation(x, y);
+        // Place the fleet in hyperspace at the computed position.
+
+        fleet.getMemoryWithoutUpdate().set(DR_MEMKEY_BLOCKADE_FLEET, true);
+        // Mark it as our blockade fleet for rules.csv and filtering.
+
+        fleet.getMemoryWithoutUpdate().set(MemFlags.MEMORY_KEY_MAKE_HOSTILE, true);
+        // Make fleet hostile to the player.
+
+        fleet.getMemoryWithoutUpdate().set(MemFlags.MEMORY_KEY_MAKE_AGGRESSIVE, true);
+        // Make fleet more likely to chase/engage.
+
+        fleet.getMemoryWithoutUpdate().set("$DR_TM_targetSystem", targetSystem);
+        // Store a reference to the target system so we can “enter” later.
+
+        fleet.getMemoryWithoutUpdate().set(DR_MEMKEY_STAGE, DR_STAGE_HYPER_TRAVEL);
+        // Set stage to hyperspace travel.
+
+        fleet.clearAssignments();
+        // Clear any default assignments the fleet generator added.
+
+        fleet.addAssignment(
+                com.fs.starfarer.api.campaign.FleetAssignment.GO_TO_LOCATION,
+                // Use a vanilla assignment to fly to a location.
+
+                hyperAnchor,
+                // Travel toward the hyperspace anchor for the target system.
+
+                999999f,
+                // Very long duration; effectively “until it gets there”.
+
+                "En route to blockade"
+                // UI text describing what the fleet is doing.
+        );
+        // Add the travel assignment.
+
+        return fleet;
+        // Return the fleet so the manager can track it.
+    }
+
 }

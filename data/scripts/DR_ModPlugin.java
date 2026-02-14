@@ -80,10 +80,9 @@ private void DR_registerTechMiningCrisis() {
     // Correct Java null check (==, not ===)
     if (intel == null) return;
 
-    // Factor registration temporarily disabled for debugging
-    // if (intel.getActivityOfClass(DR_TechMiningHostileActivityFactor.class) == null) {
-    //     intel.addFactor(new DR_TechMiningHostileActivityFactor(intel));
-    // }
+    if (intel.getActivityOfClass(DR_TechMiningHostileActivityFactor.class) == null) { // adds data to colony crisis screen
+        intel.addFactor(new DR_TechMiningHostileActivityFactor(intel));
+     }
 
     if (!Global.getSector().getMemoryWithoutUpdate()
             .getBoolean(DR_TechMiningBlockadeManager.DR_MEMKEY_MANAGER_ADDED)) {
