@@ -42,7 +42,8 @@ import com.fs.starfarer.api.characters.PersonAPI;
 import data.scripts.campaign.crisis.DR_TechMiningBlockadeManager;
 import data.scripts.campaign.crisis.DR_TechMiningHostileActivityFactor;
 import data.scripts.campaign.rules.DR_TM_LeaderCmd;
-
+import data.scripts.campaign.DR_AddPlanetNPC; 
+// Import the class that creates our NPC.
 
 //import 
 
@@ -71,6 +72,8 @@ public void onGameLoad(boolean newGame) {
 		wangMangTwo();
         BonaldGen();
         EvolaGen();
+        //DR_AddPlanetNPC.DR_AddPlanetNPC.addNPC(); 
+        // Calls our method to create and add the NPC.
 		
     }
 

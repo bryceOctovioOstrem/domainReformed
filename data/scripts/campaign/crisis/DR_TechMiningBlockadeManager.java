@@ -47,13 +47,15 @@ import com.fs.starfarer.api.impl.campaign.ids.MemFlags;
 import com.fs.starfarer.api.util.Misc; 
 // Utility methods (distance, randomness, etc.).
 
+//import data.world.factions.factions.csv;
+
 public class DR_TechMiningBlockadeManager implements EveryFrameScript {
 // This class runs continuously and manages spawning and cleanup of blockade fleets.
 
     public static final String DR_MEMKEY_MANAGER_ADDED = "$DR_techMiningBlockadeManagerAdded";
     // Memory key used to ensure this manager is only added once.
 
-    public static final String DR_FACTION_ID = Factions.HEGEMONY;
+    public static final String DR_FACTION_ID = "DR";
     // The faction spawning the blockade (placeholder for your future custom faction).
 
     public static final int DR_BLOCKADE_NUM_FLEETS = 5;

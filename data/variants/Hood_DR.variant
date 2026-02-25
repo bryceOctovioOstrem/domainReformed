@@ -8,10 +8,8 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "nav_relay",
     "ballistic_rangefinder",
-    "operations_center",
-    "hardened_subsystems"
+    "operations_center"
   ],
   "weaponGroups": [
     {
