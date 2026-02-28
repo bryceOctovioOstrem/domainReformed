@@ -142,7 +142,7 @@
       "size": "LARGE",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 295,
+      "arc": 285,
       "angle": 180,
       "locations": [-129, -0],
       "renderOrderMod": 100
@@ -188,7 +188,7 @@
       "size": "LARGE",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 290,
+      "arc": 280,
       "angle": 0,
       "locations": [174.5, -0]
     },

@@ -18,6 +18,8 @@
         "WS0005": "vulcan",
         "WS0007": "Oerlikon",
         "WS0009": "5in",
+        "WS0011": "annihilator",
+        "WS0014": "annihilator",
         "WS0015": "5in",
         "WS0016": "Oerlikon",
         "WS0019": "vulcan"
@@ -47,16 +49,12 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0011": "swarmer_fighter"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0014": "swarmer_fighter"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

@@ -3,7 +3,7 @@
   "hullId": "kingGeorge",
   "displayName": "New Variant",
   "goalVariant": true,
-  "fluxCapacitors": 12,
+  "fluxCapacitors": 0,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],

@@ -33,7 +33,7 @@ Constitution,constitution,Cruiser,DR,damper,11,22000,2100,11000,14000,300,177,,1
 Dreadnought,Dreadnaught,Dreadnought,DR,ammofeed,19,20730,11000,10500,11350,150,170,0,21,23,10,9,9,10730,NONE,,180,0.5,1.2,,,250,300,200,142,10,80,7,200000,2,20,720,0.25,24,25,,,,,,,NEVER_DODGE_MISSILES,DR,,0.3,2,3,,
 ,DR_starFortress_south,Gun Pod,DR,ammofeed,7,20000,3900,19110,15000,290,223,,0,0,0,0,0,23088,NONE,,0,0,0,,,0,0,0,0,1,0,0,40000,5,10,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","UNBOARDABLE, HIDE_IN_CODEX",,1,4,5,,
 ,DR_starFortress_north,Gun Pod,DR,ammofeed,7,20000,3900,3400,10000,100,305,6,0,0,0,0,0,65800,NONE,,0,0,0,,,0,0,0,0,1,0,0,40000,5,10,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","UNBOARDABLE, HIDE_IN_CODEX",,1,4,5,,
-Lion,Lion,Battlecarrier,,burndrive,28,19000,1944,12750,12500,677.5,320,4,30,20,15,12,6,9000,OMNI,,180,0.4,1,,,700,1500,300,300,15,20,7,975000,3,12,720,0.2,40,40,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT",rare_bp,,0.2,2,4,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,moonCastle_north,Gun Pod,DR,ammofeed,7,18500,3100,8000,11000,235,188,,0,0,0,0,0,18500,NONE,,0,0,0,,,0,0,0,0,1,0,0,40000,5,10,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","UNBOARDABLE, HIDE_IN_CODEX",,1,4,5,,
 Admiral Hipper,hipper,Heavy Cruiser,DR,damper,12,18500,3100,8000,11000,235,179,0,32,34,20,11,11,18500,NONE,,0,0.4,0.8,,,200,300,150,150,6,38,8,110000,4,12,480,0.2,20,20,,,,,,,,"DR, merc, ind,pirates",,0.3,2,4,,
 Wasa,wasa,Heavy Cruiser,DR,ammofeed,14,12100,6000,16260,11000,500,240,,80,10,40,6,6,12100,NONE,,210,0.4,0.8,,,200,300,450,150,1,38,10,115000,4,12,480,0.2,18,18,,,,,,,,"DR, merc, ind,pirates",,0.3,2,4,,

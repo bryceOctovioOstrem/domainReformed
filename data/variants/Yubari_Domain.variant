@@ -21,6 +21,7 @@
         "WS0008": "vulcan",
         "WS0011": "Oerlikon",
         "WS0012": "Oerlikon",
+        "WS0018": "twin61cm",
         "WS0019": "depthCharge",
         "WS0020": "depthCharge"
       }
@@ -69,9 +70,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0018": "twin61cm"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

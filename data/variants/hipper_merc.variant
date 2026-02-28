@@ -1,0 +1,58 @@
+{
+  "variantId": "hipper_merc",
+  "hullId": "hipper",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 18,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "armoredweapons",
+    "fluxbreakers",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "lrpdlaser",
+        "WS0004": "lrpdlaser",
+        "WS0005": "lrpdlaser",
+        "WS0006": "lrpdlaser",
+        "WS0007": "lrpdlaser",
+        "WS0008": "lrpdlaser",
+        "WS0011": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "irautolance",
+        "WS0010": "irautolance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "irautolance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "gorgon",
+        "WS0014": "gorgon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
