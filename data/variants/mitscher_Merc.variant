@@ -3,7 +3,7 @@
   "hullId": "mitscher",
   "displayName": "Domain",
   "goalVariant": true,
-  "fluxCapacitors": 0,
+  "fluxCapacitors": 2,
   "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
@@ -17,15 +17,44 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "lightdualmg",
-        "WS0002": "railgun",
-        "WS0003": "breach",
         "WS0004": "pdlaser",
         "WS0005": "pdlaser",
-        "WS0006": "atropos",
         "WS0007": "taclaser",
-        "WS0008": "gazer",
         "WS0009": "lrpdlaser",
-        "WS0010": "lrpdlaser",
+        "WS0010": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "railgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "breach",
+        "WS0006": "atropos"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "gazer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0011": "Lulu"
       }
     }

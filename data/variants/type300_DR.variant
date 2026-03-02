@@ -3,7 +3,7 @@
   "hullId": "type300",
   "displayName": "domain",
   "goalVariant": true,
-  "fluxCapacitors": 6,
+  "fluxCapacitors": 0,
   "fluxVents": 6,
   "quality": 9,
   "permaMods": [],

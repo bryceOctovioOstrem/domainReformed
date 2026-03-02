@@ -3,8 +3,8 @@
   "hullId": "I-56",
   "displayName": "domain ",
   "goalVariant": true,
-  "fluxCapacitors": 17,
-  "fluxVents": 17,
+  "fluxCapacitors": 29,
+  "fluxVents": 0,
   "quality": 0,
   "permaMods": [],
   "hullMods": [
@@ -17,7 +17,7 @@
       "weapons": {
         "WS0001": "lightdualmg",
         "WS0002": "shredder",
-        "WS0003": "shredder",
+        "WS0003": "chaingun",
         "WS0004": "phaseTorp19"
       }
     }

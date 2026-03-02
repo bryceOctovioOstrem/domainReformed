@@ -3,15 +3,12 @@
   "hullId": "Hood",
   "displayName": "Merc",
   "goalVariant": true,
-  "fluxCapacitors": 42,
-  "fluxVents": 39,
+  "fluxCapacitors": 46,
+  "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "blast_doors",
-    "armoredweapons",
-    "fluxbreakers",
-    "missleracks"
+    "fluxbreakers"
   ],
   "weaponGroups": [
     {

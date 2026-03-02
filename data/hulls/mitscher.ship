@@ -14,7 +14,8 @@
   "builtInMods": [
     "autorepair",
     "targetingunit",
-    "rugged"
+    "rugged",
+    "repair_gantry"
   ],
   "builtInWeapons": {
     "WS0011": "Lulu"

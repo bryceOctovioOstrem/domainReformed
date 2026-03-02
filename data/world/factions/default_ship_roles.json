@@ -63,6 +63,8 @@
 		"Wichita_domain":2,
 		"Moskva_domain":1,
 		"wasa_domain":1,
+		"hipper_domain":1,
+		"hipper_merc":1,
 		"Dreadnaught_DR":1,
 		"fallback":{"combatMedium":1},
 	},
@@ -184,5 +186,25 @@
 		"Trireme_domain":2,
 		"zubr_standard":2,
 		
-},	
+},
+	"phaseSmall":{
+		"U-69_domain":1,
+		"U-69_merc":1,
+		"fallback":{"phaseMedium":0.5},
+		"fallback2":{"phaseLarge":0.25},
+	},
+	"phaseMedium":{
+		"fallback":{"phaseSmall":1},
+		"fallback2":{"phaseLarge":0.5},
+	},
+	"phaseLarge":{
+		"I-56_domain":1,
+		"I-56_merc":1,
+		"fallback":{"phaseMedium":1},
+		"fallback2":{"phaseSmall":1},
+	},
+	"phaseCapital":{
+		"fallback":{"phaseMedium":1},
+		"fallback2":{"phaseSmall":1},
+	},	
 }
