@@ -87,3 +87,4 @@ Hong Qi-10,DR_HQ-10,1,,250,907,,105,,15,40,3,8,1,,ENERGY,50,,0,0.25,1,0.25,0,0,0
 76 mm F-34,DR_76mm,1,,100,800,,300,,50,10,4,,,,FRAGMENTATION,150,,0,1,,,0,3,1,0.5,,680,,,,,,,"energy15,ind, DR,pirates,luddic_path",,DR,,General,,,,,,,,,,22.25
 "Katyusha rocket launcher
 ",m-13_MLRS,0,,150,1500,,862,,15,15,10,7,0.25,1,FRAGMENTATION,0,,0,0,7,0.3,0,0,0,0,,350,50,3.75,50,,,"CONSERVE_FOR_ANTI_ARMOR,STRIKE","rocket7,DR",,DR,,Anti Armor,Fast,None,,,,,,,,11
+203 mm/50 Mle 1924,DR_203mm,3,,300,507,,250,250,250,5,20,,,,HIGH_EXPLOSIVE,200,,0,2,2,0,0,8,4,10,,507,,,400,,,STRIKE,"he18, ind, DR,pirates,luddic_path,merc",,DR,,Finisher,,,,,,,,,,
