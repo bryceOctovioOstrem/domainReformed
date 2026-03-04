@@ -11,8 +11,18 @@
   "shieldCenter": [0, 0],
   "shieldRadius": 301,
   "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "rugged"
+  ],
   "builtInWeapons": {
-    "WS0002": "DR_203mm"
+    "WS0002": "DR_203mm",
+    "WS0003": "phaseTorpSingle",
+    "WS0004": "phaseTorpSingle",
+    "WS0005": "phaseTorpSingle",
+    "WS0006": "phaseTorpSingle",
+    "WS0007": "phaseTorpSingle",
+    "WS0008": "phaseTorpSingle"
   },
   "weaponSlots": [
     {
@@ -20,7 +30,7 @@
       "size": "SMALL",
       "type": "UNIVERSAL",
       "mount": "TURRET",
-      "arc": 310,
+      "arc": 305,
       "angle": 180,
       "locations": [-51.5, -0.5]
     },
@@ -28,10 +38,64 @@
       "id": "WS0002",
       "size": "MEDIUM",
       "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [41.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [95.5, -0.5]
+      "locations": [226.5, 8.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [226.5, -8.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-248.5, -2.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-248.5, 0.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-248.5, 3.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-248.5, -4.5]
     }
   ],
   "engineSlots": [
