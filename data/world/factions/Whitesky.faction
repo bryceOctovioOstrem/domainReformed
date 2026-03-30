@@ -34,23 +34,14 @@
 	"shipsWhenImporting":{
 		"tags":[],
 		"hulls":[
-		"centurion",
-		"hyperion",
-		"monitor",
-		"omen",
-		"scarab",
-		"enforcer",
-		"hammerhead",
-		"manticore",
-		"champion",
-		"dominator",
-		"eradicator",
-		"heron",
-		"conquest",
-		"onslaught",
-		"paragon",
-		"glimmer",
-		"radiant",
+		#monitor
+		#medusa
+		#grendel
+		#aurora
+		#heron
+		#astral
+		#onslaught xiv
+
 		"bismark",
 		"Z23",
 		"tashkent",
@@ -62,29 +53,6 @@
 	"knownShips":{
 		"tags":[],
 		"hulls":[
-		"centurion",
-		"hyperion",
-		"monitor",
-		"omen",
-		"scarab",
-		"enforcer",
-		"hammerhead",
-		"manticore",
-		"champion",
-		"dominator",
-		"eradicator",
-		"heron",
-		"conquest",
-		"onslaught",
-		"paragon",
-		"glimmer",
-		"radiant",
-		"bismark",
-		"Z23",
-		"tashkent",
-		"kiev",
-		"kuznetsov",
-		"deutschland",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -95,8 +63,11 @@
 		],
 	},
 	"knownFighters":{
-		"tags":[],
+		"tags":["DR"],
 		"fighters":[
+		#broadsword
+		#dagger
+		#trident
 		],
 	},
 	"priorityFighters":{
@@ -105,47 +76,28 @@
 		],
 	},
 	"knownWeapons":{
-		"tags":[],
+		"tags":["DR"],
 		"weapons":[
-		"lightneedler",
-		"railgun",
-		"vulcan",
-		"flak",
-		"dualflak",
-		"heavymauler",
-		"heavyneedler",
-		"hveldriver",
-		"gauss",
-		"hellbore",
-		"mjolnir",
-		"pdburst",
-		"irpulse",
-		"ionpulser",
-		"phasebeam",
-		"autopulse",
-		"hil",
-		"plasma",
-		"atropos",
-		"harpoon",
-		"breachpod",
-		"harpoonpod",
-		"hurricane",
-		"locust",
-		"squall",
-		"miningblaster",
-		"380mmSK",
-		"28cmSK",
-		"125mmSK",
-		"20cmSK",
+		#vulcan
+		#hypervolacity cannon
+		#storm needler
+
 		],
 	},
 	"priorityWeapons":{
 		"tags":["DR"],
 		"weapons":[
-			#"amblaster",
-			#"heavyblaster",
-			#"kineticblaster",
-			#"gigacannon",
+		#vulcan
+		#hypervolacity cannon
+		#storm needler
+		#pdnurstlaser
+		#ionpulse
+		#phaselance
+		#highlaser
+		#reapertyphoon
+		#squall
+
+
 		],
 	},
 	"knownHullMods":{
@@ -153,9 +105,7 @@
 		"hullMods":[
 		"targetingunit",
 		"hardenedshieldemitter",
-		"ecm",
 		"missleracks",
-		"eccm",
 		],
 	},
 	"weaponSellFrequency":{
@@ -165,12 +115,12 @@
 	"hullmodSellFrequency":{
 	},	
 	"factionDoctrine":{
-		"warships":3,
-		"carriers":3,
-		"phaseShips":1,
+		"warships":5,
+		"carriers":5,
+		"phaseShips":5,
 		
 		"officerQuality":5,
-		"shipQuality":5,
+		"shipQuality":6,
 		"numShips":5,
 		
 		"shipSize":3,
