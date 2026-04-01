@@ -11,7 +11,6 @@
 		"GERMANIC":5,
 		"JAPANESE":4,
 		"BEASTS":3,
-		"CELTIC":1,
 		"ROMAN":2,
 	},
 	"names":{
@@ -32,25 +31,24 @@
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
-		"tags":[],
+		"tags":["hightech_bp"],
 		"hulls":[
-		"centurion",
-		"hyperion",
+		#monitor
+		#medusa
+		#grendel
+		#aurora
+		#heron
+		#astral
+		#onslaught xiv
+
 		"monitor",
-		"omen",
-		"scarab",
-		"enforcer",
-		"hammerhead",
-		"manticore",
-		"champion",
-		"dominator",
-		"eradicator",
+		"medusa",
+		"grendel",
+		"aurora",
 		"heron",
-		"conquest",
+		"astral",
 		"onslaught",
-		"paragon",
-		"glimmer",
-		"radiant",
+
 		"bismark",
 		"Z23",
 		"tashkent",
@@ -60,25 +58,24 @@
 		],
 	},
 	"knownShips":{
-		"tags":[],
+		"tags":["hightech_bp"],
 		"hulls":[
-		"centurion",
-		"hyperion",
+		#monitor
+		#medusa
+		#grendel
+		#aurora
+		#heron
+		#astral
+		#onslaught xiv
+
 		"monitor",
-		"omen",
-		"scarab",
-		"enforcer",
-		"hammerhead",
-		"manticore",
-		"champion",
-		"dominator",
-		"eradicator",
+		"medusa",
+		"grendel",
+		"aurora",
 		"heron",
-		"conquest",
+		"astral",
 		"onslaught",
-		"paragon",
-		"glimmer",
-		"radiant",
+		
 		"bismark",
 		"Z23",
 		"tashkent",
@@ -91,61 +88,73 @@
 	"priorityShips":{
 		"tags":[],
 		"hulls":[
-		"bismark"
+		"monitor",
+		"medusa",
+		"grendel",
+		"aurora",
+		"heron",
+		"astral",
+		"onslaught",
 		],
 	},
 	"knownFighters":{
-		"tags":[],
+		"tags":["hightech_bp"],
 		"fighters":[
+		#broadsword
+		#dagger
+		#trident
+
+		"broadsword_wing",
+		"dagger_wing",
+		"trident_wing",
+		"xyphos_wing",
 		],
 	},
 	"priorityFighters":{
-		"tags":["DR"],
+		"tags":[],
 		"fighters":[
+		"broadsword_wing",
+		"dagger_wing",
+		"trident_wing",
+		"xyphos_wing",
 		],
 	},
 	"knownWeapons":{
-		"tags":[],
+		"tags":["hightech_bp"],
 		"weapons":[
-		"lightneedler",
-		"railgun",
 		"vulcan",
-		"flak",
-		"dualflak",
-		"heavymauler",
-		"heavyneedler",
 		"hveldriver",
-		"gauss",
-		"hellbore",
-		"mjolnir",
+		"multineedler",
 		"pdburst",
-		"irpulse",
 		"ionpulser",
 		"phasebeam",
-		"autopulse",
 		"hil",
-		"plasma",
-		"atropos",
-		"harpoon",
-		"breachpod",
-		"harpoonpod",
-		"hurricane",
-		"locust",
+		"typhoon",
 		"squall",
-		"miningblaster",
-		"380mmSK",
-		"28cmSK",
-		"125mmSK",
-		"20cmSK",
 		],
 	},
 	"priorityWeapons":{
-		"tags":["DR"],
+		"tags":[],
 		"weapons":[
-			#"amblaster",
-			#"heavyblaster",
-			#"kineticblaster",
-			#"gigacannon",
+		#vulcan
+		#hypervolacity cannon
+		#storm needler
+		#pdnurstlaser
+		#ionpulse
+		#phaselance
+		#highlaser
+		#reapertyphoon
+		#squall
+
+		"vulcan",
+		"hveldriver",
+		"multineedler",
+		"pdburst",
+		"ionpulser",
+		"phasebeam",
+		"hil",
+		"typhoon",
+		"squall",
 		],
 	},
 	"knownHullMods":{
@@ -153,9 +162,7 @@
 		"hullMods":[
 		"targetingunit",
 		"hardenedshieldemitter",
-		"ecm",
 		"missleracks",
-		"eccm",
 		],
 	},
 	"weaponSellFrequency":{
@@ -165,12 +172,12 @@
 	"hullmodSellFrequency":{
 	},	
 	"factionDoctrine":{
-		"warships":3,
-		"carriers":3,
-		"phaseShips":1,
+		"warships":5,
+		"carriers":5,
+		"phaseShips":5,
 		
 		"officerQuality":5,
-		"shipQuality":5,
+		"shipQuality":6,
 		"numShips":5,
 		
 		"shipSize":3,
