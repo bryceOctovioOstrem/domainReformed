@@ -63,7 +63,7 @@
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "HARDPOINT",
-      "arc": 60,
+      "arc": 50,
       "angle": 90,
       "locations": [21.5, -1]
     },
@@ -108,7 +108,7 @@
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "TURRET",
-      "arc": 260,
+      "arc": 240,
       "angle": 180,
       "locations": [-57.5, -0],
       "renderOrderMod": 400

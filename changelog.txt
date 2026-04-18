@@ -1,3 +1,2 @@
-fixed ronin spawning windego units bug
-ise back large mounts changed
-z23 medium mounts changed
+added anothe kamikaze plane to yamato
+added descriptions top the phase torpedos

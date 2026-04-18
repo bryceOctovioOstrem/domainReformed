@@ -31,7 +31,7 @@
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
-		"tags":["hightech_bp"],
+		"tags":["merc"],
 		"hulls":[
 		#monitor
 		#medusa
@@ -58,7 +58,7 @@
 		],
 	},
 	"knownShips":{
-		"tags":["hightech_bp"],
+		"tags":["merc"],
 		"hulls":[
 		#monitor
 		#medusa
@@ -98,7 +98,7 @@
 		],
 	},
 	"knownFighters":{
-		"tags":["hightech_bp"],
+		"tags":["merc"],
 		"fighters":[
 		#broadsword
 		#dagger
@@ -120,7 +120,7 @@
 		],
 	},
 	"knownWeapons":{
-		"tags":["hightech_bp"],
+		"tags":["merc"],
 		"weapons":[
 		"vulcan",
 		"hveldriver",

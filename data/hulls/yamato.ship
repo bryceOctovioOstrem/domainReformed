@@ -21,7 +21,8 @@
   "builtInWeapons": {
     "WS0024": "fireControl1000",
     "WS0025": "fireControl1000",
-    "WS0026": "kamikaze"
+    "WS0026": "kamikaze",
+    "WS0027": "kamikaze"
   },
   "weaponSlots": [
     {
@@ -285,8 +286,17 @@
       "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 1,
-      "angle": 5.5,
-      "locations": [-367.5, 3.5]
+      "angle": 20,
+      "locations": [-372.5, 32.5]
+    },
+    {
+      "id": "WS0027",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -19,
+      "locations": [-372, -33.5]
     }
   ],
   "engineSlots": [
