@@ -59,7 +59,7 @@
     {
       "id": "WS0005",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 280,
       "angle": 180,

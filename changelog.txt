@@ -1,2 +1,1 @@
-added anothe kamikaze plane to yamato
-added descriptions top the phase torpedos
+removed armour from all sail sail ships except turtule ship, doubled the hull strength

@@ -15,7 +15,8 @@
     "rugged",
     "operations_center",
     "hiressensors",
-    "fragile_subsystems"
+    "fragile_subsystems",
+    "vast_hangar"
   ],
   "builtInWings": [
     "F-35_wing"

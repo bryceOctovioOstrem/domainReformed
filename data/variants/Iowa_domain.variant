@@ -3,7 +3,7 @@
   "hullId": "Iowa",
   "displayName": "domain",
   "goalVariant": true,
-  "fluxCapacitors": 28,
+  "fluxCapacitors": 24,
   "fluxVents": 50,
   "quality": 0,
   "permaMods": [],
@@ -15,39 +15,39 @@
   ],
   "weaponGroups": [
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0001": "Oerlikon",
         "WS0002": "vulcan",
-        "WS0003": "lightmg",
+        "WS0003": "lightdualmg",
         "WS0006": "DR_phalanx",
+        "WS0007": "DR_phalanx",
+        "WS0012": "Oerlikon",
+        "WS0013": "vulcan",
+        "WS0015": "lightdualmg",
+        "WS0018": "lightdualmg",
         "WS0019": "lightdualmg"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0007": "DR_phalanx",
-        "WS0012": "Oerlikon",
-        "WS0013": "vulcan",
-        "WS0015": "lightmg",
-        "WS0018": "lightdualmg"
-      }
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0010": "DR_Tomahawk"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0004": "DR_Tomahawk"
+        "WS0004": "DR_Tomahawk",
+        "WS0005": "DR_Tomahawk",
+        "WS0010": "DR_Tomahawk",
+        "WS0011": "DR_Tomahawk"
       }
     },
     {
@@ -62,16 +62,13 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "DR_Tomahawk",
-        "WS0011": "DR_Tomahawk"
+        "WS0014": "16in"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0014": "16in"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],
