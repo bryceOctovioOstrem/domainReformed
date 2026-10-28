@@ -14,7 +14,8 @@
   "builtInMods": [
     "targetingunit",
     "rugged",
-    "armoredweapons"
+    "armoredweapons",
+    "stealth_minefield_lt"
   ],
   "builtInWeapons": {
     "WS0001": "phaseTorp14"

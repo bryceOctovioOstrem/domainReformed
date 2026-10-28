@@ -14,7 +14,8 @@
   "builtInMods": [
     "autorepair",
     "targetingunit",
-    "rugged"
+    "rugged",
+    "stealth_minefield_lt"
   ],
   "builtInWeapons": {
     "WS0004": "phaseTorp19"

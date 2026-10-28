@@ -1,1 +1,4 @@
-removed armour from all sail sail ships except turtule ship, doubled the hull strength
+added minest to some of the frigates, 
+chaned yamto three universal gu
+type 94 changed to a non lootable weapon,
+yamoto universal heavy mounts  

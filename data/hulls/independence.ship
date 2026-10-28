@@ -14,7 +14,8 @@
   "builtInMods": [
     "targetingunit",
     "recovery_shuttles",
-    "rugged"
+    "rugged",
+    "stealth_minefield_lt"
   ],
   "weaponSlots": [
     {
