@@ -15,7 +15,8 @@
     "targetingunit",
     "rugged",
     "repair_gantry",
-    "autorepair"
+    "autorepair",
+    "stealth_minefield_lt"
   ],
   "weaponSlots": [
     {

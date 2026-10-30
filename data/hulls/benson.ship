@@ -15,7 +15,8 @@
     "targetingunit",
     "rugged",
     "autorepair",
-    "distributed_fire_control"
+    "distributed_fire_control",
+    "stealth_minefield_lt"
   ],
   "builtInWeapons": {
     "WS0012": "depthCharge",

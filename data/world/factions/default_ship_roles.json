@@ -204,6 +204,8 @@
 		"fallback2":{"phaseSmall":1},
 	},
 	"phaseCapital":{
+		"DR_typhoon_DR":1,
+		"DR_typhoon_merc":1,
 		"fallback":{"phaseMedium":1},
 		"fallback2":{"phaseSmall":1},
 	},	

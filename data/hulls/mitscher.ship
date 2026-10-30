@@ -15,7 +15,8 @@
     "autorepair",
     "targetingunit",
     "rugged",
-    "repair_gantry"
+    "repair_gantry",
+    "stealth_minefield_lt"
   ],
   "builtInWeapons": {
     "WS0011": "Lulu"

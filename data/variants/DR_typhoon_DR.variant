@@ -1,0 +1,67 @@
+{
+  "variantId": "DR_typhoon_DR",
+  "hullId": "DR_typhoon",
+  "displayName": "DR",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 40,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine",
+    "fluxcoil"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "atropos_single",
+        "WS0010": "atropos_single",
+        "WS0012": "atropos_single",
+        "WS0014": "atropos_single",
+        "WS0016": "atropos_single",
+        "WS0018": "atropos_single",
+        "WS0020": "atropos_single",
+        "WS0022": "atropos_single",
+        "WS0024": "atropos_single",
+        "WS0026": "atropos_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "atropos_single",
+        "WS0009": "atropos_single",
+        "WS0011": "atropos_single",
+        "WS0013": "atropos_single",
+        "WS0015": "atropos_single",
+        "WS0017": "atropos_single",
+        "WS0019": "atropos_single",
+        "WS0021": "atropos_single",
+        "WS0023": "atropos_single",
+        "WS0025": "atropos_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "phaseTorpSingle",
+        "WS0002": "phaseTorpSingle",
+        "WS0003": "phaseTorpSingle",
+        "WS0004": "phaseTorpSingle",
+        "WS0005": "phaseTorpSingle",
+        "WS0006": "phaseTorpSingle"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
