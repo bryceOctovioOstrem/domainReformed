@@ -17,11 +17,25 @@
     "rugged",
     "tow_cable"
   ],
+  "builtInWeapons": {
+    "WS0001": "DR_smoothbore_canister",
+    "WS0002": "DR_smoothbore_canister",
+    "WS0003": "DR_smoothbore_canister",
+    "WS0004": "DR_smoothbore_canister",
+    "WS0005": "DR_smoothbore_canister",
+    "WS0006": "DR_smoothbore_canister",
+    "WS0007": "DR_smoothbore_canister",
+    "WS0008": "DR_smoothbore_canister",
+    "WS0009": "DR_smoothbore_canister",
+    "WS0010": "DR_smoothbore_canister",
+    "WS0011": "DR_smoothbore_canister",
+    "WS0012": "DR_smoothbore_canister"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 94.5,
@@ -30,7 +44,7 @@
     {
       "id": "WS0002",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 90,
@@ -39,7 +53,7 @@
     {
       "id": "WS0003",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 90,
@@ -48,7 +62,7 @@
     {
       "id": "WS0004",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 90,
@@ -57,7 +71,7 @@
     {
       "id": "WS0005",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 90,
@@ -66,7 +80,7 @@
     {
       "id": "WS0006",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 82.5,
@@ -75,7 +89,7 @@
     {
       "id": "WS0007",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -76,
@@ -84,7 +98,7 @@
     {
       "id": "WS0008",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -90,
@@ -93,7 +107,7 @@
     {
       "id": "WS0009",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -90,
@@ -102,7 +116,7 @@
     {
       "id": "WS0010",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -90,
@@ -111,7 +125,7 @@
     {
       "id": "WS0011",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -90,
@@ -120,7 +134,7 @@
     {
       "id": "WS0012",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -96,
