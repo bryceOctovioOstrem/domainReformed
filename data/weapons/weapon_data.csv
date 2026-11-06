@@ -60,7 +60,7 @@ Quadruple 380 mm/45 Modele ,360,3,0.5,8000,987,1624,,605.5,100,3,24,,,,HIGH_EXPL
 Triple 305 mm model 46 ,triple320mm,3,,5000,1176,,663,,961,3,25,,,,KINETIC,1194,,0,6,3,,3,11,6,10,,1115,,,402,,,,"kinetic20, ind, DR,pirates,luddic_path,merc",,DR,,Anti Shield,,,,,,,,,,
 Quad BL 14-inch Mk VII,quad14in,3,0.8,7500,716,,500,,100,10,26,,,,ENERGY,400,,0,4,4,0,10,20,3,,,1066,,,500,,,"STRIKE, USE_VS_FRIGATES","energy20,ind, DR,pirates,luddic_path",,DR,,General,,,,,,,,,,
 Twin BL 15-inch Mk I,twin15inBL,1,,6000,1017,,1035,,259,2,27,,,,ENERGY,750,,0,6,2,,0,5,1,10,,800,,,400,,,STRIKE,"he18, ind, DR,pirates,luddic_path,merc",,DR,,Strike,,,,,,,,,,
-Type 94,type_94,3,0.3,19400,1274,,2020,,2020,1.5,29,,,,FRAGMENTATION,1945,,2,18,1,,8,16,4,4,,1250,1250,4,800,,,"STRIKE,PD,ANTI_FTR","he16, pd17, ind, DR,pirates,luddic_path",,DR,,Finisher,,,,,,,,,,
+Type 94,type_94,3,0.3,19400,1274,,2020,,2020,1.5,29,,,,FRAGMENTATION,1945,,2,18,1,,9,16,4,4,,780,780,4,800,,,"STRIKE,PD,ANTI_FTR","he16, pd17,DR, ind, DR,pirates,luddic_path,merc",,DR,,Finisher,,,,,,,,,,
 16-inch/50-caliber Mark 7 gun,16in,3,0.35,17830,1300,,1492,435,1776,1.5,29,,,,HIGH_EXPLOSIVE,1300,,0,13,3,,0,13,4,5,,1865,50,4,1300,,,,"energy18,ind, DR,pirates,luddic_path,merc",,DR,,Anti Armor,Fast,Poor,,,,,,,,
 38 cm SK C/34 ,380mmSK,2,0.1,7200,1291,,1945,,357,2,30,,,,ENERGY,1972,,0,6,1,0.001,0,5,1,10,,820,,,75,,,GROUP_ALTERNATING,"energy18, he17, kinetic17,DR,no_sell",,DR,,Strike,,,,,,,,,,
 5-inch/54-caliber Mark 42,DR_5in_mark42,1,,435,700,,50,,6,25,5,,,,KINETIC,50,,0,0.4,1,,0,8,2,5,,807,435,2,50,,,,"kinetic8,ind, DR,pirates,luddic_path",,DR,,Anti Shield,,,,,,,,,,

@@ -14,7 +14,8 @@
   "builtInMods": [
     "targetingunit",
     "rugged",
-    "ecm"
+    "ecm",
+    "stealth_minefield_lt"
   ],
   "weaponSlots": [
     {

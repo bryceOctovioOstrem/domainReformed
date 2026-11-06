@@ -1,0 +1,83 @@
+{
+  "variantId": "DR_effulgence_prime",
+  "hullId": "DR_effulgence",
+  "displayName": "Prime",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 2,
+  "quality": 5,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyburst",
+        "WS0002": "heavyburst",
+        "WS0009": "lrpdlaser",
+        "WS0010": "lrpdlaser",
+        "WS0011": "heavyburst",
+        "WS0012": "heavyburst",
+        "WS0015": "heavyburst",
+        "WS0016": "heavyburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "gravitonbeam",
+        "WS0004": "gravitonbeam",
+        "WS0005": "gravitonbeam",
+        "WS0006": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "typhoon",
+        "WS0008": "typhoon",
+        "WS0017": "cyclone",
+        "WS0018": "cyclone"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "harpoonpod",
+        "WS0024": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "plasma",
+        "WS0020": "plasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "tachyonlance",
+        "WS0022": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0023": "taclaser",
+        "WS0025": "taclaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

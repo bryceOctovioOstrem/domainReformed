@@ -16,7 +16,8 @@
     "eccm",
     "ecm",
     "operations_center",
-    "fragile_subsystems"
+    "fragile_subsystems",
+    "vast_hangar"
   ],
   "builtInWings": [
     "B-1_wing"

@@ -18,7 +18,6 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "guardian",
         "WS0005": "devastator",
         "WS0006": "vulcan",
         "WS0008": "vulcan",
@@ -57,8 +56,10 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "gauss",
-        "WS0003": "gauss"
+        "WS0001": "type_94",
+        "WS0002": "type_94",
+        "WS0003": "gauss",
+        "WS0004": "type_94"
       }
     },
     {
@@ -71,9 +72,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0004": "gauss"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

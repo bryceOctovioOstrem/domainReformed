@@ -15,7 +15,8 @@
     "targetingunit",
     "rugged",
     "repair_gantry",
-    "autorepair"
+    "autorepair",
+    "stealth_minefield_lt"
   ],
   "weaponSlots": [
     {
@@ -59,7 +60,7 @@
     {
       "id": "WS0005",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 280,
       "angle": 180,

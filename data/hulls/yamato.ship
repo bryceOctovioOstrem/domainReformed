@@ -19,6 +19,9 @@
     "hbi"
   ],
   "builtInWeapons": {
+    "WS0001": "type_94",
+    "WS0002": "type_94",
+    "WS0004": "type_94",
     "WS0024": "fireControl1000",
     "WS0025": "fireControl1000",
     "WS0026": "kamikaze",

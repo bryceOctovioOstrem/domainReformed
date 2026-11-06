@@ -3,14 +3,13 @@
   "hullId": "Iowa",
   "displayName": "Merc",
   "goalVariant": true,
-  "fluxCapacitors": 27,
+  "fluxCapacitors": 40,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "fluxbreakers",
     "armoredweapons",
-    "hiressensors",
     "missile_autoloader",
     "heavyarmor"
   ],
@@ -22,14 +21,16 @@
         "WS0001": "vulcan",
         "WS0002": "vulcan",
         "WS0003": "vulcan",
-        "WS0006": "lightdualmg"
+        "WS0006": "lightdualmg",
+        "WS0007": "lightdualmg",
+        "WS0018": "lrpdlaser",
+        "WS0019": "lrpdlaser"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "lightdualmg",
         "WS0012": "vulcan",
         "WS0013": "vulcan",
         "WS0015": "vulcan"
@@ -38,19 +39,18 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0004": "breachpod"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0004": "breachpod",
         "WS0005": "breachpod",
         "WS0008": "breach",
         "WS0009": "breach",
-        "WS0010": "gazerpod",
-        "WS0011": "gazerpod"
+        "WS0010": "harpoonpod",
+        "WS0011": "harpoonpod"
       }
     },
     {
@@ -71,10 +71,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0018": "lrpdlaser",
-        "WS0019": "lrpdlaser"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

@@ -15,25 +15,25 @@
     {
       "id": "WS0001",
       "size": "SMALL",
-      "type": "MISSILE",
+      "type": "UNIVERSAL",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [13, -13]
+      "locations": [12.5, -22]
     },
     {
       "id": "WS0002",
       "size": "SMALL",
-      "type": "MISSILE",
+      "type": "UNIVERSAL",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [13, 13]
+      "locations": [12.5, 22.5]
     },
     {
       "id": "WS0003",
       "size": "SMALL",
-      "type": "MISSILE",
+      "type": "UNIVERSAL",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
@@ -42,7 +42,7 @@
     {
       "id": "WS0004",
       "size": "SMALL",
-      "type": "MISSILE",
+      "type": "UNIVERSAL",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
